@@ -1,0 +1,90 @@
+
+4tigo.png
+size: 234,417
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4_0
+  rotate: false
+  xy: 216, 194
+  size: 13, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+4_1
+  rotate: true
+  xy: 216, 209
+  size: 13, 16
+  orig: 15, 18
+  offset: 1, 1
+  index: -1
+4_10
+  rotate: false
+  xy: 172, 158
+  size: 42, 64
+  orig: 42, 64
+  offset: 0, 0
+  index: -1
+4_13
+  rotate: true
+  xy: 2, 277
+  size: 138, 222
+  orig: 140, 224
+  offset: 1, 1
+  index: -1
+4_2
+  rotate: false
+  xy: 203, 84
+  size: 18, 18
+  orig: 20, 20
+  offset: 1, 1
+  index: -1
+4_3
+  rotate: false
+  xy: 2, 107
+  size: 168, 168
+  orig: 170, 170
+  offset: 1, 1
+  index: -1
+4_4
+  rotate: true
+  xy: 158, 20
+  size: 62, 66
+  orig: 62, 66
+  offset: 0, 0
+  index: -1
+4_5
+  rotate: true
+  xy: 2, 2
+  size: 103, 154
+  orig: 103, 154
+  offset: 0, 0
+  index: -1
+4_6
+  rotate: true
+  xy: 226, 406
+  size: 9, 6
+  orig: 11, 8
+  offset: 1, 1
+  index: -1
+4_7
+  rotate: true
+  xy: 203, 104
+  size: 52, 27
+  orig: 54, 29
+  offset: 1, 1
+  index: -1
+4_8
+  rotate: true
+  xy: 172, 91
+  size: 65, 29
+  orig: 65, 29
+  offset: 0, 0
+  index: -1
+4_9
+  rotate: true
+  xy: 172, 224
+  size: 51, 57
+  orig: 51, 57
+  offset: 0, 0
+  index: -1
