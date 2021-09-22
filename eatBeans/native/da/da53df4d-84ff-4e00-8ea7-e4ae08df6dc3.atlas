@@ -1,0 +1,34 @@
+
+bigC.png
+size: 1534,599
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+C1
+  rotate: false
+  xy: 2, 10
+  size: 502, 587
+  orig: 502, 587
+  offset: 0, 0
+  index: -1
+Cdian
+  rotate: true
+  xy: 1010, 137
+  size: 460, 522
+  orig: 461, 524
+  offset: 0, 1
+  index: -1
+Cshui
+  rotate: false
+  xy: 506, 10
+  size: 502, 587
+  orig: 502, 587
+  offset: 0, 0
+  index: -1
+gaoguang
+  rotate: true
+  xy: 1010, 2
+  size: 133, 265
+  orig: 137, 271
+  offset: 3, 4
+  index: -1

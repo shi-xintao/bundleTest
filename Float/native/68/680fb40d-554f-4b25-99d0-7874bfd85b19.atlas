@@ -1,0 +1,55 @@
+
+woniu.png
+size: 1344,746
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 858, 42
+  size: 71, 28
+  orig: 72, 34
+  offset: 0, 6
+  index: -1
+chujiao1
+  rotate: false
+  xy: 858, 72
+  size: 140, 179
+  orig: 140, 179
+  offset: 0, 0
+  index: -1
+chujiao2
+  rotate: false
+  xy: 1000, 89
+  size: 60, 162
+  orig: 60, 162
+  offset: 0, 0
+  index: -1
+gaoguang
+  rotate: false
+  xy: 1062, 152
+  size: 87, 99
+  orig: 87, 100
+  offset: 0, 0
+  index: -1
+ke
+  rotate: false
+  xy: 858, 253
+  size: 484, 491
+  orig: 485, 491
+  offset: 1, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 2
+  size: 742, 854
+  orig: 742, 854
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 1062, 123
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,167 @@
+
+D5-yaoguai-5.png
+size: 1477,1477
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+erduo-L
+  rotate: false
+  xy: 746, 16
+  size: 174, 121
+  orig: 174, 121
+  offset: 0, 0
+  index: -1
+erduo-R
+  rotate: false
+  xy: 922, 9
+  size: 72, 128
+  orig: 72, 128
+  offset: 0, 0
+  index: -1
+lei
+  rotate: false
+  xy: 2, 5
+  size: 29, 12
+  orig: 29, 12
+  offset: 0, 0
+  index: -1
+meimao-L
+  rotate: true
+  xy: 986, 179
+  size: 104, 53
+  orig: 106, 55
+  offset: 1, 1
+  index: -1
+meimao-R
+  rotate: true
+  xy: 1421, 132
+  size: 67, 52
+  orig: 69, 54
+  offset: 1, 1
+  index: -1
+qiqiu-1
+  rotate: true
+  xy: 532, 626
+  size: 559, 614
+  orig: 559, 614
+  offset: 0, 0
+  index: -1
+qiqiu-2
+  rotate: true
+  xy: 2, 285
+  size: 307, 1044
+  orig: 307, 1044
+  offset: 0, 0
+  index: -1
+qiqiu-3
+  rotate: false
+  xy: 2, 594
+  size: 528, 881
+  orig: 528, 881
+  offset: 0, 0
+  index: -1
+qiqiu-4
+  rotate: false
+  xy: 1148, 468
+  size: 324, 717
+  orig: 324, 717
+  offset: 0, 0
+  index: -1
+qiqiu-5
+  rotate: true
+  xy: 2, 19
+  size: 264, 742
+  orig: 264, 742
+  offset: 0, 0
+  index: -1
+qiqiu-6
+  rotate: true
+  xy: 532, 1187
+  size: 288, 943
+  orig: 288, 943
+  offset: 0, 0
+  index: -1
+shenti-1
+  rotate: false
+  xy: 1048, 134
+  size: 371, 332
+  orig: 373, 334
+  offset: 1, 1
+  index: -1
+weiba
+  rotate: false
+  xy: 746, 139
+  size: 238, 144
+  orig: 238, 144
+  offset: 0, 0
+  index: -1
+yachi-L
+  rotate: true
+  xy: 986, 139
+  size: 38, 26
+  orig: 40, 28
+  offset: 1, 1
+  index: -1
+yachi-R
+  rotate: false
+  xy: 1014, 155
+  size: 32, 22
+  orig: 34, 24
+  offset: 1, 1
+  index: -1
+yan-1
+  rotate: true
+  xy: 1384, 80
+  size: 52, 22
+  orig: 52, 22
+  offset: 0, 0
+  index: -1
+yan-2
+  rotate: false
+  xy: 1055, 20
+  size: 38, 22
+  orig: 38, 22
+  offset: 0, 0
+  index: -1
+yanjing-L
+  rotate: true
+  xy: 996, 11
+  size: 31, 57
+  orig: 33, 59
+  offset: 1, 1
+  index: -1
+yanjing-R
+  rotate: true
+  xy: 532, 598
+  size: 26, 58
+  orig: 28, 60
+  offset: 1, 1
+  index: -1
+yanying-L
+  rotate: false
+  xy: 1169, 14
+  size: 122, 118
+  orig: 124, 120
+  offset: 1, 1
+  index: -1
+yanying-R
+  rotate: false
+  xy: 1293, 22
+  size: 89, 110
+  orig: 91, 112
+  offset: 1, 1
+  index: -1
+zui
+  rotate: true
+  xy: 1421, 201
+  size: 265, 52
+  orig: 267, 54
+  offset: 1, 1
+  index: -1
+zui-1
+  rotate: false
+  xy: 996, 44
+  size: 171, 88
+  orig: 171, 88
+  offset: 0, 0
+  index: -1

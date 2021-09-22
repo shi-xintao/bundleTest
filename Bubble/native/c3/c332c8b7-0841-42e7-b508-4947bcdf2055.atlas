@@ -1,0 +1,300 @@
+
+xiang-zhengmian.png
+size: 586,586
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+D-bitou
+  rotate: false
+  xy: 201, 5
+  size: 57, 65
+  orig: 59, 67
+  offset: 1, 1
+  index: -1
+D-biyan-L-0
+  rotate: false
+  xy: 560, 493
+  size: 20, 33
+  orig: 22, 35
+  offset: 1, 1
+  index: -1
+D-biyan-R-0
+  rotate: true
+  xy: 533, 254
+  size: 20, 33
+  orig: 22, 35
+  offset: 1, 1
+  index: -1
+D-bizi
+  rotate: false
+  xy: 212, 76
+  size: 84, 175
+  orig: 84, 175
+  offset: 0, 0
+  index: -1
+D-dabi-L
+  rotate: false
+  xy: 467, 482
+  size: 91, 102
+  orig: 93, 104
+  offset: 1, 1
+  index: -1
+D-dabi-R
+  rotate: false
+  xy: 467, 366
+  size: 70, 114
+  orig: 72, 116
+  offset: 1, 1
+  index: -1
+D-erduo-L
+  rotate: false
+  xy: 430, 119
+  size: 129, 128
+  orig: 129, 128
+  offset: 0, 0
+  index: -1
+D-erduo-R
+  rotate: false
+  xy: 298, 122
+  size: 130, 129
+  orig: 130, 129
+  offset: 0, 0
+  index: -1
+D-liandan-L
+  rotate: false
+  xy: 561, 77
+  size: 23, 10
+  orig: 25, 12
+  offset: 1, 1
+  index: -1
+D-liandan-R
+  rotate: false
+  xy: 560, 482
+  size: 23, 9
+  orig: 25, 11
+  offset: 1, 1
+  index: -1
+D-meimao
+  rotate: true
+  xy: 560, 528
+  size: 56, 24
+  orig: 58, 26
+  offset: 1, 1
+  index: -1
+D-miyan-L
+  rotate: false
+  xy: 561, 89
+  size: 23, 13
+  orig: 25, 15
+  offset: 1, 1
+  index: -1
+D-miyan-R
+  rotate: false
+  xy: 558, 62
+  size: 22, 13
+  orig: 24, 15
+  offset: 1, 1
+  index: -1
+D-qiqiu
+  rotate: false
+  xy: 2, 72
+  size: 208, 512
+  orig: 208, 512
+  offset: 0, 0
+  index: -1
+D-shenti
+  rotate: false
+  xy: 212, 253
+  size: 253, 331
+  orig: 253, 331
+  offset: 0, 0
+  index: -1
+D-toufa
+  rotate: false
+  xy: 539, 418
+  size: 45, 62
+  orig: 45, 62
+  offset: 0, 0
+  index: -1
+D-tui-L
+  rotate: false
+  xy: 123, 7
+  size: 76, 63
+  orig: 78, 65
+  offset: 1, 1
+  index: -1
+D-tui-R
+  rotate: true
+  xy: 493, 42
+  size: 75, 63
+  orig: 77, 65
+  offset: 1, 1
+  index: -1
+D-xiao-yanjheiL
+  rotate: false
+  xy: 568, 253
+  size: 9, 21
+  orig: 11, 23
+  offset: 1, 1
+  index: -1
+D-xiao-yanjheiR
+  rotate: false
+  xy: 561, 25
+  size: 10, 22
+  orig: 12, 24
+  offset: 1, 1
+  index: -1
+D-xiao-zuiba
+  rotate: true
+  xy: 467, 249
+  size: 115, 64
+  orig: 117, 66
+  offset: 1, 1
+  index: -1
+D-xiaobi-L
+  rotate: false
+  xy: 396, 31
+  size: 95, 86
+  orig: 97, 88
+  offset: 1, 1
+  index: -1
+D-xiaobi-R
+  rotate: true
+  xy: 298, 43
+  size: 77, 96
+  orig: 79, 98
+  offset: 1, 1
+  index: -1
+D-xing-L
+  rotate: true
+  xy: 533, 249
+  size: 3, 6
+  orig: 5, 8
+  offset: 1, 1
+  index: -1
+D-xing-Lda
+  rotate: true
+  xy: 292, 19
+  size: 7, 12
+  orig: 9, 14
+  offset: 1, 1
+  index: -1
+D-xing-R
+  rotate: true
+  xy: 541, 249
+  size: 3, 6
+  orig: 5, 8
+  offset: 1, 1
+  index: -1
+D-xing-Rda
+  rotate: false
+  xy: 578, 336
+  size: 6, 9
+  orig: 8, 11
+  offset: 1, 1
+  index: -1
+D-yachi-L
+  rotate: false
+  xy: 282, 48
+  size: 13, 26
+  orig: 15, 28
+  offset: 1, 1
+  index: -1
+D-yachi-R
+  rotate: true
+  xy: 558, 104
+  size: 13, 26
+  orig: 15, 28
+  offset: 1, 1
+  index: -1
+D-yanbai-L
+  rotate: false
+  xy: 260, 42
+  size: 20, 32
+  orig: 22, 34
+  offset: 1, 1
+  index: -1
+D-yanbai-R
+  rotate: false
+  xy: 260, 8
+  size: 19, 32
+  orig: 21, 34
+  offset: 1, 1
+  index: -1
+D-yanjing-ku-L
+  rotate: true
+  xy: 573, 27
+  size: 20, 11
+  orig: 22, 13
+  offset: 1, 1
+  index: -1
+D-yanjing-ku-R
+  rotate: true
+  xy: 573, 5
+  size: 20, 11
+  orig: 22, 13
+  offset: 1, 1
+  index: -1
+D-yanlei-L
+  rotate: false
+  xy: 292, 28
+  size: 12, 13
+  orig: 14, 15
+  offset: 1, 1
+  index: -1
+D-yanlei-Lda
+  rotate: true
+  xy: 539, 347
+  size: 69, 43
+  orig: 69, 43
+  offset: 0, 0
+  index: -1
+D-yanlei-R
+  rotate: false
+  xy: 306, 28
+  size: 11, 13
+  orig: 13, 15
+  offset: 1, 1
+  index: -1
+D-yanlei-Rda
+  rotate: true
+  xy: 533, 276
+  size: 69, 43
+  orig: 69, 43
+  offset: 0, 0
+  index: -1
+D-yanzhu-L
+  rotate: true
+  xy: 558, 49
+  size: 11, 22
+  orig: 13, 24
+  offset: 1, 1
+  index: -1
+D-yanzhu-L-ban
+  rotate: true
+  xy: 493, 21
+  size: 19, 32
+  orig: 21, 34
+  offset: 1, 1
+  index: -1
+D-yanzhu-R
+  rotate: false
+  xy: 281, 18
+  size: 9, 22
+  orig: 11, 24
+  offset: 1, 1
+  index: -1
+D-yanzhu-R-ban
+  rotate: true
+  xy: 527, 21
+  size: 19, 32
+  orig: 21, 34
+  offset: 1, 1
+  index: -1
+D-zuiba-ku
+  rotate: false
+  xy: 2, 3
+  size: 119, 67
+  orig: 121, 69
+  offset: 1, 1
+  index: -1

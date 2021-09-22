@@ -1,0 +1,363 @@
+
+tuzi-zhengmian.png
+size: 364,364
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00000
+  rotate: false
+  xy: 96, 21
+  size: 48, 85
+  orig: 100, 100
+  offset: 26, 7
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00001
+  rotate: false
+  xy: 253, 4
+  size: 51, 76
+  orig: 100, 100
+  offset: 25, 9
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00002
+  rotate: false
+  xy: 242, 285
+  size: 53, 77
+  orig: 100, 100
+  offset: 25, 8
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00003
+  rotate: false
+  xy: 185, 284
+  size: 55, 78
+  orig: 100, 100
+  offset: 25, 8
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00004
+  rotate: false
+  xy: 161, 153
+  size: 52, 78
+  orig: 100, 100
+  offset: 25, 7
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00005
+  rotate: true
+  xy: 215, 177
+  size: 54, 76
+  orig: 100, 100
+  offset: 25, 8
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00006
+  rotate: false
+  xy: 293, 161
+  size: 57, 76
+  orig: 100, 100
+  offset: 25, 8
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00007
+  rotate: false
+  xy: 293, 82
+  size: 51, 77
+  orig: 100, 100
+  offset: 25, 8
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00008
+  rotate: false
+  xy: 146, 32
+  size: 53, 77
+  orig: 100, 100
+  offset: 25, 7
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00009
+  rotate: true
+  xy: 215, 121
+  size: 54, 76
+  orig: 100, 100
+  offset: 26, 8
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00010
+  rotate: false
+  xy: 201, 3
+  size: 50, 77
+  orig: 100, 100
+  offset: 26, 7
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00011
+  rotate: true
+  xy: 214, 233
+  size: 49, 77
+  orig: 100, 100
+  offset: 26, 8
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00012
+  rotate: false
+  xy: 108, 152
+  size: 51, 79
+  orig: 100, 100
+  offset: 26, 7
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00013
+  rotate: false
+  xy: 130, 282
+  size: 53, 80
+  orig: 100, 100
+  offset: 26, 7
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00014
+  rotate: false
+  xy: 71, 280
+  size: 57, 82
+  orig: 100, 100
+  offset: 26, 7
+  index: -1
+Elements - Liquid 089 Crying Loop Down noRSZ 01_00015
+  rotate: false
+  xy: 21, 278
+  size: 48, 84
+  orig: 100, 100
+  offset: 26, 7
+  index: -1
+T-bizi
+  rotate: true
+  xy: 95, 252
+  size: 26, 12
+  orig: 28, 14
+  offset: 1, 1
+  index: -1
+T-erduo-L
+  rotate: true
+  xy: 297, 301
+  size: 61, 62
+  orig: 61, 62
+  offset: 0, 0
+  index: -1
+T-erduo-R
+  rotate: true
+  xy: 297, 239
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+T-jiao-L
+  rotate: false
+  xy: 145, 111
+  size: 22, 13
+  orig: 24, 15
+  offset: 1, 1
+  index: -1
+T-jiao-R
+  rotate: false
+  xy: 169, 111
+  size: 21, 13
+  orig: 23, 15
+  offset: 1, 1
+  index: -1
+T-lian
+  rotate: false
+  xy: 135, 233
+  size: 77, 47
+  orig: 79, 49
+  offset: 1, 1
+  index: -1
+T-saihong-L
+  rotate: false
+  xy: 75, 4
+  size: 9, 6
+  orig: 11, 8
+  offset: 1, 1
+  index: -1
+T-saihong-R
+  rotate: true
+  xy: 67, 2
+  size: 8, 6
+  orig: 10, 8
+  offset: 1, 1
+  index: -1
+T-shenti
+  rotate: true
+  xy: 2, 12
+  size: 94, 92
+  orig: 94, 92
+  offset: 0, 0
+  index: -1
+T-shou-L
+  rotate: true
+  xy: 21, 234
+  size: 42, 27
+  orig: 42, 27
+  offset: 0, 0
+  index: -1
+T-shou-R
+  rotate: false
+  xy: 50, 235
+  size: 28, 41
+  orig: 28, 41
+  offset: 0, 0
+  index: -1
+T-tui-L
+  rotate: false
+  xy: 108, 108
+  size: 11, 15
+  orig: 13, 17
+  offset: 1, 1
+  index: -1
+T-tui-R
+  rotate: false
+  xy: 121, 108
+  size: 11, 15
+  orig: 13, 17
+  offset: 1, 1
+  index: -1
+T-yachi
+  rotate: false
+  xy: 33, 2
+  size: 12, 8
+  orig: 14, 10
+  offset: 1, 1
+  index: -1
+T-yan-1
+  rotate: false
+  xy: 133, 126
+  size: 20, 24
+  orig: 22, 26
+  offset: 1, 1
+  index: -1
+T-yan-2
+  rotate: false
+  xy: 108, 125
+  size: 23, 25
+  orig: 25, 27
+  offset: 1, 1
+  index: -1
+T-yan-R
+  rotate: false
+  xy: 109, 253
+  size: 24, 25
+  orig: 26, 27
+  offset: 1, 1
+  index: -1
+T-yanbai-L3
+  rotate: true
+  xy: 80, 247
+  size: 31, 13
+  orig: 33, 15
+  offset: 1, 1
+  index: -1
+T-yanbai-R
+  rotate: false
+  xy: 155, 126
+  size: 20, 24
+  orig: 22, 26
+  offset: 1, 1
+  index: -1
+T-yanbai-R3
+  rotate: false
+  xy: 80, 233
+  size: 31, 12
+  orig: 33, 14
+  offset: 1, 1
+  index: -1
+T-yanjing-L4
+  rotate: false
+  xy: 18, 2
+  size: 13, 8
+  orig: 15, 10
+  offset: 1, 1
+  index: -1
+T-yanjing-R4
+  rotate: false
+  xy: 2, 2
+  size: 14, 8
+  orig: 16, 10
+  offset: 1, 1
+  index: -1
+T-yanlei-L4-2
+  rotate: false
+  xy: 47, 2
+  size: 8, 8
+  orig: 10, 10
+  offset: 1, 1
+  index: -1
+T-yanlei-R4-1
+  rotate: false
+  xy: 57, 2
+  size: 8, 8
+  orig: 10, 10
+  offset: 1, 1
+  index: -1
+T-yanzhu-L
+  rotate: true
+  xy: 146, 21
+  size: 9, 12
+  orig: 11, 14
+  offset: 1, 1
+  index: -1
+T-yanzhu-R
+  rotate: false
+  xy: 192, 115
+  size: 10, 12
+  orig: 12, 14
+  offset: 1, 1
+  index: -1
+T-zuiba
+  rotate: true
+  xy: 113, 236
+  size: 15, 14
+  orig: 17, 16
+  offset: 1, 1
+  index: -1
+T-zuiba2
+  rotate: true
+  xy: 134, 109
+  size: 15, 9
+  orig: 17, 11
+  offset: 1, 1
+  index: -1
+T-zuiba3
+  rotate: true
+  xy: 177, 129
+  size: 22, 18
+  orig: 24, 20
+  offset: 1, 1
+  index: -1
+T-zuiba4
+  rotate: false
+  xy: 98, 2
+  size: 37, 17
+  orig: 39, 19
+  offset: 1, 1
+  index: -1
+hua
+  rotate: false
+  xy: 86, 5
+  size: 5, 5
+  orig: 7, 7
+  offset: 1, 1
+  index: -1
+hua-1
+  rotate: false
+  xy: 93, 7
+  size: 3, 3
+  orig: 5, 5
+  offset: 1, 1
+  index: -1
+qidai
+  rotate: true
+  xy: 137, 3
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+qiqiu
+  rotate: false
+  xy: 2, 108
+  size: 104, 123
+  orig: 106, 125
+  offset: 1, 1
+  index: -1
+xian
+  rotate: false
+  xy: 2, 233
+  size: 17, 129
+  orig: 19, 131
+  offset: 1, 1
+  index: -1

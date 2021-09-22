@@ -1,0 +1,48 @@
+
+lan-bao.png
+size: 467,467
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lan
+  rotate: false
+  xy: 2, 2
+  size: 336, 463
+  orig: 338, 465
+  offset: 1, 1
+  index: -1
+lan-1
+  rotate: false
+  xy: 399, 13
+  size: 54, 61
+  orig: 56, 63
+  offset: 1, 1
+  index: -1
+lan-2
+  rotate: false
+  xy: 399, 76
+  size: 56, 72
+  orig: 58, 74
+  offset: 1, 1
+  index: -1
+lan-3
+  rotate: false
+  xy: 340, 150
+  size: 65, 97
+  orig: 67, 99
+  offset: 1, 1
+  index: -1
+lan-4
+  rotate: true
+  xy: 340, 24
+  size: 124, 57
+  orig: 126, 59
+  offset: 1, 1
+  index: -1
+lan-5
+  rotate: true
+  xy: 340, 249
+  size: 216, 104
+  orig: 218, 106
+  offset: 1, 1
+  index: -1
