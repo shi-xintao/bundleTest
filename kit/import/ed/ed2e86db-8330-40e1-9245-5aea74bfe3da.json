@@ -1,1 +1,0 @@
-[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"tsconfig",{"compilerOptions":{"module":"commonjs","target":"es5","experimentalDecorators":true,"skipLibCheck":true,"lib":["dom","es5","es2015.promise","ES6"]},"exclude":["node_modules","library","local","temp","build","settings"]}]],0,0,[],[],[]]
