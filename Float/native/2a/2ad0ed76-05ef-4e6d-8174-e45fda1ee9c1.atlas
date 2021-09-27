@@ -1,26 +1,33 @@
 
 baoxiang.png
-size: 1520,809
+size: 1377,1156
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 G
-  rotate: true
-  xy: 687, 2
+  rotate: false
+  xy: 2, 2
   size: 805, 427
   orig: 813, 436
   offset: 4, 5
   index: -1
 guang
   rotate: true
-  xy: 1116, 139
+  xy: 809, 24
   size: 668, 402
   orig: 668, 414
   offset: 0, 0
   index: -1
+xiang
+  rotate: false
+  xy: 687, 694
+  size: 688, 460
+  orig: 689, 461
+  offset: 1, 1
+  index: -1
 xiang2
   rotate: false
-  xy: 2, 84
+  xy: 2, 431
   size: 683, 723
   orig: 683, 723
   offset: 0, 0

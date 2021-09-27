@@ -1,0 +1,146 @@
+
+PYQ-pyq.png
+size: 1934,1934
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hong
+  rotate: false
+  xy: 1011, 111
+  size: 377, 384
+  orig: 377, 384
+  offset: 0, 0
+  index: -1
+hong-1
+  rotate: false
+  xy: 604, 6
+  size: 46, 70
+  orig: 46, 70
+  offset: 0, 0
+  index: -1
+hong-2
+  rotate: false
+  xy: 652, 36
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+hong-b
+  rotate: false
+  xy: 604, 904
+  size: 600, 384
+  orig: 600, 384
+  offset: 0, 0
+  index: -1
+hong-t
+  rotate: false
+  xy: 2, 1290
+  size: 600, 642
+  orig: 600, 642
+  offset: 0, 0
+  index: -1
+huang
+  rotate: true
+  xy: 1206, 497
+  size: 257, 387
+  orig: 257, 387
+  offset: 0, 0
+  index: -1
+huang-1
+  rotate: false
+  xy: 1390, 314
+  size: 36, 63
+  orig: 36, 63
+  offset: 0, 0
+  index: -1
+huang-2
+  rotate: false
+  xy: 1808, 1332
+  size: 39, 65
+  orig: 39, 65
+  offset: 0, 0
+  index: -1
+huang-b
+  rotate: false
+  xy: 1206, 1548
+  size: 600, 384
+  orig: 600, 384
+  offset: 0, 0
+  index: -1
+huang-t
+  rotate: false
+  xy: 2, 646
+  size: 600, 642
+  orig: 600, 642
+  offset: 0, 0
+  index: -1
+lan
+  rotate: false
+  xy: 1206, 756
+  size: 399, 404
+  orig: 399, 404
+  offset: 0, 0
+  index: -1
+lan-1
+  rotate: false
+  xy: 604, 78
+  size: 405, 438
+  orig: 405, 438
+  offset: 0, 0
+  index: -1
+lan-b
+  rotate: false
+  xy: 604, 518
+  size: 600, 384
+  orig: 600, 384
+  offset: 0, 0
+  index: -1
+lan-t
+  rotate: false
+  xy: 604, 1290
+  size: 600, 642
+  orig: 600, 642
+  offset: 0, 0
+  index: -1
+lan2-b
+  rotate: false
+  xy: 1206, 1162
+  size: 600, 384
+  orig: 600, 384
+  offset: 0, 0
+  index: -1
+lan2-t
+  rotate: false
+  xy: 2, 2
+  size: 600, 642
+  orig: 600, 642
+  offset: 0, 0
+  index: -1
+po-hongse
+  rotate: true
+  xy: 1607, 628
+  size: 532, 116
+  orig: 532, 116
+  offset: 0, 0
+  index: -1
+po-huangse
+  rotate: true
+  xy: 1725, 628
+  size: 532, 116
+  orig: 532, 116
+  offset: 0, 0
+  index: -1
+po-lanse
+  rotate: true
+  xy: 1808, 1399
+  size: 533, 116
+  orig: 533, 116
+  offset: 0, 0
+  index: -1
+po-lanse-1
+  rotate: false
+  xy: 1390, 379
+  size: 533, 116
+  orig: 533, 116
+  offset: 0, 0
+  index: -1

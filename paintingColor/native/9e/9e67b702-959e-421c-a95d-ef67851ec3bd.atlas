@@ -1,0 +1,76 @@
+
+niao-fei.png
+size: 224,498
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chibang-L-1
+  rotate: true
+  xy: 2, 207
+  size: 156, 116
+  orig: 192, 116
+  offset: 0, 0
+  index: -1
+chibang-R-1
+  rotate: false
+  xy: 2, 93
+  size: 199, 112
+  orig: 199, 112
+  offset: 0, 0
+  index: -1
+chibang-R-2
+  rotate: false
+  xy: 97, 12
+  size: 125, 79
+  orig: 127, 81
+  offset: 1, 1
+  index: -1
+chibangl-2
+  rotate: true
+  xy: 2, 2
+  size: 89, 93
+  orig: 91, 95
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 365
+  size: 131, 130
+  orig: 131, 130
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 134, 367
+  size: 129, 85
+  orig: 129, 85
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: true
+  xy: 120, 258
+  size: 105, 94
+  orig: 105, 110
+  offset: 0, 8
+  index: -1
+yanjing
+  rotate: false
+  xy: 179, 218
+  size: 18, 15
+  orig: 20, 17
+  offset: 1, 1
+  index: -1
+yanying
+  rotate: false
+  xy: 179, 235
+  size: 25, 21
+  orig: 27, 23
+  offset: 1, 1
+  index: -1
+zui
+  rotate: true
+  xy: 120, 207
+  size: 49, 57
+  orig: 51, 59
+  offset: 1, 1
+  index: -1
