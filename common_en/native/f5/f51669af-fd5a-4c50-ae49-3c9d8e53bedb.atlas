@@ -1,0 +1,153 @@
+
+W4L2-SPINE-1.png
+size: 570,764
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gold
+  rotate: true
+  xy: 374, 293
+  size: 469, 194
+  orig: 469, 194
+  offset: 0, 0
+  index: -1
+Gold1
+  rotate: false
+  xy: 283, 45
+  size: 123, 123
+  orig: 123, 123
+  offset: 0, 0
+  index: -1
+Gold2
+  rotate: true
+  xy: 454, 79
+  size: 127, 60
+  orig: 129, 62
+  offset: 1, 1
+  index: -1
+WristWatch1
+  rotate: false
+  xy: 161, 21
+  size: 74, 66
+  orig: 74, 66
+  offset: 0, 0
+  index: -1
+WristWatch2
+  rotate: false
+  xy: 408, 106
+  size: 43, 84
+  orig: 43, 84
+  offset: 0, 0
+  index: -1
+WristWatch3
+  rotate: false
+  xy: 408, 20
+  size: 42, 84
+  orig: 42, 84
+  offset: 0, 0
+  index: -1
+WristWatch4
+  rotate: true
+  xy: 352, 394
+  size: 66, 19
+  orig: 66, 19
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 352, 323
+  size: 32, 18
+  orig: 34, 20
+  offset: 1, 1
+  index: -1
+tigo10
+  rotate: false
+  xy: 2, 14
+  size: 73, 73
+  orig: 75, 75
+  offset: 1, 1
+  index: -1
+tigo11
+  rotate: false
+  xy: 2, 462
+  size: 370, 300
+  orig: 382, 302
+  offset: 1, 1
+  index: -1
+tigo12
+  rotate: true
+  xy: 283, 297
+  size: 163, 67
+  orig: 163, 67
+  offset: 0, 0
+  index: -1
+tigo13
+  rotate: true
+  xy: 283, 170
+  size: 125, 70
+  orig: 125, 70
+  offset: 0, 0
+  index: -1
+tigo2
+  rotate: true
+  xy: 516, 92
+  size: 38, 22
+  orig: 40, 24
+  offset: 1, 1
+  index: -1
+tigo3
+  rotate: true
+  xy: 352, 357
+  size: 35, 20
+  orig: 37, 22
+  offset: 1, 1
+  index: -1
+tigo4
+  rotate: true
+  xy: 516, 170
+  size: 36, 46
+  orig: 40, 50
+  offset: 2, 2
+  index: -1
+tigo5
+  rotate: true
+  xy: 516, 132
+  size: 36, 46
+  orig: 40, 50
+  offset: 2, 2
+  index: -1
+tigo6
+  rotate: true
+  xy: 2, 89
+  size: 371, 279
+  orig: 371, 279
+  offset: 0, 0
+  index: -1
+tigo61
+  rotate: false
+  xy: 77, 26
+  size: 82, 61
+  orig: 86, 65
+  offset: 2, 2
+  index: -1
+tigo7
+  rotate: false
+  xy: 355, 192
+  size: 97, 99
+  orig: 100, 101
+  offset: 1, 1
+  index: -1
+tigo8
+  rotate: true
+  xy: 454, 208
+  size: 83, 96
+  orig: 85, 98
+  offset: 1, 1
+  index: -1
+tigo9
+  rotate: false
+  xy: 452, 2
+  size: 95, 75
+  orig: 95, 75
+  offset: 0, 0
+  index: -1

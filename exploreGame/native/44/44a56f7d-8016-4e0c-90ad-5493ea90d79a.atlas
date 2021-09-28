@@ -1,0 +1,300 @@
+
+Tigo-ruchang.png
+size: 892,892
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+T-bizi
+  rotate: false
+  xy: 274, 20
+  size: 130, 71
+  orig: 130, 71
+  offset: 0, 0
+  index: -1
+T-duzi
+  rotate: false
+  xy: 648, 113
+  size: 128, 134
+  orig: 128, 134
+  offset: 0, 0
+  index: -1
+T-erduo -L
+  rotate: true
+  xy: 776, 405
+  size: 105, 104
+  orig: 105, 104
+  offset: 0, 0
+  index: -1
+T-erduo -R
+  rotate: false
+  xy: 776, 299
+  size: 105, 104
+  orig: 105, 104
+  offset: 0, 0
+  index: -1
+T-huawen-1
+  rotate: false
+  xy: 775, 253
+  size: 83, 44
+  orig: 83, 44
+  offset: 0, 0
+  index: -1
+T-huawen-L
+  rotate: true
+  xy: 648, 42
+  size: 69, 98
+  orig: 69, 98
+  offset: 0, 0
+  index: -1
+T-huawen-R
+  rotate: false
+  xy: 778, 154
+  size: 71, 97
+  orig: 71, 97
+  offset: 0, 0
+  index: -1
+T-huzi
+  rotate: false
+  xy: 2, 270
+  size: 531, 214
+  orig: 531, 214
+  offset: 0, 0
+  index: -1
+T-meimao-L
+  rotate: true
+  xy: 748, 63
+  size: 48, 22
+  orig: 48, 22
+  offset: 0, 0
+  index: -1
+T-meimao-R
+  rotate: false
+  xy: 772, 85
+  size: 48, 22
+  orig: 48, 22
+  offset: 0, 0
+  index: -1
+T-shenti
+  rotate: false
+  xy: 2, 5
+  size: 270, 263
+  orig: 270, 263
+  offset: 0, 0
+  index: -1
+T-shou-L
+  rotate: false
+  xy: 274, 93
+  size: 167, 175
+  orig: 167, 175
+  offset: 0, 0
+  index: -1
+T-shou-R
+  rotate: false
+  xy: 459, 495
+  size: 166, 175
+  orig: 166, 175
+  offset: 0, 0
+  index: -1
+T-shouzhi-1
+  rotate: true
+  xy: 863, 632
+  size: 25, 22
+  orig: 25, 22
+  offset: 0, 0
+  index: -1
+T-shouzhi-2
+  rotate: true
+  xy: 863, 659
+  size: 26, 22
+  orig: 26, 22
+  offset: 0, 0
+  index: -1
+T-tou
+  rotate: false
+  xy: 2, 486
+  size: 455, 404
+  orig: 455, 404
+  offset: 0, 0
+  index: -1
+T-tui-L
+  rotate: false
+  xy: 535, 279
+  size: 121, 214
+  orig: 121, 214
+  offset: 0, 0
+  index: -1
+T-tui-R
+  rotate: false
+  xy: 702, 680
+  size: 126, 210
+  orig: 126, 210
+  offset: 0, 0
+  index: -1
+T-weiba
+  rotate: true
+  xy: 443, 77
+  size: 191, 114
+  orig: 191, 114
+  offset: 0, 0
+  index: -1
+T-yanjing-L
+  rotate: true
+  xy: 778, 109
+  size: 43, 65
+  orig: 43, 65
+  offset: 0, 0
+  index: -1
+T-yanjing-R
+  rotate: false
+  xy: 845, 87
+  size: 45, 65
+  orig: 45, 65
+  offset: 0, 0
+  index: -1
+T-zui
+  rotate: true
+  xy: 559, 85
+  size: 192, 87
+  orig: 192, 87
+  offset: 0, 0
+  index: -1
+TC-bizi
+  rotate: true
+  xy: 706, 5
+  size: 35, 42
+  orig: 35, 42
+  offset: 0, 0
+  index: -1
+TC-erduo
+  rotate: true
+  xy: 830, 843
+  size: 47, 60
+  orig: 47, 60
+  offset: 0, 0
+  index: -1
+TC-erduo-2
+  rotate: false
+  xy: 586, 48
+  size: 48, 35
+  orig: 48, 35
+  offset: 0, 0
+  index: -1
+TC-huawen
+  rotate: true
+  xy: 858, 687
+  size: 49, 30
+  orig: 49, 30
+  offset: 0, 0
+  index: -1
+TC-huawen-1
+  rotate: false
+  xy: 406, 16
+  size: 93, 59
+  orig: 93, 59
+  offset: 0, 0
+  index: -1
+TC-meimao
+  rotate: false
+  xy: 747, 501
+  size: 22, 9
+  orig: 22, 9
+  offset: 0, 0
+  index: -1
+TC-shenti
+  rotate: false
+  xy: 627, 501
+  size: 118, 169
+  orig: 118, 169
+  offset: 0, 0
+  index: -1
+TC-shou-1
+  rotate: false
+  xy: 830, 738
+  size: 52, 103
+  orig: 52, 103
+  offset: 0, 0
+  index: -1
+TC-shou-2
+  rotate: false
+  xy: 830, 738
+  size: 52, 103
+  orig: 52, 103
+  offset: 0, 0
+  index: -1
+TC-tou
+  rotate: false
+  xy: 459, 672
+  size: 241, 218
+  orig: 241, 218
+  offset: 0, 0
+  index: -1
+TC-tui
+  rotate: true
+  xy: 501, 9
+  size: 66, 83
+  orig: 66, 83
+  offset: 0, 0
+  index: -1
+TC-tui-2
+  rotate: true
+  xy: 501, 9
+  size: 66, 83
+  orig: 66, 83
+  offset: 0, 0
+  index: -1
+TC-weiba
+  rotate: false
+  xy: 658, 249
+  size: 115, 69
+  orig: 115, 69
+  offset: 0, 0
+  index: -1
+TC-yanjing
+  rotate: true
+  xy: 772, 59
+  size: 24, 35
+  orig: 24, 35
+  offset: 0, 0
+  index: -1
+TC-zui
+  rotate: false
+  xy: 586, 2
+  size: 58, 38
+  orig: 58, 38
+  offset: 0, 0
+  index: -1
+TC-zui-bai
+  rotate: true
+  xy: 747, 512
+  size: 166, 114
+  orig: 166, 114
+  offset: 0, 0
+  index: -1
+muzhi
+  rotate: false
+  xy: 658, 320
+  size: 116, 179
+  orig: 116, 179
+  offset: 0, 0
+  index: -1
+qt1
+  rotate: true
+  xy: 830, 680
+  size: 56, 26
+  orig: 56, 26
+  offset: 0, 0
+  index: -1
+qt2
+  rotate: false
+  xy: 646, 8
+  size: 58, 32
+  orig: 58, 32
+  offset: 0, 0
+  index: -1
+qt3
+  rotate: true
+  xy: 860, 240
+  size: 57, 30
+  orig: 57, 30
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+qipan.png
+size: 1162,1162
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+qipan
+  rotate: false
+  xy: 2, 252
+  size: 1158, 908
+  orig: 1158, 908
+  offset: 0, 0
+  index: -1
