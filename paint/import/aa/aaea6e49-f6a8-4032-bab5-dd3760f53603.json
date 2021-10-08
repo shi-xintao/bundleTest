@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "475q59fttAk5qwdGWJgAZh"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "cancel",
+      "rect": [
+        0,
+        1,
+        256,
+        257
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        256,
+        258
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

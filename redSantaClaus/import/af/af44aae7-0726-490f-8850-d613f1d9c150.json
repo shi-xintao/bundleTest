@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "cfY7ckzNJGvpu4FMa5Ln6+"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guizi",
+      "rect": [
+        0,
+        0,
+        614,
+        486
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        614,
+        486
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

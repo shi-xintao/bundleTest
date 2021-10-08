@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e6PUt9dGdOo7yQtkZ2zej2"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "duckbg",
+      "rect": [
+        0,
+        0,
+        545,
+        613
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        545,
+        613
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

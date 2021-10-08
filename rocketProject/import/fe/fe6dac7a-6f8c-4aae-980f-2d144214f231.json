@@ -1,1 +1,51 @@
-[1,["b0dZp01rBJurC+82hAUDS+"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"maoyan","rect":[2,6,568,564],"offset":[0,-2],"originalSize":[572,572],"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "b0dZp01rBJurC+82hAUDS+"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "maoyan",
+      "rect": [
+        2,
+        6,
+        568,
+        564
+      ],
+      "offset": [
+        0,
+        -2
+      ],
+      "originalSize": [
+        572,
+        572
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

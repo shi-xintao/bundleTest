@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3a0gdaVqpNYbVmMXv+WAUp"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "game_floor",
+      "rect": [
+        0,
+        0,
+        401,
+        289
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        401,
+        289
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

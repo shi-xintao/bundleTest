@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "729VaWg7pMXZK1tYmMJmJF"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "taizi",
+      "rect": [
+        0,
+        0,
+        326,
+        153
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        327,
+        153
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,76 +1,62 @@
 
 huojian.png
-size: 651,651
+size: 631,631
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 1
-  rotate: true
-  xy: 2, 163
-  size: 124, 526
-  orig: 126, 528
-  offset: 1, 1
+  rotate: false
+  xy: 2, 89
+  size: 197, 540
+  orig: 217, 566
+  offset: 11, 10
   index: -1
 2
-  rotate: false
-  xy: 588, 447
-  size: 61, 202
-  orig: 63, 204
-  offset: 1, 1
+  rotate: true
+  xy: 2, 2
+  size: 85, 166
+  orig: 116, 202
+  offset: 16, 7
   index: -1
 3
-  rotate: false
-  xy: 588, 243
-  size: 61, 202
-  orig: 63, 204
-  offset: 1, 1
+  rotate: true
+  xy: 2, 2
+  size: 85, 166
+  orig: 116, 202
+  offset: 16, 7
   index: -1
 4
-  rotate: true
-  xy: 530, 194
-  size: 47, 119
-  orig: 49, 121
-  offset: 1, 1
+  rotate: false
+  xy: 453, 257
+  size: 38, 32
+  orig: 38, 32
+  offset: 0, 0
   index: -1
 5
   rotate: false
-  xy: 588, 73
-  size: 47, 119
-  orig: 49, 121
-  offset: 1, 1
+  xy: 453, 257
+  size: 38, 32
+  orig: 38, 32
+  offset: 0, 0
   index: -1
-a
+buding-1
   rotate: false
-  xy: 190, 311
-  size: 173, 338
-  orig: 193, 369
-  offset: 9, 18
+  xy: 453, 291
+  size: 108, 338
+  orig: 108, 338
+  offset: 0, 0
   index: -1
-b
-  rotate: false
-  xy: 365, 336
-  size: 178, 313
-  orig: 203, 341
-  offset: 13, 21
-  index: -1
-c
+buding-2
   rotate: true
-  xy: 2, 4
-  size: 157, 295
-  orig: 179, 321
-  offset: 11, 21
+  xy: 201, 6
+  size: 238, 383
+  orig: 239, 383
+  offset: 1, 0
   index: -1
-d
-  rotate: true
-  xy: 299, 2
-  size: 159, 287
-  orig: 182, 313
-  offset: 11, 21
-  index: -1
-e
+buding-3
   rotate: false
-  xy: 2, 289
-  size: 186, 360
-  orig: 206, 388
-  offset: 10, 19
+  xy: 201, 246
+  size: 250, 383
+  orig: 251, 383
+  offset: 0, 0
   index: -1

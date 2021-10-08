@@ -1,1 +1,51 @@
-[1,["ebf2BDpftAkLMc4iHtdYiC"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"图层 69-8(2)","rect":[0,0,123,186],"offset":[0,0],"originalSize":[123,186],"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "ebf2BDpftAkLMc4iHtdYiC"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "图层 69-8(2)",
+      "rect": [
+        0,
+        0,
+        123,
+        186
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        123,
+        186
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

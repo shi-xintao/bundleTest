@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c0YWTxreZInr7Hvj1UEJAr"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guoshanche3",
+      "rect": [
+        0,
+        0,
+        1047,
+        1196
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1047,
+        1196
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

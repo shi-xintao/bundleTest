@@ -1,1 +1,51 @@
-[1,["a8sWo/nSRCZ4QqM34NPfR9"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"hulu","rect":[2,2,722,1058],"offset":[-168.5,0.5],"originalSize":[1063,1063],"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "a8sWo/nSRCZ4QqM34NPfR9"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "hulu",
+      "rect": [
+        2,
+        2,
+        722,
+        1058
+      ],
+      "offset": [
+        -168.5,
+        0.5
+      ],
+      "originalSize": [
+        1063,
+        1063
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e5EDIdlkJMvbK79zmbBRze"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "bookFloor",
+      "rect": [
+        0,
+        3,
+        349,
+        457
+      ],
+      "offset": [
+        0,
+        -1.5
+      ],
+      "originalSize": [
+        349,
+        460
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

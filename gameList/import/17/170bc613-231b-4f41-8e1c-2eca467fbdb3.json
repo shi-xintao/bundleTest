@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "12iuwOJWlCZrhB4yF7DBG3"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "game3",
+      "rect": [
+        0,
+        0,
+        355,
+        271
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        355,
+        271
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

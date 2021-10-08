@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "8cbNghhqZGcLzoxmOL+oyp"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Tigo-huanhu",
+      "rect": [
+        2,
+        13,
+        856,
+        845
+      ],
+      "offset": [
+        -0.5,
+        -5
+      ],
+      "originalSize": [
+        861,
+        861
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

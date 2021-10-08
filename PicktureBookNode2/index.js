@@ -76,4 +76,3 @@ window.__require = function e(t, n, r) {
     cc._RF.pop();
   }, {} ]
 }, {}, [ "entry" ]);
-//# sourceMappingURL=index.js.map

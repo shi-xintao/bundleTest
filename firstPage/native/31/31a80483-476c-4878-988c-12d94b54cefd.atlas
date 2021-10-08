@@ -1,0 +1,293 @@
+
+kaiping.png
+size: 747,747
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: false
+  xy: 2, 12
+  size: 224, 220
+  orig: 226, 222
+  offset: 1, 1
+  index: -1
+C
+  rotate: false
+  xy: 228, 77
+  size: 134, 155
+  orig: 136, 157
+  offset: 1, 1
+  index: -1
+E
+  rotate: false
+  xy: 460, 98
+  size: 98, 151
+  orig: 100, 153
+  offset: 1, 1
+  index: -1
+E-1
+  rotate: false
+  xy: 530, 32
+  size: 40, 64
+  orig: 42, 66
+  offset: 1, 1
+  index: -1
+L
+  rotate: false
+  xy: 709, 187
+  size: 36, 65
+  orig: 38, 67
+  offset: 1, 1
+  index: -1
+T-bizi
+  rotate: false
+  xy: 228, 16
+  size: 107, 59
+  orig: 107, 59
+  offset: 0, 0
+  index: -1
+T-duzi
+  rotate: false
+  xy: 620, 342
+  size: 105, 111
+  orig: 105, 111
+  offset: 0, 0
+  index: -1
+T-erduo -L
+  rotate: false
+  xy: 620, 166
+  size: 87, 86
+  orig: 87, 86
+  offset: 0, 0
+  index: -1
+T-erduo -R
+  rotate: false
+  xy: 619, 78
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+T-huawen-1
+  rotate: false
+  xy: 460, 59
+  size: 68, 37
+  orig: 68, 37
+  offset: 0, 0
+  index: -1
+T-huawen-L
+  rotate: false
+  xy: 560, 101
+  size: 57, 80
+  orig: 57, 80
+  offset: 0, 0
+  index: -1
+T-huawen-R
+  rotate: false
+  xy: 560, 183
+  size: 58, 80
+  orig: 58, 80
+  offset: 0, 0
+  index: -1
+T-huzi
+  rotate: false
+  xy: 2, 234
+  size: 437, 176
+  orig: 437, 176
+  offset: 0, 0
+  index: -1
+T-meimao-L
+  rotate: false
+  xy: 572, 38
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+T-meimao-R
+  rotate: false
+  xy: 619, 57
+  size: 40, 19
+  orig: 40, 19
+  offset: 0, 0
+  index: -1
+T-shenti
+  rotate: false
+  xy: 379, 528
+  size: 222, 217
+  orig: 222, 217
+  offset: 0, 0
+  index: -1
+T-shou-L
+  rotate: false
+  xy: 603, 601
+  size: 137, 144
+  orig: 137, 144
+  offset: 0, 0
+  index: -1
+T-shou-R
+  rotate: false
+  xy: 603, 455
+  size: 136, 144
+  orig: 136, 144
+  offset: 0, 0
+  index: -1
+T-shouzhi-1
+  rotate: false
+  xy: 661, 57
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+T-shouzhi-2
+  rotate: false
+  xy: 684, 57
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+T-tou
+  rotate: false
+  xy: 2, 412
+  size: 375, 333
+  orig: 375, 333
+  offset: 0, 0
+  index: -1
+T-tui-L
+  rotate: true
+  xy: 379, 425
+  size: 101, 175
+  orig: 101, 175
+  offset: 0, 0
+  index: -1
+T-tui-R
+  rotate: false
+  xy: 441, 251
+  size: 103, 172
+  orig: 103, 172
+  offset: 0, 0
+  index: -1
+T-weiba
+  rotate: true
+  xy: 364, 74
+  size: 158, 94
+  orig: 158, 94
+  offset: 0, 0
+  index: -1
+T-yanjing-L
+  rotate: false
+  xy: 709, 132
+  size: 36, 53
+  orig: 36, 53
+  offset: 0, 0
+  index: -1
+T-yanjing-R
+  rotate: false
+  xy: 556, 425
+  size: 38, 53
+  orig: 38, 53
+  offset: 0, 0
+  index: -1
+T-zui
+  rotate: true
+  xy: 546, 265
+  size: 158, 72
+  orig: 158, 72
+  offset: 0, 0
+  index: -1
+a-1
+  rotate: true
+  xy: 556, 480
+  size: 46, 45
+  orig: 48, 47
+  offset: 1, 1
+  index: -1
+a-2
+  rotate: true
+  xy: 556, 480
+  size: 46, 45
+  orig: 48, 47
+  offset: 1, 1
+  index: -1
+e-2
+  rotate: false
+  xy: 405, 26
+  size: 44, 46
+  orig: 46, 48
+  offset: 1, 1
+  index: -1
+g
+  rotate: true
+  xy: 337, 26
+  size: 46, 66
+  orig: 48, 68
+  offset: 1, 1
+  index: -1
+i
+  rotate: true
+  xy: 228, 2
+  size: 12, 66
+  orig: 14, 68
+  offset: 1, 1
+  index: -1
+l-1
+  rotate: false
+  xy: 727, 384
+  size: 10, 69
+  orig: 12, 71
+  offset: 1, 1
+  index: -1
+n
+  rotate: true
+  xy: 572, 59
+  size: 40, 45
+  orig: 42, 47
+  offset: 1, 1
+  index: -1
+n-1
+  rotate: true
+  xy: 572, 59
+  size: 40, 45
+  orig: 42, 47
+  offset: 1, 1
+  index: -1
+r
+  rotate: false
+  xy: 707, 85
+  size: 29, 45
+  orig: 31, 47
+  offset: 1, 1
+  index: -1
+r-1
+  rotate: false
+  xy: 707, 85
+  size: 29, 45
+  orig: 31, 47
+  offset: 1, 1
+  index: -1
+toubu
+  rotate: true
+  xy: 620, 254
+  size: 86, 88
+  orig: 88, 90
+  offset: 1, 1
+  index: -1
+y
+  rotate: true
+  xy: 451, 16
+  size: 41, 66
+  orig: 43, 68
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: false
+  xy: 707, 62
+  size: 20, 21
+  orig: 22, 23
+  offset: 1, 1
+  index: -1
+zuoshou
+  rotate: true
+  xy: 710, 319
+  size: 21, 20
+  orig: 23, 23
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1fbb1d1e6"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guoShanChe2",
+      "rect": [
+        3,
+        3,
+        799,
+        395
+      ],
+      "offset": [
+        5,
+        0
+      ],
+      "originalSize": [
+        809,
+        395
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

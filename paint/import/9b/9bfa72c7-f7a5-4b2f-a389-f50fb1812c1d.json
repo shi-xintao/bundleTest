@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f4dMvQ09lNpYk0SbLN/2l4"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ts_floor",
+      "rect": [
+        0,
+        0,
+        632,
+        632
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        632,
+        632
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

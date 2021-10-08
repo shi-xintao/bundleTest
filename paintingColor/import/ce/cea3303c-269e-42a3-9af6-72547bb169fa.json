@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b3TujnpYFPMY10YG2YOnLZ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "yingwu",
+      "rect": [
+        51,
+        69,
+        405,
+        456
+      ],
+      "offset": [
+        -35.5,
+        -15.5
+      ],
+      "originalSize": [
+        578,
+        563
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

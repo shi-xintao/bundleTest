@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1da6cf6de"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "game_icon",
+      "rect": [
+        929,
+        413,
+        114,
+        85
+      ],
+      "offset": [
+        0,
+        3
+      ],
+      "originalSize": [
+        116,
+        117
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

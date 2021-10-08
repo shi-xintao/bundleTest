@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d5FEmcLu1FPZUCxuFSW/9e"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "yelbox",
+      "rect": [
+        16,
+        17,
+        180,
+        228
+      ],
+      "offset": [
+        0,
+        -1.5
+      ],
+      "originalSize": [
+        212,
+        259
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

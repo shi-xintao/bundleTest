@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "bbjsx4QW5FD5hws6fCYRf6"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "alg",
+      "rect": [
+        37,
+        38,
+        354,
+        369
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        428,
+        446
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

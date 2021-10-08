@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "dd1sEfDVZNfbGD9mQYK0l7"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "way",
+      "rect": [
+        0,
+        0,
+        1205,
+        278
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1205,
+        278
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

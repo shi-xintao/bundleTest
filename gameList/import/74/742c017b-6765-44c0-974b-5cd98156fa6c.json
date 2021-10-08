@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "41+dyCm45GHowFr7PRSA6U"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "suo",
+      "rect": [
+        2,
+        4,
+        112,
+        110
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        116,
+        116
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "abMEy+zNVK26BTpu+CzC88"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guoShanChe1",
+      "rect": [
+        0,
+        82,
+        2033,
+        918
+      ],
+      "offset": [
+        -173.5,
+        -41
+      ],
+      "originalSize": [
+        2380,
+        1000
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

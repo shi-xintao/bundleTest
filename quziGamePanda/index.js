@@ -1,1 +1,307 @@
-window.__require=function a(e,t,n){function i(c,s){if(!t[c]){if(!e[c]){var u=c.split("/");if(u=u[u.length-1],!e[u]){var d="function"==typeof __require&&__require;if(!s&&d)return d(u,!0);if(o)return o(u,!0);throw new Error("Cannot find module '"+c+"'")}c=u}var r=t[c]={exports:{}};e[c][0].call(r.exports,function(a){return i(e[c][1][a]||a)},r,r.exports,a,e,t,n)}return t[c].exports}for(var o="function"==typeof __require&&__require,c=0;c<n.length;c++)i(n[c]);return i}({QuziGamePanda:[function(a,e,t){"use strict";cc._RF.push(e,"06d51S8HYFKfqkeGefA1bVd","QuziGamePanda");var n,i=this&&this.__extends||(n=function(a,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(a,e){a.__proto__=e}||function(a,e){for(var t in e)Object.prototype.hasOwnProperty.call(e,t)&&(a[t]=e[t])})(a,e)},function(a,e){function t(){this.constructor=a}n(a,e),a.prototype=null===e?Object.create(e):(t.prototype=e.prototype,new t)}),o=this&&this.__decorate||function(a,e,t,n){var i,o=arguments.length,c=o<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,t):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)c=Reflect.decorate(a,e,t,n);else for(var s=a.length-1;s>=0;s--)(i=a[s])&&(c=(o<3?i(c):o>3?i(e,t,c):i(e,t))||c);return o>3&&c&&Object.defineProperty(e,t,c),c};Object.defineProperty(t,"__esModule",{value:!0});var c=a("../../../common/structure/CompEnum"),s=a("../../../kit/system/audio/AudioManager"),u=a("../../templateGame/scripts/TemplateGameBase"),d=cc._decorator,r=d.ccclass,f=d.property,l=function(a){function e(){var e=null!==a&&a.apply(this,arguments)||this;return e.panda=null,e.shucai=null,e.baiyan=null,e.heiyan=null,e.faguang=null,e.animationNames=[["daotiaoliao","haowen","daotiaoliao","nanwen"],["jitiaoweijiang","haowen","jitiaoweijiang","nanwen"]],e.effectUrl="res/audios/SE_xiongmaochushen",e}return i(e,a),e.prototype.start=function(){},e.prototype.openAniStart=function(){var a=this;cc.log("openAniStart");var e=5;switch(this.curRoundIndex){case 0:this.panda.clearTracks(),this.panda.setAnimation(0,"zou",!1),this.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"01",function(){s.default.playEffect("quziGamePanda",a.effectUrl+"01")})},1),this.panda.addAnimation(0,"stay",!0);break;case 1:e=3;break;case 2:e=3,this.shucai.node.active=!0,this.shucai.clearTracks(),this.shucai.setAnimation(0,"shucai",!1),s.default.playEffect("quziGamePanda",this.effectUrl+"07");break;case 3:e=6,this.panda.clearTracks(),this.panda.setCompleteListener(function(){a.panda.setCompleteListener(function(){a.panda.clearTracks(),a.panda.setCompleteListener(function(){}),a.panda.setAnimation(0,"jiaoban2",!1),s.default.playEffect("quziGamePanda",a.effectUrl+"11")}),a.panda.clearTracks(),a.panda.setAnimation(0,"jiaoban",!1)}),this.panda.setAnimation(0,"guo",!1)}this.scheduleOnce(function(){a.roundStateTypeChanged(c.RoundStateType.RoundOpenAniComplete)},e)},e.prototype.openAniComplete=function(){switch(a.prototype.openAniComplete.call(this),cc.log("openAniComplete"),this.curRoundIndex){case 0:case 1:s.default.playEffect("quziGamePanda","res/audios/qiqiu"),this.schedule(function(){s.default.playEffect("quziGamePanda","res/audios/qiqiu")},5)}},e.prototype.startAudioCallFunc=function(){cc.log("GamePanda start record!"),this.startRecordAudio("\u6c14\u7403","quziGamePanda","res/audios/qiqiu")},e.prototype.onRecordResult=function(a){cc.log("onRecordResult ===== ",a),"ResultCb"==a.data.eventName&&(a.data.success?this.roundStateTypeChanged(c.RoundStateType.RoundComplete,{win:1}):this.roundStateTypeChanged(c.RoundStateType.RoundComplete,{win:0}))},e.prototype.endAniStart=function(){var a=this;switch(cc.log("endAniStart"),this.unscheduleAllCallbacks(),this.curRoundIndex){case 0:1==this.curRoundResult.win?(this.panda.clearTracks(),this.panda.setAnimation(0,this.animationNames[this.curRoundIndex][0],!1),s.default.playEffect("quziGamePanda",this.effectUrl+"02",function(){a.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"03",function(){a.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"04")},1)})},.5)}),this.panda.addAnimation(0,this.animationNames[this.curRoundIndex][1],!1),this.panda.addAnimation(0,"stay",!0)):(this.panda.clearTracks(),this.panda.setAnimation(0,this.animationNames[this.curRoundIndex][2],!1),s.default.playEffect("quziGamePanda",this.effectUrl+"02",function(){a.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"03",function(){a.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"05")},1)})},.5)}),this.panda.addAnimation(0,this.animationNames[this.curRoundIndex][3],!1),this.panda.addAnimation(0,"stay",!0));break;case 1:1==this.curRoundResult.win?(this.panda.clearTracks(),this.panda.setAnimation(0,this.animationNames[this.curRoundIndex][0],!1),s.default.playEffect("quziGamePanda",this.effectUrl+"02",function(){a.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"06",function(){a.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"04")},1)})},.5)}),this.panda.addAnimation(0,this.animationNames[this.curRoundIndex][1],!1),this.panda.addAnimation(0,"stay",!0)):(this.panda.clearTracks(),this.panda.setAnimation(0,this.animationNames[this.curRoundIndex][2],!1),s.default.playEffect("quziGamePanda",this.effectUrl+"02",function(){a.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"06",function(){a.scheduleOnce(function(){s.default.playEffect("quziGamePanda",a.effectUrl+"05")},1)})},.5)}),this.panda.addAnimation(0,this.animationNames[this.curRoundIndex][3],!1),this.panda.addAnimation(0,"stay",!0));break;case 2:this.shucai.clearTracks(),this.shucai.setCompleteListener(function(){a.shucai.node.active=!1,1==a.curRoundResult.win?(a.baiyan.node.active=!0,a.baiyan.clearTracks(),a.baiyan.setCompleteListener(function(){a.panda.clearTracks(),a.panda.setAnimation(0,"happy",!1),s.default.playEffect("quziGamePanda",a.effectUrl+"09"),a.panda.addAnimation(0,"stay",!0)}),a.baiyan.setAnimation(0,"animation",!1)):(a.heiyan.node.active=!0,a.heiyan.clearTracks(),a.heiyan.setCompleteListener(function(){a.panda.clearTracks(),a.panda.setAnimation(0,"aonao",!1),s.default.playEffect("quziGamePanda",a.effectUrl+"10"),a.panda.addAnimation(0,"stay",!0)}),a.heiyan.setAnimation(0,"animation",!1))}),this.shucai.setAnimation(0,"shucai-fei",!1),s.default.playEffect("quziGamePanda",this.effectUrl+"08");break;case 3:1==this.curRoundResult.win?(this.panda.addAnimation(0,"stay",!0),this.faguang.node.active=!0,this.faguang.clearTracks(),this.faguang.setAnimation(0,"animation",!0),s.default.playEffect("quziGamePanda",this.effectUrl+"12"),this.scheduleOnce(function(){a.panda.clearTracks(),a.panda.setAnimation(0,"happy",!1),s.default.playEffect("quziGamePanda",a.effectUrl+"09")},1)):(this.heiyan.node.active=!0,this.panda.addAnimation(0,"stay",!0),this.heiyan.clearTracks(),this.heiyan.setAnimation(0,"animation",!1),s.default.playEffect("quziGamePanda",this.effectUrl+"13"),this.scheduleOnce(function(){a.panda.clearTracks(),a.panda.setAnimation(0,"aonao",!1),s.default.playEffect("quziGamePanda",a.effectUrl+"10")},1))}this.scheduleOnce(function(){a.roundStateTypeChanged(c.RoundStateType.RoundEndAniComplete)},6)},o([f({type:sp.Skeleton,displayName:"\u718a\u732b\u52a8\u753b"})],e.prototype,"panda",void 0),o([f({type:sp.Skeleton,displayName:"\u852c\u83dc\u52a8\u753b"})],e.prototype,"shucai",void 0),o([f({type:sp.Skeleton,displayName:"\u767d\u70df\u52a8\u753b"})],e.prototype,"baiyan",void 0),o([f({type:sp.Skeleton,displayName:"\u9ed1\u70df\u52a8\u753b"})],e.prototype,"heiyan",void 0),o([f({type:sp.Skeleton,displayName:"\u53d1\u5149\u52a8\u753b"})],e.prototype,"faguang",void 0),o([r],e)}(u.default);t.default=l,cc._RF.pop()},{"../../../common/structure/CompEnum":void 0,"../../../kit/system/audio/AudioManager":void 0,"../../templateGame/scripts/TemplateGameBase":void 0}]},{},["QuziGamePanda"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  QuziGamePanda: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "06d51S8HYFKfqkeGefA1bVd", "QuziGamePanda");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var CompEnum_1 = require("../../../common/structure/CompEnum");
+    var AudioManager_1 = require("../../../kit/system/audio/AudioManager");
+    var TemplateGameBase_1 = require("../../templateGame/scripts/TemplateGameBase");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var QuziGamePanda = function(_super) {
+      __extends(QuziGamePanda, _super);
+      function QuziGamePanda() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.panda = null;
+        _this.shucai = null;
+        _this.baiyan = null;
+        _this.heiyan = null;
+        _this.faguang = null;
+        _this.animationNames = [ [ "daotiaoliao", "haowen", "daotiaoliao", "nanwen" ], [ "jitiaoweijiang", "haowen", "jitiaoweijiang", "nanwen" ] ];
+        _this.effectUrl = "res/audios/SE_xiongmaochushen";
+        return _this;
+      }
+      QuziGamePanda.prototype.start = function() {};
+      QuziGamePanda.prototype.openAniStart = function() {
+        var _this = this;
+        cc.log("openAniStart");
+        var time = 5;
+        switch (this.curRoundIndex) {
+         case 0:
+          this.panda.clearTracks();
+          this.panda.setAnimation(0, "zou", false);
+          this.scheduleOnce(function() {
+            AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "01", function() {
+              AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "01");
+            });
+          }, 1);
+          this.panda.addAnimation(0, "stay", true);
+          break;
+
+         case 1:
+          time = 3;
+          break;
+
+         case 2:
+          time = 3;
+          this.shucai.node.active = true;
+          this.shucai.clearTracks();
+          this.shucai.setAnimation(0, "shucai", false);
+          AudioManager_1.default.playEffect("quziGamePanda", this.effectUrl + "07");
+          break;
+
+         case 3:
+          time = 6;
+          this.panda.clearTracks();
+          this.panda.setCompleteListener(function() {
+            _this.panda.setCompleteListener(function() {
+              _this.panda.clearTracks();
+              _this.panda.setCompleteListener(function() {});
+              _this.panda.setAnimation(0, "jiaoban2", false);
+              AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "11");
+            });
+            _this.panda.clearTracks();
+            _this.panda.setAnimation(0, "jiaoban", false);
+          });
+          this.panda.setAnimation(0, "guo", false);
+        }
+        this.scheduleOnce(function() {
+          _this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundOpenAniComplete);
+        }, time);
+      };
+      QuziGamePanda.prototype.openAniComplete = function() {
+        _super.prototype.openAniComplete.call(this);
+        cc.log("openAniComplete");
+        switch (this.curRoundIndex) {
+         case 0:
+         case 1:
+          AudioManager_1.default.playEffect("quziGamePanda", "res/audios/qiqiu");
+          this.schedule(function() {
+            AudioManager_1.default.playEffect("quziGamePanda", "res/audios/qiqiu");
+          }, 5);
+        }
+      };
+      QuziGamePanda.prototype.startAudioCallFunc = function() {
+        cc.log("GamePanda start record!");
+        this.startRecordAudio("\u6c14\u7403", "quziGamePanda", "res/audios/qiqiu");
+      };
+      QuziGamePanda.prototype.onRecordResult = function(result) {
+        cc.log("onRecordResult ===== ", result);
+        "ResultCb" == result.data.eventName && (result.data.success ? this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundComplete, {
+          win: 1
+        }) : this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundComplete, {
+          win: 0
+        }));
+      };
+      QuziGamePanda.prototype.endAniStart = function() {
+        var _this = this;
+        cc.log("endAniStart");
+        this.unscheduleAllCallbacks();
+        switch (this.curRoundIndex) {
+         case 0:
+          if (1 == this.curRoundResult.win) {
+            this.panda.clearTracks();
+            this.panda.setAnimation(0, this.animationNames[this.curRoundIndex][0], false);
+            AudioManager_1.default.playEffect("quziGamePanda", this.effectUrl + "02", function() {
+              _this.scheduleOnce(function() {
+                AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "03", function() {
+                  _this.scheduleOnce(function() {
+                    AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "04");
+                  }, 1);
+                });
+              }, .5);
+            });
+            this.panda.addAnimation(0, this.animationNames[this.curRoundIndex][1], false);
+            this.panda.addAnimation(0, "stay", true);
+          } else {
+            this.panda.clearTracks();
+            this.panda.setAnimation(0, this.animationNames[this.curRoundIndex][2], false);
+            AudioManager_1.default.playEffect("quziGamePanda", this.effectUrl + "02", function() {
+              _this.scheduleOnce(function() {
+                AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "03", function() {
+                  _this.scheduleOnce(function() {
+                    AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "05");
+                  }, 1);
+                });
+              }, .5);
+            });
+            this.panda.addAnimation(0, this.animationNames[this.curRoundIndex][3], false);
+            this.panda.addAnimation(0, "stay", true);
+          }
+          break;
+
+         case 1:
+          if (1 == this.curRoundResult.win) {
+            this.panda.clearTracks();
+            this.panda.setAnimation(0, this.animationNames[this.curRoundIndex][0], false);
+            AudioManager_1.default.playEffect("quziGamePanda", this.effectUrl + "02", function() {
+              _this.scheduleOnce(function() {
+                AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "06", function() {
+                  _this.scheduleOnce(function() {
+                    AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "04");
+                  }, 1);
+                });
+              }, .5);
+            });
+            this.panda.addAnimation(0, this.animationNames[this.curRoundIndex][1], false);
+            this.panda.addAnimation(0, "stay", true);
+          } else {
+            this.panda.clearTracks();
+            this.panda.setAnimation(0, this.animationNames[this.curRoundIndex][2], false);
+            AudioManager_1.default.playEffect("quziGamePanda", this.effectUrl + "02", function() {
+              _this.scheduleOnce(function() {
+                AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "06", function() {
+                  _this.scheduleOnce(function() {
+                    AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "05");
+                  }, 1);
+                });
+              }, .5);
+            });
+            this.panda.addAnimation(0, this.animationNames[this.curRoundIndex][3], false);
+            this.panda.addAnimation(0, "stay", true);
+          }
+          break;
+
+         case 2:
+          this.shucai.clearTracks();
+          this.shucai.setCompleteListener(function() {
+            _this.shucai.node.active = false;
+            if (1 == _this.curRoundResult.win) {
+              _this.baiyan.node.active = true;
+              _this.baiyan.clearTracks();
+              _this.baiyan.setCompleteListener(function() {
+                _this.panda.clearTracks();
+                _this.panda.setAnimation(0, "happy", false);
+                AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "09");
+                _this.panda.addAnimation(0, "stay", true);
+              });
+              _this.baiyan.setAnimation(0, "animation", false);
+            } else {
+              _this.heiyan.node.active = true;
+              _this.heiyan.clearTracks();
+              _this.heiyan.setCompleteListener(function() {
+                _this.panda.clearTracks();
+                _this.panda.setAnimation(0, "aonao", false);
+                AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "10");
+                _this.panda.addAnimation(0, "stay", true);
+              });
+              _this.heiyan.setAnimation(0, "animation", false);
+            }
+          });
+          this.shucai.setAnimation(0, "shucai-fei", false);
+          AudioManager_1.default.playEffect("quziGamePanda", this.effectUrl + "08");
+          break;
+
+         case 3:
+          if (1 == this.curRoundResult.win) {
+            this.panda.addAnimation(0, "stay", true);
+            this.faguang.node.active = true;
+            this.faguang.clearTracks();
+            this.faguang.setAnimation(0, "animation", true);
+            AudioManager_1.default.playEffect("quziGamePanda", this.effectUrl + "12");
+            this.scheduleOnce(function() {
+              _this.panda.clearTracks();
+              _this.panda.setAnimation(0, "happy", false);
+              AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "09");
+            }, 1);
+          } else {
+            this.heiyan.node.active = true;
+            this.panda.addAnimation(0, "stay", true);
+            this.heiyan.clearTracks();
+            this.heiyan.setAnimation(0, "animation", false);
+            AudioManager_1.default.playEffect("quziGamePanda", this.effectUrl + "13");
+            this.scheduleOnce(function() {
+              _this.panda.clearTracks();
+              _this.panda.setAnimation(0, "aonao", false);
+              AudioManager_1.default.playEffect("quziGamePanda", _this.effectUrl + "10");
+            }, 1);
+          }
+        }
+        this.scheduleOnce(function() {
+          _this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundEndAniComplete);
+        }, 6);
+      };
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u718a\u732b\u52a8\u753b"
+      }) ], QuziGamePanda.prototype, "panda", void 0);
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u852c\u83dc\u52a8\u753b"
+      }) ], QuziGamePanda.prototype, "shucai", void 0);
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u767d\u70df\u52a8\u753b"
+      }) ], QuziGamePanda.prototype, "baiyan", void 0);
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u9ed1\u70df\u52a8\u753b"
+      }) ], QuziGamePanda.prototype, "heiyan", void 0);
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u53d1\u5149\u52a8\u753b"
+      }) ], QuziGamePanda.prototype, "faguang", void 0);
+      QuziGamePanda = __decorate([ ccclass ], QuziGamePanda);
+      return QuziGamePanda;
+    }(TemplateGameBase_1.default);
+    exports.default = QuziGamePanda;
+    cc._RF.pop();
+  }, {
+    "../../../common/structure/CompEnum": void 0,
+    "../../../kit/system/audio/AudioManager": void 0,
+    "../../templateGame/scripts/TemplateGameBase": void 0
+  } ]
+}, {}, [ "QuziGamePanda" ]);

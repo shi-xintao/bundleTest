@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "edqaIQ/qlBVJq2mVnnODcy"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "xing",
+      "rect": [
+        2,
+        53,
+        747,
+        696
+      ],
+      "offset": [
+        0,
+        -25.5
+      ],
+      "originalSize": [
+        751,
+        751
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

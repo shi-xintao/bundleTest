@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "196172d61"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "lesson_number",
+      "rect": [
+        967,
+        553,
+        278,
+        32
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        280,
+        33
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

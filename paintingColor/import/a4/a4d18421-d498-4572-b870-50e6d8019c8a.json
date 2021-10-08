@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "df9NG44btBlrojWlTQz/RZ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fox_k",
+      "rect": [
+        0,
+        0,
+        590,
+        576
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        590,
+        576
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

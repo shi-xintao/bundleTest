@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6f6zpSE0xKWZCcyomXJslW"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dec_zhuozi",
+      "rect": [
+        0,
+        1,
+        408,
+        140
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        408,
+        141
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

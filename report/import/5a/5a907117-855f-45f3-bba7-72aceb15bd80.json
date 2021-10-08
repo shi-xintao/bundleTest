@@ -1,0 +1,52 @@
+[
+  1,
+  [
+    "1b1858aa5"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "btn_unfold",
+      "rect": [
+        3,
+        438,
+        544,
+        467
+      ],
+      "offset": [
+        1.5,
+        -3
+      ],
+      "originalSize": [
+        549,
+        475
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

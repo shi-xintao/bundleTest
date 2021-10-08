@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "33kNS7ll9EaKDSv32sWBC+"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "txtborder",
+      "rect": [
+        0,
+        0,
+        1348,
+        92
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1348,
+        92
+      ],
+      "capInsets": [
+        152,
+        30,
+        191,
+        47
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

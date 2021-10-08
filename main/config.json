@@ -1,1 +1,17 @@
-{"paths":{},"types":[],"uuids":["3bItxyvARDdJxOVcIJXfjf"],"scenes":{"db://assets/scene/main.fire":0},"redirect":[],"deps":[],"packs":{},"name":"main","importBase":"import","nativeBase":"native","debug":false,"isZip":false,"encrypted":false}
+{
+    "paths": {},
+    "uuids": [
+        "2dL3kvpAxJu6GJ7RdqJG5J"
+    ],
+    "scenes": {
+        "db://assets/Scene/main.fire": "2dL3kvpAxJu6GJ7RdqJG5J"
+    },
+    "redirect": [],
+    "deps": [],
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

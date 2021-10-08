@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1cRM5f6C5MkqwiK56ITCtD"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "skip",
+      "rect": [
+        70,
+        29,
+        155,
+        94
+      ],
+      "offset": [
+        6.5,
+        1
+      ],
+      "originalSize": [
+        282,
+        154
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -66,8 +66,7 @@ window.__require = function e(t, n, r) {
     Object.defineProperty(exports, "__esModule", {
       value: true
     });
-    var EventSystem_1 = require("../../../../kit/system/event/EventSystem");
-    var enum_1 = require("../../../../Script/config/enum");
+    var kit_1 = require("../../../../kit/kit");
     var event_1 = require("../../../../Script/config/event");
     var userDataManager_1 = require("../../../../Script/manager/userDataManager");
     var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
@@ -88,12 +87,12 @@ window.__require = function e(t, n, r) {
       pictureBookItem.prototype.init = function(data) {
         this.bookInfo = data;
         this.lessonType = userDataManager_1.UserDataManager.instance.getPicAndGameLockState();
-        this.isLock = this.lessonType == enum_1.PicAndGameLockState.unlock;
+        this.isLock = this.bookInfo.unlock;
         this.lock.active = !this.isLock;
         this.item.getComponent(cc.Sprite).spriteFrame = this.spriteFrame_arr[this.bookInfo.id];
       };
       pictureBookItem.prototype.onClick = function() {
-        this.isLock ? EventSystem_1.default.emit(event_1.STATE_TO_PICTURE_BOOK, this.bookInfo) : EventSystem_1.default.emit(event_1.STATE_TO_HALL);
+        this.isLock ? kit_1.kit.manager.Event.emit(event_1.STATE_TO_PICTURE_BOOK, this.bookInfo) : kit_1.kit.manager.Event.emit(event_1.STATE_TO_HALL);
       };
       pictureBookItem.prototype.open = function() {};
       pictureBookItem.prototype.close = function() {};
@@ -106,10 +105,9 @@ window.__require = function e(t, n, r) {
     exports.default = pictureBookItem;
     cc._RF.pop();
   }, {
-    "../../../../Script/config/enum": void 0,
     "../../../../Script/config/event": void 0,
     "../../../../Script/manager/userDataManager": void 0,
-    "../../../../kit/system/event/EventSystem": void 0
+    "../../../../kit/kit": void 0
   } ],
   pictureBookList: [ function(require, module, exports) {
     "use strict";
@@ -142,10 +140,10 @@ window.__require = function e(t, n, r) {
     Object.defineProperty(exports, "__esModule", {
       value: true
     });
-    var EventSystem_1 = require("../../../../kit/system/event/EventSystem");
-    var config_1 = require("../../../../Script/config/config");
     var event_1 = require("../../../../Script/config/event");
+    var PicBookDataManager_1 = require("../../../../Script/manager/PicBookDataManager");
     var pictureBookItem_1 = require("./pictureBookItem");
+    var kit_1 = require("../../../../kit/kit");
     var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
     var pictureBookList = function(_super) {
       __extends(pictureBookList, _super);
@@ -161,7 +159,7 @@ window.__require = function e(t, n, r) {
       pictureBookList.prototype.start = function() {};
       pictureBookList.prototype.initList = function() {
         var _this = this;
-        var bookData = config_1.PICTURE_BOOK_LIST_CONFIG;
+        var bookData = PicBookDataManager_1.PicBookDataManager.instance.getPicBookListData();
         bookData.forEach(function(element) {
           var bookItem = cc.instantiate(_this.itemPrefab);
           var pictureBookItemComponent = bookItem.getComponent(pictureBookItem_1.default);
@@ -170,7 +168,7 @@ window.__require = function e(t, n, r) {
         });
       };
       pictureBookList.prototype.onBackClick = function() {
-        EventSystem_1.default.emit(event_1.STATE_TO_HALL);
+        kit_1.kit.manager.Event.emit(event_1.STATE_TO_HALL);
       };
       pictureBookList.prototype.onDestroy = function() {};
       __decorate([ property(cc.Prefab) ], pictureBookList.prototype, "itemPrefab", void 0);
@@ -181,10 +179,9 @@ window.__require = function e(t, n, r) {
     exports.default = pictureBookList;
     cc._RF.pop();
   }, {
-    "../../../../Script/config/config": void 0,
     "../../../../Script/config/event": void 0,
-    "../../../../kit/system/event/EventSystem": void 0,
+    "../../../../Script/manager/PicBookDataManager": void 0,
+    "../../../../kit/kit": void 0,
     "./pictureBookItem": "pictureBookItem"
   } ]
 }, {}, [ "bookListItem", "pictureBookItem", "pictureBookList" ]);
-//# sourceMappingURL=index.js.map

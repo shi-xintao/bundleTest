@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f0XyCJ+a1EIY3BHOJaST5N"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "yun_left",
+      "rect": [
+        0,
+        0,
+        707,
+        229
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        707,
+        229
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

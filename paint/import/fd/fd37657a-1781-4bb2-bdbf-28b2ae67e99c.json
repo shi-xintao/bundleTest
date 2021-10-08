@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "15O2TuT05FZb2qafiVYJHw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "left_light",
+      "rect": [
+        1,
+        0,
+        430,
+        322
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        431,
+        322
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

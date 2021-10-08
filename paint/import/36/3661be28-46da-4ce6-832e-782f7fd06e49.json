@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6abwnkiMhLOoJ4tNMBBw4V"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "show_floor",
+      "rect": [
+        0,
+        0,
+        728,
+        571
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        728,
+        571
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

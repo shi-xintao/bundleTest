@@ -1,1 +1,51 @@
-[1,["ffkUaUiXJLPKd+EUSpFJHw"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"D5-yaoguai-Y","rect":[2,4,465,463],"offset":[0,-1],"originalSize":[469,469],"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "ffkUaUiXJLPKd+EUSpFJHw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "D5-yaoguai-Y",
+      "rect": [
+        2,
+        4,
+        465,
+        463
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        469,
+        469
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

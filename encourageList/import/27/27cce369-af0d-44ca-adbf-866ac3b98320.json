@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1da6cf6de"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "pictureBook",
+      "rect": [
+        808,
+        413,
+        115,
+        92
+      ],
+      "offset": [
+        1,
+        -9.5
+      ],
+      "originalSize": [
+        117,
+        117
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

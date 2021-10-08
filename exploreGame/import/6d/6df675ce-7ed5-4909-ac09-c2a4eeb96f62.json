@@ -1,1 +1,52 @@
-[1,["1e64a8c1d"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"paopaoji","rect":[3,66,289,980],"offset":[-135,0],"originalSize":[559,980],"rotated":1,"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "1e64a8c1d"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "paopaoji",
+      "rect": [
+        3,
+        66,
+        289,
+        980
+      ],
+      "offset": [
+        -135,
+        0
+      ],
+      "originalSize": [
+        559,
+        980
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

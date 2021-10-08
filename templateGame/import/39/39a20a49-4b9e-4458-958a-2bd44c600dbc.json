@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "51srcR9lpHAIWfG7JueWQU"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "heart",
+      "rect": [
+        0,
+        1,
+        62,
+        50
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        63,
+        52
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "fbG2fy/1lLt7EuJ82Iuhna"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "group",
+      "rect": [
+        0,
+        0,
+        1122,
+        752
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1122,
+        752
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

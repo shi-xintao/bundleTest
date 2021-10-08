@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1ddxK7qGxC74oVD1rnK9sc"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dolphine",
+      "rect": [
+        0,
+        0,
+        410,
+        348
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        410,
+        348
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

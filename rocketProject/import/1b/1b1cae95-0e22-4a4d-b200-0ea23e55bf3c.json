@@ -1,1 +1,208 @@
-[1,["0fLQqrePFGD4hwFHuRojT5"],0,[["sp.SkeletonData",["_name","_atlasText","textureNames","_skeletonJson","textures"],-1,3]],[[0,0,1,2,3,4,5]],[[0,"anniu","\nanniu.png\nsize: 381,381\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 2, 4\n  size: 179, 174\n  orig: 181, 176\n  offset: 1, 1\n  index: -1\n2\n  rotate: false\n  xy: 2, 180\n  size: 200, 199\n  orig: 202, 201\n  offset: 1, 1\n  index: -1\n3\n  rotate: false\n  xy: 183, 4\n  size: 179, 174\n  orig: 181, 176\n  offset: 1, 1\n  index: -1\n4\n  rotate: true\n  xy: 204, 200\n  size: 179, 175\n  orig: 181, 177\n  offset: 1, 1\n  index: -1\n",["anniu.png"],{"skeleton":{"hash":"MtZWJrureUKAUpDJBXNUnDu2mHo","spine":"3.8.84","x":-108.47,"y":60.2,"width":202,"height":220.42,"images":"./images/","audio":"/Users/lingoace/Desktop/work/work/Spine/火箭/源文件/按钮"},"bones":[{"name":"root"},{"name":"bone","parent":"root","x":0.07,"y":32.49},{"name":"2","parent":"bone","length":21.7,"rotation":90,"x":-1.15,"y":30.74},{"name":"1","parent":"bone","length":23.64,"rotation":88.53,"x":-3.56,"y":74.9}],"slots":[{"name":"2","bone":"2","attachment":"2"},{"name":"huangse","bone":"1","attachment":"huangse"},{"name":"lanse","bone":"1","attachment":"lanse"},{"name":"hongse","bone":"1","attachment":"hongse"}],"skins":[{"name":"default","attachments":{"2":{"2":{"x":97.48,"y":6.39,"rotation":-90,"width":202,"height":201}}}},{"name":"hongse","attachments":{"hongse":{"hongse":{"name":"3","x":85.39,"y":5.29,"rotation":-88.53,"width":181,"height":176}}}},{"name":"huangse","attachments":{"huangse":{"huangse":{"name":"1","x":83.7,"y":5.62,"rotation":-88.53,"width":181,"height":176}}}},{"name":"lanse","attachments":{"lanse":{"lanse":{"name":"4","x":84.62,"y":5.64,"rotation":-88.53,"width":181,"height":177}}}}],"animations":{"anniu":{"bones":{"1":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":0.901,"y":1.037,"curve":"stepped"},{"time":0.3333,"x":0.901,"y":1.037,"curve":0.25,"c3":0.75},{"time":0.5}]}}}}},[0]]],0,0,[0],[-1],[0]]
+[
+  1,
+  [
+    "0fLQqrePFGD4hwFHuRojT5"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "anniu",
+      "\nanniu.png\nsize: 381,381\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 2, 4\n  size: 179, 174\n  orig: 181, 176\n  offset: 1, 1\n  index: -1\n2\n  rotate: false\n  xy: 2, 180\n  size: 200, 199\n  orig: 202, 201\n  offset: 1, 1\n  index: -1\n3\n  rotate: false\n  xy: 183, 4\n  size: 179, 174\n  orig: 181, 176\n  offset: 1, 1\n  index: -1\n4\n  rotate: true\n  xy: 204, 200\n  size: 179, 175\n  orig: 181, 177\n  offset: 1, 1\n  index: -1\n",
+      [
+        "anniu.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "MtZWJrureUKAUpDJBXNUnDu2mHo",
+          "spine": "3.8.84",
+          "x": -108.47,
+          "y": 60.2,
+          "width": 202,
+          "height": 220.42,
+          "images": "./images/",
+          "audio": "/Users/lingoace/Desktop/work/work/Spine/火箭/源文件/按钮"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "x": 0.07,
+            "y": 32.49
+          },
+          {
+            "name": "2",
+            "parent": "bone",
+            "length": 21.7,
+            "rotation": 90,
+            "x": -1.15,
+            "y": 30.74
+          },
+          {
+            "name": "1",
+            "parent": "bone",
+            "length": 23.64,
+            "rotation": 88.53,
+            "x": -3.56,
+            "y": 74.9
+          }
+        ],
+        "slots": [
+          {
+            "name": "2",
+            "bone": "2",
+            "attachment": "2"
+          },
+          {
+            "name": "huangse",
+            "bone": "1",
+            "attachment": "huangse"
+          },
+          {
+            "name": "lanse",
+            "bone": "1",
+            "attachment": "lanse"
+          },
+          {
+            "name": "hongse",
+            "bone": "1",
+            "attachment": "hongse"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "2": {
+                "2": {
+                  "x": 97.48,
+                  "y": 6.39,
+                  "rotation": -90,
+                  "width": 202,
+                  "height": 201
+                }
+              }
+            }
+          },
+          {
+            "name": "hongse",
+            "attachments": {
+              "hongse": {
+                "hongse": {
+                  "name": "3",
+                  "x": 85.39,
+                  "y": 5.29,
+                  "rotation": -88.53,
+                  "width": 181,
+                  "height": 176
+                }
+              }
+            }
+          },
+          {
+            "name": "huangse",
+            "attachments": {
+              "huangse": {
+                "huangse": {
+                  "name": "1",
+                  "x": 83.7,
+                  "y": 5.62,
+                  "rotation": -88.53,
+                  "width": 181,
+                  "height": 176
+                }
+              }
+            }
+          },
+          {
+            "name": "lanse",
+            "attachments": {
+              "lanse": {
+                "lanse": {
+                  "name": "4",
+                  "x": 84.62,
+                  "y": 5.64,
+                  "rotation": -88.53,
+                  "width": 181,
+                  "height": 177
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "anniu": {
+            "bones": {
+              "1": {
+                "scale": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.1667,
+                    "x": 0.901,
+                    "y": 1.037,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": 0.901,
+                    "y": 1.037,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

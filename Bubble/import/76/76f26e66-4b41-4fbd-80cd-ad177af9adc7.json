@@ -1,1 +1,52 @@
-[1,["17249be90"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"blink_round","rect":[526,476,263,491],"offset":[0.5,-0.5],"originalSize":[264,492],"rotated":1,"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "17249be90"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "blink_round",
+      "rect": [
+        526,
+        476,
+        263,
+        491
+      ],
+      "offset": [
+        0.5,
+        -0.5
+      ],
+      "originalSize": [
+        264,
+        492
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

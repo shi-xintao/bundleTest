@@ -1,0 +1,59 @@
+{
+    "paths": {
+        "027TgVbAFF1LiRsb+Ek1WQ": [
+            "prefab/firstPage",
+            "cc.Prefab"
+        ],
+        "a3J2HUnTpBg45SO1j1FOCE": [
+            "texture/bgm",
+            "cc.AudioClip"
+        ],
+        "31qASDR2xIeJiMEtlLVM79": [
+            "texture/logo/kaiping",
+            "cc.Asset"
+        ],
+        "297wLV60JCu5F2EKKoCbCJ": [
+            "texture/logo/kaiping",
+            "sp.SkeletonData"
+        ],
+        "aeYVUoijxKVaTXNs4JvVH5": [
+            "texture/logo/kaiping",
+            "cc.Texture2D"
+        ],
+        "e3Qefbg1VFzrr0ffuhpxL6": [
+            "texture/logo/kaiping",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "027TgVbAFF1LiRsb+Ek1WQ",
+        "a3J2HUnTpBg45SO1j1FOCE",
+        "31qASDR2xIeJiMEtlLVM79",
+        "297wLV60JCu5F2EKKoCbCJ",
+        "aeYVUoijxKVaTXNs4JvVH5",
+        "e3Qefbg1VFzrr0ffuhpxL6",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "7a/QZLET9IDreTiBfRn2PD",
+        "a2MjXRFdtLlYQ5ouAFv/+R",
+        "02delMVqdBD70a/HSD99FK"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0,
+        "7a/QZLET9IDreTiBfRn2PD",
+        0,
+        "02delMVqdBD70a/HSD99FK",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "name": "firstPage",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "cfbBSA9hdGHok01xq0V4tv"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "touxiang",
+      "rect": [
+        2,
+        15,
+        182,
+        169
+      ],
+      "offset": [
+        0,
+        -6.5
+      ],
+      "originalSize": [
+        186,
+        186
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

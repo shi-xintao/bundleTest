@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "97LUqdc9xK85sxt8gqOHHZ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "leaf3",
+      "rect": [
+        1,
+        0,
+        319,
+        163
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        321,
+        164
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

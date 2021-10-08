@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "73+PS+sztNVJplPVK5Mqjf"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "voice",
+      "rect": [
+        0,
+        4,
+        128,
+        128
+      ],
+      "offset": [
+        0,
+        -2
+      ],
+      "originalSize": [
+        128,
+        132
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

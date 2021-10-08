@@ -1,1 +1,864 @@
-window.__require=function e(n,t,i){function o(a,u){if(!t[a]){if(!n[a]){var c=a.split("/");if(c=c[c.length-1],!n[c]){var s="function"==typeof __require&&__require;if(!u&&s)return s(c,!0);if(r)return r(c,!0);throw new Error("Cannot find module '"+a+"'")}a=c}var p=t[a]={exports:{}};n[a][0].call(p.exports,function(e){return o(n[a][1][e]||e)},p,p.exports,e,n,t,i)}return t[a].exports}for(var r="function"==typeof __require&&__require,a=0;a<i.length;a++)o(i[a]);return o}({QuizGameBlueConfig:[function(e,n,t){"use strict";var i;cc._RF.push(n,"dfc74FCTL1A+I8Z3In/BxRL","QuizGameBlueConfig"),Object.defineProperty(t,"__esModule",{value:!0}),t.round2WrongConfig=t.round2CorrectConfig=t.round1CorrectWrong=t.round1CorrectConfig=t.SpineType=t.EleSpineName=void 0,function(e){e.Walk="walk2",e.WalkWithGun="walk",e.Chuiqi="chuiqi",e.Chailiwu="chai li wu",e.Chailiwu2="chai li wu2",e.chuipaopao="chuipaopao",e.chuipaopao2="chuipaopao2",e.chuipaopao2Huai="chuipaopao2-huai",e.daiji="daiji",e.gaoxing="gaoxing",e.ku="ku",e.kunhuo="kunhuo",e.kunhuo2="kunhuo2",e.qidai="qidai",e.zhanshi="zhanshi",e.zhanshi2="zhanshi2",e.naqiang="naqiang",e.kunhuoGun="kunhuo-kan",e.kunhuoGun1="kunhuo2-kan",e.kan="kan"}(i=t.EleSpineName||(t.EleSpineName={})),function(e){e.ce="xiang-ce",e.zheng="xiang-zhengmian"}(t.SpineType||(t.SpineType={}));var o=[{name:i.Chailiwu,loop:!1},{name:i.zhanshi,loop:!1},{name:i.zhanshi2,loop:!0,duration:3}];t.round1CorrectConfig=o;var r=[{name:i.Chailiwu2,loop:!1},{name:i.kunhuo,loop:!1},{name:i.kunhuo2,loop:!0,duration:2,func:function(){}}];t.round1CorrectWrong=r;var a=[{name:i.chuipaopao,loop:!1},{name:i.chuipaopao2,loop:!0,duration:2}];t.round2CorrectConfig=a;var u=[{name:i.chuipaopao,loop:!1},{name:i.chuipaopao2Huai,loop:!1},{name:i.kunhuoGun,loop:!1},{name:i.kunhuoGun1,loop:!0,duration:2}];t.round2WrongConfig=u,cc._RF.pop()},{}],QuizGameBlue:[function(e,n,t){"use strict";cc._RF.push(n,"c7650XNGAZPcq4FDqTvUswr","QuizGameBlue");var i,o=this&&this.__extends||(i=function(e,n){return(i=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,n){e.__proto__=n}||function(e,n){for(var t in n)Object.prototype.hasOwnProperty.call(n,t)&&(e[t]=n[t])})(e,n)},function(e,n){function t(){this.constructor=e}i(e,n),e.prototype=null===n?Object.create(n):(t.prototype=n.prototype,new t)}),r=this&&this.__decorate||function(e,n,t,i){var o,r=arguments.length,a=r<3?n:null===i?i=Object.getOwnPropertyDescriptor(n,t):i;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(e,n,t,i);else for(var u=e.length-1;u>=0;u--)(o=e[u])&&(a=(r<3?o(a):r>3?o(n,t,a):o(n,t))||a);return r>3&&a&&Object.defineProperty(n,t,a),a},a=this&&this.__awaiter||function(e,n,t,i){return new(t||(t=Promise))(function(o,r){function a(e){try{c(i.next(e))}catch(n){r(n)}}function u(e){try{c(i.throw(e))}catch(n){r(n)}}function c(e){var n;e.done?o(e.value):(n=e.value,n instanceof t?n:new t(function(e){e(n)})).then(a,u)}c((i=i.apply(e,n||[])).next())})},u=this&&this.__generator||function(e,n){var t,i,o,r,a={label:0,sent:function(){if(1&o[0])throw o[1];return o[1]},trys:[],ops:[]};return r={next:u(0),throw:u(1),return:u(2)},"function"==typeof Symbol&&(r[Symbol.iterator]=function(){return this}),r;function u(e){return function(n){return c([e,n])}}function c(r){if(t)throw new TypeError("Generator is already executing.");for(;a;)try{if(t=1,i&&(o=2&r[0]?i.return:r[0]?i.throw||((o=i.return)&&o.call(i),0):i.next)&&!(o=o.call(i,r[1])).done)return o;switch(i=0,o&&(r=[2&r[0],o.value]),r[0]){case 0:case 1:o=r;break;case 4:return a.label++,{value:r[1],done:!1};case 5:a.label++,i=r[1],r=[0];continue;case 7:r=a.ops.pop(),a.trys.pop();continue;default:if(!(o=(o=a.trys).length>0&&o[o.length-1])&&(6===r[0]||2===r[0])){a=0;continue}if(3===r[0]&&(!o||r[1]>o[0]&&r[1]<o[3])){a.label=r[1];break}if(6===r[0]&&a.label<o[1]){a.label=o[1],o=r;break}if(o&&a.label<o[2]){a.label=o[2],a.ops.push(r);break}o[2]&&a.ops.pop(),a.trys.pop();continue}r=n.call(e,a)}catch(u){r=[6,u],i=0}finally{t=o=0}if(5&r[0])throw r[1];return{value:r[0]?r[1]:void 0,done:!0}}};Object.defineProperty(t,"__esModule",{value:!0});var c=e("./../../../common/utils/SpineUtils"),s=e("../../../common/structure/CompEnum"),p=e("../../../kit/manager/ResourcesManager"),l=e("../../../kit/system/audio/AudioManager"),d=e("../../templateGame/scripts/TemplateGameBase"),h=e("./QuizGameBlueConfig"),f=cc._decorator,m=f.ccclass,S=f.property,y=function(e){function n(){var n=null!==e&&e.apply(this,arguments)||this;return n.eleSpine=null,n.cakeSpine=null,n.idlePosNode=null,n.iconOpen=null,n.decBox=null,n.decZhuozi=null,n.guidHand=null,n.decoNodes=[],n.targetPos1=null,n.selectTargetNode=null,n.selectCorrect=!1,n.guidFun=null,n}return o(n,e),n.prototype.start=function(){this.eleSpine.node.zIndex=100,this.roundNodeArr[2].zIndex=110,this.decBox.zIndex=101,this.decoNodes.map(function(e){return e.zIndex=102})},n.prototype.guidRound12=function(){this.roundNodeArr[this.curRoundIndex].children.map(function(e){cc.tween(e).call(function(){}).to(.15,{scale:1.1}).to(.15,{scale:.9}).to(.15,{scale:1.1}).to(.15,{scale:1}).start()})},n.prototype.openAniStart=function(){return a(this,void 0,void 0,function(){var e=this;return u(this,function(n){switch(n.label){case 0:switch(cc.log(" openAniStart =====this.curRoundIndex: ",this.curRoundIndex),this.curRoundIndex){case 0:return[3,1];case 1:return[3,3];case 2:return[3,4]}return[3,6];case 1:return[4,this.playOpenAniStart1()];case 2:return n.sent(),this.guidFun=this.guidRound12.bind(this),this.schedule(this.guidFun,5),[3,8];case 3:return this.playEleAnimation(h.EleSpineName.daiji,!0,1),this.guidFun=this.guidRound12.bind(this),this.schedule(this.guidFun,5),[3,8];case 4:return this.decBox.active=!0,[4,this.playOpenAniStart3()];case 5:return n.sent(),this.scheduleOnce(function(){e.guidHand.active=!1},2),[3,8];case 6:return this.decZhuozi.active=!0,[4,this.playOpenAniStart4()];case 7:return n.sent(),[3,8];case 8:return this.roundStateTypeChanged(s.RoundStateType.RoundOpenAniComplete),[2]}})})},n.prototype.roundStart=function(){e.prototype.roundStart.call(this),this.curRoundIndex==this.MaxRoundIndex-1||l.default.playEffect("quizGameBlue","audios/blue")},n.prototype.endAniStart=function(){return a(this,void 0,void 0,function(){var e,n,t,i=this;return u(this,function(o){switch(o.label){case 0:switch(console.log(" endAniStart  ===this.curRoundIndex: ",this.curRoundIndex),this.curRoundIndex){case 0:case 1:return[3,1];case 2:return[3,11];case 3:return[3,18]}return[3,29];case 1:return[4,this.changeSpine(h.SpineType.ce)];case 2:return o.sent(),this.playEleAnimation(h.EleSpineName.Walk,!0,-1),[4,this.move2TargetPos(cc.v3(this.targetPos1.x,this.eleSpine.node.y))];case 3:return o.sent(),[4,this.changeSpine(h.SpineType.zheng)];case 4:return o.sent(),e=0==this.curRoundIndex?"jiqiren":"huoche",this.eleSpine.setSkin(e),this.selectCorrect?[4,new Promise(function(e){i.eleSpine.node.scaleX=1,h.round1CorrectConfig[1].func=function(){i.selectTargetNode.active=!1;var e=cc.instantiate(i.iconOpen);e.parent=i.selectTargetNode.parent;var n=i.selectTargetNode.position;e.position=n.add(cc.v3(78))},c.SpineUtils.playSpineAniByConfig(i.eleSpine,h.round1CorrectConfig).then(function(){return e()})})]:[3,7];case 5:return o.sent(),[4,new Promise(function(e){i.eleMove2TargetPosWithAni(h.EleSpineName.Walk,i.idlePosNode.position,h.EleSpineName.daiji).then(function(){e()})})];case 6:return o.sent(),[3,10];case 7:return this.eleSpine.setSkin("moren"),this.scheduleOnce(function(){i.eleSpine.node.x=i.eleSpine.node.x-200,i.selectTargetNode.active=!1;var e=cc.instantiate(i.iconOpen);e.parent=i.selectTargetNode.parent;var n=i.selectTargetNode.position;e.position=n.add(cc.v3(78))},2.8),[4,new Promise(function(e){i.eleSpine.node.scaleX=1,c.SpineUtils.playSpineAniByConfig(i.eleSpine,h.round1CorrectWrong).then(function(){return e()})})];case 8:return o.sent(),[4,new Promise(function(e){i.eleMove2TargetPosWithAni(h.EleSpineName.Walk,i.idlePosNode.position,h.EleSpineName.daiji).then(function(){e()})})];case 9:o.sent(),o.label=10;case 10:return[3,30];case 11:return this.decBox.active=!1,this.eleSpine.setSkin("shuiqiang"),1!=this.curRoundResult.win?[3,13]:[4,new Promise(function(e){c.SpineUtils.playSpineAniByConfig(i.eleSpine,h.round2CorrectConfig).then(function(){return e()})})];case 12:return o.sent(),[3,15];case 13:return[4,new Promise(function(e){c.SpineUtils.playSpineAniByConfig(i.eleSpine,h.round2WrongConfig).then(function(){return e()})})];case 14:o.sent(),o.label=15;case 15:return[4,new Promise(function(e){i.eleMove2TargetPosWithAni(h.EleSpineName.WalkWithGun,i.idlePosNode.position,h.EleSpineName.daiji).then(function(){return e()})})];case 16:return o.sent(),[4,this.playEleAnimation(h.EleSpineName.daiji,!1,1)];case 17:return o.sent(),[3,30];case 18:return 1!=this.curRoundResult.win?[3,23]:[4,this.changeSpine(h.SpineType.ce)];case 19:return o.sent(),this.scheduleOnce(function(){i.cakeSpine.setAnimation(0,"lazhu-mie",!1),i.cakeSpine.addAnimation(0,"lazhu-mie2",!0)},1.2),[4,this.playEleAnimation(h.EleSpineName.Chuiqi,!1,-1)];case 20:return o.sent(),[4,this.changeSpine(h.SpineType.zheng)];case 21:return o.sent(),n=[{name:h.EleSpineName.gaoxing,loop:!0,duration:3}],[4,new Promise(function(e){c.SpineUtils.playSpineAniByConfig(i.eleSpine,n).then(function(){return e()})})];case 22:return o.sent(),[3,28];case 23:return[4,this.changeSpine(h.SpineType.ce)];case 24:return o.sent(),this.scheduleOnce(function(){i.cakeSpine.setAnimation(0,"lazhu-fei",!1)},1.2),[4,this.playEleAnimation(h.EleSpineName.Chuiqi,!1,-1)];case 25:return o.sent(),[4,this.changeSpine(h.SpineType.zheng)];case 26:return o.sent(),t=[{name:h.EleSpineName.kunhuo,loop:!1},{name:h.EleSpineName.kunhuo2,loop:!0,duration:3}],[4,new Promise(function(e){c.SpineUtils.playSpineAniByConfig(i.eleSpine,t).then(function(){return e()})})];case 27:o.sent(),o.label=28;case 28:case 29:return[3,30];case 30:return console.log(" endAniStart  ===this.curRoundIndex: 1111",this.curRoundIndex),this.roundStateTypeChanged(s.RoundStateType.RoundEndAniComplete),[2]}})})},n.prototype.startAudioCallFunc=function(){cc.log("QuizGameBlue start record!"),this.startRecordAudio("\u84dd\u8272","quizGameBlue","audios/blue")},n.prototype.onRecordResult=function(e){cc.log("onRecordResult ===== ",e),"ResultCb"==e.data.eventName&&(e.data.success?this.roundStateTypeChanged(s.RoundStateType.RoundComplete,{win:1}):this.roundStateTypeChanged(s.RoundStateType.RoundComplete,{win:0}))},n.prototype.playOpenAniStart1=function(){var e=this;return new Promise(function(n){e.eleMove2TargetPosWithAni(h.EleSpineName.Walk,e.idlePosNode.position,h.EleSpineName.daiji).then(function(){n()})})},n.prototype.playOpenAniStart3=function(){var e=this;return new Promise(function(n){return a(e,void 0,void 0,function(){var e,t;return u(this,function(i){switch(i.label){case 0:return this.eleSpine.setSkin("shuiqiang"),[4,this.playEleAnimation(h.EleSpineName.naqiang,!1,1)];case 1:return i.sent(),[4,this.changeSpine(h.SpineType.ce)];case 2:return i.sent(),e=this.decBox.position,t=this.eleSpine.node.x>e.x?1:-1,this.playEleAnimation(h.EleSpineName.WalkWithGun,!0,t),[4,this.move2TargetPos(cc.v3(e.x+50,this.eleSpine.node.y))];case 3:return i.sent(),[4,this.changeSpine(h.SpineType.zheng)];case 4:return i.sent(),[4,this.playEleAnimation(h.EleSpineName.kan,!1,t)];case 5:return i.sent(),this.playEleAnimation(h.EleSpineName.daiji,!0,1),n(),[2]}})})})},n.prototype.playOpenAniStart4=function(){var e=this;return new Promise(function(n){return a(e,void 0,void 0,function(){return u(this,function(){return this.eleSpine.setSkin("moren"),this.playEleAnimation(h.EleSpineName.daiji,!0,1),n(),[2]})})})},n.prototype.eleMove2TargetPosWithAni=function(e,n,t){return a(this,void 0,void 0,function(){var i;return u(this,function(o){switch(o.label){case 0:return[4,this.changeSpine(h.SpineType.ce)];case 1:return o.sent(),i=this.eleSpine.node.x>n.x?1:-1,this.playEleAnimation(e,!0,i),[4,this.move2TargetPos(n)];case 2:return o.sent(),[4,this.changeSpine(h.SpineType.zheng)];case 3:return o.sent(),this.playEleAnimation(t,!0,1),[2]}})})},n.prototype.playEleAnimation=function(e,n,t){var i=this;if(void 0===n&&(n=!0),void 0===t&&(t=1),!n)return new Promise(function(o){i.eleSpine.node.scaleX=t;var r=i.eleSpine.setAnimation(0,e,n);i.eleSpine.setTrackCompleteListener(r,function(){o()})});Promise.resolve().then(function(){i.eleSpine.node.scaleX=t,i.eleSpine.setAnimation(0,e,n)})},n.prototype.changeSpine=function(e){var n=this;return new Promise(function(t){p.default.instance.loadRes("quizGameBlue","spine/"+e,p.ResourceType.Normal,sp.SkeletonData,function(e,i){if(e)return cc.error(e),void t();n.eleSpine.skeletonData=i,t()})})},n.prototype.move2TargetPos=function(e){var n=this;return new Promise(function(t){var i=n.eleSpine.node.position.sub(e).len()/200;cc.tween(n.eleSpine.node).to(i,{position:e}).call(function(){t()}).start()})},n.prototype.itemTouchCall=function(e,n){if(this.curRoundStateType<s.RoundStateType.RoundStart)cc.log("round not start curRoundIndex\uff1a"+this.curRoundStateType);else{this.unschedule(this.guidFun);var t=e.currentTarget;this.selectTargetNode=t;var i=t.parent.convertToWorldSpaceAR(t.position);this.targetPos1=this.node.convertToNodeSpaceAR(i);var o=Number(n);this.selectCorrect=0==o,console.log(" ====this.selectCorrect: ",this.selectCorrect," n: ",o),0==o?(l.default.playEffect("quizGameBlue","audios/game_right"),this.roundStateTypeChanged(s.RoundStateType.RoundComplete,{win:1})):(l.default.playEffect("quizGameBlue","audios/game_error"),this.roundStateTypeChanged(s.RoundStateType.RoundComplete,{win:0})),this.roundNodeArr[this.curRoundIndex].children.map(function(e){var n=e.getComponent(cc.Button);n&&(n.interactable=!1)}),this.roundNodeArr[this.curRoundIndex].children.map(function(e){e!=t&&(e.active=!1)})}},r([S({type:sp.Skeleton,displayName:"\u5927\u8c61\u52a8\u753b"})],n.prototype,"eleSpine",void 0),r([S({type:sp.Skeleton,displayName:"\u86cb\u7cd5\u52a8\u753b"})],n.prototype,"cakeSpine",void 0),r([S({type:cc.Node,displayName:"\u5927\u8c61\u5f85\u673a\u4f4d\u7f6e"})],n.prototype,"idlePosNode",void 0),r([S(cc.Node)],n.prototype,"iconOpen",void 0),r([S(cc.Node)],n.prototype,"decBox",void 0),r([S(cc.Node)],n.prototype,"decZhuozi",void 0),r([S(cc.Node)],n.prototype,"guidHand",void 0),r([S([cc.Node])],n.prototype,"decoNodes",void 0),r([m],n)}(d.default);t.default=y,cc._RF.pop()},{"../../../common/structure/CompEnum":void 0,"../../../kit/manager/ResourcesManager":void 0,"../../../kit/system/audio/AudioManager":void 0,"../../templateGame/scripts/TemplateGameBase":void 0,"./../../../common/utils/SpineUtils":void 0,"./QuizGameBlueConfig":"QuizGameBlueConfig"}]},{},["QuizGameBlue","QuizGameBlueConfig"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  QuizGameBlueConfig: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "dfc74FCTL1A+I8Z3In/BxRL", "QuizGameBlueConfig");
+    "use strict";
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    exports.round2WrongConfig = exports.round2CorrectConfig = exports.round1CorrectWrong = exports.round1CorrectConfig = exports.QuizBlueSoundConfig = exports.SpineType = exports.EleSpineName = void 0;
+    var AudioManager_1 = require("../../../kit/system/audio/AudioManager");
+    var QuizGameBlue_1 = require("./QuizGameBlue");
+    var EleSpineName;
+    (function(EleSpineName) {
+      EleSpineName["Walk"] = "walk2";
+      EleSpineName["WalkWithGun"] = "walk";
+      EleSpineName["Chuiqi"] = "chuiqi";
+      EleSpineName["Chailiwu"] = "chai li wu";
+      EleSpineName["Chailiwu2"] = "chai li wu2";
+      EleSpineName["chuipaopao"] = "chuipaopao";
+      EleSpineName["chuipaopao2"] = "chuipaopao2";
+      EleSpineName["chuipaopao2Huai"] = "chuipaopao2-huai";
+      EleSpineName["daiji"] = "daiji";
+      EleSpineName["gaoxing"] = "gaoxing";
+      EleSpineName["ku"] = "ku";
+      EleSpineName["kunhuo"] = "kunhuo";
+      EleSpineName["kunhuo2"] = "kunhuo2";
+      EleSpineName["qidai"] = "qidai";
+      EleSpineName["zhanshi"] = "zhanshi";
+      EleSpineName["zhanshi2"] = "zhanshi2";
+      EleSpineName["naqiang"] = "naqiang";
+      EleSpineName["kunhuoGun"] = "kunhuo-kan";
+      EleSpineName["kunhuoGun1"] = "kunhuo2-kan";
+      EleSpineName["kan"] = "kan";
+    })(EleSpineName = exports.EleSpineName || (exports.EleSpineName = {}));
+    var SpineType;
+    (function(SpineType) {
+      SpineType["ce"] = "xiang-ce";
+      SpineType["zheng"] = "xiang-zhengmian";
+    })(SpineType = exports.SpineType || (exports.SpineType = {}));
+    var QuizBlueSoundConfig;
+    (function(QuizBlueSoundConfig) {
+      QuizBlueSoundConfig["BG"] = "audios/BGM_guoshengri_01";
+      QuizBlueSoundConfig["SE_guoshengri01"] = "audios/SE_guoshengri01";
+      QuizBlueSoundConfig["SE_guoshengri02"] = "audios/SE_guoshengri02";
+      QuizBlueSoundConfig["SE_guoshengri03"] = "audios/SE_guoshengri03";
+      QuizBlueSoundConfig["SE_guoshengri04"] = "audios/SE_guoshengri04";
+      QuizBlueSoundConfig["SE_guoshengri05"] = "audios/SE_guoshengri05";
+      QuizBlueSoundConfig["SE_guoshengri06"] = "audios/SE_guoshengri06";
+      QuizBlueSoundConfig["SE_guoshengri07"] = "audios/SE_guoshengri07";
+      QuizBlueSoundConfig["SE_guoshengri08"] = "audios/SE_guoshengri08";
+      QuizBlueSoundConfig["SE_guoshengri09"] = "audios/SE_guoshengri09";
+    })(QuizBlueSoundConfig = exports.QuizBlueSoundConfig || (exports.QuizBlueSoundConfig = {}));
+    var round1CorrectConfig = [ {
+      name: EleSpineName.Chailiwu,
+      loop: false,
+      func: function() {
+        AudioManager_1.default.playEffect(QuizGameBlue_1.QUIZGAMEBLUE, QuizBlueSoundConfig.SE_guoshengri02);
+      }
+    }, {
+      name: EleSpineName.zhanshi,
+      loop: false
+    }, {
+      name: EleSpineName.zhanshi2,
+      loop: true,
+      duration: 3,
+      func: function() {
+        AudioManager_1.default.playEffect(QuizGameBlue_1.QUIZGAMEBLUE, QuizBlueSoundConfig.SE_guoshengri03);
+      }
+    } ];
+    exports.round1CorrectConfig = round1CorrectConfig;
+    var round1CorrectWrong = [ {
+      name: EleSpineName.Chailiwu2,
+      loop: false,
+      func: function() {
+        AudioManager_1.default.playEffect(QuizGameBlue_1.QUIZGAMEBLUE, QuizBlueSoundConfig.SE_guoshengri02);
+      }
+    }, {
+      name: EleSpineName.kunhuo,
+      loop: false
+    }, {
+      name: EleSpineName.kunhuo2,
+      loop: true,
+      duration: 2,
+      func: function() {
+        AudioManager_1.default.playEffect(QuizGameBlue_1.QUIZGAMEBLUE, QuizBlueSoundConfig.SE_guoshengri07);
+      }
+    } ];
+    exports.round1CorrectWrong = round1CorrectWrong;
+    var round2CorrectConfig = [ {
+      name: EleSpineName.chuipaopao,
+      loop: false
+    }, {
+      name: EleSpineName.chuipaopao2,
+      loop: true,
+      duration: 2
+    } ];
+    exports.round2CorrectConfig = round2CorrectConfig;
+    var round2WrongConfig = [ {
+      name: EleSpineName.chuipaopao,
+      loop: false
+    }, {
+      name: EleSpineName.chuipaopao2Huai,
+      loop: false
+    }, {
+      name: EleSpineName.kunhuoGun,
+      loop: false
+    }, {
+      name: EleSpineName.kunhuoGun1,
+      loop: true,
+      duration: 2,
+      func: function() {
+        AudioManager_1.default.playEffect(QuizGameBlue_1.QUIZGAMEBLUE, QuizBlueSoundConfig.SE_guoshengri08);
+      }
+    } ];
+    exports.round2WrongConfig = round2WrongConfig;
+    cc._RF.pop();
+  }, {
+    "../../../kit/system/audio/AudioManager": void 0,
+    "./QuizGameBlue": "QuizGameBlue"
+  } ],
+  QuizGameBlue: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "c7650XNGAZPcq4FDqTvUswr", "QuizGameBlue");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
+      function adopt(value) {
+        return value instanceof P ? value : new P(function(resolve) {
+          resolve(value);
+        });
+      }
+      return new (P || (P = Promise))(function(resolve, reject) {
+        function fulfilled(value) {
+          try {
+            step(generator.next(value));
+          } catch (e) {
+            reject(e);
+          }
+        }
+        function rejected(value) {
+          try {
+            step(generator["throw"](value));
+          } catch (e) {
+            reject(e);
+          }
+        }
+        function step(result) {
+          result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
+        }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+      });
+    };
+    var __generator = this && this.__generator || function(thisArg, body) {
+      var _ = {
+        label: 0,
+        sent: function() {
+          if (1 & t[0]) throw t[1];
+          return t[1];
+        },
+        trys: [],
+        ops: []
+      }, f, y, t, g;
+      return g = {
+        next: verb(0),
+        throw: verb(1),
+        return: verb(2)
+      }, "function" === typeof Symbol && (g[Symbol.iterator] = function() {
+        return this;
+      }), g;
+      function verb(n) {
+        return function(v) {
+          return step([ n, v ]);
+        };
+      }
+      function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+          if (f = 1, y && (t = 2 & op[0] ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 
+          0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+          (y = 0, t) && (op = [ 2 & op[0], t.value ]);
+          switch (op[0]) {
+           case 0:
+           case 1:
+            t = op;
+            break;
+
+           case 4:
+            _.label++;
+            return {
+              value: op[1],
+              done: false
+            };
+
+           case 5:
+            _.label++;
+            y = op[1];
+            op = [ 0 ];
+            continue;
+
+           case 7:
+            op = _.ops.pop();
+            _.trys.pop();
+            continue;
+
+           default:
+            if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (6 === op[0] || 2 === op[0])) {
+              _ = 0;
+              continue;
+            }
+            if (3 === op[0] && (!t || op[1] > t[0] && op[1] < t[3])) {
+              _.label = op[1];
+              break;
+            }
+            if (6 === op[0] && _.label < t[1]) {
+              _.label = t[1];
+              t = op;
+              break;
+            }
+            if (t && _.label < t[2]) {
+              _.label = t[2];
+              _.ops.push(op);
+              break;
+            }
+            t[2] && _.ops.pop();
+            _.trys.pop();
+            continue;
+          }
+          op = body.call(thisArg, _);
+        } catch (e) {
+          op = [ 6, e ];
+          y = 0;
+        } finally {
+          f = t = 0;
+        }
+        if (5 & op[0]) throw op[1];
+        return {
+          value: op[0] ? op[1] : void 0,
+          done: true
+        };
+      }
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    exports.QUIZGAMEBLUE = void 0;
+    var SpineUtils_1 = require("./../../../common/utils/SpineUtils");
+    var CompEnum_1 = require("../../../common/structure/CompEnum");
+    var ResourcesManager_1 = require("../../../kit/manager/ResourcesManager");
+    var AudioManager_1 = require("../../../kit/system/audio/AudioManager");
+    var TemplateGameBase_1 = require("../../templateGame/scripts/TemplateGameBase");
+    var QuizGameBlueConfig_1 = require("./QuizGameBlueConfig");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    exports.QUIZGAMEBLUE = "quizGameBlue";
+    var MOVE_SPEED = 200;
+    var QuizGameBlue = function(_super) {
+      __extends(QuizGameBlue, _super);
+      function QuizGameBlue() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.eleSpine = null;
+        _this.cakeSpine = null;
+        _this.idlePosNode = null;
+        _this.iconOpen = null;
+        _this.decBox = null;
+        _this.decZhuozi = null;
+        _this.guidHand = null;
+        _this.decoNodes = [];
+        _this.targetPos1 = null;
+        _this.selectTargetNode = null;
+        _this.selectCorrect = false;
+        _this.guidFun = null;
+        return _this;
+      }
+      QuizGameBlue.prototype.start = function() {
+        this.eleSpine.node.zIndex = 100;
+        this.roundNodeArr[2].zIndex = 110;
+        this.decBox.zIndex = 101;
+        this.decoNodes.map(function(node) {
+          return node.zIndex = 102;
+        });
+        AudioManager_1.default.playMusic(exports.QUIZGAMEBLUE, QuizGameBlueConfig_1.QuizBlueSoundConfig.BG);
+      };
+      QuizGameBlue.prototype.guidRound12 = function() {
+        var nodeArr = this.roundNodeArr[this.curRoundIndex].children;
+        nodeArr.map(function(node) {
+          cc.tween(node).call(function() {}).to(.15, {
+            scale: 1.1
+          }).to(.15, {
+            scale: .9
+          }).to(.15, {
+            scale: 1.1
+          }).to(.15, {
+            scale: 1
+          }).start();
+        });
+      };
+      QuizGameBlue.prototype.openAniStart = function() {
+        return __awaiter(this, void 0, void 0, function() {
+          var _a;
+          var _this = this;
+          return __generator(this, function(_b) {
+            switch (_b.label) {
+             case 0:
+              cc.log(" openAniStart =====this.curRoundIndex: ", this.curRoundIndex);
+              _a = this.curRoundIndex;
+              switch (_a) {
+               case 0:
+                return [ 3, 1 ];
+
+               case 1:
+                return [ 3, 3 ];
+
+               case 2:
+                return [ 3, 4 ];
+              }
+              return [ 3, 6 ];
+
+             case 1:
+              return [ 4, this.playOpenAniStart1() ];
+
+             case 2:
+              _b.sent();
+              this.guidFun = this.guidRound12.bind(this);
+              this.schedule(this.guidFun, 5);
+              return [ 3, 8 ];
+
+             case 3:
+              this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.daiji, true, 1);
+              this.guidFun = this.guidRound12.bind(this);
+              this.schedule(this.guidFun, 5);
+              return [ 3, 8 ];
+
+             case 4:
+              this.decBox.active = true;
+              return [ 4, this.playOpenAniStart3() ];
+
+             case 5:
+              _b.sent();
+              this.scheduleOnce(function() {
+                _this.guidHand.active = false;
+              }, 2);
+              return [ 3, 8 ];
+
+             case 6:
+              this.decZhuozi.active = true;
+              return [ 4, this.playOpenAniStart4() ];
+
+             case 7:
+              _b.sent();
+              return [ 3, 8 ];
+
+             case 8:
+              this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundOpenAniComplete);
+              return [ 2 ];
+            }
+          });
+        });
+      };
+      QuizGameBlue.prototype.roundStart = function() {
+        _super.prototype.roundStart.call(this);
+        this.curRoundIndex == this.MaxRoundIndex - 1 || AudioManager_1.default.playEffect(exports.QUIZGAMEBLUE, "audios/blue");
+      };
+      QuizGameBlue.prototype.endAniStart = function() {
+        return __awaiter(this, void 0, void 0, function() {
+          var _a, skinName, round3CorrectConfig_1, round3WrongConfig_1;
+          var _this = this;
+          return __generator(this, function(_b) {
+            switch (_b.label) {
+             case 0:
+              console.log(" endAniStart  ===this.curRoundIndex: ", this.curRoundIndex);
+              _a = this.curRoundIndex;
+              switch (_a) {
+               case 0:
+               case 1:
+                return [ 3, 1 ];
+
+               case 2:
+                return [ 3, 11 ];
+
+               case 3:
+                return [ 3, 18 ];
+              }
+              return [ 3, 29 ];
+
+             case 1:
+              return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.ce) ];
+
+             case 2:
+              _b.sent();
+              this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.Walk, true, -1);
+              this.playWalkSound(true);
+              return [ 4, this.move2TargetPos(cc.v3(this.targetPos1.x, this.eleSpine.node.y)) ];
+
+             case 3:
+              _b.sent();
+              this.playWalkSound(false);
+              return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.zheng) ];
+
+             case 4:
+              _b.sent();
+              skinName = 0 == this.curRoundIndex ? "jiqiren" : "huoche";
+              this.eleSpine.setSkin(skinName);
+              if (!this.selectCorrect) return [ 3, 7 ];
+              return [ 4, new Promise(function(resolve, reject) {
+                _this.eleSpine.node.scaleX = 1;
+                QuizGameBlueConfig_1.round1CorrectConfig[1].func = function() {
+                  _this.selectTargetNode.active = false;
+                  var node = cc.instantiate(_this.iconOpen);
+                  node.parent = _this.selectTargetNode.parent;
+                  var pos = _this.selectTargetNode.position;
+                  node.position = pos.add(cc.v3(78));
+                };
+                SpineUtils_1.SpineUtils.playSpineAniByConfig(_this.eleSpine, QuizGameBlueConfig_1.round1CorrectConfig).then(function() {
+                  return resolve();
+                });
+              }) ];
+
+             case 5:
+              _b.sent();
+              return [ 4, new Promise(function(resolve, reject) {
+                _this.playWalkSound(true);
+                _this.eleMove2TargetPosWithAni(QuizGameBlueConfig_1.EleSpineName.Walk, _this.idlePosNode.position, QuizGameBlueConfig_1.EleSpineName.daiji).then(function() {
+                  _this.playWalkSound(false);
+                  resolve();
+                });
+              }) ];
+
+             case 6:
+              _b.sent();
+              return [ 3, 10 ];
+
+             case 7:
+              this.eleSpine.setSkin("moren");
+              this.scheduleOnce(function() {
+                _this.eleSpine.node.x = _this.eleSpine.node.x - 200;
+                _this.selectTargetNode.active = false;
+                var node = cc.instantiate(_this.iconOpen);
+                node.parent = _this.selectTargetNode.parent;
+                var pos = _this.selectTargetNode.position;
+                node.position = pos.add(cc.v3(78));
+              }, 2.8);
+              return [ 4, new Promise(function(resolve, reject) {
+                _this.eleSpine.node.scaleX = 1;
+                SpineUtils_1.SpineUtils.playSpineAniByConfig(_this.eleSpine, QuizGameBlueConfig_1.round1CorrectWrong).then(function() {
+                  return resolve();
+                });
+              }) ];
+
+             case 8:
+              _b.sent();
+              return [ 4, new Promise(function(resolve, reject) {
+                _this.playWalkSound(true);
+                _this.eleMove2TargetPosWithAni(QuizGameBlueConfig_1.EleSpineName.Walk, _this.idlePosNode.position, QuizGameBlueConfig_1.EleSpineName.daiji).then(function() {
+                  _this.playWalkSound(false);
+                  resolve();
+                });
+              }) ];
+
+             case 9:
+              _b.sent();
+              _b.label = 10;
+
+             case 10:
+              return [ 3, 30 ];
+
+             case 11:
+              this.decBox.active = false;
+              this.eleSpine.setSkin("shuiqiang");
+              if (!(1 == this.curRoundResult.win)) return [ 3, 13 ];
+              this.scheduleOnce(function() {
+                AudioManager_1.default.playLoopEffect(exports.QUIZGAMEBLUE, QuizGameBlueConfig_1.QuizBlueSoundConfig.SE_guoshengri04);
+              }, .5);
+              return [ 4, new Promise(function(resolve, reject) {
+                SpineUtils_1.SpineUtils.playSpineAniByConfig(_this.eleSpine, QuizGameBlueConfig_1.round2CorrectConfig).then(function() {
+                  return resolve();
+                });
+              }) ];
+
+             case 12:
+              _b.sent();
+              AudioManager_1.default.stopLoopEffect(exports.QUIZGAMEBLUE, QuizGameBlueConfig_1.QuizBlueSoundConfig.SE_guoshengri04);
+              return [ 3, 15 ];
+
+             case 13:
+              return [ 4, new Promise(function(resolve, reject) {
+                SpineUtils_1.SpineUtils.playSpineAniByConfig(_this.eleSpine, QuizGameBlueConfig_1.round2WrongConfig).then(function() {
+                  return resolve();
+                });
+              }) ];
+
+             case 14:
+              _b.sent();
+              _b.label = 15;
+
+             case 15:
+              return [ 4, new Promise(function(resolve, reject) {
+                _this.playWalkSound(true);
+                _this.eleMove2TargetPosWithAni(QuizGameBlueConfig_1.EleSpineName.WalkWithGun, _this.idlePosNode.position, QuizGameBlueConfig_1.EleSpineName.daiji).then(function() {
+                  _this.playWalkSound(false);
+                  resolve();
+                });
+              }) ];
+
+             case 16:
+              _b.sent();
+              return [ 4, this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.daiji, false, 1) ];
+
+             case 17:
+              _b.sent();
+              return [ 3, 30 ];
+
+             case 18:
+              if (!(1 == this.curRoundResult.win)) return [ 3, 23 ];
+              return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.ce) ];
+
+             case 19:
+              _b.sent();
+              this.scheduleOnce(function() {
+                _this.cakeSpine.setAnimation(0, "lazhu-mie", false);
+                _this.cakeSpine.addAnimation(0, "lazhu-mie2", true);
+              }, 1.2);
+              this.scheduleOnce(function() {
+                AudioManager_1.default.playEffect(exports.QUIZGAMEBLUE, QuizGameBlueConfig_1.QuizBlueSoundConfig.SE_guoshengri05);
+              }, .8);
+              return [ 4, this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.Chuiqi, false, -1) ];
+
+             case 20:
+              _b.sent();
+              return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.zheng) ];
+
+             case 21:
+              _b.sent();
+              round3CorrectConfig_1 = [ {
+                name: QuizGameBlueConfig_1.EleSpineName.gaoxing,
+                loop: true,
+                duration: 3,
+                func: function() {
+                  AudioManager_1.default.playEffect(exports.QUIZGAMEBLUE, QuizGameBlueConfig_1.QuizBlueSoundConfig.SE_guoshengri06);
+                }
+              } ];
+              return [ 4, new Promise(function(resolve, reject) {
+                SpineUtils_1.SpineUtils.playSpineAniByConfig(_this.eleSpine, round3CorrectConfig_1).then(function() {
+                  return resolve();
+                });
+              }) ];
+
+             case 22:
+              _b.sent();
+              return [ 3, 28 ];
+
+             case 23:
+              return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.ce) ];
+
+             case 24:
+              _b.sent();
+              this.scheduleOnce(function() {
+                _this.cakeSpine.setAnimation(0, "lazhu-fei", false);
+              }, 1.2);
+              this.scheduleOnce(function() {
+                AudioManager_1.default.playEffect(exports.QUIZGAMEBLUE, QuizGameBlueConfig_1.QuizBlueSoundConfig.SE_guoshengri09);
+              }, .4);
+              return [ 4, this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.Chuiqi, false, -1) ];
+
+             case 25:
+              _b.sent();
+              return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.zheng) ];
+
+             case 26:
+              _b.sent();
+              round3WrongConfig_1 = [ {
+                name: QuizGameBlueConfig_1.EleSpineName.kunhuo,
+                loop: false
+              }, {
+                name: QuizGameBlueConfig_1.EleSpineName.kunhuo2,
+                loop: true,
+                duration: 3
+              } ];
+              return [ 4, new Promise(function(resolve, reject) {
+                SpineUtils_1.SpineUtils.playSpineAniByConfig(_this.eleSpine, round3WrongConfig_1).then(function() {
+                  return resolve();
+                });
+              }) ];
+
+             case 27:
+              _b.sent();
+              _b.label = 28;
+
+             case 28:
+             case 29:
+              return [ 3, 30 ];
+
+             case 30:
+              console.log(" endAniStart  ===this.curRoundIndex: 1111", this.curRoundIndex);
+              this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundEndAniComplete);
+              return [ 2 ];
+            }
+          });
+        });
+      };
+      QuizGameBlue.prototype.startAudioCallFunc = function() {
+        var _this = this;
+        cc.log("QuizGameBlue start record!");
+        this.startRecordAudio("\u84dd\u8272", exports.QUIZGAMEBLUE, "audios/blue");
+        false;
+      };
+      QuizGameBlue.prototype.onRecordResult = function(result) {
+        cc.log("onRecordResult ===== ", result);
+        "ResultCb" == result.data.eventName && (result.data.success ? this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundComplete, {
+          win: 1
+        }) : this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundComplete, {
+          win: 0
+        }));
+      };
+      QuizGameBlue.prototype.playOpenAniStart1 = function() {
+        var _this = this;
+        return new Promise(function(resolve, reject) {
+          _this.playWalkSound(true);
+          _this.eleMove2TargetPosWithAni(QuizGameBlueConfig_1.EleSpineName.Walk, _this.idlePosNode.position, QuizGameBlueConfig_1.EleSpineName.daiji).then(function() {
+            _this.playWalkSound(false);
+            resolve();
+          });
+        });
+      };
+      QuizGameBlue.prototype.playOpenAniStart3 = function() {
+        var _this = this;
+        return new Promise(function(resolve, reject) {
+          return __awaiter(_this, void 0, void 0, function() {
+            var pos, scaleX;
+            return __generator(this, function(_a) {
+              switch (_a.label) {
+               case 0:
+                this.eleSpine.setSkin("shuiqiang");
+                return [ 4, this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.naqiang, false, 1) ];
+
+               case 1:
+                _a.sent();
+                return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.ce) ];
+
+               case 2:
+                _a.sent();
+                pos = this.decBox.position;
+                scaleX = this.eleSpine.node.x > pos.x ? 1 : -1;
+                this.playWalkSound(true);
+                this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.WalkWithGun, true, scaleX);
+                return [ 4, this.move2TargetPos(cc.v3(pos.x + 50, this.eleSpine.node.y)) ];
+
+               case 3:
+                _a.sent();
+                this.playWalkSound(false);
+                return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.zheng) ];
+
+               case 4:
+                _a.sent();
+                return [ 4, this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.kan, false, scaleX) ];
+
+               case 5:
+                _a.sent();
+                this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.daiji, true, 1);
+                resolve();
+                return [ 2 ];
+              }
+            });
+          });
+        });
+      };
+      QuizGameBlue.prototype.playOpenAniStart4 = function() {
+        var _this = this;
+        return new Promise(function(resolve, reject) {
+          return __awaiter(_this, void 0, void 0, function() {
+            return __generator(this, function(_a) {
+              this.eleSpine.setSkin("moren");
+              this.playEleAnimation(QuizGameBlueConfig_1.EleSpineName.daiji, true, 1);
+              resolve();
+              return [ 2 ];
+            });
+          });
+        });
+      };
+      QuizGameBlue.prototype.eleMove2TargetPosWithAni = function(moveAniName, pos, stayAniName) {
+        return __awaiter(this, void 0, void 0, function() {
+          var scaleX;
+          return __generator(this, function(_a) {
+            switch (_a.label) {
+             case 0:
+              return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.ce) ];
+
+             case 1:
+              _a.sent();
+              scaleX = this.eleSpine.node.x > pos.x ? 1 : -1;
+              this.playEleAnimation(moveAniName, true, scaleX);
+              return [ 4, this.move2TargetPos(pos) ];
+
+             case 2:
+              _a.sent();
+              return [ 4, this.changeSpine(QuizGameBlueConfig_1.SpineType.zheng) ];
+
+             case 3:
+              _a.sent();
+              this.playEleAnimation(stayAniName, true, 1);
+              return [ 2 ];
+            }
+          });
+        });
+      };
+      QuizGameBlue.prototype.playEleAnimation = function(aniName, loop, scale) {
+        var _this = this;
+        void 0 === loop && (loop = true);
+        void 0 === scale && (scale = 1);
+        if (!loop) return new Promise(function(resolve, reject) {
+          _this.eleSpine.node.scaleX = scale;
+          var le = _this.eleSpine.setAnimation(0, aniName, loop);
+          _this.eleSpine.setTrackCompleteListener(le, function() {
+            resolve();
+          });
+        });
+        Promise.resolve().then(function() {
+          _this.eleSpine.node.scaleX = scale;
+          var le = _this.eleSpine.setAnimation(0, aniName, loop);
+        });
+      };
+      QuizGameBlue.prototype.changeSpine = function(spineName) {
+        var _this = this;
+        return new Promise(function(resolve, reject) {
+          ResourcesManager_1.default.instance.loadRes(exports.QUIZGAMEBLUE, "spine/" + spineName, ResourcesManager_1.ResourceType.Normal, sp.SkeletonData, function(err, res) {
+            if (err) {
+              cc.error(err);
+              resolve();
+              return;
+            }
+            _this.eleSpine.skeletonData = res;
+            resolve();
+          });
+        });
+      };
+      QuizGameBlue.prototype.move2TargetPos = function(pos) {
+        var _this = this;
+        return new Promise(function(resolve, reject) {
+          var p = _this.eleSpine.node.position;
+          var len = p.sub(pos).len();
+          var time = len / MOVE_SPEED;
+          cc.tween(_this.eleSpine.node).to(time, {
+            position: pos
+          }).call(function() {
+            resolve();
+          }).start();
+        });
+      };
+      QuizGameBlue.prototype.itemTouchCall = function(event, data) {
+        if (this.curRoundStateType < CompEnum_1.RoundStateType.RoundStart) {
+          cc.log("round not start curRoundIndex\uff1a" + this.curRoundStateType);
+          return;
+        }
+        this.unschedule(this.guidFun);
+        var target = event.currentTarget;
+        this.selectTargetNode = target;
+        var worldPos = target.parent.convertToWorldSpaceAR(target.position);
+        this.targetPos1 = this.node.convertToNodeSpaceAR(worldPos);
+        var n = Number(data);
+        this.selectCorrect = 0 == n;
+        console.log(" ====this.selectCorrect: ", this.selectCorrect, " n: ", n);
+        if (0 == n) {
+          AudioManager_1.default.playEffect(exports.QUIZGAMEBLUE, "audios/game_right");
+          this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundComplete, {
+            win: 1
+          });
+        } else {
+          AudioManager_1.default.playEffect(exports.QUIZGAMEBLUE, "audios/game_error");
+          this.roundStateTypeChanged(CompEnum_1.RoundStateType.RoundComplete, {
+            win: 0
+          });
+        }
+        this.roundNodeArr[this.curRoundIndex].children.map(function(node) {
+          var btn = node.getComponent(cc.Button);
+          btn && (btn.interactable = false);
+        });
+        var nodeArr = this.roundNodeArr[this.curRoundIndex].children;
+        nodeArr.map(function(node) {
+          node != target && (node.active = false);
+        });
+      };
+      QuizGameBlue.prototype.playWalkSound = function(play) {
+        void 0 === play && (play = true);
+        play ? AudioManager_1.default.playLoopEffect(exports.QUIZGAMEBLUE, QuizGameBlueConfig_1.QuizBlueSoundConfig.SE_guoshengri01) : AudioManager_1.default.stopLoopEffect(exports.QUIZGAMEBLUE, QuizGameBlueConfig_1.QuizBlueSoundConfig.SE_guoshengri01);
+      };
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u5927\u8c61\u52a8\u753b"
+      }) ], QuizGameBlue.prototype, "eleSpine", void 0);
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u86cb\u7cd5\u52a8\u753b"
+      }) ], QuizGameBlue.prototype, "cakeSpine", void 0);
+      __decorate([ property({
+        type: cc.Node,
+        displayName: "\u5927\u8c61\u5f85\u673a\u4f4d\u7f6e"
+      }) ], QuizGameBlue.prototype, "idlePosNode", void 0);
+      __decorate([ property(cc.Node) ], QuizGameBlue.prototype, "iconOpen", void 0);
+      __decorate([ property(cc.Node) ], QuizGameBlue.prototype, "decBox", void 0);
+      __decorate([ property(cc.Node) ], QuizGameBlue.prototype, "decZhuozi", void 0);
+      __decorate([ property(cc.Node) ], QuizGameBlue.prototype, "guidHand", void 0);
+      __decorate([ property([ cc.Node ]) ], QuizGameBlue.prototype, "decoNodes", void 0);
+      QuizGameBlue = __decorate([ ccclass ], QuizGameBlue);
+      return QuizGameBlue;
+    }(TemplateGameBase_1.default);
+    exports.default = QuizGameBlue;
+    cc._RF.pop();
+  }, {
+    "../../../common/structure/CompEnum": void 0,
+    "../../../kit/manager/ResourcesManager": void 0,
+    "../../../kit/system/audio/AudioManager": void 0,
+    "../../templateGame/scripts/TemplateGameBase": void 0,
+    "./../../../common/utils/SpineUtils": void 0,
+    "./QuizGameBlueConfig": "QuizGameBlueConfig"
+  } ]
+}, {}, [ "QuizGameBlue", "QuizGameBlueConfig" ]);

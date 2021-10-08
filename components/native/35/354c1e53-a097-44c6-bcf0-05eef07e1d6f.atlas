@@ -1,0 +1,13 @@
+
+touxiang.png
+size: 186,186
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+touxiang
+  rotate: false
+  xy: 2, 15
+  size: 182, 169
+  orig: 184, 171
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "2fMYXHEchLxJa8eYO0OW37"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "r_tigo",
+      "rect": [
+        1,
+        0,
+        99,
+        133
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        100,
+        133
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

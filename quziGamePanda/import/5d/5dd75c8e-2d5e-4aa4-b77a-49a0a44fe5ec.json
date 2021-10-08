@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "21wJMKe4BA0pFJH3l/VeOz"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "anban",
+      "rect": [
+        0,
+        0,
+        1243,
+        677
+      ],
+      "offset": [
+        -5.5,
+        2.5
+      ],
+      "originalSize": [
+        1254,
+        682
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

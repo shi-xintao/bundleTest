@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "1fce7212d"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "shading_lessonlock",
+      "rect": [
+        441,
+        333,
+        432,
+        324
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        432,
+        324
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

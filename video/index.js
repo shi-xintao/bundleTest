@@ -1,1 +1,270 @@
-window.__require=function t(e,o,i){function n(s,d){if(!o[s]){if(!e[s]){var c=s.split("/");if(c=c[c.length-1],!e[c]){var h="function"==typeof __require&&__require;if(!d&&h)return h(c,!0);if(r)return r(c,!0);throw new Error("Cannot find module '"+s+"'")}s=c}var a=o[s]={exports:{}};e[s][0].call(a.exports,function(t){return n(e[s][1][t]||t)},a,a.exports,t,e,o,i)}return o[s].exports}for(var r="function"==typeof __require&&__require,s=0;s<i.length;s++)n(i[s]);return n}({videoCr:[function(t,e,o){"use strict";cc._RF.push(e,"a9468vmiftPprCBCCYXY4dd","videoCr");var i,n=this&&this.__extends||(i=function(t,e){return(i=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}i(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,i){var n,r=arguments.length,s=r<3?e:null===i?i=Object.getOwnPropertyDescriptor(e,o):i;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,i);else for(var d=t.length-1;d>=0;d--)(n=t[d])&&(s=(r<3?n(s):r>3?n(e,o,s):n(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var s=cc._decorator,d=s.ccclass,c=(s.property,function(t){function e(){return null!==t&&t.apply(this,arguments)||this}return n(e,t),e.prototype.start=function(){this.node.on("touchend",this.showControl,this)},e.prototype.onEnable=function(){var t=this;this.scheduleOnce(function(){return t.showControl()},5)},e.prototype.showControl=function(){var t=this;255==this.node.opacity?this.node.opacity=0:this.node.opacity=255,this.unscheduleAllCallbacks(),this.scheduleOnce(function(){return t.hide()},5)},e.prototype.hide=function(){255==this.node.opacity&&(this.node.opacity=0)},e.prototype.show=function(){this.node.opacity,this.unscheduleAllCallbacks()},e.prototype.schHide=function(){var t=this;this.scheduleOnce(function(){return t.hide()},5)},r([d],e)}(cc.Component));o.default=c,cc._RF.pop()},{}],videoPlayerMgr:[function(t,e,o){"use strict";cc._RF.push(e,"750d0LMo3VLmpqvyHoP0WsR","videoPlayerMgr");var i,n=this&&this.__extends||(i=function(t,e){return(i=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}i(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,i){var n,r=arguments.length,s=r<3?e:null===i?i=Object.getOwnPropertyDescriptor(e,o):i;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,i);else for(var d=t.length-1;d>=0;d--)(n=t[d])&&(s=(r<3?n(s):r>3?n(e,o,s):n(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var s=t("../../kit/events/events"),d=t("../../kit/system/event/EventSystem"),c=t("../../kit/system/timer/TimerSystem");cc.macro.ENABLE_TRANSPARENT_CANVAS=!0;var h=cc._decorator,a=h.ccclass,p=h.property,l=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.video=null,e.progress=null,e.videoControl=null,e.slider=null,e.curTime=null,e.maxTime=null,e.pauseBtn=null,e.resumeBtn=null,e.handelBtn=null,e.progressMax=0,e}return n(e,t),e.prototype.onLoad=function(){this.regisEvent(),this.videoControl.active=!1},e.prototype.loadVideo=function(t){var e=this,o=cc.assetManager.getBundle("video");c.default.instance.doFrameOnce(1,function(){o.load(t.data.url,function(t,o){e.video.clip=o})})},e.prototype.start=function(){},e.prototype.regisEvent=function(){this.video.node.on("ready-to-play",this.videoReady,this),this.video.node.on("meta-loaded",this.videoLoaded,this),this.video.node.on("playing",this.videoPlaying,this),this.video.node.on("paused",this.videoPaused,this),this.video.node.on("completed",this.videoCompleted,this),this.slider.node.on("slide",this.changeProgress,this),this.handelBtn.on("touchstart",this.handelBtn_start,this),this.handelBtn.on("touchend",this.handelBtn_end,this),this.handelBtn.on("touchcancel",this.handelBtn_cancel,this),d.default.on(s.LIFE_CYCLE_BLOCK,this.videoPause,this),d.default.on(s.LIFE_CYCLE_PARAMS,this.loadVideo,this),d.default.on(s.LIFE_CYCLE_UNBLOCK,this.videoResume,this)},e.prototype.videoReady=function(){this.video.play(),this.videoControl.active=!0,d.default.emit(s.LIFE_CYCLE_READY)},e.prototype.setProgress=function(){this.video.currentTime+=.01,this.slider.progress=this.video.currentTime/this.progressMax,this.progress.getComponent(cc.ProgressBar).progress=this.slider.progress,this.curTime.string=this.secondToDate(this.video.currentTime)},e.prototype.videoLoaded=function(){this.progressMax=this.video.getDuration(),console.log("video time ==== "+this.video.getDuration()),this.maxTime.string="/"+this.secondToDate(this.progressMax)},e.prototype.videoPlaying=function(){},e.prototype.videoPaused=function(){},e.prototype.videoCompleted=function(){d.default.emit(s.LIFE_CYCLE_COMPLETE)},e.prototype.videoPause=function(){this.video.pause(),this.pauseBtn.active=!1,this.resumeBtn.active=!0},e.prototype.videoResume=function(){this.video.play(),this.pauseBtn.active=!0,this.resumeBtn.active=!1},e.prototype.secondToDate=function(t){return(Math.floor(t/60%60)<10?"0"+Math.floor(t/60%60):Math.floor(t/60%60))+":"+(Math.floor(t%60)<10?"0"+Math.floor(t%60):Math.floor(t%60))},e.prototype.handelBtn_start=function(){this.videoControl.getComponent("videoCr").show()},e.prototype.handelBtn_end=function(){this.videoControl.getComponent("videoCr").schHide()},e.prototype.handelBtn_cancel=function(){this.videoControl.getComponent("videoCr").schHide()},e.prototype.update=function(){this.slider.progress=this.video.currentTime/this.progressMax,this.progress.getComponent(cc.ProgressBar).progress=this.slider.progress,this.curTime.string=this.secondToDate(this.video.currentTime)},e.prototype.onDestroy=function(){d.default.off(s.LIFE_CYCLE_BLOCK,this.videoPause,this),d.default.off(s.LIFE_CYCLE_PARAMS,this.loadVideo,this),d.default.off(s.LIFE_CYCLE_UNBLOCK,this.videoResume,this),this.video.node&&cc.isValid(this.video.node)&&(this.video.node.off("ready-to-play",this.videoReady,this),this.video.node.off("meta-loaded",this.videoLoaded,this),this.video.node.off("playing",this.videoPlaying,this),this.video.node.off("paused",this.videoPaused,this),this.video.node.off("completed",this.videoCompleted,this),this.handelBtn.off("touchstart",this.handelBtn_start,this),this.handelBtn.off("touchend",this.handelBtn_end,this),this.handelBtn.off("touchcancel",this.handelBtn_cancel,this))},e.prototype.changeProgress=function(){this.progress.getComponent(cc.ProgressBar).progress=this.slider.progress,this.video.currentTime=this.slider.progress*this.progressMax},r([p(cc.VideoPlayer)],e.prototype,"video",void 0),r([p(cc.Node)],e.prototype,"progress",void 0),r([p(cc.Node)],e.prototype,"videoControl",void 0),r([p(cc.Slider)],e.prototype,"slider",void 0),r([p(cc.Label)],e.prototype,"curTime",void 0),r([p(cc.Label)],e.prototype,"maxTime",void 0),r([p(cc.Node)],e.prototype,"pauseBtn",void 0),r([p(cc.Node)],e.prototype,"resumeBtn",void 0),r([p(cc.Node)],e.prototype,"handelBtn",void 0),r([a],e)}(cc.Component);o.default=l,cc._RF.pop()},{"../../kit/events/events":void 0,"../../kit/system/event/EventSystem":void 0,"../../kit/system/timer/TimerSystem":void 0}]},{},["videoCr","videoPlayerMgr"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  videoCr: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "a9468vmiftPprCBCCYXY4dd", "videoCr");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var videoCr = function(_super) {
+      __extends(videoCr, _super);
+      function videoCr() {
+        return null !== _super && _super.apply(this, arguments) || this;
+      }
+      videoCr.prototype.start = function() {
+        this.node.on("touchend", this.showControl, this);
+      };
+      videoCr.prototype.onEnable = function() {
+        var _this = this;
+        this.scheduleOnce(function() {
+          return _this.showControl();
+        }, 5);
+      };
+      videoCr.prototype.showControl = function() {
+        var _this = this;
+        255 == this.node.opacity ? this.node.opacity = 0 : this.node.opacity = 255;
+        this.unscheduleAllCallbacks();
+        this.scheduleOnce(function() {
+          return _this.hide();
+        }, 5);
+      };
+      videoCr.prototype.hide = function() {
+        255 == this.node.opacity && (this.node.opacity = 0);
+      };
+      videoCr.prototype.show = function() {
+        255 == this.node.opacity;
+        this.unscheduleAllCallbacks();
+      };
+      videoCr.prototype.schHide = function() {
+        var _this = this;
+        this.scheduleOnce(function() {
+          return _this.hide();
+        }, 5);
+      };
+      videoCr = __decorate([ ccclass ], videoCr);
+      return videoCr;
+    }(cc.Component);
+    exports.default = videoCr;
+    cc._RF.pop();
+  }, {} ],
+  videoPlayerMgr: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "750d0LMo3VLmpqvyHoP0WsR", "videoPlayerMgr");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var events_1 = require("../../kit/events/events");
+    var EventSystem_1 = require("../../kit/system/event/EventSystem");
+    var TimerSystem_1 = require("../../kit/system/timer/TimerSystem");
+    cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var VideoPlayerMgr = function(_super) {
+      __extends(VideoPlayerMgr, _super);
+      function VideoPlayerMgr() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.video = null;
+        _this.progress = null;
+        _this.videoControl = null;
+        _this.slider = null;
+        _this.curTime = null;
+        _this.maxTime = null;
+        _this.pauseBtn = null;
+        _this.resumeBtn = null;
+        _this.handelBtn = null;
+        _this.progressMax = 0;
+        return _this;
+      }
+      VideoPlayerMgr.prototype.onLoad = function() {
+        this.regisEvent();
+        this.videoControl.active = false;
+      };
+      VideoPlayerMgr.prototype.loadVideo = function(data) {
+        var _this = this;
+        var bundle = cc.assetManager.getBundle("video");
+        TimerSystem_1.default.instance.doFrameOnce(1, function() {
+          bundle.load(data.data.url, function(error, video) {
+            _this.video.clip = video;
+          });
+        });
+      };
+      VideoPlayerMgr.prototype.start = function() {};
+      VideoPlayerMgr.prototype.regisEvent = function() {
+        this.video.node.on("ready-to-play", this.videoReady, this);
+        this.video.node.on("meta-loaded", this.videoLoaded, this);
+        this.video.node.on("playing", this.videoPlaying, this);
+        this.video.node.on("paused", this.videoPaused, this);
+        this.video.node.on("completed", this.videoCompleted, this);
+        this.slider.node.on("slide", this.changeProgress, this);
+        this.handelBtn.on("touchstart", this.handelBtn_start, this);
+        this.handelBtn.on("touchend", this.handelBtn_end, this);
+        this.handelBtn.on("touchcancel", this.handelBtn_cancel, this);
+        EventSystem_1.default.on(events_1.LIFE_CYCLE_BLOCK, this.videoPause, this);
+        EventSystem_1.default.on(events_1.LIFE_CYCLE_PARAMS, this.loadVideo, this);
+        EventSystem_1.default.on(events_1.LIFE_CYCLE_UNBLOCK, this.videoResume, this);
+      };
+      VideoPlayerMgr.prototype.videoReady = function() {
+        this.video.play();
+        this.videoControl.active = true;
+        EventSystem_1.default.emit(events_1.LIFE_CYCLE_READY);
+      };
+      VideoPlayerMgr.prototype.setProgress = function() {
+        this.video.currentTime += .01;
+        this.slider.progress = this.video.currentTime / this.progressMax;
+        this.progress.getComponent(cc.ProgressBar).progress = this.slider.progress;
+        this.curTime.string = this.secondToDate(this.video.currentTime);
+      };
+      VideoPlayerMgr.prototype.videoLoaded = function() {
+        this.progressMax = this.video.getDuration();
+        console.log("video time ==== " + this.video.getDuration());
+        this.maxTime.string = "/" + this.secondToDate(this.progressMax);
+      };
+      VideoPlayerMgr.prototype.videoPlaying = function() {};
+      VideoPlayerMgr.prototype.videoPaused = function() {};
+      VideoPlayerMgr.prototype.videoCompleted = function() {
+        EventSystem_1.default.emit(events_1.LIFE_CYCLE_COMPLETE);
+      };
+      VideoPlayerMgr.prototype.videoPause = function(event, choose) {
+        this.video.pause();
+        this.pauseBtn.active = false;
+        this.resumeBtn.active = true;
+      };
+      VideoPlayerMgr.prototype.videoResume = function(event, choose) {
+        this.video.play();
+        this.pauseBtn.active = true;
+        this.resumeBtn.active = false;
+      };
+      VideoPlayerMgr.prototype.secondToDate = function(result) {
+        var m = Math.floor(result / 60 % 60) < 10 ? "0" + Math.floor(result / 60 % 60) : Math.floor(result / 60 % 60);
+        var s = Math.floor(result % 60) < 10 ? "0" + Math.floor(result % 60) : Math.floor(result % 60);
+        return m + ":" + s;
+      };
+      VideoPlayerMgr.prototype.handelBtn_start = function() {
+        this.videoControl.getComponent("videoCr").show();
+      };
+      VideoPlayerMgr.prototype.handelBtn_end = function() {
+        this.videoControl.getComponent("videoCr").schHide();
+      };
+      VideoPlayerMgr.prototype.handelBtn_cancel = function() {
+        this.videoControl.getComponent("videoCr").schHide();
+      };
+      VideoPlayerMgr.prototype.update = function(dt) {
+        this.slider.progress = this.video.currentTime / this.progressMax;
+        this.progress.getComponent(cc.ProgressBar).progress = this.slider.progress;
+        this.curTime.string = this.secondToDate(this.video.currentTime);
+      };
+      VideoPlayerMgr.prototype.onDestroy = function() {
+        EventSystem_1.default.off(events_1.LIFE_CYCLE_BLOCK, this.videoPause, this);
+        EventSystem_1.default.off(events_1.LIFE_CYCLE_PARAMS, this.loadVideo, this);
+        EventSystem_1.default.off(events_1.LIFE_CYCLE_UNBLOCK, this.videoResume, this);
+        if (this.video.node && cc.isValid(this.video.node)) {
+          this.video.node.off("ready-to-play", this.videoReady, this);
+          this.video.node.off("meta-loaded", this.videoLoaded, this);
+          this.video.node.off("playing", this.videoPlaying, this);
+          this.video.node.off("paused", this.videoPaused, this);
+          this.video.node.off("completed", this.videoCompleted, this);
+          this.handelBtn.off("touchstart", this.handelBtn_start, this);
+          this.handelBtn.off("touchend", this.handelBtn_end, this);
+          this.handelBtn.off("touchcancel", this.handelBtn_cancel, this);
+        }
+      };
+      VideoPlayerMgr.prototype.changeProgress = function() {
+        this.progress.getComponent(cc.ProgressBar).progress = this.slider.progress;
+        this.video.currentTime = this.slider.progress * this.progressMax;
+      };
+      __decorate([ property(cc.VideoPlayer) ], VideoPlayerMgr.prototype, "video", void 0);
+      __decorate([ property(cc.Node) ], VideoPlayerMgr.prototype, "progress", void 0);
+      __decorate([ property(cc.Node) ], VideoPlayerMgr.prototype, "videoControl", void 0);
+      __decorate([ property(cc.Slider) ], VideoPlayerMgr.prototype, "slider", void 0);
+      __decorate([ property(cc.Label) ], VideoPlayerMgr.prototype, "curTime", void 0);
+      __decorate([ property(cc.Label) ], VideoPlayerMgr.prototype, "maxTime", void 0);
+      __decorate([ property(cc.Node) ], VideoPlayerMgr.prototype, "pauseBtn", void 0);
+      __decorate([ property(cc.Node) ], VideoPlayerMgr.prototype, "resumeBtn", void 0);
+      __decorate([ property(cc.Node) ], VideoPlayerMgr.prototype, "handelBtn", void 0);
+      VideoPlayerMgr = __decorate([ ccclass ], VideoPlayerMgr);
+      return VideoPlayerMgr;
+    }(cc.Component);
+    exports.default = VideoPlayerMgr;
+    cc._RF.pop();
+  }, {
+    "../../kit/events/events": void 0,
+    "../../kit/system/event/EventSystem": void 0,
+    "../../kit/system/timer/TimerSystem": void 0
+  } ]
+}, {}, [ "videoCr", "videoPlayerMgr" ]);

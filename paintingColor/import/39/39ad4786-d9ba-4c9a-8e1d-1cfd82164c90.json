@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "24opj2AT1Dx4NatDNMeZTT"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dolphine_m",
+      "rect": [
+        0,
+        0,
+        401,
+        341
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        401,
+        341
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "f9OZ1zSeNGXb5foZ3GytlR"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "gameover",
+      "rect": [
+        0,
+        0,
+        843,
+        354
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        843,
+        354
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

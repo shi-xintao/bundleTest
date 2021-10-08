@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "495ZRVmsdNHoVfr/UxDwG9"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "Blue",
+      "rect": [
+        2,
+        24,
+        118,
+        96
+      ],
+      "offset": [
+        0,
+        -11
+      ],
+      "originalSize": [
+        122,
+        122
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

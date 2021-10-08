@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "91AsExZJhMCrRdtc6M4rZo"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "box",
+      "rect": [
+        2,
+        3,
+        585,
+        687
+      ],
+      "offset": [
+        -51.5,
+        -0.5
+      ],
+      "originalSize": [
+        692,
+        692
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

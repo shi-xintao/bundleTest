@@ -1,0 +1,83 @@
+
+xing.png
+size: 94,94
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+star-1
+  rotate: false
+  xy: 2, 47
+  size: 46, 45
+  orig: 48, 47
+  offset: 1, 1
+  index: -1
+star-10
+  rotate: false
+  xy: 79, 14
+  size: 13, 13
+  orig: 15, 15
+  offset: 1, 1
+  index: -1
+star-11
+  rotate: false
+  xy: 79, 4
+  size: 8, 8
+  orig: 10, 10
+  offset: 1, 1
+  index: -1
+star-2
+  rotate: true
+  xy: 50, 60
+  size: 32, 33
+  orig: 34, 35
+  offset: 1, 1
+  index: -1
+star-3
+  rotate: false
+  xy: 50, 29
+  size: 29, 29
+  orig: 31, 31
+  offset: 1, 1
+  index: -1
+star-4
+  rotate: false
+  xy: 2, 3
+  size: 24, 24
+  orig: 26, 26
+  offset: 1, 1
+  index: -1
+star-5
+  rotate: false
+  xy: 28, 3
+  size: 24, 24
+  orig: 26, 26
+  offset: 1, 1
+  index: -1
+star-6
+  rotate: false
+  xy: 19, 31
+  size: 14, 14
+  orig: 16, 16
+  offset: 1, 1
+  index: -1
+star-7
+  rotate: false
+  xy: 2, 30
+  size: 15, 15
+  orig: 17, 17
+  offset: 1, 1
+  index: -1
+star-8
+  rotate: true
+  xy: 54, 3
+  size: 24, 23
+  orig: 26, 25
+  offset: 1, 1
+  index: -1
+star-9
+  rotate: true
+  xy: 35, 33
+  size: 12, 13
+  orig: 14, 16
+  offset: 1, 1
+  index: -1

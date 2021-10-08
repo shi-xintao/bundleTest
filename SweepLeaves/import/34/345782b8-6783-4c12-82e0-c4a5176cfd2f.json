@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "3aAm50eshCLqs8C9fbsZAO"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "ballYellow",
+      "rect": [
+        1,
+        0,
+        93,
+        98
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        94,
+        98
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

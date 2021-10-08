@@ -1,1 +1,51 @@
-[1,["2cd/jgi7ZF27YhWs5n2VW/"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"xiaqi","rect":[0,0,1101,908],"offset":[-5,0],"originalSize":[1111,908],"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "2cd/jgi7ZF27YhWs5n2VW/"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "xiaqi",
+      "rect": [
+        0,
+        0,
+        1101,
+        908
+      ],
+      "offset": [
+        -5,
+        0
+      ],
+      "originalSize": [
+        1111,
+        908
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

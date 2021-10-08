@@ -1,1 +1,1914 @@
-window.__require=function t(e,o,n){function i(s,c){if(!o[s]){if(!e[s]){var a=s.split("/");if(a=a[a.length-1],!e[a]){var p="function"==typeof __require&&__require;if(!c&&p)return p(a,!0);if(r)return r(a,!0);throw new Error("Cannot find module '"+s+"'")}s=a}var u=o[s]={exports:{}};e[s][0].call(u.exports,function(t){return i(e[s][1][t]||t)},u,u.exports,t,e,o,n)}return o[s].exports}for(var r="function"==typeof __require&&__require,s=0;s<n.length;s++)i(n[s]);return i}({AdapterBg:[function(t,e,o){"use strict";cc._RF.push(e,"56679+s58RNK7n1JJzo2Bfy","AdapterBg");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__assign||function(){return(r=Object.assign||function(t){for(var e,o=1,n=arguments.length;o<n;o++)for(var i in e=arguments[o])Object.prototype.hasOwnProperty.call(e,i)&&(t[i]=e[i]);return t}).apply(this,arguments)},s=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var c=cc._decorator,a=c.ccclass,p=(c.property,function(t){function e(){return null!==t&&t.apply(this,arguments)||this}return i(e,t),e.prototype.onLoad=function(){},e.prototype.onEnable=function(){this.relayout()},e.prototype.relayout=function(){var t=cc.view.getFrameSize(),e=cc.Canvas.instance.designResolution,o=cc.size(e.width,e.height),n=t.width/t.height,i=r({},o);if(this.node.width/this.node.height>n){var s=this.node.width*i.height/this.node.height;this.node.width=s,this.node.height=i.height}else{var c=this.node.height*i.width/this.node.width;this.node.width=i.width,this.node.height=c}var a=this.node.getComponent(cc.Widget);null==a&&(this.node.addComponent(cc.Widget),a=this.node.getComponent(cc.Widget)),a.isAlignHorizontalCenter=!0,a.isAlignVerticalCenter=!0},s([a],e)}(cc.Component));o.default=p,cc._RF.pop()},{}],AdapterScreen:[function(t,e,o){"use strict";cc._RF.push(e,"1e1efgBZJVEzbXhhZxeZPt+","AdapterScreen");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__assign||function(){return(r=Object.assign||function(t){for(var e,o=1,n=arguments.length;o<n;o++)for(var i in e=arguments[o])Object.prototype.hasOwnProperty.call(e,i)&&(t[i]=e[i]);return t}).apply(this,arguments)},s=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var c=cc._decorator,a=c.ccclass,p=(c.property,function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.lock=!1,e}return i(e,t),e.prototype.onLoad=function(){this.relayout()},e.prototype.relayout=function(){if(!this.lock){this.lock=!0;var t=cc.view.getFrameSize(),e=cc.Canvas.instance.designResolution,o=cc.size(e.width,e.height);cc.log("canvas designSize:",o);var n=t.width/t.height,i=o.width/o.height,s=r({},o);n<i?s.height=Math.ceil(o.width/n):s.width=Math.ceil(o.height*n),cc.Canvas.instance.designResolution=s,this.lock=!1}},s([a],e)}(cc.Component));o.default=p,cc._RF.pop()},{}],Assembler2D:[function(t,e,o){"use strict";cc._RF.push(e,"6cd782uoZlAwL58fihw/d0g","Assembler2D");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)});Object.defineProperty(o,"__esModule",{value:!0});var r=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.verticesCount=4,e.indecesCount=6,e.floatsPerVert=5,e.uvOffset=2,e.colorOffset=4,e._renderData=null,e._local=null,e}return i(e,t),e.prototype.init=function(e){t.prototype.init.call(this,e),this._renderData=new cc.RenderData,this._renderData.init(this),this.initLocal(),this.initData()},Object.defineProperty(e.prototype,"verticesFloats",{get:function(){return this.verticesCount*this.floatsPerVert},enumerable:!1,configurable:!0}),e.prototype.initLocal=function(){this._local=[],this._local.length=4},e.prototype.initData=function(){this._renderData.createQuadData(0,this.verticesFloats,this.indecesCount)},e.prototype.updateColor=function(t,e){var o=this._renderData.uintVDatas[0];if(o){e=null!=e?e:t.node.color._val;for(var n=this.floatsPerVert,i=this.colorOffset,r=o.length;i<r;i+=n)o[i]=e}},e.prototype.updateUVs=function(){for(var t=[0,0,1,0,0,1,1,1],e=this.uvOffset,o=this.floatsPerVert,n=this._renderData.vDatas[0],i=0;i<4;i++){var r=2*i,s=o*i+e;n[s]=t[r],n[s+1]=t[r+1]}},e.prototype.updateVerts=function(t){var e=t.node,o=e.width,n=e.height,i=e.anchorX*o,r=e.anchorX*n,s=-i,c=-r,a=i,p=r,u=this._local;u[0]=s,u[1]=c,u[2]=a,u[3]=p,this.updateWorldVerts(t)},e.prototype.updateRenderData=function(t){t._vertsDirty&&(this.updateUVs(t),this.updateVerts(t),t._vertsDirty=!1)},e.prototype.updateWorldVerts=function(t){this.updateWorldVertsWebGL(t)},e.prototype.updateWorldVertsWebGL=function(t){var e=this._local,o=this._renderData.vDatas[0],n=new cc.Mat4;t.node.getWorldMatrix(n);var i=n.m,r=i[0],s=i[1],c=i[4],a=i[5],p=i[12],u=i[13],l=e[0],h=e[1],f=e[2],d=e[3],y=1===r&&0===s&&0===c&&1===a,_=0,g=this.floatsPerVert;if(y)o[_]=l+p,o[_+1]=h+u,o[_+=g]=f+p,o[_+1]=h+u,o[_+=g]=l+p,o[_+1]=d+u,o[_+=g]=f+p,o[_+1]=d+u;else{var v=r*l,m=r*f,b=s*l,O=s*f,C=c*h,w=c*d,R=a*h,P=a*d;o[_]=v+C+p,o[_+1]=b+R+u,o[_+=g]=m+C+p,o[_+1]=O+R+u,o[_+=g]=v+w+p,o[_+1]=b+P+u,o[_+=g]=m+w+p,o[_+1]=O+P+u}},e.prototype.updateWorldVertsNative=function(){var t=this._local,e=this._renderData.vDatas[0],o=this.floatsPerVert,n=t[0],i=t[2],r=t[1],s=t[3],c=0;e[c]=n,e[c+1]=r,e[c+=o]=i,e[c+1]=r,e[c+=o]=n,e[c+1]=s,e[c+=o]=i,e[c+1]=s},e.prototype.fillBuffers=function(t,e){e.worldMatDirty&&this.updateWorldVerts(t);var o=this._renderData,n=o.vDatas[0],i=o.iDatas[0],r=this.getBuffer(),s=r.request(this.verticesCount,this.indecesCount),c=s.byteOffset>>2,a=r._vData;n.length+c>a.length?a.set(n.subarray(0,a.length-c),c):a.set(n,c);for(var p=r._iData,u=s.indiceOffset,l=s.vertexOffset,h=0,f=i.length;h<f;h++)p[u++]=l+i[h]},e.prototype.packToDynamicAtlas=function(t,e){if(!e._original&&cc.dynamicAtlasManager&&e._texture.packable){var o=cc.dynamicAtlasManager.insertSpriteFrame(e);o&&e._setDynamicAtlasFrame(o)}var n=t._materials[0];n&&n.getProperty("texture")!==e._texture&&(t._vertsDirty=!0,t._updateMaterial())},e.prototype.getBuffer=function(){return cc.renderer._handle._meshBuffer},e}(cc.Assembler);o.default=r,cc._RF.pop()},{}],BaseChapterComponent:[function(t,e,o){"use strict";cc._RF.push(e,"b586bYjLNlKjYC4Jdqadcrh","BaseChapterComponent");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var s=t("../../kit/events/events"),c=t("../../kit/system/event/EventSystem"),a=cc._decorator.ccclass,p=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.params=null,e}return i(e,t),e.prototype.initParams=function(t){this.params=t},e.prototype.onLoad=function(){console.log("BaseChapterComponent onLoad params: ",this.params),this.registerEvent()},e.prototype.registerEvent=function(){c.default.on(s.LIFE_CYCLE_BLOCK,this.onLifeCycleBlock,this),c.default.on(s.LIFE_CYCLE_UNBLOCK,this.onLifeCycleUnBlock,this)},e.prototype.unregisterEvent=function(){c.default.on(s.LIFE_CYCLE_BLOCK,this.onLifeCycleBlock,this),c.default.on(s.LIFE_CYCLE_UNBLOCK,this.onLifeCycleUnBlock,this)},e.prototype.onChapterReady=function(){c.default.emit(s.LIFE_CYCLE_READY)},e.prototype.onLifeCycleBlock=function(){},e.prototype.onLifeCycleUnBlock=function(){},e.prototype.onChapterComplete=function(){c.default.emit(s.LIFE_CYCLE_COMPLETE)},e.prototype.onDestroy=function(){console.log("BaseChapterComponent onDestroy do sth"),this.unregisterEvent()},r([a],e)}(cc.Component);o.default=p,cc._RF.pop()},{"../../kit/events/events":void 0,"../../kit/system/event/EventSystem":void 0}],ChapterGameComponent:[function(t,e,o){"use strict";cc._RF.push(e,"958028/8dZBqrKjuACCZIlm","ChapterGameComponent");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var s=t("../../kit/events/events"),c=t("../../kit/system/event/EventSystem"),a=t("./BaseChapterComponent"),p=cc._decorator.ccclass,u=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.recordData=null,e.taskData=null,e.gameTaskCom=null,e}return i(e,t),e.prototype.onLoad=function(){t.prototype.onLoad.call(this),cc.log("ChapterGameComponent onLoad params: "+this.params),this.initData(),this.initComponents()},e.prototype.initData=function(){this.recordData={evaluatingType:1,evaluatingText:"",tryTimes:1,evaluationScore:30,recordTime:3}},e.prototype.registerEvent=function(){t.prototype.registerEvent.call(this),c.default.on(s.FOLLOW_MODULE_TO_CLIENT,this.onRecordResult,this)},e.prototype.unregisterEvent=function(){t.prototype.unregisterEvent.call(this),c.default.off(s.FOLLOW_MODULE_TO_CLIENT,this.onRecordResult,this)},e.prototype.componentsLoadComplete=function(){cc.log("components load complete"),this.onChapterReady()},e.prototype.initComponents=function(){var t=this;Promise.all([this.initRecordAudioComp(),this.initTaskComp()]).then(function(){t.componentsLoadComplete()}).catch(function(t){cc.warn("initComponents error: "+t)})},e.prototype.initRecordAudioComp=function(){var t=this;return new Promise(function(e){c.default.emit(s.FOLLOW_CLIENT_TO_MODULE,{eventName:"initComponent",extra:t.recordData}),e()}).catch(function(t){cc.warn("initRecordAudioComp error: "+t)})},e.prototype.initTaskComp=function(){var t=this;return new Promise(function(e){if(t.taskData){var o=cc.assetManager.getBundle("common");o?o.load("gameTask/gameTask",cc.Prefab,function(o,n){var i=cc.instantiate(n);t.gameTaskCom=i.getComponent("gameTask"),t.gameTaskCom&&t.gameTaskCom.initData(t.taskData),i.parent=t.node,e()}):e()}else e()}).catch(function(t){cc.warn("initTaskComp error: "+t)})},e.prototype.startRecordAudio=function(t,e,o){c.default.emit(s.FOLLOW_CLIENT_TO_MODULE,{eventName:"startRecord",extra:{evaluatingText:t,bundleName:e,audioUrl:o}})},e.prototype.onRecordResult=function(t){cc.log(" recordResult result.data: "+t.data)},e.prototype.onDestroy=function(){t.prototype.onDestroy.call(this)},r([p],e)}(a.default);o.default=u,cc._RF.pop()},{"../../kit/events/events":void 0,"../../kit/system/event/EventSystem":void 0,"./BaseChapterComponent":"BaseChapterComponent"}],CompEnum:[function(t,e,o){"use strict";cc._RF.push(e,"87736T2PNRKu54WeQCTjJBw","CompEnum"),Object.defineProperty(o,"__esModule",{value:!0}),o.RoundStateType=void 0,function(t){t[t.None=-1]="None",t[t.RoundOpenAniStart=0]="RoundOpenAniStart",t[t.RoundOpenAniComplete=1]="RoundOpenAniComplete",t[t.RoundStart=2]="RoundStart",t[t.RoundProceeding=3]="RoundProceeding",t[t.RoundComplete=4]="RoundComplete",t[t.RoundEndAniStart=5]="RoundEndAniStart",t[t.RoundEndAniComplete=6]="RoundEndAniComplete"}(o.RoundStateType||(o.RoundStateType={})),cc._RF.pop()},{}],CompInterface:[function(t,e,o){"use strict";cc._RF.push(e,"49600mpkTxJDq3v+0++6IWC","CompInterface"),Object.defineProperty(o,"__esModule",{value:!0}),cc._RF.pop()},{}],Hand:[function(t,e,o){"use strict";cc._RF.push(e,"8f09diGkVNHEKi3Xqx86KFS","Hand");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var s=cc._decorator,c=s.ccclass,a=s.property,p=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.sp=null,e.cursor=null,e.mask=null,e.bg=null,e.onCompleted=null,e.move_duration=.4,e}return i(e,t),e.prototype.onLoad=function(){var t=this;this.sp.setCompleteListener(function(){t.onCompleted&&(0,t.onCompleted)()})},e.prototype.playClick=function(){this.fadeIn(),this.node.active=!0,this.cursor.rotation=0,this.sp.setAnimation(0,"dian",!1)},e.prototype.fadeIn=function(){var t=cc.fadeIn(this.move_duration).easing(cc.easeSineOut());this.bg.runAction(t)},e.prototype.playSwipeLeft=function(){this.playSwipeByAngle(0,"you-zuo",!1)},e.prototype.playSwipeRight=function(){this.playSwipeByAngle(0,"zuoyou",!1)},e.prototype.playSwipeUp=function(){this.playSwipeByAngle(90,"zuoyou",!1)},e.prototype.playSwipeDown=function(){this.playSwipeByAngle(90,"you-zuo",!1)},e.prototype.playSwipeByAngle=function(t,e,o){this.fadeIn(),this.node.active=!0,this.cursor.rotation=t,this.sp.setAnimation(0,e,o)},e.prototype.hide=function(){this.node.active=!1},Object.defineProperty(e.prototype,"isShowing",{get:function(){return this.node.active},enumerable:!1,configurable:!0}),e.prototype.stop=function(){},e.prototype.setTargetBound=function(t,e,o,n){this.mask.width=o,this.mask.height=n,this.mask.x=t,this.mask.y=e;var i=cc.Canvas.instance.designResolution;this.bg.width=i.width,this.bg.height=i.height,this.bg.x=-this.mask.x,this.bg.y=-this.mask.y,this.cursor.x=this.mask.x,this.cursor.y=this.mask.y},e.prototype.setTargetNode=function(t,e){if(null!=t){var o=t.convertToWorldSpaceAR(cc.Vec2.ZERO);this.mask.width=t.width,this.mask.height=t.height;var n=e.convertToNodeSpaceAR(o);this.setTargetBound(n.x,n.y,t.width,t.height)}},r([a({type:sp.Skeleton,displayName:"\u624b\u52a8\u753b"})],e.prototype,"sp",void 0),r([a({type:cc.Node,displayName:"\u624b"})],e.prototype,"cursor",void 0),r([a({type:cc.Node,displayName:"Mask"})],e.prototype,"mask",void 0),r([a({type:cc.Node,displayName:"Bg"})],e.prototype,"bg",void 0),r([c],e)}(cc.Component);o.default=p,cc._RF.pop()},{}],LSprite:[function(t,e,o){"use strict";cc._RF.push(e,"436bcJ8ijFIjpRpNC7fC71i","LSprite");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var s=t("./SpriteAssembler"),c=cc._decorator,a=c.ccclass,p=c.property,u=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.colorList=[],e}return i(e,t),e.prototype.flushProperties=function(){},e.prototype._resetAssembler=function(){this.setVertsDirty();var t=this._assembler=new s.default;t.colorList=this.colorList,this.flushProperties(),t.init(this),this._updateColor()},r([p({type:[cc.Color],displayName:"\u9876\u70b9\u989c\u8272",tooltip:"\u5de6\u4e0b->\u53f3\u4e0b->\u5de6\u4e0a->\u53f3\u4e0a"})],e.prototype,"colorList",void 0),r([a],e)}(cc.Sprite);o.default=u,cc._RF.pop()},{"./SpriteAssembler":"SpriteAssembler"}],RollerAnimation:[function(t,e,o){"use strict";cc._RF.push(e,"373bbYeaw5JopWo11ayc/Rp","RollerAnimation");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var s=t("../../scripts/ChapterGameComponent"),c=cc._decorator,a=c.ccclass,p=c.property,u=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.farNode=null,e.middleNode=null,e.nearNode=null,e.farSpeed=100,e.middleSpeed=200,e.nearSpeed=300,e.isHorizontal=!0,e.isStopMove=!1,e}return i(e,t),e.prototype.onLoad=function(){t.prototype.onLoad.call(this)},e.prototype.start=function(){},e.prototype.initData=function(){},e.prototype.setFarSpeed=function(t){this.farSpeed=t},e.prototype.getFarSpeed=function(){return this.farSpeed},e.prototype.setMiddleSpeed=function(t){this.middleSpeed=t},e.prototype.getMiddleSpeed=function(){return this.middleSpeed},e.prototype.setNearSpeed=function(t){this.nearSpeed=t},e.prototype.getNearSpeed=function(){return this.nearSpeed},e.prototype.onDestroy=function(){t.prototype.onDestroy.call(this)},e.prototype.changeSpeedMove=function(t,e,o){var n=this;this.farNode.childrenCount>0&&this.farNode.children.forEach(function(e){n.isHorizontal?(e.x-=t,n.checkNode(e,t)):(e.y-=t,n.checkNode(e,t))}),this.nearNode.childrenCount>0&&this.nearNode.children.forEach(function(t){n.isHorizontal?(t.x-=o,n.checkNode(t,o)):(t.y-=o,n.checkNode(t,o))}),this.middleNode.childrenCount>0&&this.middleNode.children.forEach(function(t){n.isHorizontal?(t.x-=e,n.checkNode(t,e)):(t.y-=e,n.checkNode(t,e))})},e.prototype.checkNode=function(t,e){var o=cc.view.getFrameSize().width+t.width/2,n=cc.view.getFrameSize().height+t.height/2;this.isHorizontal?e>=0?t.x<-o&&(t.x=o):t.x>o&&(t.x=-o):e>=0?t.y<-n&&(t.y=n):t.y>n&&(t.y=-n)},e.prototype.update=function(t){if(!this.isStopMove){var e=t*this.farSpeed,o=t*this.middleSpeed,n=t*this.nearSpeed;this.changeSpeedMove(e,o,n)}},r([p(cc.Node)],e.prototype,"farNode",void 0),r([p(cc.Node)],e.prototype,"middleNode",void 0),r([p(cc.Node)],e.prototype,"nearNode",void 0),r([p({displayName:"\u8fdc\u666f\u901f\u5ea6",tooltip:"\u5982\u679c\u8981\u4ece\u5de6\u5f80\u53f3\u8bf7\u586b\u5199\u8d1f\u6570"})],e.prototype,"farSpeed",void 0),r([p({displayName:"\u4e2d\u666f\u901f\u5ea6",tooltip:"\u5982\u679c\u8981\u4ece\u5de6\u5f80\u53f3\u8bf7\u586b\u5199\u8d1f\u6570"})],e.prototype,"middleSpeed",void 0),r([p({displayName:"\u8fd1\u666f\u901f\u5ea6",tooltip:"\u5982\u679c\u8981\u4ece\u5de6\u5f80\u53f3\u8bf7\u586b\u5199\u8d1f\u6570"})],e.prototype,"nearSpeed",void 0),r([p({displayName:"\u6a2a\u5411\u79fb\u52a8",tooltip:"\u9ed8\u8ba4\u4ece\u53f3\u5f80\u5de6"})],e.prototype,"isHorizontal",void 0),r([a],e)}(s.default);o.default=u,cc._RF.pop()},{"../../scripts/ChapterGameComponent":"ChapterGameComponent"}],SpineUtils:[function(t,e,o){"use strict";cc._RF.push(e,"1d68eTK4/NFsINkE8apGdaz","SpineUtils");var n=this&&this.__awaiter||function(t,e,o,n){return new(o||(o=Promise))(function(i,r){function s(t){try{a(n.next(t))}catch(e){r(e)}}function c(t){try{a(n.throw(t))}catch(e){r(e)}}function a(t){var e;t.done?i(t.value):(e=t.value,e instanceof o?e:new o(function(t){t(e)})).then(s,c)}a((n=n.apply(t,e||[])).next())})},i=this&&this.__generator||function(t,e){var o,n,i,r,s={label:0,sent:function(){if(1&i[0])throw i[1];return i[1]},trys:[],ops:[]};return r={next:c(0),throw:c(1),return:c(2)},"function"==typeof Symbol&&(r[Symbol.iterator]=function(){return this}),r;function c(t){return function(e){return a([t,e])}}function a(r){if(o)throw new TypeError("Generator is already executing.");for(;s;)try{if(o=1,n&&(i=2&r[0]?n.return:r[0]?n.throw||((i=n.return)&&i.call(n),0):n.next)&&!(i=i.call(n,r[1])).done)return i;switch(n=0,i&&(r=[2&r[0],i.value]),r[0]){case 0:case 1:i=r;break;case 4:return s.label++,{value:r[1],done:!1};case 5:s.label++,n=r[1],r=[0];continue;case 7:r=s.ops.pop(),s.trys.pop();continue;default:if(!(i=(i=s.trys).length>0&&i[i.length-1])&&(6===r[0]||2===r[0])){s=0;continue}if(3===r[0]&&(!i||r[1]>i[0]&&r[1]<i[3])){s.label=r[1];break}if(6===r[0]&&s.label<i[1]){s.label=i[1],i=r;break}if(i&&s.label<i[2]){s.label=i[2],s.ops.push(r);break}i[2]&&s.ops.pop(),s.trys.pop();continue}r=e.call(t,s)}catch(c){r=[6,c],n=0}finally{o=i=0}if(5&r[0])throw r[1];return{value:r[0]?r[1]:void 0,done:!0}}};Object.defineProperty(o,"__esModule",{value:!0}),o.SpineUtils=void 0;var r=t("../../kit/system/timer/TimerSystem"),s=function(){function t(){}return t.playSpineAsync=function(t,e){return new Promise(function(o){if(e.func&&e.func(),e.loop)t.setAnimation(0,e.name,!0),r.default.instance.doOnce(1e3*e.duration||0,function(){cc.isValid(t.node)?o(!0):(cc.warn("sp.node  is valid false! animation name "+e.name),o(!1))});else{var n=t.setAnimation(0,e.name,!1);if(!n)return void o(!0);t.setTrackCompleteListener(n,function(){o(!0)})}})},t.playSpineAniByConfig=function(e,o){return n(this,void 0,void 0,function(){var n,r;return i(this,function(i){switch(i.label){case 0:n=0,i.label=1;case 1:return n<o.length?((r=o[n]).func&&r.func(),[4,t.playSpineAsync(e,r)]):[3,4];case 2:i.sent(),i.label=3;case 3:return n++,[3,1];case 4:return[2]}})})},t}();o.SpineUtils=s,cc._RF.pop()},{"../../kit/system/timer/TimerSystem":void 0}],SpriteAssembler:[function(t,e,o){"use strict";cc._RF.push(e,"b650dFASNlN5LNScvHc4Bsi","SpriteAssembler");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)});Object.defineProperty(o,"__esModule",{value:!0});var r=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e._whiteColor=4294967295,e._colorList=[],e}return i(e,t),Object.defineProperty(e.prototype,"colorList",{set:function(t){for(var e=[],o=0;o<t.length;o++){var n=t[o];e[o]=n._val}this._colorList=e},enumerable:!1,configurable:!0}),e.prototype.updateRenderData=function(e){this.packToDynamicAtlas(e,e._spriteFrame),t.prototype.updateRenderData.call(this,e)},e.prototype.updateUVs=function(t){for(var e=t._spriteFrame.uv,o=this.uvOffset,n=this.floatsPerVert,i=this._renderData.vDatas[0],r=0;r<4;r++){var s=2*r,c=n*r+o;i[c]=e[s],i[c+1]=e[s+1]}},e.prototype.updateVerts=function(t){var e,o,n,i,r=t.node,s=r.width,c=r.height,a=r.anchorX*s,p=r.anchorY*c;if(t.trim)e=-a,o=-p,n=s-a,i=c-p;else{var u=t.spriteFrame,l=u._originalSize.width,h=u._originalSize.height,f=u._rect.width,d=u._rect.height,y=u._offset,_=s/l,g=c/h,v=y.x+(l-f)/2,m=y.x-(l-f)/2;e=v*_-a,o=(y.y+(h-d)/2)*g-p,n=s+m*_-a,i=c+(y.y-(h-d)/2)*g-p}var b=this._local;b[0]=e,b[1]=o,b[2]=n,b[3]=i,this.updateWorldVerts(t)},e.prototype.updateColor=function(t,e){var o=this._renderData.uintVDatas[0];if(o){e=null!=e?e:t.node.color._val;for(var n=this.floatsPerVert,i=0,r=this.colorOffset,s=o.length;r<s;r+=n)!(e=this._colorList[i])&&(e=this._whiteColor),o[r]=e,i++}},e}(t("./Assembler2D").default);o.default=r,cc._RF.pop()},{"./Assembler2D":"Assembler2D"}],TaskBoard:[function(t,e,o){"use strict";cc._RF.push(e,"7a2f11eZoVPcJMgqd3ZLEq9","TaskBoard");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var s=cc._decorator,c=s.ccclass,a=s.property,p=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.contents=[],e.contentNodes=[],e.finishIcon=null,e.poses=[],e.move_duration=.4,e.currPage=0,e.isShowing=!1,e.panel=null,e.mask=null,e.safearea=null,e.onClosed=null,e.flag_block=!1,e.initPos=cc.Vec2.ZERO,e.currPos=cc.Vec2.ZERO,e}return i(e,t),e.prototype.onLoad=function(){this.node.on(cc.Node.EventType.TOUCH_START,this.onTouchBegan,this),this.node.on(cc.Node.EventType.TOUCH_END,this.onTouchEnd,this),this.node.on(cc.Node.EventType.TOUCH_CANCEL,this.onTouchEnd,this);var t=cc.Canvas.instance.designResolution;this.poses[0].x=t.width/2-220,this.poses[0].y=-t.height/2,this.poses[1].x=t.width/2+220,this.poses[1].y=-t.height/2,this.panel.x=this.poses[1].x,this.panel.y=this.poses[1].y},e.prototype.start=function(){},e.prototype.show=function(t,e){var o=this;if(void 0===e&&(e=null),this.finishIcon.node.active=!1,this.node.active=!0,this.contents.length>0){var n=this.contents[t];(i=cc.instantiate(n)).active=!0,this.safearea.addChild(i),i.x=0,i.y=0}else if(this.contentNodes.length>0){var i;n=this.contentNodes[t],(i=cc.instantiate(n)).active=!0,this.safearea.addChild(i),i.x=0,i.y=0}this.panel.active=!0;var r=cc.fadeIn(this.move_duration).easing(cc.easeSineOut());this.mask.runAction(r),this.moveTo(this.poses[0],this.move_duration,function(){o.isShowing=!0,e&&e(o.isShowing)})},e.prototype.hide=function(t){var e=this;void 0===t&&(t=null);var o=cc.fadeOut(this.move_duration).easing(cc.easeSineOut());this.mask.runAction(o),this.moveTo(this.poses[1],this.move_duration,function(){if(e.isShowing=!1,e.node.active=!1,e.panel.active=!1,e.safearea.children.length>0){var o=e.safearea.children[0];o.removeFromParent(),o.destroy()}e.hideFinishIcon(),t&&t(e.isShowing),e.onClosed&&(0,e.onClosed)()})},e.prototype.setPrefabs=function(t){this.contents=t},e.prototype.setNodes=function(t){this.contentNodes=t},e.prototype.playFinished=function(){this.finishIcon.node.active=!0,this.finishIcon.setAnimation(0,"gaizhang",!1)},e.prototype.hideFinishIcon=function(){this.finishIcon.node.active=!1},e.prototype.onClick=function(){},e.prototype.moveTo=function(t,e,o){var n=this;void 0===e&&(e=1),void 0===o&&(o=function(){}),this.flag_block=!0;var i=cc.moveTo(e,t.x,t.y).easing(cc.easeBackOut()),r=cc.sequence(i,cc.callFunc(function(){n.flag_block=!1,o()}));this.panel.runAction(r)},e.prototype.onTouchBegan=function(t){console.log("onTouchBegan >>>>>>>>>>>>"),this.currPos.x=t.getLocationX(),this.currPos.y=t.getLocationY(),this.initPos.x=t.getLocationX(),this.initPos.y=t.getLocationY()},e.prototype.onTouchEnd=function(t){console.log("onTouchEnd >>>>>>>>>>>>");var e=t.getLocationX(),o=t.getLocationY();Math.sqrt((e-this.initPos.x)*(e-this.initPos.x)+(o-this.initPos.y)*(o-this.initPos.y))<20&&this.hide()},r([a({type:sp.Skeleton,displayName:"\u4efb\u52a1\u5b8c\u6210"})],e.prototype,"finishIcon",void 0),r([a({type:[cc.Node],displayName:"\u9762\u677f\u4f4d\u7f6e"})],e.prototype,"poses",void 0),r([a({type:cc.Node,displayName:"\u9762\u677f"})],e.prototype,"panel",void 0),r([a({type:cc.Node,displayName:"mask"})],e.prototype,"mask",void 0),r([a({type:cc.Node,displayName:"\u5185\u5bb9\u533a\u57df"})],e.prototype,"safearea",void 0),r([c],e)}(cc.Component);o.default=p,cc._RF.pop()},{}],gameTask:[function(t,e,o){"use strict";cc._RF.push(e,"be38dnTC39MVqV63hKcsrc+","gameTask");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s},s=this&&this.__awaiter||function(t,e,o,n){return new(o||(o=Promise))(function(i,r){function s(t){try{a(n.next(t))}catch(e){r(e)}}function c(t){try{a(n.throw(t))}catch(e){r(e)}}function a(t){var e;t.done?i(t.value):(e=t.value,e instanceof o?e:new o(function(t){t(e)})).then(s,c)}a((n=n.apply(t,e||[])).next())})},c=this&&this.__generator||function(t,e){var o,n,i,r,s={label:0,sent:function(){if(1&i[0])throw i[1];return i[1]},trys:[],ops:[]};return r={next:c(0),throw:c(1),return:c(2)},"function"==typeof Symbol&&(r[Symbol.iterator]=function(){return this}),r;function c(t){return function(e){return a([t,e])}}function a(r){if(o)throw new TypeError("Generator is already executing.");for(;s;)try{if(o=1,n&&(i=2&r[0]?n.return:r[0]?n.throw||((i=n.return)&&i.call(n),0):n.next)&&!(i=i.call(n,r[1])).done)return i;switch(n=0,i&&(r=[2&r[0],i.value]),r[0]){case 0:case 1:i=r;break;case 4:return s.label++,{value:r[1],done:!1};case 5:s.label++,n=r[1],r=[0];continue;case 7:r=s.ops.pop(),s.trys.pop();continue;default:if(!(i=(i=s.trys).length>0&&i[i.length-1])&&(6===r[0]||2===r[0])){s=0;continue}if(3===r[0]&&(!i||r[1]>i[0]&&r[1]<i[3])){s.label=r[1];break}if(6===r[0]&&s.label<i[1]){s.label=i[1],i=r;break}if(i&&s.label<i[2]){s.label=i[2],s.ops.push(r);break}i[2]&&s.ops.pop(),s.trys.pop();continue}r=e.call(t,s)}catch(c){r=[6,c],n=0}finally{o=i=0}if(5&r[0])throw r[1];return{value:r[0]?r[1]:void 0,done:!0}}};Object.defineProperty(o,"__esModule",{value:!0});var a=t("../../../kit/system/audio/AudioManager"),p=cc._decorator,u=p.ccclass,l=p.property,h=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.nodeWidget=null,e.moveLen=400,e.taskHideTime=4,e.moveTime=.5,e.taskData=null,e}return i(e,t),e.prototype.initData=function(t){this.taskData=t},e.prototype.onLoad=function(){this.node.active=!1,this.updateTaskPos()},e.prototype.updateTaskPos=function(){this.nodeWidget.right=-this.node.width,this.nodeWidget.updateAlignment()},e.prototype.showTaskList=function(t){return s(this,void 0,void 0,function(){var e,o,n=this;return c(this,function(i){switch(i.label){case 0:return t&&null!=t.taskIndex?(e=t.taskIndex,o=t.complete,e>=this.taskData.imgList.length?(cc.error("task index error!"),[2]):[4,this.updateTaskImg(e)]):(cc.error("show task params error! params:"+JSON.stringify(t)),[2]);case 1:return i.sent(),this.moveAni(t,function(){n.showSealSpine(o)}),[2]}})})},e.prototype.updateTaskImg=function(t){var e=this;return new Promise(function(o){var n=cc.assetManager.getBundle(e.taskData.bundleName);n&&n.load(e.taskData.imgList[t],cc.SpriteFrame,function(t,n){e.node.getChildByName("task").getComponent(cc.Sprite).spriteFrame=n,e.node.active=!0,o()})})},e.prototype.showSealSpine=function(t){if(t){var e=this.node.getChildByName("sealNode");e.active=!0;var o=e.getComponent(sp.Skeleton),n=o.setAnimation(0,"gaizhang",!1);o.setTrackCompleteListener(n,function(){a.default.playEffect("common","gameTask/audio/SE_luoyefense_03"),a.default.playEffect("common","gameTask/audio/6_congratulations")})}},e.prototype.moveAni=function(t,e){var o=this;cc.tween(this.node).by(this.moveTime,{x:-this.moveLen}).call(function(){t.callFunc1&&t.callFunc1(),e&&e()}).delay(this.taskHideTime).call(function(){t.callFunc2&&t.callFunc2()}).by(this.moveTime,{x:this.moveLen}).call(function(){t.callFunc3&&t.callFunc3(),o.node.getChildByName("sealNode").active=!1}).start()},r([l(cc.Widget)],e.prototype,"nodeWidget",void 0),r([u],e)}(cc.Component);o.default=h,cc._RF.pop()},{"../../../kit/system/audio/AudioManager":void 0}],rollBg:[function(t,e,o){"use strict";cc._RF.push(e,"21412fmy2dPw5+Rg+4D4EhN","rollBg");var n,i=this&&this.__extends||(n=function(t,e){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var o in e)Object.prototype.hasOwnProperty.call(e,o)&&(t[o]=e[o])})(t,e)},function(t,e){function o(){this.constructor=t}n(t,e),t.prototype=null===e?Object.create(e):(o.prototype=e.prototype,new o)}),r=this&&this.__assign||function(){return(r=Object.assign||function(t){for(var e,o=1,n=arguments.length;o<n;o++)for(var i in e=arguments[o])Object.prototype.hasOwnProperty.call(e,i)&&(t[i]=e[i]);return t}).apply(this,arguments)},s=this&&this.__decorate||function(t,e,o,n){var i,r=arguments.length,s=r<3?e:null===n?n=Object.getOwnPropertyDescriptor(e,o):n;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)s=Reflect.decorate(t,e,o,n);else for(var c=t.length-1;c>=0;c--)(i=t[c])&&(s=(r<3?i(s):r>3?i(e,o,s):i(e,o))||s);return r>3&&s&&Object.defineProperty(e,o,s),s};Object.defineProperty(o,"__esModule",{value:!0});var c,a=cc._decorator,p=a.ccclass,u=a.property;(function(t){t[t.VERTICAL_P=0]="VERTICAL_P",t[t.VERTICAL_N=1]="VERTICAL_N",t[t.HORIZONTAL_P=2]="HORIZONTAL_P",t[t.HORIZONTAL_N=3]="HORIZONTAL_N"})(c||(c={}));var l=function(t){function e(){var e=null!==t&&t.apply(this,arguments)||this;return e.lubg1=null,e.lubg2=null,e.speed=200,e.mtype=c.VERTICAL_P,e.isRunmap=!1,e.cur_lubg=null,e.luOffset=0,e}return i(e,t),e.prototype.start=function(){this.cur_lubg=this.lubg1,this.setbgfix(),this.isRunmap=!0},e.prototype.setbgfix=function(){var t=cc.view.getFrameSize(),e=cc.Canvas.instance.designResolution,o=cc.size(e.width,e.height),n=t.width/t.height,i=r({},o);if(this.node.width/this.node.height>n){var s=this.node.width*i.height/this.node.height;switch(this.lubg1.width=s,this.lubg1.height=i.height,this.lubg2.width=s,this.lubg2.height=i.height,this.mtype){case c.VERTICAL_P:this.lubg2.y=i.height,this.luOffset=i.height;break;case c.VERTICAL_N:this.lubg2.y=-i.height,this.luOffset=i.height;break;case c.HORIZONTAL_P:this.lubg2.x=s,this.luOffset=s;break;case c.HORIZONTAL_N:this.lubg2.x=-s,this.luOffset=s}}else{var a=this.node.height*i.width/this.node.width;switch(this.lubg1.width=i.width,this.lubg1.height=a,this.lubg2.width=i.width,this.lubg2.height=a,this.mtype){case c.VERTICAL_P:this.lubg2.y=a,this.luOffset=a;break;case c.VERTICAL_N:this.lubg2.y=-a,this.luOffset=a;break;case c.HORIZONTAL_P:this.lubg2.x=i.width,this.luOffset=i.width;break;case c.HORIZONTAL_N:this.lubg2.x=-i.width,this.luOffset=i.width}}},e.prototype.runlubg=function(t){var e=t*this.speed;switch(this.mtype){case c.VERTICAL_P:this.lubg1.y-=e,this.lubg2.y-=e,this.cur_lubg.y<=-this.luOffset&&(this.cur_lubg==this.lubg2?(this.lubg2.y=this.lubg1.y+this.luOffset,this.cur_lubg=this.lubg1):(this.lubg1.y=this.lubg2.y+this.luOffset,this.cur_lubg=this.lubg2));break;case c.VERTICAL_N:this.lubg1.y+=e,this.lubg2.y+=e,this.cur_lubg.y>=this.luOffset&&(this.cur_lubg==this.lubg2?(this.lubg2.y=this.lubg1.y-this.luOffset,this.cur_lubg=this.lubg1):(this.lubg1.y=this.lubg2.y-this.luOffset,this.cur_lubg=this.lubg2));break;case c.HORIZONTAL_P:this.lubg1.x-=e,this.lubg2.x-=e,this.cur_lubg.x<=-this.luOffset&&(this.cur_lubg==this.lubg2?(this.lubg2.x=this.lubg1.x+this.luOffset,this.cur_lubg=this.lubg1):(this.lubg1.x=this.lubg2.x+this.luOffset,this.cur_lubg=this.lubg2));break;case c.HORIZONTAL_N:this.lubg1.x+=e,this.lubg2.x+=e,this.cur_lubg.x>=this.luOffset&&(this.cur_lubg==this.lubg2?(this.lubg2.x=this.lubg1.x-this.luOffset,this.cur_lubg=this.lubg1):(this.lubg1.x=this.lubg2.x-this.luOffset,this.cur_lubg=this.lubg2))}},e.prototype.update=function(t){this.isRunmap&&this.runlubg(t)},s([u({type:cc.Node,tooltip:"\u5f53\u524d\u5c4f\u7684\u80cc\u666f\u8282\u70b9"})],e.prototype,"lubg1",void 0),s([u({type:cc.Node,tooltip:"\u4e0b\u4e00\u5c4f\u7684\u80cc\u666f\u8282\u70b9"})],e.prototype,"lubg2",void 0),s([u({type:cc.Integer,tooltip:"\u5faa\u73af\u901f\u5ea6",min:0,max:1e3,step:50,slide:!0})],e.prototype,"speed",void 0),s([u({type:cc.Enum(c),tooltip:"VERTICAL_P:\u5782\u76f4\u5411\u4e0b\u6eda\u52a8  VERTICAL_N:\u5782\u76f4\u5411\u4e0a\u6eda\u52a8 HORIZONTAL_P:\u6c34\u5e73\u5411\u5de6\u6eda\u52a8 HORIZONTAL_N:\u6c34\u5e73\u5411\u53f3\u6eda\u52a8"})],e.prototype,"mtype",void 0),s([p],e)}(cc.Component);o.default=l,cc._RF.pop()},{}]},{},["TaskBoard","gameTask","Hand","RollerAnimation","AdapterBg","AdapterScreen","BaseChapterComponent","ChapterGameComponent","rollBg","CompEnum","CompInterface","SpineUtils","Assembler2D","LSprite","SpriteAssembler"]);
+window.__require = function e(t, n, r) {
+  function s(o, u) {
+    if (!n[o]) {
+      if (!t[o]) {
+        var b = o.split("/");
+        b = b[b.length - 1];
+        if (!t[b]) {
+          var a = "function" == typeof __require && __require;
+          if (!u && a) return a(b, !0);
+          if (i) return i(b, !0);
+          throw new Error("Cannot find module '" + o + "'");
+        }
+        o = b;
+      }
+      var f = n[o] = {
+        exports: {}
+      };
+      t[o][0].call(f.exports, function(e) {
+        var n = t[o][1][e];
+        return s(n || e);
+      }, f, f.exports, e, t, n, r);
+    }
+    return n[o].exports;
+  }
+  var i = "function" == typeof __require && __require;
+  for (var o = 0; o < r.length; o++) s(r[o]);
+  return s;
+}({
+  AdapterBg: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "56679+s58RNK7n1JJzo2Bfy", "AdapterBg");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __assign = this && this.__assign || function() {
+      __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+          s = arguments[i];
+          for (var p in s) Object.prototype.hasOwnProperty.call(s, p) && (t[p] = s[p]);
+        }
+        return t;
+      };
+      return __assign.apply(this, arguments);
+    };
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var AdapterBg = function(_super) {
+      __extends(AdapterBg, _super);
+      function AdapterBg() {
+        return null !== _super && _super.apply(this, arguments) || this;
+      }
+      AdapterBg.prototype.onLoad = function() {};
+      AdapterBg.prototype.onEnable = function() {
+        this.relayout();
+      };
+      AdapterBg.prototype.relayout = function() {
+        var frameSize = cc.view.getFrameSize();
+        var designResolution = cc.Canvas.instance.designResolution;
+        var designSize = cc.size(designResolution.width, designResolution.height);
+        var frameAspectRatio = frameSize.width / frameSize.height;
+        var screenSize = __assign({}, designSize);
+        var ratio = this.node.width / this.node.height;
+        if (ratio > frameAspectRatio) {
+          var width = this.node.width * screenSize.height / this.node.height;
+          this.node.width = width;
+          this.node.height = screenSize.height;
+        } else {
+          var height = this.node.height * screenSize.width / this.node.width;
+          this.node.width = screenSize.width;
+          this.node.height = height;
+        }
+        var wdt = this.node.getComponent(cc.Widget);
+        if (null == wdt) {
+          this.node.addComponent(cc.Widget);
+          wdt = this.node.getComponent(cc.Widget);
+        }
+        wdt.isAlignHorizontalCenter = true;
+        wdt.isAlignVerticalCenter = true;
+      };
+      AdapterBg = __decorate([ ccclass ], AdapterBg);
+      return AdapterBg;
+    }(cc.Component);
+    exports.default = AdapterBg;
+    cc._RF.pop();
+  }, {} ],
+  AdapterScreen: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "1e1efgBZJVEzbXhhZxeZPt+", "AdapterScreen");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __assign = this && this.__assign || function() {
+      __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+          s = arguments[i];
+          for (var p in s) Object.prototype.hasOwnProperty.call(s, p) && (t[p] = s[p]);
+        }
+        return t;
+      };
+      return __assign.apply(this, arguments);
+    };
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var AdapterScreen = function(_super) {
+      __extends(AdapterScreen, _super);
+      function AdapterScreen() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.lock = false;
+        return _this;
+      }
+      AdapterScreen.prototype.onLoad = function() {
+        this.relayout();
+      };
+      AdapterScreen.prototype.relayout = function() {
+        if (this.lock) return;
+        this.lock = true;
+        var frameSize = cc.view.getFrameSize();
+        var designResolution = cc.Canvas.instance.designResolution;
+        var designSize = cc.size(designResolution.width, designResolution.height);
+        cc.log("canvas designSize:", designSize);
+        var frameAspectRatio = frameSize.width / frameSize.height;
+        var designAspectRatio = designSize.width / designSize.height;
+        var screenSize = __assign({}, designSize);
+        frameAspectRatio < designAspectRatio ? screenSize.height = Math.ceil(designSize.width / frameAspectRatio) : screenSize.width = Math.ceil(designSize.height * frameAspectRatio);
+        cc.Canvas.instance.designResolution = screenSize;
+        this.lock = false;
+      };
+      AdapterScreen = __decorate([ ccclass ], AdapterScreen);
+      return AdapterScreen;
+    }(cc.Component);
+    exports.default = AdapterScreen;
+    cc._RF.pop();
+  }, {} ],
+  Assembler2D: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "6cd782uoZlAwL58fihw/d0g", "Assembler2D");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var Assembler2D = function(_super) {
+      __extends(Assembler2D, _super);
+      function Assembler2D() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.verticesCount = 4;
+        _this.indecesCount = 6;
+        _this.floatsPerVert = 5;
+        _this.uvOffset = 2;
+        _this.colorOffset = 4;
+        _this._renderData = null;
+        _this._local = null;
+        return _this;
+      }
+      Assembler2D.prototype.init = function(comp) {
+        _super.prototype.init.call(this, comp);
+        this._renderData = new cc.RenderData();
+        this._renderData.init(this);
+        this.initLocal();
+        this.initData();
+      };
+      Object.defineProperty(Assembler2D.prototype, "verticesFloats", {
+        get: function() {
+          return this.verticesCount * this.floatsPerVert;
+        },
+        enumerable: false,
+        configurable: true
+      });
+      Assembler2D.prototype.initLocal = function() {
+        this._local = [];
+        this._local.length = 4;
+      };
+      Assembler2D.prototype.initData = function() {
+        var data = this._renderData;
+        data.createQuadData(0, this.verticesFloats, this.indecesCount);
+      };
+      Assembler2D.prototype.updateColor = function(comp, color) {
+        var uintVerts = this._renderData.uintVDatas[0];
+        if (!uintVerts) return;
+        color = null != color ? color : comp.node.color._val;
+        var floatsPerVert = this.floatsPerVert;
+        var colorOffset = this.colorOffset;
+        for (var i = colorOffset, len = uintVerts.length; i < len; i += floatsPerVert) uintVerts[i] = color;
+      };
+      Assembler2D.prototype.updateUVs = function(comp) {
+        var uv = [ 0, 0, 1, 0, 0, 1, 1, 1 ];
+        var uvOffset = this.uvOffset;
+        var floatsPerVert = this.floatsPerVert;
+        var verts = this._renderData.vDatas[0];
+        for (var i = 0; i < 4; i++) {
+          var srcOffset = 2 * i;
+          var dstOffset = floatsPerVert * i + uvOffset;
+          verts[dstOffset] = uv[srcOffset];
+          verts[dstOffset + 1] = uv[srcOffset + 1];
+        }
+      };
+      Assembler2D.prototype.updateVerts = function(comp) {
+        var node = comp.node;
+        var cw = node.width;
+        var ch = node.height;
+        var appx = node.anchorX * cw;
+        var appy = node.anchorX * ch;
+        var l = -appx;
+        var b = -appy;
+        var r = appx;
+        var t = appy;
+        var local = this._local;
+        local[0] = l;
+        local[1] = b;
+        local[2] = r;
+        local[3] = t;
+        this.updateWorldVerts(comp);
+      };
+      Assembler2D.prototype.updateRenderData = function(comp) {
+        if (comp._vertsDirty) {
+          this.updateUVs(comp);
+          this.updateVerts(comp);
+          comp._vertsDirty = false;
+        }
+      };
+      Assembler2D.prototype.updateWorldVerts = function(comp) {
+        true;
+        this.updateWorldVertsNative(comp);
+      };
+      Assembler2D.prototype.updateWorldVertsWebGL = function(comp) {
+        var local = this._local;
+        var verts = this._renderData.vDatas[0];
+        var matirx = new cc.Mat4();
+        comp.node.getWorldMatrix(matirx);
+        var matirxM = matirx.m;
+        var a = matirxM[0];
+        var b = matirxM[1];
+        var c = matirxM[4];
+        var d = matirxM[5];
+        var tx = matirxM[12];
+        var ty = matirxM[13];
+        var vl = local[0];
+        var vb = local[1];
+        var vr = local[2];
+        var vt = local[3];
+        var justTranslate = 1 === a && 0 === b && 0 === c && 1 === d;
+        var index = 0;
+        var floatsPerVert = this.floatsPerVert;
+        if (justTranslate) {
+          verts[index] = vl + tx;
+          verts[index + 1] = vb + ty;
+          index += floatsPerVert;
+          verts[index] = vr + tx;
+          verts[index + 1] = vb + ty;
+          index += floatsPerVert;
+          verts[index] = vl + tx;
+          verts[index + 1] = vt + ty;
+          index += floatsPerVert;
+          verts[index] = vr + tx;
+          verts[index + 1] = vt + ty;
+        } else {
+          var al = a * vl, ar = a * vr, bl = b * vl, br = b * vr, cb = c * vb, ct = c * vt, db = d * vb, dt = d * vt;
+          verts[index] = al + cb + tx;
+          verts[index + 1] = bl + db + ty;
+          index += floatsPerVert;
+          verts[index] = ar + cb + tx;
+          verts[index + 1] = br + db + ty;
+          index += floatsPerVert;
+          verts[index] = al + ct + tx;
+          verts[index + 1] = bl + dt + ty;
+          index += floatsPerVert;
+          verts[index] = ar + ct + tx;
+          verts[index + 1] = br + dt + ty;
+        }
+      };
+      Assembler2D.prototype.updateWorldVertsNative = function(comp) {
+        var local = this._local;
+        var verts = this._renderData.vDatas[0];
+        var floatsPerVert = this.floatsPerVert;
+        var vl = local[0], vr = local[2], vb = local[1], vt = local[3];
+        var index = 0;
+        verts[index] = vl;
+        verts[index + 1] = vb;
+        index += floatsPerVert;
+        verts[index] = vr;
+        verts[index + 1] = vb;
+        index += floatsPerVert;
+        verts[index] = vl;
+        verts[index + 1] = vt;
+        index += floatsPerVert;
+        verts[index] = vr;
+        verts[index + 1] = vt;
+      };
+      Assembler2D.prototype.fillBuffers = function(comp, renderer) {
+        renderer.worldMatDirty && this.updateWorldVerts(comp);
+        var renderData = this._renderData;
+        var vData = renderData.vDatas[0];
+        var iData = renderData.iDatas[0];
+        var buffer = this.getBuffer();
+        var offsetInfo = buffer.request(this.verticesCount, this.indecesCount);
+        var vertexOffset = offsetInfo.byteOffset >> 2;
+        var vbuf = buffer._vData;
+        vData.length + vertexOffset > vbuf.length ? vbuf.set(vData.subarray(0, vbuf.length - vertexOffset), vertexOffset) : vbuf.set(vData, vertexOffset);
+        var ibuf = buffer._iData, indiceOffset = offsetInfo.indiceOffset, vertexId = offsetInfo.vertexOffset;
+        for (var i = 0, l = iData.length; i < l; i++) ibuf[indiceOffset++] = vertexId + iData[i];
+      };
+      Assembler2D.prototype.packToDynamicAtlas = function(comp, frame) {
+        false;
+        if (!frame._original && cc.dynamicAtlasManager && frame._texture.packable) {
+          var packedFrame = cc.dynamicAtlasManager.insertSpriteFrame(frame);
+          packedFrame && frame._setDynamicAtlasFrame(packedFrame);
+        }
+        var material = comp._materials[0];
+        if (!material) return;
+        if (material.getProperty("texture") !== frame._texture) {
+          comp._vertsDirty = true;
+          comp._updateMaterial();
+        }
+      };
+      Assembler2D.prototype.getBuffer = function() {
+        return cc.renderer._handle._meshBuffer;
+      };
+      return Assembler2D;
+    }(cc.Assembler);
+    exports.default = Assembler2D;
+    cc._RF.pop();
+  }, {} ],
+  BaseChapterComponent: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "b586bYjLNlKjYC4Jdqadcrh", "BaseChapterComponent");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var events_1 = require("../../kit/events/events");
+    var EventSystem_1 = require("../../kit/system/event/EventSystem");
+    var ccclass = cc._decorator.ccclass;
+    var BaseChapterComponent = function(_super) {
+      __extends(BaseChapterComponent, _super);
+      function BaseChapterComponent() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.params = null;
+        return _this;
+      }
+      BaseChapterComponent.prototype.initParams = function(params) {
+        this.params = params;
+      };
+      BaseChapterComponent.prototype.onLoad = function() {
+        console.log("BaseChapterComponent onLoad params: ", this.params);
+        this.registerEvent();
+      };
+      BaseChapterComponent.prototype.registerEvent = function() {
+        EventSystem_1.default.on(events_1.LIFE_CYCLE_BLOCK, this.onLifeCycleBlock, this);
+        EventSystem_1.default.on(events_1.LIFE_CYCLE_UNBLOCK, this.onLifeCycleUnBlock, this);
+      };
+      BaseChapterComponent.prototype.unregisterEvent = function() {
+        EventSystem_1.default.on(events_1.LIFE_CYCLE_BLOCK, this.onLifeCycleBlock, this);
+        EventSystem_1.default.on(events_1.LIFE_CYCLE_UNBLOCK, this.onLifeCycleUnBlock, this);
+      };
+      BaseChapterComponent.prototype.onChapterReady = function() {
+        EventSystem_1.default.emit(events_1.LIFE_CYCLE_READY);
+      };
+      BaseChapterComponent.prototype.onLifeCycleBlock = function() {};
+      BaseChapterComponent.prototype.onLifeCycleUnBlock = function() {};
+      BaseChapterComponent.prototype.onChapterComplete = function() {
+        EventSystem_1.default.emit(events_1.LIFE_CYCLE_COMPLETE);
+      };
+      BaseChapterComponent.prototype.onDestroy = function() {
+        console.log("BaseChapterComponent onDestroy do sth");
+        this.unregisterEvent();
+      };
+      BaseChapterComponent = __decorate([ ccclass ], BaseChapterComponent);
+      return BaseChapterComponent;
+    }(cc.Component);
+    exports.default = BaseChapterComponent;
+    cc._RF.pop();
+  }, {
+    "../../kit/events/events": void 0,
+    "../../kit/system/event/EventSystem": void 0
+  } ],
+  ChapterGameComponent: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "958028/8dZBqrKjuACCZIlm", "ChapterGameComponent");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var events_1 = require("../../kit/events/events");
+    var EventSystem_1 = require("../../kit/system/event/EventSystem");
+    var BaseChapterComponent_1 = require("./BaseChapterComponent");
+    var ccclass = cc._decorator.ccclass;
+    var ChapterGameComponent = function(_super) {
+      __extends(ChapterGameComponent, _super);
+      function ChapterGameComponent() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.recordData = null;
+        _this.taskData = null;
+        _this.gameTaskCom = null;
+        return _this;
+      }
+      ChapterGameComponent.prototype.onLoad = function() {
+        _super.prototype.onLoad.call(this);
+        cc.log("ChapterGameComponent onLoad params: " + this.params);
+        this.initData();
+        this.initComponents();
+      };
+      ChapterGameComponent.prototype.initData = function() {
+        this.recordData = {
+          evaluatingType: 1,
+          evaluatingText: "",
+          tryTimes: 1,
+          evaluationScore: 30,
+          recordTime: 3
+        };
+      };
+      ChapterGameComponent.prototype.registerEvent = function() {
+        _super.prototype.registerEvent.call(this);
+        EventSystem_1.default.on(events_1.FOLLOW_MODULE_TO_CLIENT, this.onRecordResult, this);
+      };
+      ChapterGameComponent.prototype.unregisterEvent = function() {
+        _super.prototype.unregisterEvent.call(this);
+        EventSystem_1.default.off(events_1.FOLLOW_MODULE_TO_CLIENT, this.onRecordResult, this);
+      };
+      ChapterGameComponent.prototype.componentsLoadComplete = function() {
+        cc.log("components load complete");
+        this.onChapterReady();
+      };
+      ChapterGameComponent.prototype.initComponents = function() {
+        var _this = this;
+        Promise.all([ this.initRecordAudioComp(), this.initTaskComp() ]).then(function() {
+          _this.componentsLoadComplete();
+        }).catch(function(error) {
+          cc.warn("initComponents error: " + error);
+        });
+      };
+      ChapterGameComponent.prototype.initRecordAudioComp = function() {
+        var _this = this;
+        return new Promise(function(resolve) {
+          EventSystem_1.default.emit(events_1.FOLLOW_CLIENT_TO_MODULE, {
+            eventName: "initComponent",
+            extra: _this.recordData
+          });
+          resolve();
+        }).catch(function(error) {
+          cc.warn("initRecordAudioComp error: " + error);
+        });
+      };
+      ChapterGameComponent.prototype.initTaskComp = function() {
+        var _this = this;
+        return new Promise(function(resolve, reject) {
+          if (_this.taskData) {
+            var bundle = cc.assetManager.getBundle("common");
+            bundle ? bundle.load("gameTask/gameTask", cc.Prefab, function(error, assets) {
+              var taskNode = cc.instantiate(assets);
+              _this.gameTaskCom = taskNode.getComponent("gameTask");
+              _this.gameTaskCom && _this.gameTaskCom.initData(_this.taskData);
+              taskNode.parent = _this.node;
+              resolve();
+            }) : resolve();
+          } else resolve();
+        }).catch(function(error) {
+          cc.warn("initTaskComp error: " + error);
+        });
+      };
+      ChapterGameComponent.prototype.startRecordAudio = function(evaluatingText, bundleName, audioUrl) {
+        EventSystem_1.default.emit(events_1.FOLLOW_CLIENT_TO_MODULE, {
+          eventName: "startRecord",
+          extra: {
+            evaluatingText: evaluatingText,
+            bundleName: bundleName,
+            audioUrl: audioUrl
+          }
+        });
+      };
+      ChapterGameComponent.prototype.onRecordResult = function(result) {
+        cc.log(" recordResult result.data: " + result.data);
+      };
+      ChapterGameComponent.prototype.onDestroy = function() {
+        _super.prototype.onDestroy.call(this);
+      };
+      ChapterGameComponent = __decorate([ ccclass ], ChapterGameComponent);
+      return ChapterGameComponent;
+    }(BaseChapterComponent_1.default);
+    exports.default = ChapterGameComponent;
+    cc._RF.pop();
+  }, {
+    "../../kit/events/events": void 0,
+    "../../kit/system/event/EventSystem": void 0,
+    "./BaseChapterComponent": "BaseChapterComponent"
+  } ],
+  CompEnum: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "87736T2PNRKu54WeQCTjJBw", "CompEnum");
+    "use strict";
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    exports.RoundStateType = void 0;
+    var RoundStateType;
+    (function(RoundStateType) {
+      RoundStateType[RoundStateType["None"] = -1] = "None";
+      RoundStateType[RoundStateType["RoundOpenAniStart"] = 0] = "RoundOpenAniStart";
+      RoundStateType[RoundStateType["RoundOpenAniComplete"] = 1] = "RoundOpenAniComplete";
+      RoundStateType[RoundStateType["RoundStart"] = 2] = "RoundStart";
+      RoundStateType[RoundStateType["RoundProceeding"] = 3] = "RoundProceeding";
+      RoundStateType[RoundStateType["RoundComplete"] = 4] = "RoundComplete";
+      RoundStateType[RoundStateType["RoundEndAniStart"] = 5] = "RoundEndAniStart";
+      RoundStateType[RoundStateType["RoundEndAniComplete"] = 6] = "RoundEndAniComplete";
+    })(RoundStateType = exports.RoundStateType || (exports.RoundStateType = {}));
+    cc._RF.pop();
+  }, {} ],
+  CompInterface: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "49600mpkTxJDq3v+0++6IWC", "CompInterface");
+    "use strict";
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    cc._RF.pop();
+  }, {} ],
+  Hand: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "8f09diGkVNHEKi3Xqx86KFS", "Hand");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var Hand = function(_super) {
+      __extends(Hand, _super);
+      function Hand() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.sp = null;
+        _this.cursor = null;
+        _this.mask = null;
+        _this.bg = null;
+        _this.onCompleted = null;
+        _this.move_duration = .4;
+        return _this;
+      }
+      Hand.prototype.onLoad = function() {
+        var _this = this;
+        this.sp.setCompleteListener(function() {
+          if (_this.onCompleted) {
+            var cb = _this.onCompleted;
+            cb();
+          }
+        });
+      };
+      Hand.prototype.playClick = function() {
+        this.fadeIn();
+        this.node.active = true;
+        this.cursor.rotation = 0;
+        this.sp.setAnimation(0, "dian", false);
+      };
+      Hand.prototype.fadeIn = function() {
+        var fade = cc.fadeIn(this.move_duration).easing(cc.easeSineOut());
+        this.bg.runAction(fade);
+      };
+      Hand.prototype.playSwipeLeft = function() {
+        this.playSwipeByAngle(0, "you-zuo", false);
+      };
+      Hand.prototype.playSwipeRight = function() {
+        this.playSwipeByAngle(0, "zuoyou", false);
+      };
+      Hand.prototype.playSwipeUp = function() {
+        this.playSwipeByAngle(90, "zuoyou", false);
+      };
+      Hand.prototype.playSwipeDown = function() {
+        this.playSwipeByAngle(90, "you-zuo", false);
+      };
+      Hand.prototype.playSwipeByAngle = function(angle, name, loop) {
+        this.fadeIn();
+        this.node.active = true;
+        this.cursor.rotation = angle;
+        this.sp.setAnimation(0, name, loop);
+      };
+      Hand.prototype.hide = function() {
+        this.node.active = false;
+      };
+      Object.defineProperty(Hand.prototype, "isShowing", {
+        get: function() {
+          return this.node.active;
+        },
+        enumerable: false,
+        configurable: true
+      });
+      Hand.prototype.stop = function() {};
+      Hand.prototype.setTargetBound = function(x, y, w, h) {
+        this.mask.width = w;
+        this.mask.height = h;
+        this.mask.x = x;
+        this.mask.y = y;
+        var screenSize = cc.Canvas.instance.designResolution;
+        this.bg.width = screenSize.width;
+        this.bg.height = screenSize.height;
+        this.bg.x = -this.mask.x;
+        this.bg.y = -this.mask.y;
+        this.cursor.x = this.mask.x;
+        this.cursor.y = this.mask.y;
+      };
+      Hand.prototype.setTargetNode = function(target, parent) {
+        if (null == target) return;
+        var worldPos = target.convertToWorldSpaceAR(cc.Vec2.ZERO);
+        this.mask.width = target.width;
+        this.mask.height = target.height;
+        var localPos = parent.convertToNodeSpaceAR(worldPos);
+        this.setTargetBound(localPos.x, localPos.y, target.width, target.height);
+      };
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u624b\u52a8\u753b"
+      }) ], Hand.prototype, "sp", void 0);
+      __decorate([ property({
+        type: cc.Node,
+        displayName: "\u624b"
+      }) ], Hand.prototype, "cursor", void 0);
+      __decorate([ property({
+        type: cc.Node,
+        displayName: "Mask"
+      }) ], Hand.prototype, "mask", void 0);
+      __decorate([ property({
+        type: cc.Node,
+        displayName: "Bg"
+      }) ], Hand.prototype, "bg", void 0);
+      Hand = __decorate([ ccclass ], Hand);
+      return Hand;
+    }(cc.Component);
+    exports.default = Hand;
+    cc._RF.pop();
+  }, {} ],
+  LSprite: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "436bcJ8ijFIjpRpNC7fC71i", "LSprite");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var SpriteAssembler_1 = require("./SpriteAssembler");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var LSprite = function(_super) {
+      __extends(LSprite, _super);
+      function LSprite() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.colorList = [];
+        return _this;
+      }
+      LSprite.prototype.flushProperties = function() {};
+      LSprite.prototype._resetAssembler = function() {
+        this.setVertsDirty();
+        var assembler = this._assembler = new SpriteAssembler_1.default();
+        assembler.colorList = this.colorList;
+        this.flushProperties();
+        assembler.init(this);
+        this._updateColor();
+      };
+      __decorate([ property({
+        type: [ cc.Color ],
+        displayName: "\u9876\u70b9\u989c\u8272",
+        tooltip: "\u5de6\u4e0b->\u53f3\u4e0b->\u5de6\u4e0a->\u53f3\u4e0a"
+      }) ], LSprite.prototype, "colorList", void 0);
+      LSprite = __decorate([ ccclass ], LSprite);
+      return LSprite;
+    }(cc.Sprite);
+    exports.default = LSprite;
+    cc._RF.pop();
+  }, {
+    "./SpriteAssembler": "SpriteAssembler"
+  } ],
+  RollerAnimation: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "373bbYeaw5JopWo11ayc/Rp", "RollerAnimation");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var ChapterGameComponent_1 = require("../../scripts/ChapterGameComponent");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var RollerAnimation = function(_super) {
+      __extends(RollerAnimation, _super);
+      function RollerAnimation() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.farNode = null;
+        _this.middleNode = null;
+        _this.nearNode = null;
+        _this.farSpeed = 100;
+        _this.middleSpeed = 200;
+        _this.nearSpeed = 300;
+        _this.isHorizontal = true;
+        _this.isStopMove = false;
+        return _this;
+      }
+      RollerAnimation.prototype.onLoad = function() {
+        _super.prototype.onLoad.call(this);
+      };
+      RollerAnimation.prototype.start = function() {};
+      RollerAnimation.prototype.initData = function() {};
+      RollerAnimation.prototype.stopMove = function() {
+        this.isStopMove = true;
+      };
+      RollerAnimation.prototype.resumeMove = function() {
+        this.isStopMove = false;
+      };
+      RollerAnimation.prototype.setFarSpeed = function(speed) {
+        this.farSpeed = speed;
+      };
+      RollerAnimation.prototype.getFarSpeed = function() {
+        return this.farSpeed;
+      };
+      RollerAnimation.prototype.setMiddleSpeed = function(speed) {
+        this.middleSpeed = speed;
+      };
+      RollerAnimation.prototype.getMiddleSpeed = function() {
+        return this.middleSpeed;
+      };
+      RollerAnimation.prototype.setNearSpeed = function(speed) {
+        this.nearSpeed = speed;
+      };
+      RollerAnimation.prototype.getNearSpeed = function() {
+        return this.nearSpeed;
+      };
+      RollerAnimation.prototype.onDestroy = function() {
+        _super.prototype.onDestroy.call(this);
+      };
+      RollerAnimation.prototype.changeSpeedMove = function(FSpeed, MSpeed, NSpeed) {
+        var _this = this;
+        this.farNode.childrenCount > 0 && this.farNode.children.forEach(function(v) {
+          _this.isHorizontal ? v.x -= FSpeed : v.y -= FSpeed;
+          _this.checkNode(v, FSpeed);
+        });
+        this.nearNode.childrenCount > 0 && this.nearNode.children.forEach(function(v) {
+          _this.isHorizontal ? v.x -= NSpeed : v.y -= NSpeed;
+          _this.checkNode(v, NSpeed);
+        });
+        this.middleNode.childrenCount > 0 && this.middleNode.children.forEach(function(v) {
+          _this.isHorizontal ? v.x -= MSpeed : v.y -= MSpeed;
+          _this.checkNode(v, MSpeed);
+        });
+      };
+      RollerAnimation.prototype.checkNode = function(node, dir) {
+        var w = cc.view.getFrameSize().width + node.width / 2;
+        var h = cc.view.getFrameSize().height + node.height / 2;
+        this.isHorizontal ? dir >= 0 ? node.x < -w && (node.x = w) : node.x > w && (node.x = -w) : dir >= 0 ? node.y < -h && (node.y = h) : node.y > h && (node.y = -h);
+      };
+      RollerAnimation.prototype.update = function(dt) {
+        if (this.isStopMove) return;
+        var farSpeed = dt * this.farSpeed;
+        var middleSpeed = dt * this.middleSpeed;
+        var nearSpeed = dt * this.nearSpeed;
+        this.changeSpeedMove(farSpeed, middleSpeed, nearSpeed);
+      };
+      __decorate([ property(cc.Node) ], RollerAnimation.prototype, "farNode", void 0);
+      __decorate([ property(cc.Node) ], RollerAnimation.prototype, "middleNode", void 0);
+      __decorate([ property(cc.Node) ], RollerAnimation.prototype, "nearNode", void 0);
+      __decorate([ property({
+        displayName: "\u8fdc\u666f\u901f\u5ea6",
+        tooltip: "\u5982\u679c\u8981\u4ece\u5de6\u5f80\u53f3\u8bf7\u586b\u5199\u8d1f\u6570"
+      }) ], RollerAnimation.prototype, "farSpeed", void 0);
+      __decorate([ property({
+        displayName: "\u4e2d\u666f\u901f\u5ea6",
+        tooltip: "\u5982\u679c\u8981\u4ece\u5de6\u5f80\u53f3\u8bf7\u586b\u5199\u8d1f\u6570"
+      }) ], RollerAnimation.prototype, "middleSpeed", void 0);
+      __decorate([ property({
+        displayName: "\u8fd1\u666f\u901f\u5ea6",
+        tooltip: "\u5982\u679c\u8981\u4ece\u5de6\u5f80\u53f3\u8bf7\u586b\u5199\u8d1f\u6570"
+      }) ], RollerAnimation.prototype, "nearSpeed", void 0);
+      __decorate([ property({
+        displayName: "\u6a2a\u5411\u79fb\u52a8",
+        tooltip: "\u9ed8\u8ba4\u4ece\u53f3\u5f80\u5de6"
+      }) ], RollerAnimation.prototype, "isHorizontal", void 0);
+      RollerAnimation = __decorate([ ccclass ], RollerAnimation);
+      return RollerAnimation;
+    }(ChapterGameComponent_1.default);
+    exports.default = RollerAnimation;
+    cc._RF.pop();
+  }, {
+    "../../scripts/ChapterGameComponent": "ChapterGameComponent"
+  } ],
+  SpineUtils: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "1d68eTK4/NFsINkE8apGdaz", "SpineUtils");
+    "use strict";
+    var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
+      function adopt(value) {
+        return value instanceof P ? value : new P(function(resolve) {
+          resolve(value);
+        });
+      }
+      return new (P || (P = Promise))(function(resolve, reject) {
+        function fulfilled(value) {
+          try {
+            step(generator.next(value));
+          } catch (e) {
+            reject(e);
+          }
+        }
+        function rejected(value) {
+          try {
+            step(generator["throw"](value));
+          } catch (e) {
+            reject(e);
+          }
+        }
+        function step(result) {
+          result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
+        }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+      });
+    };
+    var __generator = this && this.__generator || function(thisArg, body) {
+      var _ = {
+        label: 0,
+        sent: function() {
+          if (1 & t[0]) throw t[1];
+          return t[1];
+        },
+        trys: [],
+        ops: []
+      }, f, y, t, g;
+      return g = {
+        next: verb(0),
+        throw: verb(1),
+        return: verb(2)
+      }, "function" === typeof Symbol && (g[Symbol.iterator] = function() {
+        return this;
+      }), g;
+      function verb(n) {
+        return function(v) {
+          return step([ n, v ]);
+        };
+      }
+      function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+          if (f = 1, y && (t = 2 & op[0] ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 
+          0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+          (y = 0, t) && (op = [ 2 & op[0], t.value ]);
+          switch (op[0]) {
+           case 0:
+           case 1:
+            t = op;
+            break;
+
+           case 4:
+            _.label++;
+            return {
+              value: op[1],
+              done: false
+            };
+
+           case 5:
+            _.label++;
+            y = op[1];
+            op = [ 0 ];
+            continue;
+
+           case 7:
+            op = _.ops.pop();
+            _.trys.pop();
+            continue;
+
+           default:
+            if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (6 === op[0] || 2 === op[0])) {
+              _ = 0;
+              continue;
+            }
+            if (3 === op[0] && (!t || op[1] > t[0] && op[1] < t[3])) {
+              _.label = op[1];
+              break;
+            }
+            if (6 === op[0] && _.label < t[1]) {
+              _.label = t[1];
+              t = op;
+              break;
+            }
+            if (t && _.label < t[2]) {
+              _.label = t[2];
+              _.ops.push(op);
+              break;
+            }
+            t[2] && _.ops.pop();
+            _.trys.pop();
+            continue;
+          }
+          op = body.call(thisArg, _);
+        } catch (e) {
+          op = [ 6, e ];
+          y = 0;
+        } finally {
+          f = t = 0;
+        }
+        if (5 & op[0]) throw op[1];
+        return {
+          value: op[0] ? op[1] : void 0,
+          done: true
+        };
+      }
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    exports.SpineUtils = void 0;
+    var TimerSystem_1 = require("../../kit/system/timer/TimerSystem");
+    var SpineUtils = function() {
+      function SpineUtils() {}
+      SpineUtils.playSpineAsync = function(sp, info) {
+        return new Promise(function(resolve, reject) {
+          info.func && info.func();
+          if (info.loop) {
+            sp.setAnimation(0, info.name, true);
+            TimerSystem_1.default.instance.doOnce(1e3 * info.duration || 0, function() {
+              if (cc.isValid(sp.node)) resolve(true); else {
+                cc.warn("sp.node  is valid false! animation name " + info.name);
+                resolve(false);
+              }
+            });
+          } else {
+            var te = sp.setAnimation(0, info.name, false);
+            if (!te) {
+              resolve(true);
+              return;
+            }
+            sp.setTrackCompleteListener(te, function() {
+              resolve(true);
+            });
+          }
+        });
+      };
+      SpineUtils.playSpineAniByConfig = function(sp, config) {
+        return __awaiter(this, void 0, void 0, function() {
+          var index, info;
+          return __generator(this, function(_a) {
+            switch (_a.label) {
+             case 0:
+              index = 0;
+              _a.label = 1;
+
+             case 1:
+              if (!(index < config.length)) return [ 3, 4 ];
+              info = config[index];
+              info.func && info.func();
+              return [ 4, SpineUtils.playSpineAsync(sp, info) ];
+
+             case 2:
+              _a.sent();
+              _a.label = 3;
+
+             case 3:
+              index++;
+              return [ 3, 1 ];
+
+             case 4:
+              return [ 2 ];
+            }
+          });
+        });
+      };
+      return SpineUtils;
+    }();
+    exports.SpineUtils = SpineUtils;
+    cc._RF.pop();
+  }, {
+    "../../kit/system/timer/TimerSystem": void 0
+  } ],
+  SpriteAssembler: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "b650dFASNlN5LNScvHc4Bsi", "SpriteAssembler");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var Assembler2D_1 = require("./Assembler2D");
+    var SpriteAssembler = function(_super) {
+      __extends(SpriteAssembler, _super);
+      function SpriteAssembler() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this._whiteColor = 4294967295;
+        _this._colorList = [];
+        return _this;
+      }
+      Object.defineProperty(SpriteAssembler.prototype, "colorList", {
+        set: function(val) {
+          var newColorList = [];
+          for (var i = 0; i < val.length; i++) {
+            var v = 0;
+            var color = val[i];
+            newColorList[i] = color._val;
+          }
+          this._colorList = newColorList;
+        },
+        enumerable: false,
+        configurable: true
+      });
+      SpriteAssembler.prototype.updateRenderData = function(sprite) {
+        this.packToDynamicAtlas(sprite, sprite._spriteFrame);
+        _super.prototype.updateRenderData.call(this, sprite);
+      };
+      SpriteAssembler.prototype.updateUVs = function(sprite) {
+        var uv = sprite._spriteFrame.uv;
+        var uvOffset = this.uvOffset;
+        var floatsPerVert = this.floatsPerVert;
+        var verts = this._renderData.vDatas[0];
+        for (var i = 0; i < 4; i++) {
+          var srcOffset = 2 * i;
+          var dstOffset = floatsPerVert * i + uvOffset;
+          verts[dstOffset] = uv[srcOffset];
+          verts[dstOffset + 1] = uv[srcOffset + 1];
+        }
+      };
+      SpriteAssembler.prototype.updateVerts = function(sprite) {
+        var node = sprite.node, cw = node.width, ch = node.height, appx = node.anchorX * cw, appy = node.anchorY * ch, l, b, r, t;
+        if (sprite.trim) {
+          l = -appx;
+          b = -appy;
+          r = cw - appx;
+          t = ch - appy;
+        } else {
+          var frame = sprite.spriteFrame, ow = frame._originalSize.width, oh = frame._originalSize.height, rw = frame._rect.width, rh = frame._rect.height, offset = frame._offset, scaleX = cw / ow, scaleY = ch / oh;
+          var trimLeft = offset.x + (ow - rw) / 2;
+          var trimRight = offset.x - (ow - rw) / 2;
+          var trimBottom = offset.y + (oh - rh) / 2;
+          var trimTop = offset.y - (oh - rh) / 2;
+          l = trimLeft * scaleX - appx;
+          b = trimBottom * scaleY - appy;
+          r = cw + trimRight * scaleX - appx;
+          t = ch + trimTop * scaleY - appy;
+        }
+        var local = this._local;
+        local[0] = l;
+        local[1] = b;
+        local[2] = r;
+        local[3] = t;
+        this.updateWorldVerts(sprite);
+      };
+      SpriteAssembler.prototype.updateColor = function(comp, color) {
+        var uintVerts = this._renderData.uintVDatas[0];
+        if (!uintVerts) return;
+        color = null != color ? color : comp.node.color._val;
+        var floatsPerVert = this.floatsPerVert;
+        var colorOffset = this.colorOffset;
+        var d = 0;
+        for (var i = colorOffset, len = uintVerts.length; i < len; i += floatsPerVert) {
+          color = this._colorList[d];
+          color ? null : color = this._whiteColor;
+          uintVerts[i] = color;
+          d++;
+        }
+      };
+      return SpriteAssembler;
+    }(Assembler2D_1.default);
+    exports.default = SpriteAssembler;
+    cc._RF.pop();
+  }, {
+    "./Assembler2D": "Assembler2D"
+  } ],
+  TaskBoard: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "7a2f11eZoVPcJMgqd3ZLEq9", "TaskBoard");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var TaskBoard = function(_super) {
+      __extends(TaskBoard, _super);
+      function TaskBoard() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.contents = [];
+        _this.contentNodes = [];
+        _this.finishIcon = null;
+        _this.poses = [];
+        _this.move_duration = .4;
+        _this.currPage = 0;
+        _this.isShowing = false;
+        _this.panel = null;
+        _this.mask = null;
+        _this.safearea = null;
+        _this.onClosed = null;
+        _this.flag_block = false;
+        _this.initPos = cc.Vec2.ZERO;
+        _this.currPos = cc.Vec2.ZERO;
+        return _this;
+      }
+      TaskBoard.prototype.onLoad = function() {
+        this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchBegan, this);
+        this.node.on(cc.Node.EventType.TOUCH_END, this.onTouchEnd, this);
+        this.node.on(cc.Node.EventType.TOUCH_CANCEL, this.onTouchEnd, this);
+        var sw = cc.Canvas.instance.designResolution;
+        this.poses[0].x = sw.width / 2 - 220;
+        this.poses[0].y = -sw.height / 2;
+        this.poses[1].x = sw.width / 2 + 220;
+        this.poses[1].y = -sw.height / 2;
+        this.panel.x = this.poses[1].x;
+        this.panel.y = this.poses[1].y;
+      };
+      TaskBoard.prototype.start = function() {};
+      TaskBoard.prototype.show = function(pageIndex, onMoveEnded) {
+        var _this = this;
+        void 0 === onMoveEnded && (onMoveEnded = null);
+        this.finishIcon.node.active = false;
+        this.node.active = true;
+        if (this.contents.length > 0) {
+          var pre = this.contents[pageIndex];
+          var ch = cc.instantiate(pre);
+          ch.active = true;
+          this.safearea.addChild(ch);
+          ch.x = 0;
+          ch.y = 0;
+        } else if (this.contentNodes.length > 0) {
+          var pre = this.contentNodes[pageIndex];
+          var ch = cc.instantiate(pre);
+          ch.active = true;
+          this.safearea.addChild(ch);
+          ch.x = 0;
+          ch.y = 0;
+        }
+        this.panel.active = true;
+        var fade = cc.fadeIn(this.move_duration).easing(cc.easeSineOut());
+        this.mask.runAction(fade);
+        this.moveTo(this.poses[0], this.move_duration, function() {
+          _this.isShowing = true;
+          onMoveEnded && onMoveEnded(_this.isShowing);
+        });
+      };
+      TaskBoard.prototype.hide = function(onMoveEnded) {
+        var _this = this;
+        void 0 === onMoveEnded && (onMoveEnded = null);
+        var fade = cc.fadeOut(this.move_duration).easing(cc.easeSineOut());
+        this.mask.runAction(fade);
+        this.moveTo(this.poses[1], this.move_duration, function() {
+          _this.isShowing = false;
+          _this.node.active = false;
+          _this.panel.active = false;
+          if (_this.safearea.children.length > 0) {
+            var ch = _this.safearea.children[0];
+            ch.removeFromParent();
+            ch.destroy();
+          }
+          _this.hideFinishIcon();
+          onMoveEnded && onMoveEnded(_this.isShowing);
+          if (_this.onClosed) {
+            var oc = _this.onClosed;
+            oc();
+          }
+        });
+      };
+      TaskBoard.prototype.setPrefabs = function(prefabs) {
+        this.contents = prefabs;
+      };
+      TaskBoard.prototype.setNodes = function(nodes) {
+        this.contentNodes = nodes;
+      };
+      TaskBoard.prototype.playFinished = function() {
+        this.finishIcon.node.active = true;
+        this.finishIcon.setAnimation(0, "gaizhang", false);
+      };
+      TaskBoard.prototype.hideFinishIcon = function() {
+        this.finishIcon.node.active = false;
+      };
+      TaskBoard.prototype.onClick = function() {};
+      TaskBoard.prototype.moveTo = function(pos, duration, callback) {
+        var _this = this;
+        void 0 === duration && (duration = 1);
+        void 0 === callback && (callback = function() {
+          return;
+        });
+        this.flag_block = true;
+        var mov = cc.moveTo(duration, pos.x, pos.y).easing(cc.easeBackOut());
+        var seq = cc.sequence(mov, cc.callFunc(function() {
+          _this.flag_block = false;
+          callback();
+        }));
+        this.panel.runAction(seq);
+      };
+      TaskBoard.prototype.onTouchBegan = function(event) {
+        console.log("onTouchBegan >>>>>>>>>>>>");
+        this.currPos.x = event.getLocationX();
+        this.currPos.y = event.getLocationY();
+        this.initPos.x = event.getLocationX();
+        this.initPos.y = event.getLocationY();
+      };
+      TaskBoard.prototype.onTouchEnd = function(event) {
+        console.log("onTouchEnd >>>>>>>>>>>>");
+        var currX = event.getLocationX();
+        var currY = event.getLocationY();
+        var dis = Math.sqrt((currX - this.initPos.x) * (currX - this.initPos.x) + (currY - this.initPos.y) * (currY - this.initPos.y));
+        dis < 20 && this.hide();
+      };
+      __decorate([ property({
+        type: sp.Skeleton,
+        displayName: "\u4efb\u52a1\u5b8c\u6210"
+      }) ], TaskBoard.prototype, "finishIcon", void 0);
+      __decorate([ property({
+        type: [ cc.Node ],
+        displayName: "\u9762\u677f\u4f4d\u7f6e"
+      }) ], TaskBoard.prototype, "poses", void 0);
+      __decorate([ property({
+        type: cc.Node,
+        displayName: "\u9762\u677f"
+      }) ], TaskBoard.prototype, "panel", void 0);
+      __decorate([ property({
+        type: cc.Node,
+        displayName: "mask"
+      }) ], TaskBoard.prototype, "mask", void 0);
+      __decorate([ property({
+        type: cc.Node,
+        displayName: "\u5185\u5bb9\u533a\u57df"
+      }) ], TaskBoard.prototype, "safearea", void 0);
+      TaskBoard = __decorate([ ccclass ], TaskBoard);
+      return TaskBoard;
+    }(cc.Component);
+    exports.default = TaskBoard;
+    cc._RF.pop();
+  }, {} ],
+  gameTask: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "be38dnTC39MVqV63hKcsrc+", "gameTask");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    var __awaiter = this && this.__awaiter || function(thisArg, _arguments, P, generator) {
+      function adopt(value) {
+        return value instanceof P ? value : new P(function(resolve) {
+          resolve(value);
+        });
+      }
+      return new (P || (P = Promise))(function(resolve, reject) {
+        function fulfilled(value) {
+          try {
+            step(generator.next(value));
+          } catch (e) {
+            reject(e);
+          }
+        }
+        function rejected(value) {
+          try {
+            step(generator["throw"](value));
+          } catch (e) {
+            reject(e);
+          }
+        }
+        function step(result) {
+          result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
+        }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+      });
+    };
+    var __generator = this && this.__generator || function(thisArg, body) {
+      var _ = {
+        label: 0,
+        sent: function() {
+          if (1 & t[0]) throw t[1];
+          return t[1];
+        },
+        trys: [],
+        ops: []
+      }, f, y, t, g;
+      return g = {
+        next: verb(0),
+        throw: verb(1),
+        return: verb(2)
+      }, "function" === typeof Symbol && (g[Symbol.iterator] = function() {
+        return this;
+      }), g;
+      function verb(n) {
+        return function(v) {
+          return step([ n, v ]);
+        };
+      }
+      function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+          if (f = 1, y && (t = 2 & op[0] ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 
+          0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+          (y = 0, t) && (op = [ 2 & op[0], t.value ]);
+          switch (op[0]) {
+           case 0:
+           case 1:
+            t = op;
+            break;
+
+           case 4:
+            _.label++;
+            return {
+              value: op[1],
+              done: false
+            };
+
+           case 5:
+            _.label++;
+            y = op[1];
+            op = [ 0 ];
+            continue;
+
+           case 7:
+            op = _.ops.pop();
+            _.trys.pop();
+            continue;
+
+           default:
+            if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (6 === op[0] || 2 === op[0])) {
+              _ = 0;
+              continue;
+            }
+            if (3 === op[0] && (!t || op[1] > t[0] && op[1] < t[3])) {
+              _.label = op[1];
+              break;
+            }
+            if (6 === op[0] && _.label < t[1]) {
+              _.label = t[1];
+              t = op;
+              break;
+            }
+            if (t && _.label < t[2]) {
+              _.label = t[2];
+              _.ops.push(op);
+              break;
+            }
+            t[2] && _.ops.pop();
+            _.trys.pop();
+            continue;
+          }
+          op = body.call(thisArg, _);
+        } catch (e) {
+          op = [ 6, e ];
+          y = 0;
+        } finally {
+          f = t = 0;
+        }
+        if (5 & op[0]) throw op[1];
+        return {
+          value: op[0] ? op[1] : void 0,
+          done: true
+        };
+      }
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var AudioManager_1 = require("../../../kit/system/audio/AudioManager");
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var gameTask = function(_super) {
+      __extends(gameTask, _super);
+      function gameTask() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.nodeWidget = null;
+        _this.topBtn = null;
+        _this.moveLen = 400;
+        _this.taskHideTime = 4;
+        _this.moveTime = .5;
+        _this.taskData = null;
+        return _this;
+      }
+      gameTask.prototype.initData = function(taskData) {
+        this.taskData = taskData;
+      };
+      gameTask.prototype.onLoad = function() {
+        this.node.active = false;
+        this.topBtn.active = false;
+        this.updateTaskPos();
+      };
+      gameTask.prototype.updateTaskPos = function() {
+        this.nodeWidget.right = -this.node.width;
+        this.nodeWidget.updateAlignment();
+      };
+      gameTask.prototype.showTaskList = function(params) {
+        return __awaiter(this, void 0, void 0, function() {
+          var taskIndex, complete;
+          var _this = this;
+          return __generator(this, function(_a) {
+            switch (_a.label) {
+             case 0:
+              if (!params || void 0 == params.taskIndex) {
+                cc.error("show task params error! params:" + JSON.stringify(params));
+                return [ 2 ];
+              }
+              taskIndex = params.taskIndex;
+              complete = params.complete;
+              if (taskIndex >= this.taskData.imgList.length) {
+                cc.error("task index error!");
+                return [ 2 ];
+              }
+              return [ 4, this.updateTaskImg(taskIndex) ];
+
+             case 1:
+              _a.sent();
+              this.moveAni(params, function() {
+                _this.showSealSpine(complete);
+              });
+              return [ 2 ];
+            }
+          });
+        });
+      };
+      gameTask.prototype.updateTaskImg = function(taskIndex) {
+        var _this = this;
+        return new Promise(function(resolve, reject) {
+          var bundle = cc.assetManager.getBundle(_this.taskData.bundleName);
+          bundle && bundle.load(_this.taskData.imgList[taskIndex], cc.SpriteFrame, function(err, asset) {
+            _this.node.getChildByName("task").getComponent(cc.Sprite).spriteFrame = asset;
+            _this.node.active = true;
+            resolve();
+          });
+        });
+      };
+      gameTask.prototype.showSealSpine = function(complete) {
+        if (!complete) return;
+        var sealNode = this.node.getChildByName("sealNode");
+        sealNode.active = true;
+        var sk = sealNode.getComponent(sp.Skeleton);
+        var en = sk.setAnimation(0, "gaizhang", false);
+        sk.setTrackCompleteListener(en, function() {
+          AudioManager_1.default.playEffect("common", "gameTask/audio/SE_luoyefense_03");
+          AudioManager_1.default.playEffect("common", "gameTask/audio/6_congratulations");
+        });
+      };
+      gameTask.prototype.moveAni = function(params, callFuc) {
+        var _this = this;
+        this.params = params;
+        cc.tween(this.node).by(this.moveTime, {
+          x: -this.moveLen
+        }).call(function() {
+          params.callFunc1 && params.callFunc1();
+          callFuc && callFuc();
+          _this.topBtn.active = true;
+        }).delay(this.taskHideTime).call(function() {
+          params.callFunc2 && params.callFunc2();
+          _this.topBtn.active = false;
+        }).by(this.moveTime, {
+          x: this.moveLen
+        }).call(function() {
+          params.callFunc3 && params.callFunc3();
+          var sealNode = _this.node.getChildByName("sealNode");
+          sealNode.active = false;
+        }).start();
+      };
+      gameTask.prototype.onTopBtnClicked = function(event) {
+        var _this = this;
+        cc.Tween.stopAllByTarget(this.node);
+        cc.tween(this.node).by(this.moveTime, {
+          x: this.moveLen
+        }).call(function() {
+          _this.params && _this.params.callFunc3 && _this.params.callFunc3();
+          var sealNode = _this.node.getChildByName("sealNode");
+          sealNode.active = false;
+        }).start();
+        this.topBtn.active = false;
+        this.params && this.params.callFunc2 && this.params.callFunc2();
+      };
+      __decorate([ property(cc.Widget) ], gameTask.prototype, "nodeWidget", void 0);
+      __decorate([ property(cc.Node) ], gameTask.prototype, "topBtn", void 0);
+      gameTask = __decorate([ ccclass ], gameTask);
+      return gameTask;
+    }(cc.Component);
+    exports.default = gameTask;
+    cc._RF.pop();
+  }, {
+    "../../../kit/system/audio/AudioManager": void 0
+  } ],
+  rollBg: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "21412fmy2dPw5+Rg+4D4EhN", "rollBg");
+    "use strict";
+    var __extends = this && this.__extends || function() {
+      var extendStatics = function(d, b) {
+        extendStatics = Object.setPrototypeOf || {
+          __proto__: []
+        } instanceof Array && function(d, b) {
+          d.__proto__ = b;
+        } || function(d, b) {
+          for (var p in b) Object.prototype.hasOwnProperty.call(b, p) && (d[p] = b[p]);
+        };
+        return extendStatics(d, b);
+      };
+      return function(d, b) {
+        extendStatics(d, b);
+        function __() {
+          this.constructor = d;
+        }
+        d.prototype = null === b ? Object.create(b) : (__.prototype = b.prototype, new __());
+      };
+    }();
+    var __assign = this && this.__assign || function() {
+      __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+          s = arguments[i];
+          for (var p in s) Object.prototype.hasOwnProperty.call(s, p) && (t[p] = s[p]);
+        }
+        return t;
+      };
+      return __assign.apply(this, arguments);
+    };
+    var __decorate = this && this.__decorate || function(decorators, target, key, desc) {
+      var c = arguments.length, r = c < 3 ? target : null === desc ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+      if ("object" === typeof Reflect && "function" === typeof Reflect.decorate) r = Reflect.decorate(decorators, target, key, desc); else for (var i = decorators.length - 1; i >= 0; i--) (d = decorators[i]) && (r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r);
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
+    var Mtype;
+    (function(Mtype) {
+      Mtype[Mtype["VERTICAL_P"] = 0] = "VERTICAL_P";
+      Mtype[Mtype["VERTICAL_N"] = 1] = "VERTICAL_N";
+      Mtype[Mtype["HORIZONTAL_P"] = 2] = "HORIZONTAL_P";
+      Mtype[Mtype["HORIZONTAL_N"] = 3] = "HORIZONTAL_N";
+    })(Mtype || (Mtype = {}));
+    var NewClass = function(_super) {
+      __extends(NewClass, _super);
+      function NewClass() {
+        var _this = null !== _super && _super.apply(this, arguments) || this;
+        _this.lubg1 = null;
+        _this.lubg2 = null;
+        _this.speed = 200;
+        _this.mtype = Mtype.VERTICAL_P;
+        _this.isRunmap = false;
+        _this.cur_lubg = null;
+        _this.luOffset = 0;
+        return _this;
+      }
+      NewClass.prototype.start = function() {
+        this.cur_lubg = this.lubg1;
+        this.setbgfix();
+        this.isRunmap = true;
+      };
+      NewClass.prototype.setbgfix = function() {
+        var frameSize = cc.view.getFrameSize();
+        var designResolution = cc.Canvas.instance.designResolution;
+        var designSize = cc.size(designResolution.width, designResolution.height);
+        var frameAspectRatio = frameSize.width / frameSize.height;
+        var screenSize = __assign({}, designSize);
+        var ratio = this.node.width / this.node.height;
+        if (ratio > frameAspectRatio) {
+          var width = this.node.width * screenSize.height / this.node.height;
+          this.lubg1.width = width;
+          this.lubg1.height = screenSize.height;
+          this.lubg2.width = width;
+          this.lubg2.height = screenSize.height;
+          switch (this.mtype) {
+           case Mtype.VERTICAL_P:
+            this.lubg2.y = screenSize.height;
+            this.luOffset = screenSize.height;
+            break;
+
+           case Mtype.VERTICAL_N:
+            this.lubg2.y = -screenSize.height;
+            this.luOffset = screenSize.height;
+            break;
+
+           case Mtype.HORIZONTAL_P:
+            this.lubg2.x = width;
+            this.luOffset = width;
+            break;
+
+           case Mtype.HORIZONTAL_N:
+            this.lubg2.x = -width;
+            this.luOffset = width;
+          }
+        } else {
+          var height = this.node.height * screenSize.width / this.node.width;
+          this.lubg1.width = screenSize.width;
+          this.lubg1.height = height;
+          this.lubg2.width = screenSize.width;
+          this.lubg2.height = height;
+          switch (this.mtype) {
+           case Mtype.VERTICAL_P:
+            this.lubg2.y = height;
+            this.luOffset = height;
+            break;
+
+           case Mtype.VERTICAL_N:
+            this.lubg2.y = -height;
+            this.luOffset = height;
+            break;
+
+           case Mtype.HORIZONTAL_P:
+            this.lubg2.x = screenSize.width;
+            this.luOffset = screenSize.width;
+            break;
+
+           case Mtype.HORIZONTAL_N:
+            this.lubg2.x = -screenSize.width;
+            this.luOffset = screenSize.width;
+          }
+        }
+      };
+      NewClass.prototype.runlubg = function(dt) {
+        var s = dt * this.speed;
+        switch (this.mtype) {
+         case Mtype.VERTICAL_P:
+          this.lubg1.y -= s;
+          this.lubg2.y -= s;
+          if (this.cur_lubg.y <= -this.luOffset) if (this.cur_lubg == this.lubg2) {
+            this.lubg2.y = this.lubg1.y + this.luOffset;
+            this.cur_lubg = this.lubg1;
+          } else {
+            this.lubg1.y = this.lubg2.y + this.luOffset;
+            this.cur_lubg = this.lubg2;
+          }
+          break;
+
+         case Mtype.VERTICAL_N:
+          this.lubg1.y += s;
+          this.lubg2.y += s;
+          if (this.cur_lubg.y >= this.luOffset) if (this.cur_lubg == this.lubg2) {
+            this.lubg2.y = this.lubg1.y - this.luOffset;
+            this.cur_lubg = this.lubg1;
+          } else {
+            this.lubg1.y = this.lubg2.y - this.luOffset;
+            this.cur_lubg = this.lubg2;
+          }
+          break;
+
+         case Mtype.HORIZONTAL_P:
+          this.lubg1.x -= s;
+          this.lubg2.x -= s;
+          if (this.cur_lubg.x <= -this.luOffset) if (this.cur_lubg == this.lubg2) {
+            this.lubg2.x = this.lubg1.x + this.luOffset;
+            this.cur_lubg = this.lubg1;
+          } else {
+            this.lubg1.x = this.lubg2.x + this.luOffset;
+            this.cur_lubg = this.lubg2;
+          }
+          break;
+
+         case Mtype.HORIZONTAL_N:
+          this.lubg1.x += s;
+          this.lubg2.x += s;
+          if (this.cur_lubg.x >= this.luOffset) if (this.cur_lubg == this.lubg2) {
+            this.lubg2.x = this.lubg1.x - this.luOffset;
+            this.cur_lubg = this.lubg1;
+          } else {
+            this.lubg1.x = this.lubg2.x - this.luOffset;
+            this.cur_lubg = this.lubg2;
+          }
+        }
+      };
+      NewClass.prototype.update = function(dt) {
+        this.isRunmap && this.runlubg(dt);
+      };
+      __decorate([ property({
+        type: cc.Node,
+        tooltip: "\u5f53\u524d\u5c4f\u7684\u80cc\u666f\u8282\u70b9"
+      }) ], NewClass.prototype, "lubg1", void 0);
+      __decorate([ property({
+        type: cc.Node,
+        tooltip: "\u4e0b\u4e00\u5c4f\u7684\u80cc\u666f\u8282\u70b9"
+      }) ], NewClass.prototype, "lubg2", void 0);
+      __decorate([ property({
+        type: cc.Integer,
+        tooltip: "\u5faa\u73af\u901f\u5ea6",
+        min: 0,
+        max: 1e3,
+        step: 50,
+        slide: true
+      }) ], NewClass.prototype, "speed", void 0);
+      __decorate([ property({
+        type: cc.Enum(Mtype),
+        tooltip: "VERTICAL_P:\u5782\u76f4\u5411\u4e0b\u6eda\u52a8  VERTICAL_N:\u5782\u76f4\u5411\u4e0a\u6eda\u52a8 HORIZONTAL_P:\u6c34\u5e73\u5411\u5de6\u6eda\u52a8 HORIZONTAL_N:\u6c34\u5e73\u5411\u53f3\u6eda\u52a8"
+      }) ], NewClass.prototype, "mtype", void 0);
+      NewClass = __decorate([ ccclass ], NewClass);
+      return NewClass;
+    }(cc.Component);
+    exports.default = NewClass;
+    cc._RF.pop();
+  }, {} ]
+}, {}, [ "TaskBoard", "gameTask", "Hand", "RollerAnimation", "AdapterBg", "AdapterScreen", "BaseChapterComponent", "ChapterGameComponent", "rollBg", "CompEnum", "CompInterface", "SpineUtils", "Assembler2D", "LSprite", "SpriteAssembler" ]);

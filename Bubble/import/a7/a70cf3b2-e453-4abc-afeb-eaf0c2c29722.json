@@ -1,1 +1,51 @@
-[1,["7flYhW8blCmKrh+h6LLsCn"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"x-zhengmian","rect":[2,5,328,325],"offset":[0,-1.5],"originalSize":[332,332],"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "7flYhW8blCmKrh+h6LLsCn"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "x-zhengmian",
+      "rect": [
+        2,
+        5,
+        328,
+        325
+      ],
+      "offset": [
+        0,
+        -1.5
+      ],
+      "originalSize": [
+        332,
+        332
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

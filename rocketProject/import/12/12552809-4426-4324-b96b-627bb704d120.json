@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "eb6BVSDlVIu6+Erj8++5Gh"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "b_yel",
+      "rect": [
+        0,
+        0,
+        394,
+        197
+      ],
+      "offset": [
+        0,
+        3.5
+      ],
+      "originalSize": [
+        394,
+        204
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

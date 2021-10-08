@@ -1,0 +1,151 @@
+{
+    "paths": {
+        "28OER10mtHNoRHGFQgv6LX": [
+            "prefab/gameIconItem",
+            "cc.Prefab"
+        ],
+        "dcNbKmkn1CTqTSw+7zt5UW": [
+            "prefab/gameList",
+            "cc.Prefab"
+        ],
+        "f2dJXpJjVOiY3l6EFE0UP3": [
+            "spine/suo",
+            "cc.Asset"
+        ],
+        "86YRekhnFOH6ocVS1byj6Y": [
+            "spine/suo",
+            "sp.SkeletonData"
+        ],
+        "41+dyCm45GHowFr7PRSA6U": [
+            "spine/suo",
+            "cc.Texture2D"
+        ],
+        "74LAF7Z2VEwJdLXNmBVvps": [
+            "spine/suo",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0aA+02G1lOhpXtYQtGOv16": [
+            "texture/bg",
+            "cc.Texture2D"
+        ],
+        "a97EAXimJPlLsr14YIrP81": [
+            "texture/bg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "bcYuNH96FHGoauAjSJNCtg": [
+            "texture/floor",
+            "cc.Texture2D"
+        ],
+        "7f1bvooHhHq7oQ2jYjkGVt": [
+            "texture/floor",
+            "cc.SpriteFrame",
+            1
+        ],
+        "abEEMMb/dNZ4780wP/eGGo": [
+            "texture/game1",
+            "cc.Texture2D"
+        ],
+        "3fQpq69FdJGJIR/ppGQ4i1": [
+            "texture/game1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "a31cWN0dxNSph0rGZFD6Mk": [
+            "texture/game2",
+            "cc.Texture2D"
+        ],
+        "cdMpaeOsZD3rw+aYRah5cm": [
+            "texture/game2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "12iuwOJWlCZrhB4yF7DBG3": [
+            "texture/game3",
+            "cc.Texture2D"
+        ],
+        "17C8YTIxtPQY4cLspGf72z": [
+            "texture/game3",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3a0gdaVqpNYbVmMXv+WAUp": [
+            "texture/game_floor",
+            "cc.Texture2D"
+        ],
+        "35XiCBiFNNoLTq4Z0ERWhr": [
+            "texture/game_floor",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f0XyCJ+a1EIY3BHOJaST5N": [
+            "texture/yun_left",
+            "cc.Texture2D"
+        ],
+        "983R2Lu6FKYoqpxpFiGa8K": [
+            "texture/yun_left",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1e6GavmLRFnoiK3/4dNGrk": [
+            "texture/yun_right",
+            "cc.Texture2D"
+        ],
+        "3da3S83TFLMZ1r/36rGDUI": [
+            "texture/yun_right",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "28OER10mtHNoRHGFQgv6LX",
+        "dcNbKmkn1CTqTSw+7zt5UW",
+        "f2dJXpJjVOiY3l6EFE0UP3",
+        "86YRekhnFOH6ocVS1byj6Y",
+        "41+dyCm45GHowFr7PRSA6U",
+        "74LAF7Z2VEwJdLXNmBVvps",
+        "0aA+02G1lOhpXtYQtGOv16",
+        "a97EAXimJPlLsr14YIrP81",
+        "bcYuNH96FHGoauAjSJNCtg",
+        "7f1bvooHhHq7oQ2jYjkGVt",
+        "3a0gdaVqpNYbVmMXv+WAUp",
+        "35XiCBiFNNoLTq4Z0ERWhr",
+        "abEEMMb/dNZ4780wP/eGGo",
+        "3fQpq69FdJGJIR/ppGQ4i1",
+        "a31cWN0dxNSph0rGZFD6Mk",
+        "cdMpaeOsZD3rw+aYRah5cm",
+        "12iuwOJWlCZrhB4yF7DBG3",
+        "17C8YTIxtPQY4cLspGf72z",
+        "f0XyCJ+a1EIY3BHOJaST5N",
+        "983R2Lu6FKYoqpxpFiGa8K",
+        "1e6GavmLRFnoiK3/4dNGrk",
+        "3da3S83TFLMZ1r/36rGDUI",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "7a/QZLET9IDreTiBfRn2PD",
+        "5cO7kybDxGj4ipyMYdRYZB",
+        "5f5dyqtRNNxaFmVzYns6FZ",
+        "49psgUgGVKqaZh44khAkKV",
+        "a8irIWo31Mcoqm/qH+Npb/",
+        "d608qFRoFHwbXd0Dap056i",
+        "61cyPdEfRN047sDK9rO0W5",
+        "31DX6Ru3xJaJ3OY1NQGreN",
+        "bfoJaQFQlBFbWrTJdKD2EV"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0,
+        "7a/QZLET9IDreTiBfRn2PD",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "name": "gameList",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

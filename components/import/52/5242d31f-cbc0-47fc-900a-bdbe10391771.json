@@ -1,0 +1,42 @@
+[
+  1,
+  0,
+  0,
+  [
+    [
+      "cc.JsonAsset",
+      [
+        "_name",
+        "json"
+      ],
+      1
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      "&asset&type&",
+      {
+        "recordNode.prefab": "prefab",
+        "mic2.png": "texture",
+        "mic.png": "texture",
+        "recordAin.ts": "typescript",
+        "mic2.anim": "animation-clip",
+        "test.anim": "animation-clip"
+      }
+    ]
+  ],
+  0,
+  0,
+  [],
+  [],
+  []
+]

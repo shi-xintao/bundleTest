@@ -1,0 +1,41 @@
+
+guang.png
+size: 1474,1474
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang-1
+  rotate: false
+  xy: 579, 917
+  size: 555, 555
+  orig: 555, 555
+  offset: 0, 0
+  index: -1
+guang-2
+  rotate: true
+  xy: 2, 454
+  size: 525, 544
+  orig: 525, 544
+  offset: 0, 0
+  index: -1
+guang-3
+  rotate: false
+  xy: 2, 2
+  size: 461, 450
+  orig: 461, 450
+  offset: 0, 0
+  index: -1
+guang-4
+  rotate: false
+  xy: 2, 981
+  size: 575, 491
+  orig: 575, 491
+  offset: 0, 0
+  index: -1
+guang-5
+  rotate: true
+  xy: 548, 376
+  size: 539, 538
+  orig: 539, 538
+  offset: 0, 0
+  index: -1

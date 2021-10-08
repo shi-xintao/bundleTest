@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "75LxqZP0VKlrsl38HxYMAm"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "fudaihezi",
+      "rect": [
+        2,
+        17,
+        522,
+        507
+      ],
+      "offset": [
+        0,
+        -7.5
+      ],
+      "originalSize": [
+        526,
+        526
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

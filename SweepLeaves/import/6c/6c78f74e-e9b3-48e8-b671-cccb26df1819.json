@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "98hRHAqHhGv7zTmYsjRhax"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "leaf1",
+      "rect": [
+        0,
+        0,
+        347,
+        200
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        348,
+        200
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

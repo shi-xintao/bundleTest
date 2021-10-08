@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d9qHHAru5DG7ETE+EEjdax"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "shu1",
+      "rect": [
+        0,
+        124,
+        1530,
+        753
+      ],
+      "offset": [
+        0,
+        -62
+      ],
+      "originalSize": [
+        1530,
+        877
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

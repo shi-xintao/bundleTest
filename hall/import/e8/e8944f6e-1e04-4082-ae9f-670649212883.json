@@ -1,0 +1,1000 @@
+[
+  1,
+  [
+    "a5VuVf0hFDL70rUajyQa5D"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "Yellow",
+      "\nYellow.png\nsize: 156,156\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nY-lianbu\n  rotate: false\n  xy: 2, 28\n  size: 102, 126\n  orig: 108, 133\n  offset: 3, 4\n  index: -1\nY-meimao-L\n  rotate: false\n  xy: 126, 12\n  size: 17, 11\n  orig: 20, 13\n  offset: 1, 1\n  index: -1\nY-meimao-R\n  rotate: false\n  xy: 126, 2\n  size: 16, 8\n  orig: 18, 10\n  offset: 1, 1\n  index: -1\nY-yanjing-L\n  rotate: true\n  xy: 103, 10\n  size: 16, 21\n  orig: 18, 23\n  offset: 1, 1\n  index: -1\nY-yanjing-R\n  rotate: true\n  xy: 80, 9\n  size: 17, 21\n  orig: 19, 23\n  offset: 1, 1\n  index: -1\nY-zuiba\n  rotate: true\n  xy: 140, 90\n  size: 16, 11\n  orig: 18, 13\n  offset: 1, 1\n  index: -1\nstar-1\n  rotate: true\n  xy: 106, 108\n  size: 46, 45\n  orig: 48, 47\n  offset: 1, 1\n  index: -1\nstar-10\n  rotate: false\n  xy: 137, 42\n  size: 13, 13\n  orig: 15, 15\n  offset: 1, 1\n  index: -1\nstar-11\n  rotate: false\n  xy: 144, 2\n  size: 8, 8\n  orig: 10, 10\n  offset: 1, 1\n  index: -1\nstar-2\n  rotate: false\n  xy: 106, 73\n  size: 32, 33\n  orig: 34, 35\n  offset: 1, 1\n  index: -1\nstar-3\n  rotate: false\n  xy: 106, 42\n  size: 29, 29\n  orig: 31, 31\n  offset: 1, 1\n  index: -1\nstar-4\n  rotate: false\n  xy: 2, 2\n  size: 24, 24\n  orig: 26, 26\n  offset: 1, 1\n  index: -1\nstar-5\n  rotate: false\n  xy: 28, 2\n  size: 24, 24\n  orig: 26, 26\n  offset: 1, 1\n  index: -1\nstar-6\n  rotate: false\n  xy: 137, 57\n  size: 14, 14\n  orig: 16, 16\n  offset: 1, 1\n  index: -1\nstar-7\n  rotate: false\n  xy: 126, 25\n  size: 15, 15\n  orig: 17, 17\n  offset: 1, 1\n  index: -1\nstar-8\n  rotate: false\n  xy: 54, 3\n  size: 24, 23\n  orig: 26, 25\n  offset: 1, 1\n  index: -1\nstar-9\n  rotate: true\n  xy: 106, 28\n  size: 12, 13\n  orig: 14, 16\n  offset: 1, 1\n  index: -1\n",
+      [
+        "Yellow.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "Au1Rn3mdeEwdHGg5hxrFBL5kehU",
+          "spine": "3.8.84",
+          "images": "./images/",
+          "audio": "/Users/lingoace/Desktop/work/work/Spine/首页"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "y": 90
+          },
+          {
+            "name": "Y-lianbu",
+            "parent": "bone",
+            "length": 23.76,
+            "rotation": 98.47,
+            "x": -2.45,
+            "y": 127.35
+          },
+          {
+            "name": "Y-zuiba",
+            "parent": "Y-lianbu",
+            "x": 47.05,
+            "y": -3.27
+          },
+          {
+            "name": "Y-yanjing-L",
+            "parent": "Y-lianbu",
+            "x": 58.81,
+            "y": 16.6
+          },
+          {
+            "name": "Y-yanjing-R",
+            "parent": "Y-lianbu",
+            "x": 66.25,
+            "y": -14.13
+          },
+          {
+            "name": "Y-meimao-L",
+            "parent": "Y-lianbu",
+            "x": 77.11,
+            "y": 23.88
+          },
+          {
+            "name": "Y-meimao-R",
+            "parent": "Y-lianbu",
+            "x": 85.03,
+            "y": -19.73
+          },
+          {
+            "name": "bone2",
+            "parent": "bone",
+            "x": -305.71,
+            "y": 406.95
+          },
+          {
+            "name": "star-1",
+            "parent": "bone2",
+            "x": 41.9,
+            "y": 74.88
+          },
+          {
+            "name": "star-11",
+            "parent": "bone2",
+            "x": 49.28,
+            "y": 5.82
+          },
+          {
+            "name": "star-10",
+            "parent": "bone2",
+            "x": 55.48,
+            "y": 26.38
+          },
+          {
+            "name": "star-4",
+            "parent": "bone2",
+            "x": 75.27,
+            "y": 46.17
+          },
+          {
+            "name": "star-5",
+            "parent": "bone2",
+            "x": 77.21,
+            "y": -11.25
+          },
+          {
+            "name": "star-9",
+            "parent": "bone2",
+            "x": 83.42,
+            "y": 17.46
+          },
+          {
+            "name": "star-2",
+            "parent": "bone2",
+            "x": 111.74,
+            "y": -6.98
+          },
+          {
+            "name": "star-6",
+            "parent": "bone2",
+            "x": -15.91,
+            "y": 110.19
+          },
+          {
+            "name": "star-8",
+            "parent": "bone2",
+            "x": 97.39,
+            "y": 116.01
+          },
+          {
+            "name": "star-12",
+            "parent": "star-8",
+            "length": 3.34,
+            "rotation": 144.46,
+            "x": -97.39,
+            "y": -115.62
+          },
+          {
+            "name": "star-7",
+            "parent": "star-12",
+            "x": -46.5,
+            "y": -120.47
+          },
+          {
+            "name": "star-3",
+            "parent": "bone2",
+            "x": 123,
+            "y": 46.95
+          }
+        ],
+        "slots": [
+          {
+            "name": "card-1",
+            "bone": "root"
+          },
+          {
+            "name": "star-1",
+            "bone": "star-1"
+          },
+          {
+            "name": "star-2",
+            "bone": "star-2"
+          },
+          {
+            "name": "star-3",
+            "bone": "star-3"
+          },
+          {
+            "name": "star-4",
+            "bone": "star-4"
+          },
+          {
+            "name": "star-5",
+            "bone": "star-5"
+          },
+          {
+            "name": "star-6",
+            "bone": "star-6"
+          },
+          {
+            "name": "star-7",
+            "bone": "star-7"
+          },
+          {
+            "name": "star-8",
+            "bone": "star-8"
+          },
+          {
+            "name": "star-9",
+            "bone": "star-9"
+          },
+          {
+            "name": "star-10",
+            "bone": "star-10"
+          },
+          {
+            "name": "star-11",
+            "bone": "star-11"
+          },
+          {
+            "name": "Y-lianbu",
+            "bone": "Y-lianbu"
+          },
+          {
+            "name": "Y-yanjing-R",
+            "bone": "Y-yanjing-R"
+          },
+          {
+            "name": "Y-yanjing-L",
+            "bone": "Y-yanjing-L"
+          },
+          {
+            "name": "Y-meimao-R",
+            "bone": "Y-meimao-R"
+          },
+          {
+            "name": "Y-meimao-L",
+            "bone": "Y-meimao-L"
+          },
+          {
+            "name": "Y-zuiba",
+            "bone": "Y-zuiba"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "Y-lianbu": {
+                "Y-lianbu": {
+                  "x": 43.4,
+                  "y": -10.71,
+                  "rotation": -98.47,
+                  "width": 108,
+                  "height": 133
+                }
+              },
+              "Y-meimao-L": {
+                "Y-meimao-L": {
+                  "x": 0.57,
+                  "y": -1.28,
+                  "rotation": -98.47,
+                  "width": 20,
+                  "height": 13
+                }
+              },
+              "Y-meimao-R": {
+                "Y-meimao-R": {
+                  "x": -2.01,
+                  "y": 0.09,
+                  "rotation": -98.47,
+                  "width": 18,
+                  "height": 10
+                }
+              },
+              "Y-yanjing-L": {
+                "Y-yanjing-L": {
+                  "x": 1.87,
+                  "y": 0.44,
+                  "rotation": -98.47,
+                  "width": 18,
+                  "height": 23
+                }
+              },
+              "Y-yanjing-R": {
+                "Y-yanjing-R": {
+                  "x": 0.82,
+                  "y": -0.61,
+                  "rotation": -98.47,
+                  "width": 19,
+                  "height": 23
+                }
+              },
+              "Y-zuiba": {
+                "Y-zuiba": {
+                  "x": 0.65,
+                  "y": 1.01,
+                  "rotation": -98.47,
+                  "width": 18,
+                  "height": 13
+                }
+              },
+              "star-1": {
+                "star-1": {
+                  "x": 0.49,
+                  "y": -1.97,
+                  "width": 48,
+                  "height": 47
+                }
+              },
+              "star-10": {
+                "star-10": {
+                  "x": -0.59,
+                  "y": 0.53,
+                  "width": 15,
+                  "height": 15
+                }
+              },
+              "star-11": {
+                "star-11": {
+                  "x": 0.12,
+                  "y": 0.59,
+                  "width": 10,
+                  "height": 10
+                }
+              },
+              "star-2": {
+                "star-2": {
+                  "x": 0.65,
+                  "y": -0.11,
+                  "width": 34,
+                  "height": 35
+                }
+              },
+              "star-3": {
+                "star-3": {
+                  "x": 0.9,
+                  "y": -0.04,
+                  "width": 31,
+                  "height": 31
+                }
+              },
+              "star-4": {
+                "star-4": {
+                  "x": 0.12,
+                  "y": -0.76,
+                  "width": 26,
+                  "height": 26
+                }
+              },
+              "star-5": {
+                "star-5": {
+                  "x": 1.18,
+                  "y": -0.34,
+                  "width": 26,
+                  "height": 26
+                }
+              },
+              "star-6": {
+                "star-6": {
+                  "x": 0.3,
+                  "y": 0.22,
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "star-7": {
+                "star-7": {
+                  "x": 0.28,
+                  "y": -0.44,
+                  "rotation": -144.46,
+                  "width": 17,
+                  "height": 17
+                }
+              },
+              "star-8": {
+                "star-8": {
+                  "x": 1.01,
+                  "y": 0.9,
+                  "width": 26,
+                  "height": 25
+                }
+              },
+              "star-9": {
+                "star-9": {
+                  "x": -0.03,
+                  "y": -0.05,
+                  "width": 14,
+                  "height": 16
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "Jump": {
+            "slots": {
+              "Y-lianbu": {
+                "attachment": [
+                  {
+                    "name": "Y-lianbu"
+                  }
+                ]
+              },
+              "Y-meimao-L": {
+                "attachment": [
+                  {
+                    "name": "Y-meimao-L"
+                  }
+                ]
+              },
+              "Y-meimao-R": {
+                "attachment": [
+                  {
+                    "name": "Y-meimao-R"
+                  }
+                ]
+              },
+              "Y-yanjing-L": {
+                "attachment": [
+                  {
+                    "name": "Y-yanjing-L"
+                  }
+                ]
+              },
+              "Y-yanjing-R": {
+                "attachment": [
+                  {
+                    "name": "Y-yanjing-R"
+                  }
+                ]
+              },
+              "Y-zuiba": {
+                "attachment": [
+                  {
+                    "name": "Y-zuiba"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "Y-lianbu": {
+                "rotate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.0667,
+                    "angle": 3.83,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2,
+                    "angle": -19.77,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3667,
+                    "angle": -22.94,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5333,
+                    "angle": 2.37,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.487,
+                    "c3": 0.373
+                  },
+                  {
+                    "time": 0.2,
+                    "y": 54.16,
+                    "curve": 0.776,
+                    "c2": 0.01,
+                    "c3": 0.513,
+                    "c4": 0.98
+                  },
+                  {
+                    "time": 0.4667,
+                    "y": -19.33,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.1,
+                    "x": 0.881,
+                    "curve": 0.25,
+                    "c3": 0.012,
+                    "c4": 0.99
+                  },
+                  {
+                    "time": 0.2333,
+                    "x": 1.065,
+                    "y": 0.898,
+                    "curve": 0.97,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "x": 0.885,
+                    "y": 1.092,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6
+                  }
+                ]
+              },
+              "Y-yanjing-R": {
+                "rotate": [
+                  {
+                    "angle": 19.51
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 0.09,
+                    "y": 1.05,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.1667,
+                    "x": 8.91,
+                    "y": 2.31,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5,
+                    "x": -12.92,
+                    "y": 0.26,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6,
+                    "x": 0.09,
+                    "y": 1.05
+                  }
+                ]
+              },
+              "Y-yanjing-L": {
+                "rotate": [
+                  {
+                    "angle": 19.51
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 0.09,
+                    "y": 1.05,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.1667,
+                    "x": 8.91,
+                    "y": 2.31,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5,
+                    "x": -12.92,
+                    "y": 0.26,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6,
+                    "x": 0.09,
+                    "y": 1.05
+                  }
+                ]
+              },
+              "Y-meimao-R": {
+                "translate": [
+                  {
+                    "x": 3.58,
+                    "y": 2.58,
+                    "curve": 0.379,
+                    "c2": 0.6,
+                    "c3": 0.723
+                  },
+                  {
+                    "time": 0.2,
+                    "x": 11.88,
+                    "y": 4.84,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5,
+                    "x": -12.05,
+                    "y": 1.37,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6,
+                    "x": 3.58,
+                    "y": 2.58
+                  }
+                ]
+              },
+              "Y-meimao-L": {
+                "translate": [
+                  {
+                    "x": 3.58,
+                    "y": 2.58,
+                    "curve": 0.379,
+                    "c2": 0.6,
+                    "c3": 0.723
+                  },
+                  {
+                    "time": 0.2,
+                    "x": 11.88,
+                    "y": 4.84,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5,
+                    "x": -12.05,
+                    "y": 1.37,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6,
+                    "x": 3.58,
+                    "y": 2.58
+                  }
+                ]
+              },
+              "Y-zuiba": {
+                "translate": [
+                  {
+                    "time": 0.0667,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2,
+                    "x": -6.19,
+                    "y": 0.68,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5333,
+                    "x": -16.16,
+                    "y": 1.82,
+                    "curve": 0.25,
+                    "c3": 0.625,
+                    "c4": 0.5
+                  },
+                  {
+                    "time": 0.6
+                  }
+                ]
+              }
+            }
+          },
+          "Stay": {
+            "slots": {
+              "Y-lianbu": {
+                "attachment": [
+                  {
+                    "name": "Y-lianbu"
+                  }
+                ]
+              },
+              "Y-meimao-L": {
+                "attachment": [
+                  {
+                    "name": "Y-meimao-L"
+                  }
+                ]
+              },
+              "Y-meimao-R": {
+                "attachment": [
+                  {
+                    "name": "Y-meimao-R"
+                  }
+                ]
+              },
+              "Y-yanjing-L": {
+                "attachment": [
+                  {
+                    "name": "Y-yanjing-L"
+                  }
+                ]
+              },
+              "Y-yanjing-R": {
+                "attachment": [
+                  {
+                    "name": "Y-yanjing-R"
+                  }
+                ]
+              },
+              "Y-zuiba": {
+                "attachment": [
+                  {
+                    "name": "Y-zuiba"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "Y-lianbu": {
+                "rotate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8333,
+                    "angle": -2.43,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6667
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8333,
+                    "x": 0.963,
+                    "y": 0.963,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6667
+                  }
+                ]
+              },
+              "Y-yanjing-R": {
+                "rotate": [
+                  {
+                    "angle": 19.51
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 0.09,
+                    "y": 1.05,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8333,
+                    "x": -4.15,
+                    "y": 0.3,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6667,
+                    "x": 0.09,
+                    "y": 1.05
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.1333,
+                    "x": -0.01,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2667
+                  }
+                ]
+              },
+              "Y-yanjing-L": {
+                "rotate": [
+                  {
+                    "angle": 19.51
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 0.09,
+                    "y": 1.05,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8333,
+                    "x": -4.15,
+                    "y": 0.3,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6667,
+                    "x": 0.09,
+                    "y": 1.05
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.1333,
+                    "x": -0.01,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2667
+                  }
+                ]
+              },
+              "Y-meimao-R": {
+                "rotate": [
+                  {
+                    "angle": -1.26,
+                    "curve": 0.379,
+                    "c2": 0.6,
+                    "c3": 0.723
+                  },
+                  {
+                    "time": 0.2,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.0333,
+                    "angle": -7.25,
+                    "curve": 0.242,
+                    "c3": 0.669,
+                    "c4": 0.68
+                  },
+                  {
+                    "time": 1.6667,
+                    "angle": -1.26
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 3.58,
+                    "y": 2.58,
+                    "curve": 0.379,
+                    "c2": 0.6,
+                    "c3": 0.723
+                  },
+                  {
+                    "time": 0.2,
+                    "x": 2.09,
+                    "y": 2.85,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.0333,
+                    "x": -1.52,
+                    "y": 2.62,
+                    "curve": 0.242,
+                    "c3": 0.669,
+                    "c4": 0.68
+                  },
+                  {
+                    "time": 1.6667,
+                    "x": 3.58,
+                    "y": 2.58
+                  }
+                ]
+              },
+              "Y-meimao-L": {
+                "rotate": [
+                  {
+                    "angle": 1.59,
+                    "curve": 0.379,
+                    "c2": 0.6,
+                    "c3": 0.723
+                  },
+                  {
+                    "time": 0.2
+                  },
+                  {
+                    "time": 1.0333,
+                    "angle": 9.18,
+                    "curve": 0.242,
+                    "c3": 0.669,
+                    "c4": 0.68
+                  },
+                  {
+                    "time": 1.6667,
+                    "angle": 1.59
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": 3.58,
+                    "y": 2.58,
+                    "curve": 0.379,
+                    "c2": 0.6,
+                    "c3": 0.723
+                  },
+                  {
+                    "time": 0.2,
+                    "x": 2.09,
+                    "y": 2.85,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.0333,
+                    "x": -1.52,
+                    "y": 2.62,
+                    "curve": 0.242,
+                    "c3": 0.669,
+                    "c4": 0.68
+                  },
+                  {
+                    "time": 1.6667,
+                    "x": 3.58,
+                    "y": 2.58
+                  }
+                ]
+              },
+              "Y-zuiba": {
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8333,
+                    "x": -3.24,
+                    "y": 0.34,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.6667
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "78qJ3QnV1KnZ+x2KCnBNTV"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "amusement_bg",
+      "rect": [
+        0,
+        0,
+        1336,
+        750
+      ],
+      "offset": [
+        0,
+        1
+      ],
+      "originalSize": [
+        1336,
+        752
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

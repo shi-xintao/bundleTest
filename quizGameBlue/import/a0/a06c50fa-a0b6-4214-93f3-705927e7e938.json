@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "83lOgzfX9K/r1hAdqPrVvG"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dec_box",
+      "rect": [
+        0,
+        1,
+        353,
+        171
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        353,
+        172
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

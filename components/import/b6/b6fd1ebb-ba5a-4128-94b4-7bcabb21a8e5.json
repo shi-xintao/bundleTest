@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b5Ftgk4YJLkKYYBNvDbgum"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "skeleton",
+      "rect": [
+        2,
+        475,
+        1556,
+        1083
+      ],
+      "offset": [
+        0,
+        -236.5
+      ],
+      "originalSize": [
+        1560,
+        1560
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

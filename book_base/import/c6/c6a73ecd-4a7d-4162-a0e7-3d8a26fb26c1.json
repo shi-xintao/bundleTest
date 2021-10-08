@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "404aIkycpNFok3atucMkIk"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "voice1",
+      "rect": [
+        0,
+        4,
+        128,
+        128
+      ],
+      "offset": [
+        0,
+        -2
+      ],
+      "originalSize": [
+        128,
+        132
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

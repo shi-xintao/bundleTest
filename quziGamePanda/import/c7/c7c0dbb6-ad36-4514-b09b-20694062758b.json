@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c43YHsW9NIU7qlA2IGM4Oy"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tudou",
+      "rect": [
+        0,
+        11,
+        221,
+        209
+      ],
+      "offset": [
+        0,
+        -3.5
+      ],
+      "originalSize": [
+        221,
+        224
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

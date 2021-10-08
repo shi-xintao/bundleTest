@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "daeQ4MoghJ85XTvcjLmTgE"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "apple2",
+      "rect": [
+        0,
+        1,
+        78,
+        75
+      ],
+      "offset": [
+        -0.5,
+        0
+      ],
+      "originalSize": [
+        79,
+        77
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

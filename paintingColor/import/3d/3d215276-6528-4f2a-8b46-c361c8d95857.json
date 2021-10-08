@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "97NL6BewdKsq1tzRwntPn0"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "foxbg",
+      "rect": [
+        0,
+        0,
+        546,
+        612
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        546,
+        612
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

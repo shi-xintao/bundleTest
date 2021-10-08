@@ -1,1 +1,51 @@
-[1,["e6Ha0Bj+1J1ZREK3vYVu1Z"],["_textureSetter"],["cc.SpriteFrame"],0,[{"name":"niao-fei","rect":[2,2,220,493],"offset":[0,0.5],"originalSize":[224,498],"capInsets":[0,0,0,0]}],[0],0,[0],[0],[0]]
+[
+  1,
+  [
+    "e6Ha0Bj+1J1ZREK3vYVu1Z"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "niao-fei",
+      "rect": [
+        2,
+        2,
+        220,
+        493
+      ],
+      "offset": [
+        0,
+        0.5
+      ],
+      "originalSize": [
+        224,
+        498
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

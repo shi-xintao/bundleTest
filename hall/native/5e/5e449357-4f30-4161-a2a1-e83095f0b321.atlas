@@ -1,0 +1,55 @@
+
+Blue.png
+size: 122,122
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B-bizi
+  rotate: true
+  xy: 91, 104
+  size: 16, 29
+  orig: 18, 31
+  offset: 1, 1
+  index: -1
+B-lianbu
+  rotate: false
+  xy: 2, 24
+  size: 118, 78
+  orig: 122, 83
+  offset: 2, 3
+  index: -1
+B-meimao-L
+  rotate: false
+  xy: 2, 111
+  size: 18, 9
+  orig: 20, 11
+  offset: 1, 1
+  index: -1
+B-meimao-R
+  rotate: false
+  xy: 22, 111
+  size: 18, 9
+  orig: 20, 11
+  offset: 1, 1
+  index: -1
+B-yanjing-L
+  rotate: true
+  xy: 59, 107
+  size: 13, 14
+  orig: 15, 16
+  offset: 1, 1
+  index: -1
+B-yanjing-R
+  rotate: false
+  xy: 75, 106
+  size: 14, 14
+  orig: 16, 16
+  offset: 1, 1
+  index: -1
+B-zuiba
+  rotate: false
+  xy: 42, 110
+  size: 15, 10
+  orig: 17, 12
+  offset: 1, 1
+  index: -1

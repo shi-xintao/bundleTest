@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "26Qf6oxFRHX7b/IXxvay2W"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "duck",
+      "rect": [
+        0,
+        0,
+        233,
+        336
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        233,
+        336
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
