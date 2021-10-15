@@ -1,0 +1,79 @@
+{
+    "paths": {},
+    "uuids": [
+        "2dL3kvpAxJu6GJ7RdqJG5J",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "41D7kWhyFGY7q4NDlzkazn",
+        "31vIlawANFZqnzLlSuHBfc",
+        "fbmjzxlDtAfZhjwzZPKgHA",
+        "1eEgdF6U5DyZ5JTLuQkFkW",
+        "7a/QZLET9IDreTiBfRn2PD",
+        "a4AJsASJRL/KsCgxq7nsPY",
+        "edb2bMN0VGDpimDot/rQeW",
+        "a8Anh32NZGRZegUtSgEj26",
+        "6aoKpq6+5BVaCIpoemqt7E",
+        "7cfRyEk6xFJaiG9MiBTkUx",
+        "47B1XnhDFFoLxStIEWapl/",
+        "86x7s1VWRGgrZNlDDChrBU",
+        "e6LZk7ziNMl5rJQbHE0MTu"
+    ],
+    "scenes": {
+        "db://assets/Scene/helloworld.fire": "2dL3kvpAxJu6GJ7RdqJG5J"
+    },
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0,
+        "7a/QZLET9IDreTiBfRn2PD",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "0a05afaea": [
+            "47B1XnhDFFoLxStIEWapl/",
+            "6aoKpq6+5BVaCIpoemqt7E",
+            "7cfRyEk6xFJaiG9MiBTkUx",
+            "86x7s1VWRGgrZNlDDChrBU",
+            "a8Anh32NZGRZegUtSgEj26",
+            "e6LZk7ziNMl5rJQbHE0MTu"
+        ],
+        "069e04ef0": [
+            "1eEgdF6U5DyZ5JTLuQkFkW",
+            "2dL3kvpAxJu6GJ7RdqJG5J",
+            "31vIlawANFZqnzLlSuHBfc",
+            "41D7kWhyFGY7q4NDlzkazn",
+            "a4AJsASJRL/KsCgxq7nsPY",
+            "edb2bMN0VGDpimDot/rQeW",
+            "fbmjzxlDtAfZhjwzZPKgHA"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "069e04ef0",
+            "2e674",
+            "0a05afaea",
+            "6e003"
+        ],
+        "native": [
+            "47B1XnhDFFoLxStIEWapl/",
+            "f22ba",
+            "6aoKpq6+5BVaCIpoemqt7E",
+            "55ea4",
+            "7cfRyEk6xFJaiG9MiBTkUx",
+            "5b6b9",
+            "86x7s1VWRGgrZNlDDChrBU",
+            "a80a8",
+            "a8Anh32NZGRZegUtSgEj26",
+            "cea68",
+            "e6LZk7ziNMl5rJQbHE0MTu",
+            "64e94"
+        ]
+    }
+}
