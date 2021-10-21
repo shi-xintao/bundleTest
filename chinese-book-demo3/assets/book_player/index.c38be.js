@@ -72,11 +72,8 @@ window.__require = function e(t, n, r) {
       }
       PBBottomArea.prototype.onTrumpetClicked = function() {
         console.log("on pbbottomarea >>>>>>>>>>>>");
-        var conf = PictureBookPlayer_1.default.instance.currConfig;
-        if (conf.voice && conf.voice.length > 0) {
-          var page = PictureBookPlayer_1.default.instance.page.currPage;
-          page.playVoice(0);
-        }
+        var page = PictureBookPlayer_1.default.instance.page.currPage;
+        page && page.voice && page.playVoice(0);
       };
       PBBottomArea.prototype.onLoad = function() {
         this.text.text.string = "";
