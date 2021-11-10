@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "12MtmyNg1EKJ3mFbVU7Gxs"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "xiang-zhengmian",
+      "rect": [
+        3,
+        3,
+        883,
+        883
+      ],
+      "offset": [
+        0.5,
+        -0.5
+      ],
+      "originalSize": [
+        888,
+        888
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

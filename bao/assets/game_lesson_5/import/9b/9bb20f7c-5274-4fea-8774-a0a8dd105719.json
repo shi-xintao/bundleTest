@@ -1,0 +1,568 @@
+[
+  1,
+  [
+    "eciurQ7sBM/4RzR9IEa6wb"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "lan-bao",
+      "\nlan-bao.png\nsize: 467,467\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nlan\n  rotate: false\n  xy: 2, 2\n  size: 336, 463\n  orig: 338, 465\n  offset: 1, 1\n  index: -1\nlan-1\n  rotate: false\n  xy: 399, 13\n  size: 54, 61\n  orig: 56, 63\n  offset: 1, 1\n  index: -1\nlan-2\n  rotate: false\n  xy: 399, 76\n  size: 56, 72\n  orig: 58, 74\n  offset: 1, 1\n  index: -1\nlan-3\n  rotate: false\n  xy: 340, 150\n  size: 65, 97\n  orig: 67, 99\n  offset: 1, 1\n  index: -1\nlan-4\n  rotate: true\n  xy: 340, 24\n  size: 124, 57\n  orig: 126, 59\n  offset: 1, 1\n  index: -1\nlan-5\n  rotate: true\n  xy: 340, 249\n  size: 216, 104\n  orig: 218, 106\n  offset: 1, 1\n  index: -1\n",
+      [
+        "lan-bao.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "6FB20AK7hfgFRny+IS2So33MSHE",
+          "spine": "3.8.84",
+          "x": -169,
+          "y": -232.5,
+          "width": 338,
+          "height": 465,
+          "images": "./images/",
+          "audio": "/Users/lingoace/Desktop/work/work/Spine/Day-5/道具素材/气球爆炸"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "hong",
+            "parent": "root",
+            "x": -1,
+            "y": -266.32
+          },
+          {
+            "name": "hong-3",
+            "parent": "hong",
+            "x": 634.68,
+            "y": -621.49
+          },
+          {
+            "name": "hong-2",
+            "parent": "hong",
+            "x": 545.34,
+            "y": -791.18
+          },
+          {
+            "name": "hong-4",
+            "parent": "hong",
+            "x": 690.31,
+            "y": -951.82
+          },
+          {
+            "name": "hong-1",
+            "parent": "hong",
+            "x": 849.64,
+            "y": -838.2
+          },
+          {
+            "name": "huang-2",
+            "parent": "hong",
+            "x": 831.68,
+            "y": -675.64
+          }
+        ],
+        "slots": [
+          {
+            "name": "lan-5",
+            "bone": "hong-4"
+          },
+          {
+            "name": "lan-4",
+            "bone": "hong-3"
+          },
+          {
+            "name": "lan-3",
+            "bone": "hong-2"
+          },
+          {
+            "name": "lan-2",
+            "bone": "huang-2"
+          },
+          {
+            "name": "lan-1",
+            "bone": "hong-1"
+          },
+          {
+            "name": "qiqiu",
+            "bone": "hong",
+            "attachment": "lan"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "lan-1": {
+                "lan-1": {
+                  "x": -4.7,
+                  "y": -2.98,
+                  "width": 56,
+                  "height": 63
+                }
+              },
+              "lan-2": {
+                "lan-2": {
+                  "x": 6.33,
+                  "y": 1.95,
+                  "width": 58,
+                  "height": 74
+                }
+              },
+              "lan-3": {
+                "lan-3": {
+                  "x": 5.1,
+                  "y": 1,
+                  "width": 67,
+                  "height": 99
+                }
+              },
+              "lan-4": {
+                "lan-4": {
+                  "x": 4.26,
+                  "y": -6.69,
+                  "width": 126,
+                  "height": 59
+                }
+              },
+              "lan-5": {
+                "lan-5": {
+                  "x": -0.37,
+                  "y": 3.14,
+                  "width": 218,
+                  "height": 106
+                }
+              },
+              "qiqiu": {
+                "lan": {
+                  "x": 1,
+                  "y": 266.32,
+                  "width": 338,
+                  "height": 465
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "lan-bao": {
+            "slots": {
+              "lan-1": {
+                "color": [
+                  {
+                    "time": 0.5,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.6333,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.2333,
+                    "name": "lan-1"
+                  }
+                ]
+              },
+              "lan-2": {
+                "color": [
+                  {
+                    "time": 0.5,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.6333,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.2333,
+                    "name": "lan-2"
+                  }
+                ]
+              },
+              "lan-3": {
+                "color": [
+                  {
+                    "time": 0.4,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.5,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.2333,
+                    "name": "lan-3"
+                  }
+                ]
+              },
+              "lan-4": {
+                "color": [
+                  {
+                    "time": 0.4333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.5667,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.2333,
+                    "name": "lan-4"
+                  }
+                ]
+              },
+              "lan-5": {
+                "color": [
+                  {
+                    "time": 0.5,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 0.6333,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "time": 0.2,
+                    "name": "lan-5"
+                  }
+                ]
+              },
+              "qiqiu": {
+                "attachment": [
+                  {
+                    "time": 0.2,
+                    "name": null
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "hong-3": {
+                "rotate": [
+                  {
+                    "time": 0.2333,
+                    "curve": 0,
+                    "c2": 1,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5667,
+                    "angle": 64.02
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.2333,
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": 0,
+                    "c2": 0.57,
+                    "c3": 0.462,
+                    "c4": 0.86
+                  },
+                  {
+                    "time": 0.4,
+                    "x": -946.69,
+                    "y": 959.56,
+                    "curve": 0.368,
+                    "c2": 1,
+                    "c3": 0.789
+                  },
+                  {
+                    "time": 0.5667,
+                    "x": -1015.99,
+                    "y": 900.6
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 0.2333,
+                    "curve": 0,
+                    "c2": 1,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": 0.321,
+                    "y": 0.321
+                  }
+                ]
+              },
+              "hong-2": {
+                "rotate": [
+                  {
+                    "time": 0.2333,
+                    "curve": 0.008,
+                    "c2": 0.99,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5,
+                    "angle": -146.18
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.2333,
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": 0.017,
+                    "c2": 0.43,
+                    "c3": 0.401,
+                    "c4": 0.76
+                  },
+                  {
+                    "time": 0.3,
+                    "x": -845.21,
+                    "y": 1049.14,
+                    "curve": 0.256,
+                    "c2": 0.99,
+                    "c3": 0.786
+                  },
+                  {
+                    "time": 0.5,
+                    "x": -989.05,
+                    "y": 857.5
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 0.2333,
+                    "curve": 0,
+                    "c2": 0.99,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.5,
+                    "x": 0.449,
+                    "y": 0.449
+                  }
+                ]
+              },
+              "hong-4": {
+                "rotate": [
+                  {
+                    "time": 0.2,
+                    "curve": 0,
+                    "c2": 1,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6333,
+                    "angle": 120.86
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.2,
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": 0,
+                    "c2": 0.55,
+                    "c3": 0.448,
+                    "c4": 0.84
+                  },
+                  {
+                    "time": 0.4,
+                    "x": -646.14,
+                    "y": 871.11,
+                    "curve": 0.356,
+                    "c2": 1,
+                    "c3": 0.791
+                  },
+                  {
+                    "time": 0.6333,
+                    "x": -621.9,
+                    "y": 804.64
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 0.2
+                  },
+                  {
+                    "time": 0.3,
+                    "x": 0.326,
+                    "y": 0.326
+                  }
+                ]
+              },
+              "hong-1": {
+                "rotate": [
+                  {
+                    "time": 0.2333,
+                    "curve": 0,
+                    "c2": 1,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6333,
+                    "angle": -149.14
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.2333,
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": 0,
+                    "c2": 1,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6333,
+                    "x": -409.23,
+                    "y": 985.64
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 0.2333
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": 0.546,
+                    "y": 0.546
+                  }
+                ]
+              },
+              "huang-2": {
+                "rotate": [
+                  {
+                    "time": 0.2333
+                  },
+                  {
+                    "time": 0.6333,
+                    "angle": -145.84
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.2333,
+                    "x": -699.44,
+                    "y": 1077.06,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3,
+                    "x": -413.37,
+                    "y": 1260.61,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6333,
+                    "x": -127.3,
+                    "y": 1034.1
+                  }
+                ],
+                "scale": [
+                  {
+                    "time": 0.2333
+                  },
+                  {
+                    "time": 0.6333,
+                    "x": 0.263,
+                    "y": 0.263
+                  }
+                ]
+              },
+              "hong": {
+                "scale": [
+                  {},
+                  {
+                    "time": 0.1333,
+                    "x": 0.946,
+                    "y": 0.946
+                  },
+                  {
+                    "time": 0.2,
+                    "x": 1.076,
+                    "y": 1.076
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

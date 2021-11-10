@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "7fL+gUQuxMG6YHCZ5s1Tap"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "day5-2-guaiwu3",
+      "rect": [
+        2,
+        3,
+        1792,
+        1150
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        1796,
+        1155
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

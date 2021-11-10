@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "197uiWhWFELq+ophUvX6BT"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "lanse",
+      "rect": [
+        2,
+        513,
+        763,
+        252
+      ],
+      "offset": [
+        0,
+        -255.5
+      ],
+      "originalSize": [
+        767,
+        767
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

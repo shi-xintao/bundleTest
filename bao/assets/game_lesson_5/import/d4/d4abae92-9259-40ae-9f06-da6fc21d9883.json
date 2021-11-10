@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "067gyV6ZZP3I4OOGZZ1eLz"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "gameBorder",
+      "rect": [
+        0,
+        0,
+        1176,
+        706
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1176,
+        706
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

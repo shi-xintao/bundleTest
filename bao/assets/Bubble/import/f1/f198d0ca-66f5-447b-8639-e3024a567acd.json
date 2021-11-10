@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "12O4PwlAxPAJE7IOHGozRW"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "huangse",
+      "rect": [
+        2,
+        196,
+        911,
+        717
+      ],
+      "offset": [
+        0,
+        -97
+      ],
+      "originalSize": [
+        915,
+        915
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

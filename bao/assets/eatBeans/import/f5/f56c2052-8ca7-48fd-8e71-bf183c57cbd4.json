@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "09I5cFa+ZBzZgd14DCXSY/"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "shading_big_d",
+      "rect": [
+        0,
+        0,
+        149,
+        167
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        149,
+        167
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

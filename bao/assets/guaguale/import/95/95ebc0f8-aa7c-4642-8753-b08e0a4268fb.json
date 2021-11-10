@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "a7tN5IrNFJWprAvBDYll3V"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "red_ball_small",
+      "rect": [
+        1,
+        0,
+        96,
+        70
+      ],
+      "offset": [
+        0.5,
+        0
+      ],
+      "originalSize": [
+        97,
+        70
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

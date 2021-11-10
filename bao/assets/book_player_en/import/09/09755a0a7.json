@@ -1,0 +1,137 @@
+[
+  1,
+  [
+    "1b5gH5l1xOFKf5j7yCmg7b",
+    "49DEaJQO9P8oxzjqoYfwrJ",
+    "7dQSRtu/FCmqeGbxLeK8RJ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    [
+      [
+        {
+          "name": "play_3",
+          "rect": [
+            0,
+            0,
+            79,
+            80
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            79,
+            80
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        0
+      ]
+    ],
+    [
+      [
+        {
+          "name": "play_1",
+          "rect": [
+            0,
+            0,
+            79,
+            80
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            79,
+            80
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        {
+          "name": "play_2",
+          "rect": [
+            0,
+            0,
+            79,
+            80
+          ],
+          "offset": [
+            0,
+            0
+          ],
+          "originalSize": [
+            79,
+            80
+          ],
+          "capInsets": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      [
+        0
+      ],
+      0,
+      [
+        0
+      ],
+      [
+        0
+      ],
+      [
+        2
+      ]
+    ]
+  ]
+]

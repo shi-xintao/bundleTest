@@ -1,0 +1,160 @@
+{
+    "paths": {
+        "6c/ACcDRpFZIXKiZoqX3ab": [
+            "audios/BGM_guoshengri_01",
+            "cc.AudioClip"
+        ],
+        "c8F3bq/atGeLuqVQXEoI8x": [
+            "audios/blue",
+            "cc.AudioClip"
+        ],
+        "44v/jXG5VILYs2nFqhmC9a": [
+            "audios/game_error",
+            "cc.AudioClip"
+        ],
+        "f1xNt83OhHZIA4csg9nk8E": [
+            "audios/game_right",
+            "cc.AudioClip"
+        ],
+        "3c16gJ/BdPF6VW24IKvisv": [
+            "audios/red",
+            "cc.AudioClip"
+        ],
+        "8c5YU9DDZHIogQOAGkDu21": [
+            "audios/yellow",
+            "cc.AudioClip"
+        ],
+        "37z8o3oXZHdboP/bY6TN9v": [
+            "recordStarEcho",
+            "cc.Prefab"
+        ],
+        "97VEx4ffpPhYhSNVnWbWP+": [
+            "spine/shanzi",
+            "cc.Asset"
+        ],
+        "31Fs8GSJdNHJrH5UxMVUn6": [
+            "spine/shanzi",
+            "sp.SkeletonData"
+        ],
+        "4c2PZKwgRNR6rGNCJi3pw2": [
+            "spine/shanzi",
+            "cc.Texture2D"
+        ],
+        "730HdhsjZJmZt5zU/RBD+5": [
+            "spine/shanzi",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3enedNxGhPS5tVfZZ8FGJr": [
+            "spine/xingqiu",
+            "cc.Asset"
+        ],
+        "82oXF4BBVPQqJYVZ1XQ+AO": [
+            "spine/xingqiu",
+            "sp.SkeletonData"
+        ],
+        "beet/E0QtM27XGWR60xJgG": [
+            "spine/xingqiu",
+            "cc.Texture2D"
+        ],
+        "9cRz0ptk9BFbRF8+clfajq": [
+            "spine/xingqiu",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ddjRCLQlBIKb8R4tncn91K": [
+            "texture/bg",
+            "cc.Texture2D"
+        ],
+        "34QTS9Vs9DZp977LPE+J7N": [
+            "texture/bg",
+            "cc.SpriteFrame",
+            1
+        ],
+        "6aI8rvcX9Au7XKRqGookLz": [
+            "texture/icon_blue",
+            "cc.Texture2D"
+        ],
+        "ba2pBlFA5LWqL7/JEut1sI": [
+            "texture/icon_blue",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d2s+sfg3pC6IutVKmjjAap": [
+            "texture/icon_red",
+            "cc.Texture2D"
+        ],
+        "8c/uGNnT5Go40NLlrEm7gv": [
+            "texture/icon_red",
+            "cc.SpriteFrame",
+            1
+        ],
+        "afnUaHll5LrIrTd5nkh/Vq": [
+            "texture/icon_yellow",
+            "cc.Texture2D"
+        ],
+        "2eSGd4hwhEUo+7yWm15+nH": [
+            "texture/icon_yellow",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "6c/ACcDRpFZIXKiZoqX3ab",
+        "c8F3bq/atGeLuqVQXEoI8x",
+        "44v/jXG5VILYs2nFqhmC9a",
+        "f1xNt83OhHZIA4csg9nk8E",
+        "3c16gJ/BdPF6VW24IKvisv",
+        "8c5YU9DDZHIogQOAGkDu21",
+        "37z8o3oXZHdboP/bY6TN9v",
+        "97VEx4ffpPhYhSNVnWbWP+",
+        "31Fs8GSJdNHJrH5UxMVUn6",
+        "4c2PZKwgRNR6rGNCJi3pw2",
+        "730HdhsjZJmZt5zU/RBD+5",
+        "3enedNxGhPS5tVfZZ8FGJr",
+        "82oXF4BBVPQqJYVZ1XQ+AO",
+        "beet/E0QtM27XGWR60xJgG",
+        "9cRz0ptk9BFbRF8+clfajq",
+        "ddjRCLQlBIKb8R4tncn91K",
+        "34QTS9Vs9DZp977LPE+J7N",
+        "6aI8rvcX9Au7XKRqGookLz",
+        "ba2pBlFA5LWqL7/JEut1sI",
+        "d2s+sfg3pC6IutVKmjjAap",
+        "8c/uGNnT5Go40NLlrEm7gv",
+        "afnUaHll5LrIrTd5nkh/Vq",
+        "2eSGd4hwhEUo+7yWm15+nH",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "7a/QZLET9IDreTiBfRn2PD"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0,
+        "7a/QZLET9IDreTiBfRn2PD",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "08ae21681": [
+            "34QTS9Vs9DZp977LPE+J7N",
+            "37z8o3oXZHdboP/bY6TN9v",
+            "ba2pBlFA5LWqL7/JEut1sI"
+        ],
+        "0a58d2501": [
+            "4c2PZKwgRNR6rGNCJi3pw2",
+            "6aI8rvcX9Au7XKRqGookLz",
+            "afnUaHll5LrIrTd5nkh/Vq",
+            "beet/E0QtM27XGWR60xJgG",
+            "d2s+sfg3pC6IutVKmjjAap",
+            "ddjRCLQlBIKb8R4tncn91K"
+        ]
+    },
+    "name": "recordStarEcho",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

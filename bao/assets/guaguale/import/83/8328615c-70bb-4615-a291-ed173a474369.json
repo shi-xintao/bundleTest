@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9eX1uS4gFN9pzUZ3ou2M7N"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guang",
+      "rect": [
+        2,
+        2,
+        909,
+        897
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        913,
+        901
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

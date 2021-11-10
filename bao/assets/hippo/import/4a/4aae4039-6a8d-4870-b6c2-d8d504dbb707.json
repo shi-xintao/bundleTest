@@ -1,0 +1,5134 @@
+[
+  1,
+  [
+    "d59gBZzlFOtYdMPgqX5TFO"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "W4L2-SPINE-1",
+      "\nW4L2-SPINE-1.png\nsize: 570,764\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nGold\n  rotate: true\n  xy: 374, 293\n  size: 469, 194\n  orig: 469, 194\n  offset: 0, 0\n  index: -1\nGold1\n  rotate: false\n  xy: 283, 45\n  size: 123, 123\n  orig: 123, 123\n  offset: 0, 0\n  index: -1\nGold2\n  rotate: true\n  xy: 454, 79\n  size: 127, 60\n  orig: 129, 62\n  offset: 1, 1\n  index: -1\nWristWatch1\n  rotate: false\n  xy: 161, 21\n  size: 74, 66\n  orig: 74, 66\n  offset: 0, 0\n  index: -1\nWristWatch2\n  rotate: false\n  xy: 408, 106\n  size: 43, 84\n  orig: 43, 84\n  offset: 0, 0\n  index: -1\nWristWatch3\n  rotate: false\n  xy: 408, 20\n  size: 42, 84\n  orig: 42, 84\n  offset: 0, 0\n  index: -1\nWristWatch4\n  rotate: true\n  xy: 352, 394\n  size: 66, 19\n  orig: 66, 19\n  offset: 0, 0\n  index: -1\neye\n  rotate: true\n  xy: 352, 323\n  size: 32, 18\n  orig: 34, 20\n  offset: 1, 1\n  index: -1\ntigo10\n  rotate: false\n  xy: 2, 14\n  size: 73, 73\n  orig: 75, 75\n  offset: 1, 1\n  index: -1\ntigo11\n  rotate: false\n  xy: 2, 462\n  size: 370, 300\n  orig: 382, 302\n  offset: 1, 1\n  index: -1\ntigo12\n  rotate: true\n  xy: 283, 297\n  size: 163, 67\n  orig: 163, 67\n  offset: 0, 0\n  index: -1\ntigo13\n  rotate: true\n  xy: 283, 170\n  size: 125, 70\n  orig: 125, 70\n  offset: 0, 0\n  index: -1\ntigo2\n  rotate: true\n  xy: 516, 92\n  size: 38, 22\n  orig: 40, 24\n  offset: 1, 1\n  index: -1\ntigo3\n  rotate: true\n  xy: 352, 357\n  size: 35, 20\n  orig: 37, 22\n  offset: 1, 1\n  index: -1\ntigo4\n  rotate: true\n  xy: 516, 170\n  size: 36, 46\n  orig: 40, 50\n  offset: 2, 2\n  index: -1\ntigo5\n  rotate: true\n  xy: 516, 132\n  size: 36, 46\n  orig: 40, 50\n  offset: 2, 2\n  index: -1\ntigo6\n  rotate: true\n  xy: 2, 89\n  size: 371, 279\n  orig: 371, 279\n  offset: 0, 0\n  index: -1\ntigo61\n  rotate: false\n  xy: 77, 26\n  size: 82, 61\n  orig: 86, 65\n  offset: 2, 2\n  index: -1\ntigo7\n  rotate: false\n  xy: 355, 192\n  size: 97, 99\n  orig: 100, 101\n  offset: 1, 1\n  index: -1\ntigo8\n  rotate: true\n  xy: 454, 208\n  size: 83, 96\n  orig: 85, 98\n  offset: 1, 1\n  index: -1\ntigo9\n  rotate: false\n  xy: 452, 2\n  size: 95, 75\n  orig: 95, 75\n  offset: 0, 0\n  index: -1\n",
+      [
+        "W4L2-SPINE-1.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "XndU4DHqh5+SqNXRBadGhZDnZUE=",
+          "spine": "3.8.75",
+          "x": -357.59,
+          "y": -51.07,
+          "width": 717.81,
+          "height": 508.21
+        },
+        "bones": [
+          {
+            "name": "root",
+            "scaleX": 0.667,
+            "scaleY": 0.667
+          },
+          {
+            "name": "W4L2-SPINE-1",
+            "parent": "root"
+          },
+          {
+            "name": "tigo",
+            "parent": "W4L2-SPINE-1",
+            "x": 2.7,
+            "y": -25.3,
+            "scaleX": 1.2595,
+            "scaleY": 1.2595
+          },
+          {
+            "name": "tigo11",
+            "parent": "tigo",
+            "length": 82.45,
+            "rotation": 90.63,
+            "x": -5.81,
+            "y": 132.74
+          },
+          {
+            "name": "tigo21",
+            "parent": "tigo11",
+            "length": 75.56,
+            "rotation": 0.31,
+            "x": 82.05,
+            "y": 0.16
+          },
+          {
+            "name": "tigo13",
+            "parent": "tigo21",
+            "length": 97.27,
+            "rotation": 103.83,
+            "x": 71.69,
+            "y": 36.14
+          },
+          {
+            "name": "tigo9",
+            "parent": "tigo13",
+            "rotation": 3.43,
+            "x": 85.65,
+            "y": -5.49
+          },
+          {
+            "name": "tigo4",
+            "parent": "tigo21",
+            "length": 78.87,
+            "rotation": -89.64,
+            "x": 75.12,
+            "y": -1.34
+          },
+          {
+            "name": "tigo6",
+            "parent": "tigo4",
+            "x": 2.9,
+            "y": 176.25
+          },
+          {
+            "name": "tigo5",
+            "parent": "tigo4",
+            "x": -97.31,
+            "y": 63.3
+          },
+          {
+            "name": "tigo7",
+            "parent": "tigo4",
+            "x": 94.09,
+            "y": 55.9
+          },
+          {
+            "name": "tigo8",
+            "parent": "tigo4",
+            "x": 1.66,
+            "y": 64.8
+          },
+          {
+            "name": "tigo1",
+            "parent": "tigo4",
+            "x": 0.74,
+            "y": 18.43
+          },
+          {
+            "name": "tigo14",
+            "parent": "tigo4",
+            "length": 50.82,
+            "rotation": 58.63,
+            "x": 78.01,
+            "y": 206.7
+          },
+          {
+            "name": "tigo17",
+            "parent": "tigo4",
+            "length": 62.73,
+            "rotation": 119.81,
+            "x": -68.42,
+            "y": 203.08
+          },
+          {
+            "name": "tigo61",
+            "parent": "tigo4",
+            "x": 1.18,
+            "y": 111.08
+          },
+          {
+            "name": "tigo18",
+            "parent": "tigo4",
+            "x": 0.5,
+            "y": 160.17
+          },
+          {
+            "name": "tigo3",
+            "parent": "tigo4",
+            "x": -0.58,
+            "y": 206.76
+          },
+          {
+            "name": "tigo19",
+            "parent": "tigo",
+            "length": 88.09,
+            "rotation": 85.73,
+            "x": -120.88,
+            "y": 27.31
+          },
+          {
+            "name": "tigo20",
+            "parent": "tigo",
+            "length": 89.75,
+            "rotation": 93.52,
+            "x": 93.46,
+            "y": 27.95
+          },
+          {
+            "name": "tigo22",
+            "parent": "tigo21",
+            "length": 113.45,
+            "rotation": 75.03,
+            "x": 74.33,
+            "y": -31.27,
+            "scaleX": -1
+          },
+          {
+            "name": "tigo10",
+            "parent": "tigo22",
+            "rotation": 6.44,
+            "x": 86.39,
+            "y": -5.61
+          },
+          {
+            "name": "tigo23",
+            "parent": "tigo10",
+            "rotation": -6.17,
+            "x": 67.88,
+            "y": 4.6
+          },
+          {
+            "name": "tigo24",
+            "parent": "tigo23",
+            "length": 50.75,
+            "rotation": 16.37,
+            "x": 1.63,
+            "y": -1.36,
+            "scaleY": -1
+          },
+          {
+            "name": "tigo12",
+            "parent": "tigo9",
+            "x": 67.39,
+            "y": 0.61
+          },
+          {
+            "name": "tigo26",
+            "parent": "tigo12",
+            "length": 50.75,
+            "rotation": 7.77,
+            "x": 0.37,
+            "y": 3.35,
+            "scaleY": -1
+          },
+          {
+            "name": "Gold",
+            "parent": "W4L2-SPINE-1",
+            "x": -13.26,
+            "y": -31.31
+          },
+          {
+            "name": "Gold1",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold2",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold3",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold4",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold5",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold6",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold7",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold8",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold9",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold10",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold11",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold12",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold13",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "Gold14",
+            "parent": "Gold",
+            "x": -61.46,
+            "y": 241.29
+          },
+          {
+            "name": "WristWatch1",
+            "parent": "tigo9",
+            "length": 38.24,
+            "rotation": 3.22,
+            "x": 45,
+            "y": -44.18,
+            "scaleX": 0.8569,
+            "scaleY": 0.8569
+          },
+          {
+            "name": "WristWatch2",
+            "parent": "WristWatch1",
+            "x": 1.97,
+            "y": 14.38
+          },
+          {
+            "name": "WristWatch3",
+            "parent": "WristWatch1",
+            "x": 1.42,
+            "y": 25.18
+          },
+          {
+            "name": "WristWatch5",
+            "parent": "WristWatch1",
+            "x": 3.27,
+            "y": 83.39
+          },
+          {
+            "name": "WristWatch6",
+            "parent": "WristWatch1",
+            "x": 2.61,
+            "y": 82.64
+          },
+          {
+            "name": "WristWatch7",
+            "parent": "WristWatch1",
+            "x": -0.64,
+            "y": 27.34
+          }
+        ],
+        "slots": [
+          {
+            "name": "tigo12",
+            "bone": "tigo13",
+            "attachment": "tigo12"
+          },
+          {
+            "name": "tigo13",
+            "bone": "tigo22",
+            "attachment": "tigo12"
+          },
+          {
+            "name": "tigo11",
+            "bone": "tigo11",
+            "attachment": "tigo11"
+          },
+          {
+            "name": "tigo8",
+            "bone": "tigo14",
+            "attachment": "tigo8"
+          },
+          {
+            "name": "tigo7",
+            "bone": "tigo17",
+            "attachment": "tigo7"
+          },
+          {
+            "name": "tigo6",
+            "bone": "tigo4",
+            "attachment": "tigo6"
+          },
+          {
+            "name": "tigo3",
+            "bone": "tigo3",
+            "attachment": "tigo3"
+          },
+          {
+            "name": "tigo2",
+            "bone": "tigo3",
+            "attachment": "tigo2"
+          },
+          {
+            "name": "tigo1",
+            "bone": "tigo8",
+            "attachment": "tigo13"
+          },
+          {
+            "name": "tigo61",
+            "bone": "tigo61",
+            "attachment": "tigo61"
+          },
+          {
+            "name": "eye",
+            "bone": "tigo18",
+            "attachment": "tigo5"
+          },
+          {
+            "name": "eye2",
+            "bone": "tigo18",
+            "attachment": "tigo4"
+          },
+          {
+            "name": "WristWatch3",
+            "bone": "WristWatch5",
+            "attachment": "WristWatch3"
+          },
+          {
+            "name": "tigo16",
+            "bone": "tigo26",
+            "attachment": "tigo10"
+          },
+          {
+            "name": "tigo9",
+            "bone": "tigo9",
+            "attachment": "tigo9"
+          },
+          {
+            "name": "WristWatch4",
+            "bone": "WristWatch1",
+            "attachment": "WristWatch4"
+          },
+          {
+            "name": "WristWatch2",
+            "bone": "WristWatch7",
+            "attachment": "WristWatch2"
+          },
+          {
+            "name": "WristWatch1",
+            "bone": "WristWatch1",
+            "attachment": "WristWatch1"
+          },
+          {
+            "name": "tigo15",
+            "bone": "tigo24",
+            "attachment": "tigo10"
+          },
+          {
+            "name": "tigo14",
+            "bone": "tigo10",
+            "attachment": "tigo9"
+          },
+          {
+            "name": "Gold1",
+            "bone": "Gold1",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold5",
+            "bone": "Gold2",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold6",
+            "bone": "Gold3",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold7",
+            "bone": "Gold4",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold8",
+            "bone": "Gold5",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold9",
+            "bone": "Gold6",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold10",
+            "bone": "Gold7",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold11",
+            "bone": "Gold8",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold12",
+            "bone": "Gold9",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold13",
+            "bone": "Gold10",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold14",
+            "bone": "Gold11",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold15",
+            "bone": "Gold12",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold16",
+            "bone": "Gold13",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold17",
+            "bone": "Gold14",
+            "attachment": "Gold1"
+          },
+          {
+            "name": "Gold",
+            "bone": "W4L2-SPINE-1",
+            "attachment": "Gold"
+          },
+          {
+            "name": "Route1",
+            "bone": "Gold",
+            "attachment": "Route1"
+          },
+          {
+            "name": "Route2",
+            "bone": "Gold",
+            "attachment": "Route2"
+          },
+          {
+            "name": "Route3",
+            "bone": "Gold",
+            "attachment": "Route3"
+          },
+          {
+            "name": "Route4",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route5",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route6",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route7",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route8",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route9",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route10",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route11",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route12",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route13",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Route14",
+            "bone": "Gold",
+            "attachment": "Route4"
+          },
+          {
+            "name": "Gold21",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          },
+          {
+            "name": "Gold22",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          },
+          {
+            "name": "Gold2",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          },
+          {
+            "name": "Gold3",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          },
+          {
+            "name": "Gold4",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          },
+          {
+            "name": "Gold23",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          },
+          {
+            "name": "Gold18",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          },
+          {
+            "name": "Gold19",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          },
+          {
+            "name": "Gold20",
+            "bone": "Gold",
+            "attachment": "Gold2"
+          }
+        ],
+        "path": [
+          {
+            "name": "Route1",
+            "order": 13,
+            "target": "Route1",
+            "bones": [
+              "Gold1"
+            ]
+          },
+          {
+            "name": "Route2",
+            "order": 12,
+            "target": "Route2",
+            "bones": [
+              "Gold2"
+            ]
+          },
+          {
+            "name": "Route3",
+            "order": 11,
+            "target": "Route3",
+            "bones": [
+              "Gold3"
+            ]
+          },
+          {
+            "name": "Route4",
+            "order": 10,
+            "target": "Route4",
+            "bones": [
+              "Gold4"
+            ]
+          },
+          {
+            "name": "Route5",
+            "order": 9,
+            "target": "Route5",
+            "bones": [
+              "Gold5"
+            ]
+          },
+          {
+            "name": "Route6",
+            "order": 8,
+            "target": "Route6",
+            "bones": [
+              "Gold6"
+            ]
+          },
+          {
+            "name": "Route7",
+            "order": 7,
+            "target": "Route7",
+            "bones": [
+              "Gold7"
+            ]
+          },
+          {
+            "name": "Route8",
+            "order": 6,
+            "target": "Route8",
+            "bones": [
+              "Gold8"
+            ]
+          },
+          {
+            "name": "Route9",
+            "order": 5,
+            "target": "Route9",
+            "bones": [
+              "Gold9"
+            ]
+          },
+          {
+            "name": "Route10",
+            "order": 4,
+            "target": "Route10",
+            "bones": [
+              "Gold10"
+            ]
+          },
+          {
+            "name": "Route11",
+            "order": 3,
+            "target": "Route11",
+            "bones": [
+              "Gold11"
+            ]
+          },
+          {
+            "name": "Route12",
+            "order": 2,
+            "target": "Route12",
+            "bones": [
+              "Gold12"
+            ]
+          },
+          {
+            "name": "Route13",
+            "order": 1,
+            "target": "Route13",
+            "bones": [
+              "Gold13"
+            ]
+          },
+          {
+            "name": "Route14",
+            "target": "Route14",
+            "bones": [
+              "Gold14"
+            ]
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "tigo14": {
+                "tigo9": {
+                  "type": "mesh",
+                  "hull": 10,
+                  "uvs": [
+                    0.88628,
+                    0.05337,
+                    1,
+                    0.24225,
+                    0.99999,
+                    0.45136,
+                    0.93691,
+                    0.62373,
+                    0.8166,
+                    0.72933,
+                    0.19924,
+                    1,
+                    0.15424,
+                    1,
+                    0,
+                    0.34511,
+                    0,
+                    0.2738,
+                    0.73951,
+                    0.0353
+                  ],
+                  "triangles": [
+                    7,
+                    8,
+                    9,
+                    5,
+                    6,
+                    7,
+                    4,
+                    5,
+                    7,
+                    1,
+                    9,
+                    0,
+                    9,
+                    1,
+                    2,
+                    2,
+                    4,
+                    9,
+                    3,
+                    4,
+                    2,
+                    7,
+                    9,
+                    4
+                  ],
+                  "vertices": [
+                    2,
+                    21,
+                    -10.48,
+                    -20.17,
+                    0.99332,
+                    22,
+                    -75.24,
+                    -33.05,
+                    0.00668,
+                    1,
+                    21,
+                    -17.01,
+                    -3.6,
+                    1,
+                    2,
+                    21,
+                    -12.74,
+                    11.49,
+                    0.99784,
+                    22,
+                    -80.9,
+                    -1.81,
+                    0.00216,
+                    2,
+                    21,
+                    -3.46,
+                    22.3,
+                    0.95567,
+                    22,
+                    -72.83,
+                    9.93,
+                    0.04433,
+                    2,
+                    21,
+                    9.7,
+                    26.81,
+                    0.84623,
+                    22,
+                    -60.24,
+                    15.83,
+                    0.15377,
+                    2,
+                    21,
+                    71.66,
+                    30.37,
+                    0.01266,
+                    22,
+                    0.98,
+                    26.03,
+                    0.98734,
+                    2,
+                    21,
+                    75.77,
+                    29.21,
+                    0.00719,
+                    22,
+                    5.2,
+                    25.31,
+                    0.99281,
+                    2,
+                    21,
+                    76.51,
+                    -22.05,
+                    0.0206,
+                    22,
+                    11.44,
+                    -25.57,
+                    0.9794,
+                    2,
+                    21,
+                    75.05,
+                    -27.19,
+                    0.02472,
+                    22,
+                    10.54,
+                    -30.84,
+                    0.97528,
+                    2,
+                    21,
+                    2.57,
+                    -25.27,
+                    0.93707,
+                    22,
+                    -61.72,
+                    -36.71,
+                    0.06293
+                  ]
+                }
+              },
+              "tigo15": {
+                "tigo10": {
+                  "x": 9.34,
+                  "y": 3.59,
+                  "scaleY": -1,
+                  "rotation": 173.67,
+                  "width": 75,
+                  "height": 75
+                }
+              },
+              "tigo16": {
+                "tigo10": {
+                  "x": 9.34,
+                  "y": 3.59,
+                  "scaleY": -1,
+                  "rotation": 173.67,
+                  "width": 75,
+                  "height": 75
+                }
+              },
+              "Route10": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    379.03,
+                    814.29,
+                    1176.46
+                  ],
+                  "vertices": [
+                    2.74,
+                    -84.64,
+                    -5.99,
+                    136.32,
+                    -15.11,
+                    366.99,
+                    -80.78,
+                    666.15,
+                    -184.98,
+                    646.53,
+                    -327.91,
+                    619.61,
+                    -418.91,
+                    270.08,
+                    -447.7,
+                    72.55,
+                    -484.12,
+                    -177.3
+                  ]
+                }
+              },
+              "Route11": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    366.6,
+                    794.01,
+                    1126.28
+                  ],
+                  "vertices": [
+                    8.81,
+                    -81.07,
+                    -6.96,
+                    139.5,
+                    -24.78,
+                    388.52,
+                    -52.61,
+                    685.95,
+                    -110.74,
+                    668.68,
+                    -219.42,
+                    636.39,
+                    -328.22,
+                    334.31,
+                    -379.54,
+                    101.66,
+                    -433.93,
+                    -144.89
+                  ]
+                }
+              },
+              "Route12": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    424.97,
+                    880.65,
+                    1183.18
+                  ],
+                  "vertices": [
+                    14.05,
+                    -79.43,
+                    -26.66,
+                    137.92,
+                    -69.86,
+                    368.6,
+                    -14.41,
+                    764.43,
+                    -139.95,
+                    741.52,
+                    -257.69,
+                    720.04,
+                    -316.81,
+                    288.48,
+                    -332.07,
+                    102.57,
+                    -352.72,
+                    -149.06
+                  ]
+                }
+              },
+              "Route13": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    435.04,
+                    910.19,
+                    1100.66
+                  ],
+                  "vertices": [
+                    -23.3,
+                    -90.81,
+                    -16.7,
+                    130.22,
+                    -9.73,
+                    363.31,
+                    -11.57,
+                    781.68,
+                    -49.45,
+                    778.51,
+                    -89.26,
+                    775.17,
+                    -169.77,
+                    242.21,
+                    -174.98,
+                    80.21,
+                    -183.1,
+                    -172.14
+                  ]
+                }
+              },
+              "Route14": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    460.63,
+                    957.7,
+                    1305.18
+                  ],
+                  "vertices": [
+                    -66.38,
+                    -92.61,
+                    -71.73,
+                    128.46,
+                    -77.25,
+                    356.85,
+                    -109.37,
+                    784.24,
+                    -258.79,
+                    754.91,
+                    -360.87,
+                    734.88,
+                    -489.95,
+                    260.58,
+                    -498.35,
+                    63.68,
+                    -509.12,
+                    -188.58
+                  ]
+                }
+              },
+              "Gold4": {
+                "Gold2": {
+                  "x": -456.23,
+                  "y": 22.44,
+                  "rotation": 4.27,
+                  "width": 129,
+                  "height": 62
+                }
+              },
+              "tigo61": {
+                "tigo61": {
+                  "x": 1.02,
+                  "y": -3.58,
+                  "rotation": -1.3,
+                  "width": 86,
+                  "height": 65
+                }
+              },
+              "Gold10": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold11": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold12": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold13": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold14": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold15": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold16": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold17": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "tigo9": {
+                "tigo9": {
+                  "type": "mesh",
+                  "hull": 8,
+                  "uvs": [
+                    1,
+                    0.21978,
+                    1,
+                    0.49834,
+                    0.87655,
+                    0.71322,
+                    0.19157,
+                    1,
+                    0.14782,
+                    1,
+                    0,
+                    0.37499,
+                    0.00001,
+                    0.27316,
+                    0.85415,
+                    0.00331
+                  ],
+                  "triangles": [
+                    5,
+                    6,
+                    7,
+                    3,
+                    4,
+                    5,
+                    2,
+                    3,
+                    5,
+                    7,
+                    0,
+                    1,
+                    2,
+                    7,
+                    1,
+                    2,
+                    5,
+                    7
+                  ],
+                  "vertices": [
+                    1,
+                    6,
+                    -17.47,
+                    -5.22,
+                    1,
+                    2,
+                    6,
+                    -11.79,
+                    14.89,
+                    0.99425,
+                    24,
+                    -79.17,
+                    14.28,
+                    0.00575,
+                    2,
+                    6,
+                    3.82,
+                    27.27,
+                    0.77894,
+                    24,
+                    -63.57,
+                    26.66,
+                    0.22106,
+                    2,
+                    6,
+                    71.65,
+                    30.87,
+                    0.02482,
+                    24,
+                    4.27,
+                    30.26,
+                    0.97518,
+                    2,
+                    6,
+                    75.65,
+                    29.75,
+                    0.0192,
+                    24,
+                    8.26,
+                    29.14,
+                    0.9808,
+                    2,
+                    6,
+                    76.39,
+                    -19.17,
+                    0.00746,
+                    24,
+                    9,
+                    -19.78,
+                    0.99254,
+                    2,
+                    6,
+                    74.31,
+                    -26.53,
+                    0.0141,
+                    24,
+                    6.92,
+                    -27.14,
+                    0.9859,
+                    2,
+                    6,
+                    -8.57,
+                    -24.61,
+                    0.98836,
+                    24,
+                    -75.96,
+                    -25.22,
+                    0.01164
+                  ]
+                }
+              },
+              "Route1": {
+                "Route1": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    409.15,
+                    860.41,
+                    1130.05
+                  ],
+                  "vertices": [
+                    39.33,
+                    -29.53,
+                    28.48,
+                    106.07,
+                    16.45,
+                    256.36,
+                    19.01,
+                    656.12,
+                    150.4,
+                    684.39,
+                    285.75,
+                    713.52,
+                    337.2,
+                    335.56,
+                    368.39,
+                    78.16,
+                    393.21,
+                    -126.77
+                  ]
+                }
+              },
+              "Route2": {
+                "Route2": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    418.75,
+                    913.7,
+                    1293.12
+                  ],
+                  "vertices": [
+                    32.51,
+                    11.4,
+                    12.37,
+                    131.31,
+                    -12.12,
+                    277.12,
+                    -1.94,
+                    635.12,
+                    161.36,
+                    713.47,
+                    271.49,
+                    766.3,
+                    384.85,
+                    205,
+                    414.61,
+                    37.92,
+                    486.08,
+                    -363.31
+                  ]
+                }
+              },
+              "Route3": {
+                "Route3": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    445.24,
+                    916.85,
+                    1106.06
+                  ],
+                  "vertices": [
+                    -24.15,
+                    -62.93,
+                    -25.79,
+                    101.65,
+                    -27.41,
+                    265.47,
+                    -22.84,
+                    753.76,
+                    39,
+                    760.32,
+                    110.56,
+                    767.9,
+                    129.24,
+                    343.22,
+                    131.82,
+                    69.51,
+                    134.3,
+                    -194.72
+                  ]
+                }
+              },
+              "Route4": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    492.72,
+                    1022.28,
+                    1343.32
+                  ],
+                  "vertices": [
+                    -32.74,
+                    -107.4,
+                    -28.46,
+                    113.69,
+                    -23.95,
+                    346.81,
+                    -37.05,
+                    803.25,
+                    108.95,
+                    813.25,
+                    270.21,
+                    824.3,
+                    299.67,
+                    285.97,
+                    336.99,
+                    80.1,
+                    382.03,
+                    -168.34
+                  ]
+                }
+              },
+              "Route5": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    341.08,
+                    736.25,
+                    982.01
+                  ],
+                  "vertices": [
+                    17.21,
+                    -90.54,
+                    18.36,
+                    130.58,
+                    19.65,
+                    376.57,
+                    37.35,
+                    603.3,
+                    108.63,
+                    621.17,
+                    193.76,
+                    642.51,
+                    248.87,
+                    280.68,
+                    269.51,
+                    68.23,
+                    293.93,
+                    -183.07
+                  ]
+                }
+              },
+              "Route6": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    419.79,
+                    918.08,
+                    1291.39
+                  ],
+                  "vertices": [
+                    1.23,
+                    -59.76,
+                    14.38,
+                    160.98,
+                    27.74,
+                    385.13,
+                    35.19,
+                    724.74,
+                    171.11,
+                    745.5,
+                    279.52,
+                    762.06,
+                    430.1,
+                    291.83,
+                    471.5,
+                    80.31,
+                    520,
+                    -167.48
+                  ]
+                }
+              },
+              "Route7": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    393.72,
+                    859.19,
+                    1071.02
+                  ],
+                  "vertices": [
+                    21.78,
+                    -70.3,
+                    13.04,
+                    150.66,
+                    3.92,
+                    381.33,
+                    15.28,
+                    719.11,
+                    92.96,
+                    721.97,
+                    175.97,
+                    725.04,
+                    220.93,
+                    258.5,
+                    227.76,
+                    48.8,
+                    235.96,
+                    -203.55
+                  ]
+                }
+              },
+              "Route8": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    383.5,
+                    794.84,
+                    964.63
+                  ],
+                  "vertices": [
+                    37.05,
+                    -96.13,
+                    28.31,
+                    124.83,
+                    19.19,
+                    355.5,
+                    3.57,
+                    694.12,
+                    -37.52,
+                    692,
+                    -71.88,
+                    690.23,
+                    -80.13,
+                    351.38,
+                    -76.21,
+                    79.62,
+                    -72.58,
+                    -172.84
+                  ]
+                }
+              },
+              "Route9": {
+                "Route4": {
+                  "type": "path",
+                  "vertexCount": 9,
+                  "lengths": [
+                    388.54,
+                    817.4,
+                    1077.91
+                  ],
+                  "vertices": [
+                    20.98,
+                    -99.11,
+                    12.25,
+                    121.85,
+                    3.13,
+                    352.52,
+                    -0.95,
+                    688.82,
+                    -85.02,
+                    681.31,
+                    -175.82,
+                    673.2,
+                    -234.06,
+                    298.37,
+                    -253.66,
+                    74.7,
+                    -275.71,
+                    -176.82
+                  ]
+                }
+              },
+              "Gold1": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold2": {
+                "Gold2": {
+                  "x": -321.78,
+                  "y": 27.69,
+                  "rotation": -1.54,
+                  "width": 129,
+                  "height": 62
+                }
+              },
+              "Gold3": {
+                "Gold2": {
+                  "x": -363.84,
+                  "y": 44.97,
+                  "rotation": 34.11,
+                  "width": 129,
+                  "height": 62
+                }
+              },
+              "tigo1": {
+                "tigo13": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    2,
+                    12,
+                    60.43,
+                    -14.47,
+                    0.77068,
+                    11,
+                    59.5,
+                    -60.85,
+                    0.22932,
+                    2,
+                    12,
+                    -64.54,
+                    -11.63,
+                    0.72151,
+                    11,
+                    -65.46,
+                    -58.01,
+                    0.27849,
+                    2,
+                    12,
+                    -62.95,
+                    58.35,
+                    0.29293,
+                    11,
+                    -63.87,
+                    11.97,
+                    0.70707,
+                    2,
+                    12,
+                    62.02,
+                    55.51,
+                    0.28914,
+                    11,
+                    61.1,
+                    9.13,
+                    0.71086
+                  ]
+                }
+              },
+              "Gold5": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold6": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold7": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold8": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "tigo3": {
+                "tigo3": {
+                  "x": -42.16,
+                  "y": 0.61,
+                  "rotation": -1.3,
+                  "width": 37,
+                  "height": 22
+                }
+              },
+              "tigo7": {
+                "tigo7": {
+                  "x": 23.25,
+                  "y": -4.77,
+                  "rotation": -121.11,
+                  "width": 100,
+                  "height": 101
+                }
+              },
+              "tigo8": {
+                "tigo8": {
+                  "x": 18.06,
+                  "y": -1.41,
+                  "rotation": -59.93,
+                  "width": 85,
+                  "height": 98
+                }
+              },
+              "eye2": {
+                "eye": {
+                  "x": 47.42,
+                  "y": -2.75,
+                  "scaleX": 1.3194,
+                  "scaleY": 1.3194,
+                  "width": 34,
+                  "height": 20
+                },
+                "eye2": {
+                  "path": "eye",
+                  "x": 47.62,
+                  "y": -4.82,
+                  "scaleX": 1.2573,
+                  "scaleY": 1.2573,
+                  "rotation": 178.7,
+                  "width": 34,
+                  "height": 20
+                },
+                "tigo4": {
+                  "x": 48.23,
+                  "y": 1.11,
+                  "rotation": -1.3,
+                  "width": 40,
+                  "height": 50
+                }
+              },
+              "Gold9": {
+                "Gold1": {
+                  "width": 123,
+                  "height": 123
+                }
+              },
+              "Gold21": {
+                "Gold2": {
+                  "x": 406.89,
+                  "y": 14.78,
+                  "rotation": -0.5,
+                  "width": 129,
+                  "height": 62
+                }
+              },
+              "Gold22": {
+                "Gold2": {
+                  "x": 482.46,
+                  "y": 31.29,
+                  "rotation": -33.72,
+                  "width": 129,
+                  "height": 62
+                }
+              },
+              "Gold23": {
+                "Gold2": {
+                  "x": -390.71,
+                  "y": -6.39,
+                  "rotation": 7.22,
+                  "width": 129,
+                  "height": 62
+                }
+              },
+              "Gold20": {
+                "Gold2": {
+                  "x": 351.96,
+                  "y": 53.28,
+                  "rotation": -0.5,
+                  "width": 129,
+                  "height": 62
+                }
+              },
+              "tigo2": {
+                "tigo2": {
+                  "x": 48.25,
+                  "y": -4.45,
+                  "rotation": -1.3,
+                  "width": 40,
+                  "height": 24
+                }
+              },
+              "WristWatch1": {
+                "WristWatch1": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    3,
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "vertices": [
+                    1,
+                    42,
+                    34.45,
+                    -3.87,
+                    1,
+                    1,
+                    42,
+                    -39.51,
+                    -1.4,
+                    1,
+                    1,
+                    43,
+                    -38.89,
+                    2.54,
+                    1,
+                    1,
+                    43,
+                    35.07,
+                    0.07,
+                    1
+                  ]
+                }
+              },
+              "WristWatch2": {
+                "WristWatch2": {
+                  "type": "mesh",
+                  "hull": 6,
+                  "uvs": [
+                    1,
+                    0.82304,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0.84353,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    4,
+                    5,
+                    0,
+                    1,
+                    3,
+                    0,
+                    1,
+                    2,
+                    3,
+                    3,
+                    4,
+                    0
+                  ],
+                  "vertices": [
+                    1,
+                    46,
+                    22.95,
+                    6.22,
+                    1,
+                    1,
+                    46,
+                    22.44,
+                    -5.06,
+                    1,
+                    1,
+                    46,
+                    -20.49,
+                    -2.64,
+                    1,
+                    1,
+                    46,
+                    -20.04,
+                    7.33,
+                    1,
+                    1,
+                    45,
+                    -20.85,
+                    5.81,
+                    1,
+                    1,
+                    45,
+                    22.08,
+                    3.39,
+                    1
+                  ]
+                }
+              },
+              "WristWatch3": {
+                "WristWatch3": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    3,
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "vertices": [
+                    1,
+                    44,
+                    17.84,
+                    -5.38,
+                    1,
+                    1,
+                    44,
+                    -24.1,
+                    -3.01,
+                    1,
+                    1,
+                    42,
+                    -19.81,
+                    6.18,
+                    1,
+                    1,
+                    42,
+                    22.12,
+                    3.82,
+                    1
+                  ]
+                }
+              },
+              "WristWatch4": {
+                "WristWatch4": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    3,
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  "vertices": [
+                    1,
+                    46,
+                    -29.02,
+                    8.85,
+                    1,
+                    1,
+                    46,
+                    36.9,
+                    5.6,
+                    1,
+                    1,
+                    43,
+                    33.91,
+                    -11.22,
+                    1,
+                    1,
+                    43,
+                    -32.01,
+                    -7.97,
+                    1
+                  ]
+                }
+              },
+              "Gold": {
+                "Gold": {
+                  "x": -15.13,
+                  "y": 49.68,
+                  "width": 469,
+                  "height": 194
+                }
+              },
+              "eye": {
+                "eye": {
+                  "x": -45.63,
+                  "y": -0.64,
+                  "scaleX": 1.3194,
+                  "scaleY": 1.3194,
+                  "width": 34,
+                  "height": 20
+                },
+                "eye2": {
+                  "path": "eye",
+                  "x": -45.89,
+                  "y": -2.69,
+                  "scaleX": 1.2573,
+                  "scaleY": 1.2573,
+                  "rotation": 178.7,
+                  "width": 34,
+                  "height": 20
+                },
+                "tigo5": {
+                  "x": -45.79,
+                  "y": 1.25,
+                  "rotation": -1.3,
+                  "width": 40,
+                  "height": 50
+                }
+              },
+              "tigo13": {
+                "tigo12": {
+                  "type": "mesh",
+                  "hull": 15,
+                  "uvs": [
+                    0.83533,
+                    0.07311,
+                    0.92326,
+                    0.21137,
+                    1,
+                    0.42491,
+                    1,
+                    0.55704,
+                    0.67398,
+                    0.81891,
+                    0.34617,
+                    1,
+                    0.08062,
+                    1,
+                    0.03159,
+                    0.91025,
+                    0,
+                    0.74492,
+                    0,
+                    0.63094,
+                    0.02502,
+                    0.48132,
+                    0.12377,
+                    0.31376,
+                    0.41753,
+                    0.06933,
+                    0.5681,
+                    0,
+                    0.71296,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    6,
+                    7,
+                    8,
+                    4,
+                    13,
+                    14,
+                    4,
+                    14,
+                    0,
+                    4,
+                    0,
+                    1,
+                    4,
+                    1,
+                    3,
+                    10,
+                    6,
+                    9,
+                    9,
+                    6,
+                    8,
+                    11,
+                    6,
+                    10,
+                    5,
+                    11,
+                    12,
+                    6,
+                    11,
+                    5,
+                    12,
+                    13,
+                    4,
+                    5,
+                    12,
+                    4
+                  ],
+                  "vertices": [
+                    -12.47,
+                    -19.53,
+                    -24.47,
+                    -7.4,
+                    -33.6,
+                    9.27,
+                    -31.69,
+                    17.92,
+                    23.98,
+                    23.6,
+                    78.78,
+                    23.93,
+                    121.04,
+                    14.6,
+                    127.55,
+                    7,
+                    130.19,
+                    -4.92,
+                    128.55,
+                    -12.38,
+                    122.4,
+                    -21.29,
+                    104.27,
+                    -28.78,
+                    53.98,
+                    -34.45,
+                    29.01,
+                    -33.7,
+                    5.95,
+                    -28.61
+                  ]
+                }
+              },
+              "tigo6": {
+                "tigo6": {
+                  "type": "mesh",
+                  "hull": 41,
+                  "uvs": [
+                    0.60344,
+                    0.01326,
+                    0.65801,
+                    0.04475,
+                    0.71361,
+                    0.09646,
+                    0.75016,
+                    0.15876,
+                    0.76589,
+                    0.22137,
+                    0.80862,
+                    0.26244,
+                    0.85228,
+                    0.31666,
+                    0.88884,
+                    0.38306,
+                    0.90715,
+                    0.47572,
+                    0.9098,
+                    0.52612,
+                    0.95562,
+                    0.52571,
+                    0.98332,
+                    0.56386,
+                    1,
+                    0.66909,
+                    1,
+                    0.71597,
+                    0.94671,
+                    0.72913,
+                    0.89923,
+                    0.80279,
+                    0.8468,
+                    0.87251,
+                    0.78547,
+                    0.93038,
+                    0.68416,
+                    0.97642,
+                    0.57979,
+                    0.99639,
+                    0.50223,
+                    0.99999,
+                    0.42404,
+                    0.99999,
+                    0.31929,
+                    0.98737,
+                    0.23539,
+                    0.94091,
+                    0.15697,
+                    0.8754,
+                    0.09168,
+                    0.79253,
+                    0.04222,
+                    0.7215,
+                    0,
+                    0.73071,
+                    0,
+                    0.65532,
+                    0.01682,
+                    0.54483,
+                    0.0831,
+                    0.52247,
+                    0.09695,
+                    0.43039,
+                    0.12267,
+                    0.35541,
+                    0.17312,
+                    0.28701,
+                    0.23148,
+                    0.2094,
+                    0.25127,
+                    0.14626,
+                    0.28193,
+                    0.09364,
+                    0.34524,
+                    0.03313,
+                    0.42662,
+                    0.00001,
+                    0.47782,
+                    0,
+                    0.53857,
+                    0,
+                    0.72471,
+                    0.52461,
+                    0.73941,
+                    0.67283,
+                    0.7193,
+                    0.79378,
+                    0.26958,
+                    0.53223,
+                    0.24707,
+                    0.66029,
+                    0.27334,
+                    0.78668,
+                    0.34173,
+                    0.20793,
+                    0.49932,
+                    0.20935,
+                    0.64244,
+                    0.21069,
+                    0.49842,
+                    0.46027,
+                    0.50023,
+                    0.54092,
+                    0.50476,
+                    0.70824,
+                    0.50657,
+                    0.82741
+                  ],
+                  "triangles": [
+                    42,
+                    52,
+                    51,
+                    51,
+                    50,
+                    41,
+                    44,
+                    50,
+                    51,
+                    52,
+                    44,
+                    51,
+                    41,
+                    5,
+                    6,
+                    41,
+                    6,
+                    7,
+                    41,
+                    7,
+                    8,
+                    41,
+                    8,
+                    9,
+                    42,
+                    41,
+                    9,
+                    42,
+                    51,
+                    41,
+                    14,
+                    11,
+                    12,
+                    11,
+                    14,
+                    9,
+                    11,
+                    9,
+                    10,
+                    13,
+                    14,
+                    12,
+                    42,
+                    9,
+                    14,
+                    43,
+                    52,
+                    42,
+                    15,
+                    42,
+                    14,
+                    16,
+                    43,
+                    42,
+                    53,
+                    52,
+                    43,
+                    15,
+                    16,
+                    42,
+                    17,
+                    43,
+                    16,
+                    43,
+                    19,
+                    53,
+                    18,
+                    43,
+                    17,
+                    18,
+                    19,
+                    43,
+                    19,
+                    20,
+                    53,
+                    31,
+                    32,
+                    44,
+                    30,
+                    31,
+                    44,
+                    45,
+                    30,
+                    44,
+                    30,
+                    28,
+                    29,
+                    26,
+                    30,
+                    45,
+                    26,
+                    28,
+                    30,
+                    27,
+                    28,
+                    26,
+                    44,
+                    52,
+                    45,
+                    46,
+                    45,
+                    52,
+                    25,
+                    26,
+                    45,
+                    25,
+                    45,
+                    46,
+                    46,
+                    52,
+                    53,
+                    24,
+                    25,
+                    46,
+                    23,
+                    24,
+                    46,
+                    21,
+                    22,
+                    46,
+                    23,
+                    46,
+                    22,
+                    46,
+                    53,
+                    21,
+                    20,
+                    21,
+                    53,
+                    32,
+                    33,
+                    44,
+                    47,
+                    36,
+                    37,
+                    35,
+                    36,
+                    47,
+                    48,
+                    39,
+                    40,
+                    38,
+                    39,
+                    48,
+                    47,
+                    37,
+                    38,
+                    48,
+                    47,
+                    38,
+                    34,
+                    35,
+                    47,
+                    49,
+                    0,
+                    1,
+                    49,
+                    1,
+                    2,
+                    49,
+                    2,
+                    3,
+                    48,
+                    40,
+                    0,
+                    49,
+                    48,
+                    0,
+                    49,
+                    3,
+                    4,
+                    50,
+                    47,
+                    48,
+                    50,
+                    48,
+                    49,
+                    41,
+                    49,
+                    4,
+                    41,
+                    4,
+                    5,
+                    50,
+                    49,
+                    41,
+                    47,
+                    33,
+                    34,
+                    44,
+                    47,
+                    50,
+                    44,
+                    33,
+                    47
+                  ],
+                  "vertices": [
+                    1,
+                    8,
+                    39.88,
+                    80.49,
+                    1,
+                    1,
+                    8,
+                    59.92,
+                    71.25,
+                    1,
+                    1,
+                    8,
+                    80.22,
+                    56.35,
+                    1,
+                    1,
+                    8,
+                    93.38,
+                    38.67,
+                    1,
+                    1,
+                    8,
+                    98.81,
+                    21.07,
+                    1,
+                    2,
+                    8,
+                    114.4,
+                    9.26,
+                    0.58055,
+                    10,
+                    23.21,
+                    129.6,
+                    0.41945,
+                    2,
+                    8,
+                    130.26,
+                    -6.23,
+                    0.46095,
+                    10,
+                    39.06,
+                    114.11,
+                    0.53905,
+                    2,
+                    8,
+                    143.39,
+                    -25.06,
+                    0.35351,
+                    10,
+                    52.2,
+                    95.28,
+                    0.64649,
+                    2,
+                    8,
+                    149.6,
+                    -51.06,
+                    0.22351,
+                    10,
+                    58.4,
+                    69.28,
+                    0.77649,
+                    2,
+                    8,
+                    150.26,
+                    -65.14,
+                    0.1278,
+                    10,
+                    59.07,
+                    55.2,
+                    0.8722,
+                    2,
+                    8,
+                    167.26,
+                    -65.42,
+                    0.06395,
+                    10,
+                    76.06,
+                    54.93,
+                    0.93605,
+                    2,
+                    8,
+                    177.29,
+                    -76.29,
+                    0.04392,
+                    10,
+                    86.1,
+                    44.05,
+                    0.95608,
+                    2,
+                    8,
+                    182.81,
+                    -105.78,
+                    0.01244,
+                    10,
+                    91.62,
+                    14.56,
+                    0.98756,
+                    2,
+                    8,
+                    182.51,
+                    -118.86,
+                    0.00809,
+                    10,
+                    91.32,
+                    1.48,
+                    0.99191,
+                    2,
+                    8,
+                    162.67,
+                    -122.08,
+                    0.00714,
+                    10,
+                    71.47,
+                    -1.74,
+                    0.99286,
+                    2,
+                    8,
+                    144.59,
+                    -142.23,
+                    0.00013,
+                    10,
+                    53.39,
+                    -21.88,
+                    0.99987,
+                    2,
+                    9,
+                    224.9,
+                    -48.28,
+                    0.00374,
+                    10,
+                    33.51,
+                    -40.89,
+                    0.99626,
+                    2,
+                    9,
+                    201.79,
+                    -63.91,
+                    0.03095,
+                    10,
+                    10.39,
+                    -56.51,
+                    0.96905,
+                    2,
+                    9,
+                    163.92,
+                    -75.9,
+                    0.14421,
+                    10,
+                    -27.48,
+                    -68.5,
+                    0.85579,
+                    3,
+                    8,
+                    24.88,
+                    -193.53,
+                    0.00312,
+                    9,
+                    125.08,
+                    -80.59,
+                    0.33701,
+                    10,
+                    -66.32,
+                    -73.19,
+                    0.65986,
+                    3,
+                    8,
+                    -3.91,
+                    -193.88,
+                    0.00514,
+                    9,
+                    96.29,
+                    -80.94,
+                    0.48549,
+                    10,
+                    -95.11,
+                    -73.54,
+                    0.50938,
+                    3,
+                    8,
+                    -32.91,
+                    -193.22,
+                    0.00192,
+                    9,
+                    67.29,
+                    -80.28,
+                    0.69476,
+                    10,
+                    -124.11,
+                    -72.88,
+                    0.30332,
+                    2,
+                    9,
+                    28.52,
+                    -75.88,
+                    0.84951,
+                    10,
+                    -162.88,
+                    -68.48,
+                    0.15049,
+                    2,
+                    9,
+                    -2.31,
+                    -62.21,
+                    0.93561,
+                    10,
+                    -193.7,
+                    -54.81,
+                    0.06439,
+                    2,
+                    9,
+                    -30.98,
+                    -43.28,
+                    0.99089,
+                    10,
+                    -222.37,
+                    -35.88,
+                    0.00911,
+                    1,
+                    9,
+                    -54.67,
+                    -19.61,
+                    1,
+                    2,
+                    8,
+                    -172.77,
+                    -112.33,
+                    0.00308,
+                    9,
+                    -72.56,
+                    0.62,
+                    0.99692,
+                    2,
+                    8,
+                    -188.48,
+                    -114.54,
+                    0.00171,
+                    9,
+                    -88.28,
+                    -1.59,
+                    0.99829,
+                    2,
+                    8,
+                    -188.01,
+                    -93.51,
+                    0.00957,
+                    9,
+                    -87.8,
+                    19.43,
+                    0.99043,
+                    2,
+                    8,
+                    -181.07,
+                    -62.83,
+                    0.03994,
+                    9,
+                    -80.86,
+                    50.11,
+                    0.96006,
+                    2,
+                    8,
+                    -156.34,
+                    -57.16,
+                    0.11576,
+                    9,
+                    -56.14,
+                    55.79,
+                    0.88424,
+                    2,
+                    8,
+                    -150.62,
+                    -31.59,
+                    0.26585,
+                    9,
+                    -50.42,
+                    81.36,
+                    0.73415,
+                    2,
+                    8,
+                    -140.61,
+                    -10.89,
+                    0.37227,
+                    9,
+                    -40.4,
+                    102.05,
+                    0.62773,
+                    2,
+                    8,
+                    -121.46,
+                    7.76,
+                    0.51676,
+                    9,
+                    -21.26,
+                    120.71,
+                    0.48324,
+                    1,
+                    8,
+                    -99.32,
+                    28.92,
+                    1,
+                    1,
+                    8,
+                    -91.58,
+                    46.36,
+                    1,
+                    1,
+                    8,
+                    -79.88,
+                    60.78,
+                    1,
+                    1,
+                    8,
+                    -56.01,
+                    77.12,
+                    1,
+                    1,
+                    8,
+                    -25.62,
+                    85.68,
+                    1,
+                    1,
+                    8,
+                    -6.63,
+                    85.25,
+                    1,
+                    1,
+                    8,
+                    15.91,
+                    84.74,
+                    1,
+                    3,
+                    8,
+                    81.62,
+                    -63.16,
+                    0.35508,
+                    9,
+                    181.82,
+                    49.78,
+                    0.00979,
+                    10,
+                    -9.57,
+                    57.18,
+                    0.63513,
+                    3,
+                    8,
+                    86.13,
+                    -104.63,
+                    0.13899,
+                    9,
+                    186.34,
+                    8.32,
+                    0.01342,
+                    10,
+                    -5.06,
+                    15.72,
+                    0.84758,
+                    3,
+                    8,
+                    77.91,
+                    -138.2,
+                    0.00326,
+                    9,
+                    178.11,
+                    -25.25,
+                    0.02183,
+                    10,
+                    -13.28,
+                    -17.85,
+                    0.97492,
+                    3,
+                    8,
+                    -87.24,
+                    -61.45,
+                    0.28382,
+                    9,
+                    12.97,
+                    51.49,
+                    0.7038,
+                    10,
+                    -178.43,
+                    58.89,
+                    0.01238,
+                    3,
+                    8,
+                    -96.4,
+                    -96.98,
+                    0.05999,
+                    9,
+                    3.81,
+                    15.97,
+                    0.93322,
+                    10,
+                    -187.59,
+                    23.36,
+                    0.00679,
+                    3,
+                    8,
+                    -87.46,
+                    -132.46,
+                    0.00605,
+                    9,
+                    12.75,
+                    -19.51,
+                    0.94664,
+                    10,
+                    -178.65,
+                    -12.11,
+                    0.04731,
+                    1,
+                    8,
+                    -58.42,
+                    28.4,
+                    1,
+                    1,
+                    8,
+                    0.02,
+                    26.67,
+                    1,
+                    1,
+                    8,
+                    53.1,
+                    25.09,
+                    1,
+                    1,
+                    15,
+                    -0.19,
+                    21.86,
+                    1,
+                    1,
+                    15,
+                    -0.02,
+                    -0.65,
+                    1,
+                    4,
+                    8,
+                    -1.13,
+                    -112.53,
+                    0.11677,
+                    9,
+                    99.08,
+                    0.42,
+                    0.1506,
+                    10,
+                    -92.32,
+                    7.82,
+                    0.15663,
+                    15,
+                    0.59,
+                    -47.36,
+                    0.576,
+                    4,
+                    8,
+                    -1.21,
+                    -145.78,
+                    0.09234,
+                    9,
+                    98.99,
+                    -32.84,
+                    0.2241,
+                    10,
+                    -92.4,
+                    -25.44,
+                    0.24356,
+                    15,
+                    0.51,
+                    -80.61,
+                    0.44
+                  ]
+                }
+              },
+              "Gold19": {
+                "Gold2": {
+                  "x": 281.63,
+                  "y": 19.97,
+                  "rotation": -0.5,
+                  "width": 129,
+                  "height": 62
+                }
+              },
+              "tigo11": {
+                "tigo11": {
+                  "x": 36.49,
+                  "y": -2.51,
+                  "rotation": -90.63,
+                  "width": 382,
+                  "height": 302
+                }
+              },
+              "tigo12": {
+                "tigo12": {
+                  "type": "mesh",
+                  "hull": 15,
+                  "uvs": [
+                    0.83533,
+                    0.07311,
+                    0.92326,
+                    0.21137,
+                    1,
+                    0.42491,
+                    1,
+                    0.55704,
+                    0.67398,
+                    0.81891,
+                    0.34617,
+                    1,
+                    0.08062,
+                    1,
+                    0.03159,
+                    0.91025,
+                    0,
+                    0.74492,
+                    0,
+                    0.63094,
+                    0.02502,
+                    0.48132,
+                    0.12377,
+                    0.31376,
+                    0.41753,
+                    0.06933,
+                    0.5681,
+                    0,
+                    0.71296,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    6,
+                    7,
+                    8,
+                    4,
+                    13,
+                    14,
+                    4,
+                    14,
+                    0,
+                    4,
+                    0,
+                    1,
+                    4,
+                    1,
+                    3,
+                    10,
+                    6,
+                    9,
+                    9,
+                    6,
+                    8,
+                    11,
+                    6,
+                    10,
+                    5,
+                    11,
+                    12,
+                    6,
+                    11,
+                    5,
+                    12,
+                    13,
+                    4,
+                    5,
+                    12,
+                    4
+                  ],
+                  "vertices": [
+                    -12.47,
+                    -19.53,
+                    -24.47,
+                    -7.4,
+                    -33.6,
+                    9.27,
+                    -31.69,
+                    17.92,
+                    23.98,
+                    23.6,
+                    78.78,
+                    23.93,
+                    121.04,
+                    14.6,
+                    127.55,
+                    7,
+                    130.19,
+                    -4.92,
+                    128.55,
+                    -12.38,
+                    122.4,
+                    -21.29,
+                    104.27,
+                    -28.78,
+                    53.98,
+                    -34.45,
+                    29.01,
+                    -33.7,
+                    5.95,
+                    -28.61
+                  ]
+                }
+              },
+              "Gold18": {
+                "Gold2": {
+                  "x": -247.7,
+                  "y": 1.46,
+                  "rotation": 4.27,
+                  "width": 129,
+                  "height": 62
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "Animation": {
+            "slots": {
+              "eye2": {
+                "attachment": [
+                  {
+                    "name": "tigo4"
+                  },
+                  {
+                    "time": 0.3333,
+                    "name": "eye"
+                  }
+                ]
+              },
+              "WristWatch4": {
+                "attachment": [
+                  {
+                    "time": 0.3333,
+                    "name": null
+                  },
+                  {
+                    "time": 1.3333,
+                    "name": null
+                  },
+                  {
+                    "time": 2,
+                    "name": null
+                  }
+                ]
+              },
+              "eye": {
+                "attachment": [
+                  {
+                    "name": "tigo5"
+                  },
+                  {
+                    "time": 0.3333,
+                    "name": "eye"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "tigo": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo24": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo23": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "x": 29.32,
+                    "y": 13.67,
+                    "curve": 0.378,
+                    "c2": 0.52,
+                    "c3": 0.748
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo10": {
+                "rotate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "angle": 88.97,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "angle": 156.59,
+                    "curve": 0.378,
+                    "c2": 0.52,
+                    "c3": 0.748
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": -37.25,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "angle": -37.25
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": 19.54,
+                    "y": -1.42,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "x": 19.07,
+                    "y": 3.98,
+                    "curve": 0.378,
+                    "c2": 0.52,
+                    "c3": 0.748
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 15.96,
+                    "y": 3.83,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": 15.96,
+                    "y": 3.83
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo22": {
+                "rotate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "angle": -38.57,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "angle": -48.87,
+                    "curve": 0.341,
+                    "c2": 0.36,
+                    "c3": 0.679,
+                    "c4": 0.7
+                  },
+                  {
+                    "time": 0.8,
+                    "angle": 3.25,
+                    "curve": 0.381,
+                    "c2": 0.59,
+                    "c3": 0.73
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": 15.58,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "angle": 15.58
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -6.88,
+                    "y": -59.99,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "x": -4.6,
+                    "y": -60.64,
+                    "curve": 0.341,
+                    "c2": 0.36,
+                    "c3": 0.679,
+                    "c4": 0.7
+                  },
+                  {
+                    "time": 0.8,
+                    "x": -5.57,
+                    "y": 4.87,
+                    "curve": 0.381,
+                    "c2": 0.59,
+                    "c3": 0.73
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": -19.56,
+                    "y": -25.71,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": -19.56,
+                    "y": -25.71
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo26": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo12": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "x": 27.93,
+                    "y": -0.21,
+                    "curve": 0.378,
+                    "c2": 0.52,
+                    "c3": 0.748
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo9": {
+                "rotate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "angle": 90.12,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "angle": 158.73,
+                    "curve": 0.378,
+                    "c2": 0.52,
+                    "c3": 0.748
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": -39.6,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "angle": -39.6
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": 23.11,
+                    "y": 0.56,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "x": 19.39,
+                    "y": 2.61,
+                    "curve": 0.378,
+                    "c2": 0.52,
+                    "c3": 0.748
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 25.43,
+                    "y": 0.93,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": 25.43,
+                    "y": 0.93
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo13": {
+                "rotate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "angle": 39.57,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "angle": 50.92,
+                    "curve": 0.341,
+                    "c2": 0.36,
+                    "c3": 0.679,
+                    "c4": 0.7
+                  },
+                  {
+                    "time": 0.8,
+                    "angle": -1.43,
+                    "curve": 0.381,
+                    "c2": 0.59,
+                    "c3": 0.73
+                  },
+                  {
+                    "time": 1.3333,
+                    "angle": -21.72,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "angle": -21.72
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -2.45,
+                    "y": 47.32,
+                    "curve": 0.248,
+                    "c3": 0.628,
+                    "c4": 0.52
+                  },
+                  {
+                    "time": 0.5333,
+                    "x": 4.98,
+                    "y": 54.39,
+                    "curve": 0.341,
+                    "c2": 0.36,
+                    "c3": 0.679,
+                    "c4": 0.7
+                  },
+                  {
+                    "time": 0.8,
+                    "x": -6.79,
+                    "y": -8.8,
+                    "curve": 0.381,
+                    "c2": 0.59,
+                    "c3": 0.73
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": -17.3,
+                    "y": 25.38,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": -17.3,
+                    "y": 25.38
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo61": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -1.41,
+                    "y": -62.12,
+                    "curve": 0.352,
+                    "c2": 0.71,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 0.54,
+                    "y": 23.9,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo18": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -1.08,
+                    "y": -47.55,
+                    "curve": 0.352,
+                    "c2": 0.71,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 0.47,
+                    "y": 20.47,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo17": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -0.95,
+                    "y": -41.78,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": -0.17,
+                    "y": -7.4,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo14": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -0.95,
+                    "y": -41.78,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": -0.17,
+                    "y": -7.4,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo8": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -1.93,
+                    "y": -84.71,
+                    "curve": 0.352,
+                    "c2": 0.71,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 0.65,
+                    "y": 28.66,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo7": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo6": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -1.1,
+                    "y": -48.21,
+                    "curve": 0.352,
+                    "c2": 0.71,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo5": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo3": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -0.6,
+                    "y": -26.2,
+                    "curve": 0.352,
+                    "c2": 0.71,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 0.15,
+                    "y": 6.64,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo1": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": 0.13,
+                    "y": 5.67,
+                    "curve": 0.352,
+                    "c2": 0.71,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 0.19,
+                    "y": 8.48,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo4": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -20.29,
+                    "y": 0.33,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo21": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": -9.01,
+                    "y": 0.1,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "tigo11": {
+                "rotate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "scale": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ],
+                "shear": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2
+                  }
+                ]
+              },
+              "WristWatch7": {
+                "translate": [
+                  {},
+                  {
+                    "time": 0.3333,
+                    "x": 7.12,
+                    "y": 49.08
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 7.37,
+                    "y": 54.5,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": 7.37,
+                    "y": 54.5
+                  }
+                ]
+              },
+              "WristWatch3": {
+                "translate": [
+                  {},
+                  {
+                    "time": 0.3333,
+                    "x": 6.13,
+                    "y": 56
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 6.26,
+                    "y": 65.62,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": 6.26,
+                    "y": 65.62
+                  }
+                ]
+              },
+              "WristWatch1": {
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333
+                  }
+                ]
+              },
+              "WristWatch2": {
+                "translate": [
+                  {},
+                  {
+                    "time": 0.3333,
+                    "x": 0.44,
+                    "y": 10.2
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 7.56,
+                    "y": 56.78,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": 7.56,
+                    "y": 56.78
+                  }
+                ]
+              },
+              "WristWatch5": {
+                "translate": [
+                  {},
+                  {
+                    "time": 0.3333,
+                    "x": -4.44,
+                    "y": -61.1,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": -4.44,
+                    "y": -61.1,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": -4.44,
+                    "y": -61.1
+                  }
+                ]
+              },
+              "WristWatch6": {
+                "translate": [
+                  {
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 0.55,
+                    "y": 2.2,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 2,
+                    "x": 0.55,
+                    "y": 2.2
+                  }
+                ]
+              }
+            },
+            "path": {
+              "Route10": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.6,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route11": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 2,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route12": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.8667,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route13": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 2,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route14": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.6667,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route1": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 2,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route2": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.9,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route3": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.8667,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route4": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.8333,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route5": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.9667,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route6": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.9,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route7": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.8,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route8": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.9333,
+                    "position": 1
+                  }
+                ]
+              },
+              "Route9": {
+                "position": [
+                  {
+                    "time": 0.3333
+                  },
+                  {
+                    "time": 1.7667,
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "deform": {
+              "default": {
+                "tigo6": {
+                  "tigo6": [
+                    {
+                      "curve": 0.25,
+                      "c3": 0.75
+                    },
+                    {
+                      "time": 0.3333,
+                      "offset": 144,
+                      "curve": 0.25,
+                      "c3": 0.75,
+                      "vertices": [
+                        -0.34761,
+                        -15.29474,
+                        -0.34767,
+                        -15.29361,
+                        -0.34748,
+                        -15.29333,
+                        -0.34761,
+                        -15.29474,
+                        -0.34767,
+                        -15.29361,
+                        -0.34748,
+                        -15.29333,
+                        -0.34761,
+                        -15.29474,
+                        -0.34767,
+                        -15.29361,
+                        -0.34748,
+                        -15.29333,
+                        -0.34761,
+                        -15.29474,
+                        -0.34767,
+                        -15.29361,
+                        -0.34748,
+                        -15.29333,
+                        -0.34761,
+                        -15.29474,
+                        -0.34767,
+                        -15.29361,
+                        -0.34748,
+                        -15.29333,
+                        -0.34761,
+                        -15.29474,
+                        -0.34767,
+                        -15.29361,
+                        -0.34748,
+                        -15.29333
+                      ]
+                    },
+                    {
+                      "time": 1.3333
+                    }
+                  ]
+                }
+              }
+            },
+            "drawOrder": [
+              {
+                "time": 0.3333,
+                "offsets": [
+                  {
+                    "slot": "WristWatch3",
+                    "offset": 2
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

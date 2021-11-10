@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "ffMthlb71LGoqj0WLZxoeK"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guide_hand",
+      "rect": [
+        18,
+        7,
+        67,
+        85
+      ],
+      "offset": [
+        -4.5,
+        3.5
+      ],
+      "originalSize": [
+        112,
+        106
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

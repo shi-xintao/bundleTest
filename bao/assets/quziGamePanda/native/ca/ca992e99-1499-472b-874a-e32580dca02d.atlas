@@ -1,0 +1,41 @@
+
+shucai.png
+size: 224,224
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fanqianpian
+  rotate: false
+  xy: 100, 59
+  size: 80, 79
+  orig: 82, 81
+  offset: 1, 1
+  index: -1
+huluobopian
+  rotate: false
+  xy: 2, 32
+  size: 92, 92
+  orig: 94, 94
+  offset: 1, 1
+  index: -1
+roupian
+  rotate: false
+  xy: 2, 126
+  size: 96, 96
+  orig: 98, 98
+  offset: 1, 1
+  index: -1
+tudoupian
+  rotate: false
+  xy: 100, 140
+  size: 79, 82
+  orig: 81, 84
+  offset: 1, 1
+  index: -1
+zhanban
+  rotate: true
+  xy: 96, 2
+  size: 55, 89
+  orig: 57, 91
+  offset: 1, 1
+  index: -1

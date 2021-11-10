@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "bdXTT5UYNHSaBgm4Gknbmp"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "dian",
+      "rect": [
+        2,
+        69,
+        766,
+        699
+      ],
+      "offset": [
+        0,
+        -33.5
+      ],
+      "originalSize": [
+        770,
+        770
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

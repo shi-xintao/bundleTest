@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "229ozVCZ9BCJ49ey+rRUBy"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "huo",
+      "rect": [
+        2,
+        47,
+        1895,
+        1850
+      ],
+      "offset": [
+        0,
+        -22.5
+      ],
+      "originalSize": [
+        1899,
+        1899
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

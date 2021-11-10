@@ -1,0 +1,216 @@
+
+friend.png
+size: 714,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+girl_1
+  rotate: true
+  xy: 2, 9
+  size: 194, 145
+  orig: 194, 145
+  offset: 0, 0
+  index: -1
+girl_10
+  rotate: true
+  xy: 683, 72
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+girl_11
+  rotate: true
+  xy: 442, 54
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+girl_12
+  rotate: true
+  xy: 310, 51
+  size: 152, 130
+  orig: 152, 130
+  offset: 0, 0
+  index: -1
+girl_13
+  rotate: false
+  xy: 650, 3
+  size: 55, 57
+  orig: 55, 57
+  offset: 0, 0
+  index: -1
+girl_14
+  rotate: false
+  xy: 230, 2
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+girl_14-1
+  rotate: true
+  xy: 280, 2
+  size: 37, 47
+  orig: 37, 47
+  offset: 0, 0
+  index: -1
+girl_15
+  rotate: true
+  xy: 619, 137
+  size: 66, 62
+  orig: 66, 62
+  offset: 0, 0
+  index: -1
+girl_16
+  rotate: false
+  xy: 450, 2
+  size: 94, 50
+  orig: 94, 50
+  offset: 0, 0
+  index: -1
+girl_17
+  rotate: false
+  xy: 442, 92
+  size: 72, 111
+  orig: 72, 111
+  offset: 0, 0
+  index: -1
+girl_18
+  rotate: false
+  xy: 149, 41
+  size: 159, 162
+  orig: 159, 162
+  offset: 0, 0
+  index: -1
+girl_19
+  rotate: true
+  xy: 516, 110
+  size: 93, 65
+  orig: 93, 67
+  offset: 0, 2
+  index: -1
+girl_2
+  rotate: true
+  xy: 683, 135
+  size: 32, 17
+  orig: 32, 17
+  offset: 0, 0
+  index: -1
+girl_20
+  rotate: true
+  xy: 641, 74
+  size: 61, 40
+  orig: 61, 40
+  offset: 0, 0
+  index: -1
+girl_21
+  rotate: true
+  xy: 329, 4
+  size: 45, 61
+  orig: 45, 61
+  offset: 0, 0
+  index: -1
+girl_22
+  rotate: false
+  xy: 616, 8
+  size: 32, 48
+  orig: 32, 48
+  offset: 0, 0
+  index: -1
+girl_23
+  rotate: true
+  xy: 546, 3
+  size: 50, 68
+  orig: 50, 68
+  offset: 0, 0
+  index: -1
+girl_24
+  rotate: true
+  xy: 586, 59
+  size: 49, 20
+  orig: 50, 20
+  offset: 1, 0
+  index: -1
+girl_25
+  rotate: false
+  xy: 608, 58
+  size: 31, 71
+  orig: 31, 71
+  offset: 0, 0
+  index: -1
+girl_26
+  rotate: true
+  xy: 484, 55
+  size: 35, 77
+  orig: 35, 77
+  offset: 0, 0
+  index: -1
+girl_27
+  rotate: true
+  xy: 563, 58
+  size: 50, 21
+  orig: 51, 21
+  offset: 1, 0
+  index: -1
+girl_28
+  rotate: false
+  xy: 583, 131
+  size: 34, 72
+  orig: 34, 72
+  offset: 0, 0
+  index: -1
+girl_29
+  rotate: true
+  xy: 149, 2
+  size: 37, 79
+  orig: 37, 79
+  offset: 0, 0
+  index: -1
+girl_3
+  rotate: false
+  xy: 583, 110
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+girl_4
+  rotate: false
+  xy: 516, 98
+  size: 26, 10
+  orig: 26, 10
+  offset: 0, 0
+  index: -1
+girl_5
+  rotate: false
+  xy: 641, 62
+  size: 24, 10
+  orig: 24, 10
+  offset: 0, 0
+  index: -1
+girl_6
+  rotate: true
+  xy: 683, 169
+  size: 34, 17
+  orig: 34, 17
+  offset: 0, 0
+  index: -1
+girl_7
+  rotate: true
+  xy: 433, 7
+  size: 42, 15
+  orig: 42, 15
+  offset: 0, 0
+  index: -1
+girl_8
+  rotate: false
+  xy: 683, 103
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+girl_9
+  rotate: true
+  xy: 392, 7
+  size: 42, 39
+  orig: 42, 39
+  offset: 0, 0
+  index: -1

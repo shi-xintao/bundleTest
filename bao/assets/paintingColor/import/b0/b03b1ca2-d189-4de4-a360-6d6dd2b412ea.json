@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b7rhyQtUNGXaclG8xZxEG1"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "niao",
+      "rect": [
+        2,
+        3,
+        409,
+        408
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        413,
+        413
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

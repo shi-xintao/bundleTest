@@ -1,0 +1,48 @@
+
+smallD.png
+size: 1048,1168
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+C1
+  rotate: false
+  xy: 608, 368
+  size: 364, 470
+  orig: 364, 470
+  offset: 0, 0
+  index: -1
+Cdian
+  rotate: true
+  xy: 608, 840
+  size: 326, 438
+  orig: 326, 438
+  offset: 0, 0
+  index: -1
+Cshui
+  rotate: true
+  xy: 2, 2
+  size: 364, 470
+  orig: 364, 470
+  offset: 0, 0
+  index: -1
+G2
+  rotate: true
+  xy: 2, 400
+  size: 268, 339
+  orig: 268, 339
+  offset: 0, 0
+  index: -1
+g3
+  rotate: true
+  xy: 474, 3
+  size: 363, 469
+  orig: 364, 470
+  offset: 0, 1
+  index: -1
+g4
+  rotate: true
+  xy: 2, 670
+  size: 496, 604
+  orig: 510, 616
+  offset: 7, 6
+  index: -1

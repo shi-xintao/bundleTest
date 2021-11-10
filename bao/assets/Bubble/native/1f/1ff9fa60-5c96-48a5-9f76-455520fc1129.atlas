@@ -1,0 +1,20 @@
+
+lanse.png
+size: 767,767
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lanse
+  rotate: true
+  xy: 2, 513
+  size: 198, 763
+  orig: 198, 763
+  offset: 0, 0
+  index: -1
+qiqiu-3
+  rotate: false
+  xy: 2, 713
+  size: 556, 52
+  orig: 556, 52
+  offset: 0, 0
+  index: -1

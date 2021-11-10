@@ -1,0 +1,220 @@
+{
+    "paths": {
+        "43WR/YszlAc4rNf6JX3PEz": [
+            "feedBack/error",
+            "cc.Prefab"
+        ],
+        "28hIkTfKREWIfea8elXyAT": [
+            "feedBack/right",
+            "cc.Prefab"
+        ],
+        "35hR1y5H5NDbY8an4UovHb": [
+            "gameTask/TaskBoard",
+            "cc.Prefab"
+        ],
+        "2bVRabWxZBGqqSfkTalODd": [
+            "gameTask/audio/6_congratulations",
+            "cc.AudioClip"
+        ],
+        "c7DHMHnNlOua6APeg0PI1s": [
+            "gameTask/audio/SE_luoyefense_03",
+            "cc.AudioClip"
+        ],
+        "7atPLUL9FN7rR2umc2j6x9": [
+            "gameTask/gameTask",
+            "cc.Prefab"
+        ],
+        "23Klh9NK1BzrgTdCkekdcw": [
+            "gameTask/spine/zhang",
+            "cc.Asset"
+        ],
+        "28rvTGgUBNQLU/RQ5nqs0o": [
+            "gameTask/spine/zhang",
+            "sp.SkeletonData"
+        ],
+        "8c0LvRH31Fs54Rbg/z+xWx": [
+            "gameTask/spine/zhang",
+            "cc.Texture2D"
+        ],
+        "6eylIocH9M0KoKTQJFwhuL": [
+            "gameTask/spine/zhang",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e41WL9uTlPB5h/1D9VXM6p": [
+            "gameTask/texture/task",
+            "cc.Texture2D"
+        ],
+        "52gcH4CpRCbZEgjtU/Gj/T": [
+            "gameTask/texture/task",
+            "cc.SpriteFrame",
+            1
+        ],
+        "02pOgVVh1NTpOy8pzoPNiy": [
+            "hand/hand",
+            "cc.Prefab"
+        ],
+        "2el9+jTgZKk7oKXjZZPpCA": [
+            "rollerAnimation/rollerAnimation",
+            "cc.Prefab"
+        ],
+        "d5IjG3Z65Bi6KG6WI7PZbh": [
+            "spine/feedBack/xingxing",
+            "cc.Asset"
+        ],
+        "9eyr+VxKREQ4Y0t+l2TMMU": [
+            "spine/feedBack/xingxing",
+            "sp.SkeletonData"
+        ],
+        "8bwh8yVwBA2YeO9hZuH9K0": [
+            "spine/feedBack/xingxing",
+            "cc.Texture2D"
+        ],
+        "35QPcsi1dJfpR3v0ntkT9Q": [
+            "spine/feedBack/xingxing",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5aQ4m9A2lOEIKXeCV7t6UG": [
+            "spine/feedBack/yanwu",
+            "cc.Asset"
+        ],
+        "05RBWsqr5K17K8QjYeEnfb": [
+            "spine/feedBack/yanwu",
+            "sp.SkeletonData"
+        ],
+        "fbGtsNwyND94ajJQTGCmLk": [
+            "spine/feedBack/yanwu",
+            "cc.Texture2D"
+        ],
+        "34iOXMmU5NMbuN3ipzV4GX": [
+            "spine/feedBack/yanwu",
+            "cc.SpriteFrame",
+            1
+        ],
+        "6ac55zoSFERbV1pu9lbe8Z": [
+            "spine/shou",
+            "cc.Asset"
+        ],
+        "acX6bkVOtD1IXp3ii9+f5R": [
+            "spine/shou",
+            "sp.SkeletonData"
+        ],
+        "52ugWMYfJGG4YfPzShhRRv": [
+            "spine/shou",
+            "cc.Texture2D"
+        ],
+        "c82JswZXJNRZsfLeKRWLNK": [
+            "spine/shou",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7cf9I9ZIBE0p4RJQ5W9YK2": [
+            "spine/yindao/shou",
+            "cc.Asset"
+        ],
+        "68EW1scddEQoXDh1xERnQj": [
+            "spine/yindao/shou",
+            "sp.SkeletonData"
+        ],
+        "5165fL4XtByJey5pmc7N8c": [
+            "spine/yindao/shou",
+            "cc.Texture2D"
+        ],
+        "518rXK5yZKsKphdY9FNpXu": [
+            "spine/yindao/shou",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "43WR/YszlAc4rNf6JX3PEz",
+        "28hIkTfKREWIfea8elXyAT",
+        "2bVRabWxZBGqqSfkTalODd",
+        "c7DHMHnNlOua6APeg0PI1s",
+        "7atPLUL9FN7rR2umc2j6x9",
+        "23Klh9NK1BzrgTdCkekdcw",
+        "28rvTGgUBNQLU/RQ5nqs0o",
+        "8c0LvRH31Fs54Rbg/z+xWx",
+        "6eylIocH9M0KoKTQJFwhuL",
+        "35hR1y5H5NDbY8an4UovHb",
+        "e41WL9uTlPB5h/1D9VXM6p",
+        "52gcH4CpRCbZEgjtU/Gj/T",
+        "02pOgVVh1NTpOy8pzoPNiy",
+        "2el9+jTgZKk7oKXjZZPpCA",
+        "d5IjG3Z65Bi6KG6WI7PZbh",
+        "9eyr+VxKREQ4Y0t+l2TMMU",
+        "8bwh8yVwBA2YeO9hZuH9K0",
+        "35QPcsi1dJfpR3v0ntkT9Q",
+        "5aQ4m9A2lOEIKXeCV7t6UG",
+        "05RBWsqr5K17K8QjYeEnfb",
+        "fbGtsNwyND94ajJQTGCmLk",
+        "34iOXMmU5NMbuN3ipzV4GX",
+        "6ac55zoSFERbV1pu9lbe8Z",
+        "acX6bkVOtD1IXp3ii9+f5R",
+        "52ugWMYfJGG4YfPzShhRRv",
+        "c82JswZXJNRZsfLeKRWLNK",
+        "7cf9I9ZIBE0p4RJQ5W9YK2",
+        "68EW1scddEQoXDh1xERnQj",
+        "5165fL4XtByJey5pmc7N8c",
+        "518rXK5yZKsKphdY9FNpXu",
+        "7a/QZLET9IDreTiBfRn2PD",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "f0BIwQ8D5Ml7nTNQbh1YlS",
+        "e97GVMl6JHh5Ml5qEDdSGa",
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "a2MjXRFdtLlYQ5ouAFv/+R",
+        "34V4K4Z4NMEoLgxKUXbP0v",
+        "f12B5txUpN4IiK3BZF1YbH",
+        "e8Ueib+qJEhL6mXAHdnwbi",
+        "b4P/PCArtIdIH38t6mlw8Y",
+        "3aAm50eshCLqs8C9fbsZAO",
+        "71VhFCTINJM6/Ky3oX9nBT",
+        "02delMVqdBD70a/HSD99FK",
+        "88lFTVx0JI0K+1sWwN+ZY1"
+    ],
+    "scenes": {},
+    "redirect": [
+        "7a/QZLET9IDreTiBfRn2PD",
+        0,
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0,
+        "02delMVqdBD70a/HSD99FK",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "069b511df": [
+            "2el9+jTgZKk7oKXjZZPpCA",
+            "34V4K4Z4NMEoLgxKUXbP0v",
+            "f12B5txUpN4IiK3BZF1YbH"
+        ],
+        "01202ccb5": [
+            "29FYIk+N1GYaeWH/q1NxQO",
+            "7atPLUL9FN7rR2umc2j6x9",
+            "e97GVMl6JHh5Ml5qEDdSGa",
+            "f0BIwQ8D5Ml7nTNQbh1YlS"
+        ],
+        "0d828d91d": [
+            "3aAm50eshCLqs8C9fbsZAO",
+            "5165fL4XtByJey5pmc7N8c",
+            "52ugWMYfJGG4YfPzShhRRv",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "88lFTVx0JI0K+1sWwN+ZY1",
+            "8bwh8yVwBA2YeO9hZuH9K0",
+            "8c0LvRH31Fs54Rbg/z+xWx",
+            "b4P/PCArtIdIH38t6mlw8Y",
+            "e41WL9uTlPB5h/1D9VXM6p",
+            "e8Ueib+qJEhL6mXAHdnwbi",
+            "fbGtsNwyND94ajJQTGCmLk"
+        ]
+    },
+    "name": "common",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

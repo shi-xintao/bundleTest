@@ -1,0 +1,62 @@
+
+yan.png
+size: 1374,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yan/yan_1
+  rotate: false
+  xy: 1233, 7
+  size: 124, 92
+  orig: 254, 205
+  offset: 78, 51
+  index: -1
+yan/yan_2
+  rotate: false
+  xy: 1233, 101
+  size: 139, 102
+  orig: 254, 205
+  offset: 71, 46
+  index: -1
+yan/yan_3
+  rotate: true
+  xy: 1111, 40
+  size: 163, 120
+  orig: 254, 205
+  offset: 59, 37
+  index: -1
+yan/yan_4
+  rotate: true
+  xy: 965, 22
+  size: 181, 144
+  orig: 254, 205
+  offset: 48, 24
+  index: -1
+yan/yan_5
+  rotate: false
+  xy: 741, 34
+  size: 222, 169
+  orig: 254, 205
+  offset: 21, 14
+  index: -1
+yan/yan_6
+  rotate: false
+  xy: 504, 5
+  size: 235, 198
+  orig: 254, 205
+  offset: 10, 0
+  index: -1
+yan/yan_7
+  rotate: false
+  xy: 2, 2
+  size: 248, 201
+  orig: 254, 205
+  offset: 3, 3
+  index: -1
+yan/yan_8
+  rotate: false
+  xy: 252, 9
+  size: 250, 194
+  orig: 254, 205
+  offset: 3, 7
+  index: -1

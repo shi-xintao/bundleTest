@@ -1,0 +1,686 @@
+[
+  1,
+  [
+    "a7mt5TKfBOTqrRDfTQph7+"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "guang",
+      "\nguang.png\nsize: 1474,1474\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang-1\n  rotate: false\n  xy: 579, 917\n  size: 555, 555\n  orig: 555, 555\n  offset: 0, 0\n  index: -1\nguang-2\n  rotate: true\n  xy: 2, 454\n  size: 525, 544\n  orig: 525, 544\n  offset: 0, 0\n  index: -1\nguang-3\n  rotate: false\n  xy: 2, 2\n  size: 461, 450\n  orig: 461, 450\n  offset: 0, 0\n  index: -1\nguang-4\n  rotate: false\n  xy: 2, 981\n  size: 575, 491\n  orig: 575, 491\n  offset: 0, 0\n  index: -1\nguang-5\n  rotate: true\n  xy: 548, 376\n  size: 539, 538\n  orig: 539, 538\n  offset: 0, 0\n  index: -1\n",
+      [
+        "guang.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "J2IgHow5Ys0UijynSI+vuTqH72Q",
+          "spine": "3.8.84",
+          "x": -455.01,
+          "y": -438.98,
+          "width": 3087.94,
+          "height": 877.96,
+          "images": "./images/",
+          "audio": "/Users/lingoace/Desktop/work/work/Spine/火箭/源文件/火箭特效/汇聚"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "x": 2194.19
+          },
+          {
+            "name": "bone2",
+            "parent": "root",
+            "x": 2194.19
+          },
+          {
+            "name": "bone3",
+            "parent": "root",
+            "x": 2194.19
+          },
+          {
+            "name": "bone4",
+            "parent": "root"
+          },
+          {
+            "name": "bone5",
+            "parent": "root"
+          },
+          {
+            "name": "bone6",
+            "parent": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "guang-5",
+            "bone": "bone5",
+            "attachment": "guang-5"
+          },
+          {
+            "name": "guang-4",
+            "bone": "bone4",
+            "attachment": "guang-4"
+          },
+          {
+            "name": "guang-6",
+            "bone": "bone6",
+            "attachment": "guang-4"
+          },
+          {
+            "name": "guang-3",
+            "bone": "bone3",
+            "attachment": "guang-3"
+          },
+          {
+            "name": "guang-2",
+            "bone": "bone2",
+            "attachment": "guang-2"
+          },
+          {
+            "name": "guang-1",
+            "bone": "bone",
+            "attachment": "guang-1"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "guang-1": {
+                "guang-1": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 555,
+                  "height": 555,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    438.75,
+                    -438.98,
+                    -438.75,
+                    -438.98,
+                    -438.75,
+                    438.98,
+                    438.75,
+                    438.98
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "guang-2": {
+                "guang-2": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 525,
+                  "height": 544,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    415.75,
+                    -430.15,
+                    -415.75,
+                    -430.15,
+                    -415.75,
+                    430.15,
+                    415.75,
+                    430.15
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "guang-3": {
+                "guang-3": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 461,
+                  "height": 450,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    365.12,
+                    -355.83,
+                    -365.12,
+                    -355.83,
+                    -365.12,
+                    355.83,
+                    365.12,
+                    355.83
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "guang-4": {
+                "guang-4": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 575,
+                  "height": 491,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    455.01,
+                    -387.65,
+                    -455.01,
+                    -387.65,
+                    -455.01,
+                    387.65,
+                    455.01,
+                    387.65
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "guang-5": {
+                "guang-5": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 539,
+                  "height": 538,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    425.51,
+                    -425.51,
+                    -425.51,
+                    -425.51,
+                    -425.51,
+                    425.51,
+                    425.51,
+                    425.51
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              },
+              "guang-6": {
+                "guang-4": {
+                  "type": "mesh",
+                  "hull": 4,
+                  "width": 575,
+                  "height": 491,
+                  "uvs": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                  ],
+                  "triangles": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    3,
+                    0
+                  ],
+                  "vertices": [
+                    455.01,
+                    -387.65,
+                    -455.01,
+                    -387.65,
+                    -455.01,
+                    387.65,
+                    455.01,
+                    387.65
+                  ],
+                  "edges": [
+                    0,
+                    2,
+                    2,
+                    4,
+                    4,
+                    6,
+                    0,
+                    6
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "huiju": {
+            "slots": {
+              "guang-1": {
+                "color": [
+                  {
+                    "time": 1.2333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.3667,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "guang-2": {
+                "color": [
+                  {
+                    "time": 1.1333,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.2667,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "guang-3": {
+                "color": [
+                  {
+                    "time": 1.0667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1.2667,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "guang-4": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "color": "ffffffff"
+                  }
+                ]
+              },
+              "guang-5": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.8667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "guang-6": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "color": "ffffffff",
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.8667,
+                    "color": "ffffffff"
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "bone4": {
+                "rotate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "angle": -81.4
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 2.309,
+                    "y": 2.309,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "x": 0.448,
+                    "y": 0.448
+                  }
+                ]
+              },
+              "bone5": {
+                "scale": [
+                  {
+                    "x": 2.311,
+                    "y": 2.311,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "x": 0.448,
+                    "y": 0.448
+                  }
+                ]
+              },
+              "bone": {
+                "rotate": [
+                  {
+                    "time": 0.7667
+                  },
+                  {
+                    "time": 1.3667,
+                    "angle": -108.39
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -2194.19
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.7667,
+                    "x": 0,
+                    "y": 0,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3667,
+                    "x": 2.068,
+                    "y": 2.068
+                  }
+                ]
+              },
+              "bone2": {
+                "rotate": [
+                  {
+                    "time": 0.6667
+                  },
+                  {
+                    "time": 1.2667,
+                    "angle": -108.39
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -2194.19
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6667,
+                    "x": 0,
+                    "y": 0,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.0333,
+                    "x": 2.068,
+                    "y": 2.068
+                  }
+                ]
+              },
+              "bone3": {
+                "rotate": [
+                  {
+                    "time": 0.6667
+                  },
+                  {
+                    "time": 1.2667,
+                    "angle": 59.12
+                  }
+                ],
+                "translate": [
+                  {
+                    "x": -2194.19
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.6667,
+                    "x": 0,
+                    "y": 0,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.2667,
+                    "x": 2.068,
+                    "y": 2.068
+                  }
+                ]
+              },
+              "bone6": {
+                "rotate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "angle": 81.4
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 2.309,
+                    "y": 2.309,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "x": 0.448,
+                    "y": 0.448
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

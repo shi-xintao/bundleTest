@@ -1,0 +1,193 @@
+[
+  1,
+  [
+    "5fYpCzyJpMMrKbPkvhZOTH"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "yan",
+      "\nyan.png\nsize: 1374,205\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nyan/yan_1\n  rotate: false\n  xy: 1233, 7\n  size: 124, 92\n  orig: 254, 205\n  offset: 78, 51\n  index: -1\nyan/yan_2\n  rotate: false\n  xy: 1233, 101\n  size: 139, 102\n  orig: 254, 205\n  offset: 71, 46\n  index: -1\nyan/yan_3\n  rotate: true\n  xy: 1111, 40\n  size: 163, 120\n  orig: 254, 205\n  offset: 59, 37\n  index: -1\nyan/yan_4\n  rotate: true\n  xy: 965, 22\n  size: 181, 144\n  orig: 254, 205\n  offset: 48, 24\n  index: -1\nyan/yan_5\n  rotate: false\n  xy: 741, 34\n  size: 222, 169\n  orig: 254, 205\n  offset: 21, 14\n  index: -1\nyan/yan_6\n  rotate: false\n  xy: 504, 5\n  size: 235, 198\n  orig: 254, 205\n  offset: 10, 0\n  index: -1\nyan/yan_7\n  rotate: false\n  xy: 2, 2\n  size: 248, 201\n  orig: 254, 205\n  offset: 3, 3\n  index: -1\nyan/yan_8\n  rotate: false\n  xy: 252, 9\n  size: 250, 194\n  orig: 254, 205\n  offset: 3, 7\n  index: -1\n",
+      [
+        "yan.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "duH8s1h/uz4WOFl3yfS4R8S7erU",
+          "spine": "3.8.84",
+          "images": "./images/",
+          "audio": ""
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "YANWU",
+            "parent": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "yan/yan_1",
+            "bone": "YANWU"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "yan/yan_1": {
+                "yan/yan_1": {
+                  "y": 0.5,
+                  "width": 254,
+                  "height": 205
+                },
+                "yan/yan_2": {
+                  "y": 0.5,
+                  "width": 254,
+                  "height": 205
+                },
+                "yan/yan_3": {
+                  "y": 0.5,
+                  "width": 254,
+                  "height": 205
+                },
+                "yan/yan_4": {
+                  "y": 0.5,
+                  "width": 254,
+                  "height": 205
+                },
+                "yan/yan_5": {
+                  "y": 0.5,
+                  "width": 254,
+                  "height": 205
+                },
+                "yan/yan_6": {
+                  "y": 0.5,
+                  "width": 254,
+                  "height": 205
+                },
+                "yan/yan_7": {
+                  "y": 0.5,
+                  "width": 254,
+                  "height": 205
+                },
+                "yan/yan_8": {
+                  "y": 0.5,
+                  "width": 254,
+                  "height": 205
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "animation": {
+            "slots": {
+              "yan/yan_1": {
+                "attachment": [
+                  {
+                    "name": "yan/yan_1"
+                  },
+                  {
+                    "time": 0.0667,
+                    "name": "yan/yan_2"
+                  },
+                  {
+                    "time": 0.1333,
+                    "name": "yan/yan_3"
+                  },
+                  {
+                    "time": 0.2,
+                    "name": "yan/yan_4"
+                  },
+                  {
+                    "time": 0.2667,
+                    "name": "yan/yan_5"
+                  },
+                  {
+                    "time": 0.3333,
+                    "name": "yan/yan_6"
+                  },
+                  {
+                    "time": 0.3667,
+                    "name": "yan/yan_7"
+                  },
+                  {
+                    "time": 0.4667,
+                    "name": "yan/yan_8"
+                  },
+                  {
+                    "time": 0.5333,
+                    "name": null
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "YANWU": {
+                "translate": [
+                  {
+                    "x": -20.44
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 1.2,
+                    "y": 1.2
+                  },
+                  {
+                    "time": 0.5333,
+                    "x": 1.5,
+                    "y": 1.5
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

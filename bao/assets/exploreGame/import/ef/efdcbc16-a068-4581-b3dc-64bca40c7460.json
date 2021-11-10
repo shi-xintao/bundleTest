@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "83aVzaAHhALa7o5E4chYkz"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "effect_ty_yanhua_hong",
+      "rect": [
+        10,
+        10,
+        584,
+        886
+      ],
+      "offset": [
+        -210,
+        59
+      ],
+      "originalSize": [
+        1024,
+        1024
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

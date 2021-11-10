@@ -1,0 +1,48 @@
+
+smallC.png
+size: 1769,1115
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+C1
+  rotate: false
+  xy: 1223, 526
+  size: 502, 587
+  orig: 502, 587
+  offset: 0, 0
+  index: -1
+Cdian
+  rotate: false
+  xy: 1307, 2
+  size: 460, 522
+  orig: 461, 524
+  offset: 0, 1
+  index: -1
+Cshui
+  rotate: true
+  xy: 718, 22
+  size: 502, 587
+  orig: 502, 587
+  offset: 0, 0
+  index: -1
+G1
+  rotate: false
+  xy: 718, 526
+  size: 503, 587
+  orig: 503, 587
+  offset: 0, 0
+  index: -1
+G2
+  rotate: false
+  xy: 2, 316
+  size: 714, 797
+  orig: 750, 823
+  offset: 14, 13
+  index: -1
+gaoguang
+  rotate: false
+  xy: 2, 49
+  size: 133, 265
+  orig: 137, 271
+  offset: 3, 4
+  index: -1

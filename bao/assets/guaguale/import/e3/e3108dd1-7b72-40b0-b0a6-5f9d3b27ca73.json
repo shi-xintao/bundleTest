@@ -1,0 +1,129 @@
+[
+  1,
+  [
+    "9eX1uS4gFN9pzUZ3ou2M7N"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "guang",
+      "\nguang.png\nsize: 913,901\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nguang\n  rotate: false\n  xy: 2, 2\n  size: 909, 897\n  orig: 1117, 1136\n  offset: 90, 107\n  index: -1\n",
+      [
+        "guang.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "nyDwg7pJKvBYdRWHiFxMk7cxxhI",
+          "spine": "3.8.84"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "guang",
+            "parent": "root",
+            "length": 1079.73,
+            "rotation": 50.53,
+            "x": -1.97
+          }
+        ],
+        "slots": [
+          {
+            "name": "guang",
+            "bone": "guang"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "guang": {
+                "guang": {
+                  "x": 16.59,
+                  "y": -2.13,
+                  "scaleX": 2,
+                  "scaleY": 2,
+                  "rotation": -50.53,
+                  "width": 1117,
+                  "height": 1136
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "idle": {
+            "slots": {
+              "guang": {
+                "attachment": [
+                  {
+                    "name": "guang"
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "guang": {
+                "rotate": [
+                  {},
+                  {
+                    "time": 1.5,
+                    "angle": -178.05
+                  },
+                  {
+                    "time": 2.2667,
+                    "angle": 85.95
+                  },
+                  {
+                    "time": 3
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

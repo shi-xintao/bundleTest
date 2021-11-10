@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b5kFDMHMtCz7nhPRyDX+uI"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "gou",
+      "rect": [
+        2,
+        3,
+        724,
+        723
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        728,
+        728
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

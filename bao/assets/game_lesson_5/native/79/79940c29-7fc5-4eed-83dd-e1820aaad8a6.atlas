@@ -1,0 +1,48 @@
+
+huang-bao.png
+size: 467,467
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huang
+  rotate: false
+  xy: 2, 2
+  size: 336, 463
+  orig: 338, 465
+  offset: 1, 1
+  index: -1
+huang-1
+  rotate: false
+  xy: 399, 14
+  size: 53, 61
+  orig: 55, 63
+  offset: 1, 1
+  index: -1
+huang-2
+  rotate: false
+  xy: 399, 77
+  size: 56, 72
+  orig: 58, 74
+  offset: 1, 1
+  index: -1
+huang-3
+  rotate: false
+  xy: 340, 151
+  size: 64, 97
+  orig: 66, 99
+  offset: 1, 1
+  index: -1
+huang-4
+  rotate: true
+  xy: 340, 26
+  size: 123, 57
+  orig: 125, 59
+  offset: 1, 1
+  index: -1
+huang-5
+  rotate: true
+  xy: 340, 250
+  size: 215, 104
+  orig: 217, 106
+  offset: 1, 1
+  index: -1

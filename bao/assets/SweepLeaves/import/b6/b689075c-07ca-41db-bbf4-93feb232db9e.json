@@ -1,0 +1,474 @@
+[
+  1,
+  [
+    "54SsZSpwNOrI7QPii6fqxX"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "shuye",
+      "\nshuye.png\nsize: 568,568\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 169, 67\n  size: 351, 202\n  orig: 353, 204\n  offset: 1, 1\n  index: -1\n2\n  rotate: false\n  xy: 2, 327\n  size: 385, 239\n  orig: 387, 241\n  offset: 1, 1\n  index: -1\n3\n  rotate: true\n  xy: 2, 3\n  size: 322, 165\n  orig: 324, 167\n  offset: 1, 1\n  index: -1\n4\n  rotate: true\n  xy: 389, 271\n  size: 295, 177\n  orig: 297, 179\n  offset: 1, 1\n  index: -1\n",
+      [
+        "shuye.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "eohzlUIo3t303NwTaXhePe3EmTU",
+          "spine": "3.8.84",
+          "images": "./images/",
+          "audio": "/Users/lingoace/Desktop/work/work/Spine/黄色/树叶高亮"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "bone",
+            "parent": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "4",
+            "bone": "bone",
+            "blend": "additive"
+          },
+          {
+            "name": "3",
+            "bone": "bone",
+            "blend": "additive"
+          },
+          {
+            "name": "2",
+            "bone": "bone",
+            "blend": "additive"
+          },
+          {
+            "name": "1",
+            "bone": "bone",
+            "blend": "additive"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "1": {
+                "1": {
+                  "width": 353,
+                  "height": 204
+                }
+              },
+              "2": {
+                "2": {
+                  "width": 387,
+                  "height": 241
+                }
+              },
+              "3": {
+                "3": {
+                  "width": 324,
+                  "height": 167
+                }
+              },
+              "4": {
+                "4": {
+                  "width": 297,
+                  "height": 179
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "1": {
+            "slots": {
+              "1": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "name": "1"
+                  }
+                ]
+              }
+            }
+          },
+          "2": {
+            "slots": {
+              "1": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "2": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "name": "2"
+                  }
+                ]
+              }
+            }
+          },
+          "3": {
+            "slots": {
+              "1": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "2": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "3": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "name": "3"
+                  }
+                ]
+              }
+            }
+          },
+          "4": {
+            "slots": {
+              "1": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "2": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "3": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ]
+              },
+              "4": {
+                "color": [
+                  {
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2333,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667,
+                    "color": "ffffff00",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.7,
+                    "color": "ffffffff",
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1,
+                    "color": "ffffff00"
+                  }
+                ],
+                "attachment": [
+                  {
+                    "name": "4"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

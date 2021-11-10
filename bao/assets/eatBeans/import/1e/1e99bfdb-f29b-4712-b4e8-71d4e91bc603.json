@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b2FDMxMZxOI4my3gV6+lLj"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "icon_small_d4",
+      "rect": [
+        0,
+        0,
+        64,
+        97
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        64,
+        97
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

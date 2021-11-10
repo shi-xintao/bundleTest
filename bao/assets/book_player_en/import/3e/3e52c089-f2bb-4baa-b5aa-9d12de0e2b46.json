@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "854nuEpD9LS461nkB1f0B8"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guide_arrow",
+      "rect": [
+        3,
+        1,
+        66,
+        23
+      ],
+      "offset": [
+        0,
+        3
+      ],
+      "originalSize": [
+        72,
+        31
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,20 @@
+
+chengse.png
+size: 692,692
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chengse
+  rotate: false
+  xy: 2, 139
+  size: 515, 551
+  orig: 515, 551
+  offset: 0, 0
+  index: -1
+qiqiu-1
+  rotate: false
+  xy: 2, 2
+  size: 503, 135
+  orig: 503, 135
+  offset: 0, 0
+  index: -1

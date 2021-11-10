@@ -1,0 +1,132 @@
+
+tuzi-Beimian.png
+size: 602,602
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BM/DD-B_erduo-L
+  rotate: false
+  xy: 2, 129
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+BM/DD-B_erduo-R
+  rotate: false
+  xy: 66, 129
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+BM/DD-B_gebo-L
+  rotate: false
+  xy: 570, 310
+  size: 23, 53
+  orig: 23, 53
+  offset: 0, 0
+  index: -1
+BM/DD-B_gebo-R
+  rotate: false
+  xy: 570, 255
+  size: 22, 53
+  orig: 22, 53
+  offset: 0, 0
+  index: -1
+BM/DD-B_shenti
+  rotate: false
+  xy: 366, 168
+  size: 94, 92
+  orig: 94, 92
+  offset: 0, 0
+  index: -1
+BM/DD-B_weiba
+  rotate: false
+  xy: 558, 230
+  size: 24, 23
+  orig: 26, 25
+  offset: 1, 1
+  index: -1
+T-erduo-L
+  rotate: false
+  xy: 130, 129
+  size: 61, 62
+  orig: 61, 62
+  offset: 0, 0
+  index: -1
+T-erduo-R
+  rotate: true
+  xy: 193, 131
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+T-jiao-L
+  rotate: true
+  xy: 584, 231
+  size: 22, 13
+  orig: 24, 15
+  offset: 1, 1
+  index: -1
+T-jiao-R
+  rotate: true
+  xy: 584, 208
+  size: 21, 13
+  orig: 23, 15
+  offset: 1, 1
+  index: -1
+T-lian
+  rotate: false
+  xy: 257, 144
+  size: 77, 47
+  orig: 79, 49
+  offset: 1, 1
+  index: -1
+T-shenti
+  rotate: false
+  xy: 462, 168
+  size: 94, 92
+  orig: 94, 92
+  offset: 0, 0
+  index: -1
+T-tui-L
+  rotate: true
+  xy: 558, 197
+  size: 11, 15
+  orig: 13, 17
+  offset: 1, 1
+  index: -1
+T-tui-R
+  rotate: true
+  xy: 575, 195
+  size: 11, 15
+  orig: 13, 17
+  offset: 1, 1
+  index: -1
+T-zuiba3
+  rotate: false
+  xy: 558, 210
+  size: 22, 18
+  orig: 24, 20
+  offset: 1, 1
+  index: -1
+daoju/piqiu
+  rotate: true
+  xy: 366, 365
+  size: 235, 234
+  orig: 237, 236
+  offset: 1, 1
+  index: -1
+daoju/shu
+  rotate: false
+  xy: 2, 193
+  size: 362, 407
+  orig: 364, 409
+  offset: 1, 1
+  index: -1
+daoju/xiaoqiche
+  rotate: false
+  xy: 366, 262
+  size: 202, 101
+  orig: 204, 103
+  offset: 1, 1
+  index: -1

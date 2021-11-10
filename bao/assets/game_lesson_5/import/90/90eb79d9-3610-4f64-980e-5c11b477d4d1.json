@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "27IUK5V/ZDIKbx6MZmw9Mw"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "D5-yaoguai-5",
+      "rect": [
+        2,
+        5,
+        1472,
+        1469
+      ],
+      "offset": [
+        -0.5,
+        -1
+      ],
+      "originalSize": [
+        1477,
+        1477
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,13 @@
+
+saoba.png
+size: 295,295
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+saoba
+  rotate: false
+  xy: 2, 2
+  size: 143, 291
+  orig: 143, 291
+  offset: 0, 0
+  index: -1

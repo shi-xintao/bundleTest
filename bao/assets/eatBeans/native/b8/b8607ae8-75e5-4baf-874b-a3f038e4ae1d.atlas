@@ -1,0 +1,48 @@
+
+bigD.png
+size: 1728,1125
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+C1
+  rotate: false
+  xy: 1176, 531
+  size: 518, 592
+  orig: 519, 592
+  offset: 1, 0
+  index: -1
+Cdian
+  rotate: false
+  xy: 1249, 2
+  size: 477, 527
+  orig: 480, 529
+  offset: 1, 0
+  index: -1
+Cshui
+  rotate: false
+  xy: 655, 531
+  size: 519, 592
+  orig: 519, 592
+  offset: 0, 0
+  index: -1
+G1
+  rotate: false
+  xy: 2, 164
+  size: 117, 234
+  orig: 121, 240
+  offset: 2, 4
+  index: -1
+g2
+  rotate: false
+  xy: 2, 400
+  size: 651, 723
+  orig: 665, 737
+  offset: 7, 7
+  index: -1
+g3
+  rotate: true
+  xy: 655, 11
+  size: 518, 592
+  orig: 519, 592
+  offset: 1, 0
+  index: -1

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "9fO7Ez2YJN7rtdAj+GcU5Y"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "huoyan",
+      "rect": [
+        2,
+        2,
+        940,
+        324
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        944,
+        328
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

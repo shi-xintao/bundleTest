@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "66B5arybtKEp0/eA1FZwAJ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "guide_dot",
+      "rect": [
+        3,
+        1,
+        28,
+        28
+      ],
+      "offset": [
+        -1.5,
+        3.5
+      ],
+      "originalSize": [
+        37,
+        37
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

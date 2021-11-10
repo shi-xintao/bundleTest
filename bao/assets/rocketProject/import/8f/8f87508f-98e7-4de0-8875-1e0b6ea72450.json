@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "8ayjQyfGZNHZmKWM/7BMSj"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "naopao",
+      "rect": [
+        2,
+        132,
+        366,
+        236
+      ],
+      "offset": [
+        0,
+        -65
+      ],
+      "originalSize": [
+        370,
+        370
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

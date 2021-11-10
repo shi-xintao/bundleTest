@@ -1,0 +1,20 @@
+
+cha.png
+size: 240,240
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cha-1
+  rotate: false
+  xy: 2, 2
+  size: 118, 117
+  orig: 118, 117
+  offset: 0, 0
+  index: -1
+cha-2
+  rotate: false
+  xy: 2, 121
+  size: 118, 117
+  orig: 118, 117
+  offset: 0, 0
+  index: -1

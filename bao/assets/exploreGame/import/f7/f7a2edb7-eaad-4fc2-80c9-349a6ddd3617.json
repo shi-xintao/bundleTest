@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "e2R5bVgPBMgIAPNArvvYEO"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "paopao",
+      "rect": [
+        2,
+        3,
+        2008,
+        1159
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        2012,
+        1164
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

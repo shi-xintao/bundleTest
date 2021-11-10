@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "90BZMwVrtG97A+Vx5dCes7"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "qipan",
+      "rect": [
+        2,
+        252,
+        1158,
+        908
+      ],
+      "offset": [
+        0,
+        -125
+      ],
+      "originalSize": [
+        1162,
+        1162
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

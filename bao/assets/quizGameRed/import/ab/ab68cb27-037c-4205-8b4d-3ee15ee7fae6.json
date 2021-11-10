@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "83q55t8cRGR7PsFR9cUcN1"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tuzi-ce",
+      "rect": [
+        3,
+        181,
+        613,
+        435
+      ],
+      "offset": [
+        0.5,
+        -89.5
+      ],
+      "originalSize": [
+        618,
+        618
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

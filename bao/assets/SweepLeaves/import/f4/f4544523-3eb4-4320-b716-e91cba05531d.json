@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "54SsZSpwNOrI7QPii6fqxX"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "shuye",
+      "rect": [
+        2,
+        3,
+        564,
+        563
+      ],
+      "offset": [
+        0,
+        -0.5
+      ],
+      "originalSize": [
+        568,
+        568
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

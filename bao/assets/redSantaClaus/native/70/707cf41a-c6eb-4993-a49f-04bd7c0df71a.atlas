@@ -1,0 +1,20 @@
+
+naopao.png
+size: 490,490
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hezi
+  rotate: true
+  xy: 370, 305
+  size: 183, 118
+  orig: 200, 138
+  offset: 12, 2
+  index: -1
+naopao
+  rotate: false
+  xy: 2, 252
+  size: 366, 236
+  orig: 368, 238
+  offset: 1, 1
+  index: -1

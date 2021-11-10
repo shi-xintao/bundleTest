@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "b2LevgpNZO4qzplGzeg7Dd"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "tuzi-Beimian",
+      "rect": [
+        2,
+        130,
+        598,
+        470
+      ],
+      "offset": [
+        0,
+        -64
+      ],
+      "originalSize": [
+        602,
+        602
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

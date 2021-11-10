@@ -1,0 +1,181 @@
+
+maoyan.png
+size: 572,572
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Comp 1_00000
+  rotate: true
+  xy: 198, 209
+  size: 13, 19
+  orig: 300, 300
+  offset: 140, 36
+  index: -1
+Comp 1_00001
+  rotate: true
+  xy: 198, 209
+  size: 13, 19
+  orig: 300, 300
+  offset: 140, 36
+  index: -1
+Comp 1_00002
+  rotate: false
+  xy: 510, 63
+  size: 24, 49
+  orig: 300, 300
+  offset: 131, 36
+  index: -1
+Comp 1_00003
+  rotate: false
+  xy: 476, 48
+  size: 32, 64
+  orig: 300, 300
+  offset: 124, 36
+  index: -1
+Comp 1_00004
+  rotate: true
+  xy: 486, 409
+  size: 51, 77
+  orig: 300, 300
+  offset: 117, 36
+  index: -1
+Comp 1_00005
+  rotate: true
+  xy: 283, 6
+  size: 68, 87
+  orig: 300, 300
+  offset: 108, 36
+  index: -1
+Comp 1_00006
+  rotate: true
+  xy: 377, 18
+  size: 77, 97
+  orig: 300, 300
+  offset: 106, 37
+  index: -1
+Comp 1_00007
+  rotate: false
+  xy: 486, 462
+  size: 84, 108
+  orig: 300, 300
+  offset: 104, 37
+  index: -1
+Comp 1_00008
+  rotate: false
+  xy: 467, 114
+  size: 85, 122
+  orig: 300, 300
+  offset: 102, 38
+  index: -1
+Comp 1_00009
+  rotate: false
+  xy: 377, 97
+  size: 88, 131
+  orig: 300, 300
+  offset: 103, 38
+  index: -1
+Comp 1_00010
+  rotate: false
+  xy: 479, 252
+  size: 91, 141
+  orig: 300, 300
+  offset: 101, 37
+  index: -1
+Comp 1_00011
+  rotate: false
+  xy: 283, 76
+  size: 92, 146
+  orig: 300, 300
+  offset: 102, 37
+  index: -1
+Comp 1_00012
+  rotate: false
+  xy: 386, 238
+  size: 91, 153
+  orig: 300, 300
+  offset: 103, 37
+  index: -1
+Comp 1_00013
+  rotate: false
+  xy: 292, 230
+  size: 92, 159
+  orig: 300, 300
+  offset: 102, 36
+  index: -1
+Comp 1_00014
+  rotate: false
+  xy: 198, 224
+  size: 92, 164
+  orig: 300, 300
+  offset: 103, 36
+  index: -1
+Comp 1_00015
+  rotate: false
+  xy: 191, 39
+  size: 90, 168
+  orig: 300, 300
+  offset: 103, 37
+  index: -1
+Comp 1_00016
+  rotate: false
+  xy: 99, 33
+  size: 90, 173
+  orig: 300, 300
+  offset: 104, 37
+  index: -1
+Comp 1_00017
+  rotate: false
+  xy: 391, 395
+  size: 93, 175
+  orig: 300, 300
+  offset: 102, 39
+  index: -1
+Comp 1_00018
+  rotate: false
+  xy: 295, 393
+  size: 94, 177
+  orig: 300, 300
+  offset: 101, 39
+  index: -1
+Comp 1_00019
+  rotate: false
+  xy: 2, 26
+  size: 95, 180
+  orig: 300, 300
+  offset: 100, 39
+  index: -1
+Comp 1_00020
+  rotate: false
+  xy: 2, 208
+  size: 96, 180
+  orig: 300, 300
+  offset: 99, 41
+  index: -1
+Comp 1_00021
+  rotate: false
+  xy: 101, 390
+  size: 96, 180
+  orig: 300, 300
+  offset: 99, 42
+  index: -1
+Comp 1_00022
+  rotate: false
+  xy: 2, 390
+  size: 97, 180
+  orig: 300, 300
+  offset: 98, 43
+  index: -1
+Comp 1_00023
+  rotate: false
+  xy: 100, 209
+  size: 96, 179
+  orig: 300, 300
+  offset: 99, 45
+  index: -1
+Comp 1_00024
+  rotate: false
+  xy: 199, 391
+  size: 94, 179
+  orig: 300, 300
+  offset: 99, 46
+  index: -1

@@ -1,0 +1,83 @@
+
+xiong-ce.png
+size: 211,211
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X-1-dabi-c
+  rotate: true
+  xy: 151, 20
+  size: 28, 55
+  orig: 30, 57
+  offset: 1, 1
+  index: -1
+X-1-erduo-c
+  rotate: false
+  xy: 186, 61
+  size: 18, 23
+  orig: 20, 25
+  offset: 1, 1
+  index: -1
+X-1-saihong-c
+  rotate: false
+  xy: 70, 4
+  size: 6, 4
+  orig: 8, 6
+  offset: 1, 1
+  index: -1
+X-1-shenti-c
+  rotate: false
+  xy: 2, 10
+  size: 147, 199
+  orig: 147, 199
+  offset: 0, 0
+  index: -1
+X-1-tui-c
+  rotate: true
+  xy: 151, 156
+  size: 53, 44
+  orig: 55, 46
+  offset: 1, 1
+  index: -1
+X-1-weiba-c
+  rotate: true
+  xy: 151, 50
+  size: 34, 33
+  orig: 36, 35
+  offset: 1, 1
+  index: -1
+X-1-xiaobi-c
+  rotate: false
+  xy: 151, 86
+  size: 39, 68
+  orig: 41, 70
+  offset: 1, 1
+  index: -1
+X-1-yanbai-c
+  rotate: true
+  xy: 26, 3
+  size: 5, 18
+  orig: 7, 20
+  offset: 1, 1
+  index: -1
+X-1-yankuang-c
+  rotate: true
+  xy: 2, 2
+  size: 6, 22
+  orig: 8, 24
+  offset: 1, 1
+  index: -1
+X-1-yanzhu-c
+  rotate: true
+  xy: 46, 4
+  size: 4, 13
+  orig: 6, 15
+  offset: 1, 1
+  index: -1
+X-1-zuiba-c
+  rotate: true
+  xy: 61, 4
+  size: 4, 7
+  orig: 6, 9
+  offset: 1, 1
+  index: -1

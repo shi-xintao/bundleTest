@@ -1,0 +1,97 @@
+
+niao.png
+size: 413,413
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiao
+  rotate: false
+  xy: 177, 19
+  size: 82, 38
+  orig: 84, 40
+  offset: 1, 1
+  index: -1
+jiao-1
+  rotate: true
+  xy: 362, 232
+  size: 82, 38
+  orig: 84, 40
+  offset: 1, 1
+  index: -1
+niao-weiba
+  rotate: false
+  xy: 2, 15
+  size: 173, 180
+  orig: 173, 180
+  offset: 0, 0
+  index: -1
+niao-zui
+  rotate: false
+  xy: 291, 101
+  size: 82, 95
+  orig: 84, 97
+  offset: 1, 1
+  index: -1
+niao-zui-1
+  rotate: false
+  xy: 362, 316
+  size: 49, 95
+  orig: 51, 97
+  offset: 1, 1
+  index: -1
+niaoshenti
+  rotate: false
+  xy: 2, 197
+  size: 217, 214
+  orig: 217, 214
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 221, 198
+  size: 213, 139
+  orig: 213, 139
+  offset: 0, 0
+  index: -1
+tou-1
+  rotate: false
+  xy: 177, 59
+  size: 112, 136
+  orig: 114, 138
+  offset: 1, 1
+  index: -1
+yanbai
+  rotate: true
+  xy: 261, 27
+  size: 30, 26
+  orig: 32, 28
+  offset: 1, 1
+  index: -1
+yanjing
+  rotate: false
+  xy: 334, 81
+  size: 19, 18
+  orig: 21, 20
+  offset: 1, 1
+  index: -1
+yanjing-L
+  rotate: true
+  xy: 2, 3
+  size: 10, 36
+  orig: 12, 38
+  offset: 1, 1
+  index: -1
+yanjing-R
+  rotate: true
+  xy: 362, 220
+  size: 10, 36
+  orig: 12, 38
+  offset: 1, 1
+  index: -1
+yanying
+  rotate: false
+  xy: 291, 63
+  size: 41, 36
+  orig: 43, 38
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,125 @@
+
+D5-yaoguai-B.png
+size: 473,473
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+houtui-2
+  rotate: false
+  xy: 240, 51
+  size: 55, 98
+  orig: 57, 100
+  offset: 1, 1
+  index: -1
+houtui-L
+  rotate: true
+  xy: 240, 151
+  size: 64, 97
+  orig: 66, 99
+  offset: 1, 1
+  index: -1
+huxu-L
+  rotate: false
+  xy: 300, 7
+  size: 83, 58
+  orig: 85, 60
+  offset: 1, 1
+  index: -1
+huxu-R
+  rotate: true
+  xy: 240, 4
+  size: 45, 58
+  orig: 47, 60
+  offset: 1, 1
+  index: -1
+jijiao-L
+  rotate: true
+  xy: 297, 67
+  size: 63, 85
+  orig: 65, 87
+  offset: 1, 1
+  index: -1
+jijiao-R
+  rotate: true
+  xy: 384, 79
+  size: 51, 83
+  orig: 53, 85
+  offset: 1, 1
+  index: -1
+qiantui-1
+  rotate: false
+  xy: 367, 336
+  size: 87, 135
+  orig: 89, 137
+  offset: 1, 1
+  index: -1
+qiantui-2
+  rotate: true
+  xy: 204, 217
+  size: 74, 133
+  orig: 76, 135
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 6
+  size: 236, 201
+  orig: 238, 203
+  offset: 1, 1
+  index: -1
+tou
+  rotate: false
+  xy: 204, 293
+  size: 161, 178
+  orig: 163, 180
+  offset: 1, 1
+  index: -1
+weiba
+  rotate: true
+  xy: 339, 132
+  size: 159, 92
+  orig: 159, 92
+  offset: 0, 0
+  index: -1
+yachi-L
+  rotate: false
+  xy: 405, 315
+  size: 16, 19
+  orig: 18, 21
+  offset: 1, 1
+  index: -1
+yachi-R
+  rotate: false
+  xy: 405, 294
+  size: 16, 19
+  orig: 18, 21
+  offset: 1, 1
+  index: -1
+yanjing-L
+  rotate: false
+  xy: 367, 299
+  size: 21, 35
+  orig: 23, 37
+  offset: 1, 1
+  index: -1
+yanjing-R
+  rotate: false
+  xy: 390, 302
+  size: 13, 32
+  orig: 15, 34
+  offset: 1, 1
+  index: -1
+zongmao
+  rotate: false
+  xy: 2, 209
+  size: 200, 262
+  orig: 202, 264
+  offset: 1, 1
+  index: -1
+zui
+  rotate: false
+  xy: 2, 2
+  size: 110, 2
+  orig: 112, 4
+  offset: 1, 1
+  index: -1

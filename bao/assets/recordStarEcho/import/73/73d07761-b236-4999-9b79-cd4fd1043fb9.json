@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "4c2PZKwgRNR6rGNCJi3pw2"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "shanzi",
+      "rect": [
+        2,
+        2,
+        1906,
+        1012
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1910,
+        1016
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

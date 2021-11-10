@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "2aSZThapZF/L/MNvFvzGoJ"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "icon_big_d1",
+      "rect": [
+        0,
+        0,
+        63,
+        102
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        63,
+        102
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

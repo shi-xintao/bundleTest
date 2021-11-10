@@ -1,0 +1,263 @@
+[
+  1,
+  [
+    "b2IRrJqW9CObGm8hI1dLrP"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "naopao",
+      "\nnaopao.png\nsize: 490,490\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nhezi\n  rotate: true\n  xy: 370, 305\n  size: 183, 118\n  orig: 200, 138\n  offset: 12, 2\n  index: -1\nnaopao\n  rotate: false\n  xy: 2, 252\n  size: 366, 236\n  orig: 368, 238\n  offset: 1, 1\n  index: -1\n",
+      [
+        "naopao.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "kCGZ06mMH3+6NUyJslSsyz4SFig",
+          "spine": "3.8.84",
+          "x": -119.17,
+          "y": -72.01,
+          "width": 227.85,
+          "height": 147.36,
+          "images": "./images/",
+          "audio": "/Users/lingoace/Desktop/work/work/Spine/黄色/脑泡"
+        },
+        "bones": [
+          {
+            "name": "root"
+          },
+          {
+            "name": "bone",
+            "parent": "root",
+            "y": -106.34,
+            "scaleX": 0.6192,
+            "scaleY": 0.6192
+          },
+          {
+            "name": "naopao",
+            "parent": "bone",
+            "length": 70.28,
+            "rotation": 39.96,
+            "x": -120.68,
+            "y": 64.3
+          },
+          {
+            "name": "hezi",
+            "parent": "naopao",
+            "x": 164.75,
+            "y": -0.23
+          }
+        ],
+        "slots": [
+          {
+            "name": "naopao",
+            "bone": "naopao",
+            "attachment": "naopao"
+          },
+          {
+            "name": "hezi",
+            "bone": "hezi",
+            "attachment": "hezi"
+          }
+        ],
+        "skins": [
+          {
+            "name": "default",
+            "attachments": {
+              "hezi": {
+                "hezi": {
+                  "x": -3.31,
+                  "y": 23.85,
+                  "rotation": -39.96,
+                  "width": 200,
+                  "height": 138
+                }
+              },
+              "naopao": {
+                "naopao": {
+                  "x": 156.76,
+                  "y": 12.37,
+                  "rotation": -39.96,
+                  "width": 368,
+                  "height": 238
+                }
+              }
+            }
+          }
+        ],
+        "animations": {
+          "naopao-1": {
+            "bones": {
+              "naopao": {
+                "scale": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2,
+                    "x": 1.16,
+                    "y": 1.16,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": 0.927,
+                    "y": 0.927,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.4667
+                  }
+                ]
+              },
+              "hezi": {
+                "scale": [
+                  {
+                    "x": 0,
+                    "y": 0,
+                    "curve": "stepped"
+                  },
+                  {
+                    "time": 0.1,
+                    "x": 0,
+                    "y": 0,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.2667
+                  }
+                ]
+              }
+            }
+          },
+          "naopao-2": {
+            "bones": {
+              "bone": {
+                "translate": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.6667,
+                    "y": -5.1,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 1.3333
+                  }
+                ],
+                "scale": [
+                  {
+                    "x": 1.005,
+                    "y": 0.995,
+                    "curve": 0.379,
+                    "c2": 0.6,
+                    "c3": 0.724
+                  },
+                  {
+                    "time": 0.1667,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.8333,
+                    "x": 1.029,
+                    "y": 0.971,
+                    "curve": 0.242,
+                    "c3": 0.667,
+                    "c4": 0.67
+                  },
+                  {
+                    "time": 1.3333,
+                    "x": 1.005,
+                    "y": 0.995
+                  }
+                ]
+              }
+            }
+          },
+          "naopao-3": {
+            "bones": {
+              "naopao": {
+                "scale": [
+                  {
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.1,
+                    "x": 1.048,
+                    "y": 1.048,
+                    "curve": 0.25,
+                    "c3": 0.75
+                  },
+                  {
+                    "time": 0.3333,
+                    "x": 0,
+                    "y": 0
+                  }
+                ]
+              },
+              "bone": {
+                "scale": [
+                  {
+                    "x": 1.005,
+                    "y": 0.995
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

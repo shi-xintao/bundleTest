@@ -1,0 +1,20 @@
+
+cheng.png
+size: 1305,1305
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cheng
+  rotate: false
+  xy: 2, 2
+  size: 719, 1301
+  orig: 792, 1476
+  offset: 37, 137
+  index: -1
+chengse
+  rotate: false
+  xy: 723, 11
+  size: 515, 1292
+  orig: 515, 1292
+  offset: 0, 0
+  index: -1

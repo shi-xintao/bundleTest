@@ -1,0 +1,90 @@
+
+tuzi-ce.png
+size: 618,618
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+T-erduo1
+  rotate: true
+  xy: 471, 211
+  size: 62, 65
+  orig: 62, 65
+  offset: 0, 0
+  index: -1
+T-jiao1
+  rotate: true
+  xy: 603, 353
+  size: 25, 13
+  orig: 27, 15
+  offset: 1, 1
+  index: -1
+T-saihong1
+  rotate: true
+  xy: 612, 569
+  size: 6, 3
+  orig: 8, 5
+  offset: 1, 1
+  index: -1
+T-shenti1
+  rotate: false
+  xy: 368, 180
+  size: 101, 93
+  orig: 101, 93
+  offset: 0, 0
+  index: -1
+T-shou1
+  rotate: false
+  xy: 574, 335
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+T-tui1
+  rotate: false
+  xy: 603, 336
+  size: 10, 15
+  orig: 12, 17
+  offset: 1, 1
+  index: -1
+T-yanbai1
+  rotate: false
+  xy: 607, 593
+  size: 8, 23
+  orig: 10, 25
+  offset: 1, 1
+  index: -1
+T-yanzhu1
+  rotate: false
+  xy: 607, 562
+  size: 3, 13
+  orig: 5, 15
+  offset: 1, 1
+  index: -1
+T-zuiba1
+  rotate: false
+  xy: 607, 577
+  size: 9, 14
+  orig: 11, 16
+  offset: 1, 1
+  index: -1
+daoju/piqiu
+  rotate: false
+  xy: 368, 380
+  size: 237, 236
+  orig: 237, 236
+  offset: 0, 0
+  index: -1
+daoju/shu
+  rotate: false
+  xy: 2, 207
+  size: 364, 409
+  orig: 364, 409
+  offset: 0, 0
+  index: -1
+daoju/xiaoqiche
+  rotate: false
+  xy: 368, 275
+  size: 204, 103
+  orig: 204, 103
+  offset: 0, 0
+  index: -1

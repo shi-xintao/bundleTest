@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d2abDWDH1LjKVOyKTIHFZf"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "gray_ball",
+      "rect": [
+        2,
+        0,
+        322,
+        235
+      ],
+      "offset": [
+        1,
+        0.5
+      ],
+      "originalSize": [
+        324,
+        236
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

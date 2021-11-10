@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "2dekhCyJNNDJGRm7I10/qe"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "icon_big_c6",
+      "rect": [
+        0,
+        0,
+        63,
+        92
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        63,
+        92
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

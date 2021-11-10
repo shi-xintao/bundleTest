@@ -1,0 +1,472 @@
+{
+    "paths": {
+        "c4qBRY2+tDPoRaPtpgKFcp": [
+            "coin_mid",
+            "cc.Prefab"
+        ],
+        "caa5fFJrBIXrNC/kqIHzEm": [
+            "hippo",
+            "cc.Prefab"
+        ],
+        "dd1/7o/+BGpL1/Rt7OH2Tf": [
+            "sound/SE_conglintanxian_01",
+            "cc.AudioClip"
+        ],
+        "5dvTQPSutCeIUPB/NVf590": [
+            "sound/SE_conglintanxian_02",
+            "cc.AudioClip"
+        ],
+        "7cNvic7BZEOJIiXO5r8sXO": [
+            "sound/SE_conglintanxian_03",
+            "cc.AudioClip"
+        ],
+        "8221pboMBPD5ynt41WB1I2": [
+            "sound/SE_conglintanxian_04",
+            "cc.AudioClip"
+        ],
+        "9bZguhErNMiqQA0GQdVoT1": [
+            "sound/SE_conglintanxian_05",
+            "cc.AudioClip"
+        ],
+        "fe7uFPTzVF0q/4Kmc/YZaj": [
+            "sound/SE_conglintanxian_06",
+            "cc.AudioClip"
+        ],
+        "b0VryNO1RFfrks6rErfm1m": [
+            "sound/clickAndListen",
+            "cc.AudioClip"
+        ],
+        "f8BtU3UkVCaaa/B+c9KTRI": [
+            "sound/coin_large",
+            "cc.AudioClip"
+        ],
+        "b33Ct63+5MgLv2+R0nOL4J": [
+            "sound/hippo",
+            "cc.AudioClip"
+        ],
+        "1a0ozxeaBIMZzFg4hDSjKd": [
+            "sound/monkey",
+            "cc.AudioClip"
+        ],
+        "53mBOePd1PKJ9mb3in82/g": [
+            "sound/tishiyinxiao",
+            "cc.AudioClip"
+        ],
+        "7ahI867udCpqnJaf+8uciC": [
+            "sound/zebra",
+            "cc.AudioClip"
+        ],
+        "a0ZsOj7ftJjafCL7f5ZYZz": [
+            "texture/1",
+            "cc.Texture2D"
+        ],
+        "c2CeDUTEhE97/YrB0Vr1iK": [
+            "texture/1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "84S0FQPdZPd7OvEeubnrsX": [
+            "texture/2",
+            "cc.Texture2D"
+        ],
+        "88Nw1Y3XVL2rGrKsJ0zXqw": [
+            "texture/2",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e2TkpTiYVEJ46/N3jdFby6": [
+            "texture/3",
+            "cc.Texture2D"
+        ],
+        "37XPI/QUFLkpL2mAWL5pbW": [
+            "texture/3",
+            "cc.SpriteFrame",
+            1
+        ],
+        "94BHto7fNDobRUP5Dl6fVP": [
+            "texture/4",
+            "cc.Texture2D"
+        ],
+        "491HXgdwRIq6OqadgQXzHC": [
+            "texture/4",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7b6LNDj5ROHpupse5TU1hG": [
+            "texture/5",
+            "cc.Texture2D"
+        ],
+        "fdGAC6bGZGHo1nBxtyykcR": [
+            "texture/5",
+            "cc.SpriteFrame",
+            1
+        ],
+        "6c9r5u/EVD6I2pOXtr+nWe": [
+            "texture/animation/complete/W4L2-SPINE-1",
+            "cc.Asset"
+        ],
+        "4arkA5ao1IcLbC2NUE27cH": [
+            "texture/animation/complete/W4L2-SPINE-1",
+            "sp.SkeletonData"
+        ],
+        "d59gBZzlFOtYdMPgqX5TFO": [
+            "texture/animation/complete/W4L2-SPINE-1",
+            "cc.Texture2D"
+        ],
+        "e6eXMpE4VCCK0x0VUW0Bxw": [
+            "texture/animation/complete/W4L2-SPINE-1",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ffiSu5tH9HJZH8d9hIkkrC": [
+            "texture/animation/day3-1-20场景动画-河流动画/day3-1-20",
+            "cc.Asset"
+        ],
+        "50M3DXWnRIrol56dx76F2X": [
+            "texture/animation/day3-1-20场景动画-河流动画/day3-1-20",
+            "sp.SkeletonData"
+        ],
+        "behtSEx1JAF4hqlcSZWGyi": [
+            "texture/animation/day3-1-20场景动画-河流动画/day3-1-20",
+            "cc.Texture2D"
+        ],
+        "6dUlZ3ZFtKAZCS9Yu51Eut": [
+            "texture/animation/day3-1-20场景动画-河流动画/day3-1-20",
+            "cc.SpriteFrame",
+            1
+        ],
+        "aelupZZR5OWbqjiJRYzrNV": [
+            "texture/animation/day3-1-21场景动画-树木动画/day3-1-21",
+            "cc.Asset"
+        ],
+        "b0Iz/oP0tDYbEJL0F7B+0J": [
+            "texture/animation/day3-1-21场景动画-树木动画/day3-1-21",
+            "sp.SkeletonData"
+        ],
+        "2fsTjBv1FJdqZYkw6z6EPz": [
+            "texture/animation/day3-1-21场景动画-树木动画/day3-1-21",
+            "cc.Texture2D"
+        ],
+        "3eB7SMbkpMm7h1XcA5Fr5t": [
+            "texture/animation/day3-1-21场景动画-树木动画/day3-1-21",
+            "cc.SpriteFrame",
+            1
+        ],
+        "30OxcqN8tEOaTKLU4ypCiL": [
+            "texture/animation/day3-1-2猴子/houzi",
+            "cc.Asset"
+        ],
+        "e1M3s2wDBP2p8oWyrvwk1T": [
+            "texture/animation/day3-1-2猴子/houzi",
+            "sp.SkeletonData"
+        ],
+        "02l2GtcQxNu6B4r7ITTFYO": [
+            "texture/animation/day3-1-2猴子/houzi",
+            "cc.Texture2D"
+        ],
+        "55Quvj7ltG27GSKn/9nHX9": [
+            "texture/animation/day3-1-2猴子/houzi",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b9K5B3W99GI7tVhMW2VSV9": [
+            "texture/animation/day3-1-3斑马/banma",
+            "cc.Asset"
+        ],
+        "f2LQTRsQNGf70Rm5umXCFE": [
+            "texture/animation/day3-1-3斑马/banma",
+            "sp.SkeletonData"
+        ],
+        "29IkLgRW9MuY0zO/FSwSFX": [
+            "texture/animation/day3-1-3斑马/banma",
+            "cc.Texture2D"
+        ],
+        "b1KKbQlmhAaIZAQweX2YUq": [
+            "texture/animation/day3-1-3斑马/banma",
+            "cc.SpriteFrame",
+            1
+        ],
+        "edJ1nfC1hLcLaeGRpcHHDH": [
+            "texture/animation/day3-1-4小男孩/boy",
+            "cc.Asset"
+        ],
+        "f29JMoBtRM2JzV3xo5xnmD": [
+            "texture/animation/day3-1-4小男孩/boy",
+            "sp.SkeletonData"
+        ],
+        "f8/Jo0bdVH65s6s/N2euRE": [
+            "texture/animation/day3-1-4小男孩/boy",
+            "cc.Texture2D"
+        ],
+        "8es8iF9dROmZ9/vF+kMQh/": [
+            "texture/animation/day3-1-4小男孩/boy",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3aoW1kLIhNg6K7H9YOSRor": [
+            "texture/animation/day3-1-5小伙伴/friend",
+            "cc.Asset"
+        ],
+        "cbKrnKW8xA5bupXwEPrk/7": [
+            "texture/animation/day3-1-5小伙伴/friend",
+            "sp.SkeletonData"
+        ],
+        "820fbXlXtO46NdYeXZhu98": [
+            "texture/animation/day3-1-5小伙伴/friend",
+            "cc.Texture2D"
+        ],
+        "06YbCRCe5Ag4H6AgGi0epK": [
+            "texture/animation/day3-1-5小伙伴/friend",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d4yRS2sVpM976JCjJTzMSI": [
+            "texture/animation/day3-1-6_houzi/houzi",
+            "cc.Asset"
+        ],
+        "120fZ3MmhBnaVz/kpo4w1w": [
+            "texture/animation/day3-1-6_houzi/houzi",
+            "sp.SkeletonData"
+        ],
+        "56YgUNgVBAhoNCfxWhEas8": [
+            "texture/animation/day3-1-6_houzi/houzi",
+            "cc.Texture2D"
+        ],
+        "85tIFsUWtOnpV29kvyesq4": [
+            "texture/animation/day3-1-6_houzi/houzi",
+            "cc.SpriteFrame",
+            1
+        ],
+        "511g7SOZhBg5UjHkxYFKWn": [
+            "texture/animation/day3-1-6小男孩骑马/qima",
+            "cc.Asset"
+        ],
+        "99kKYe7w1MhKOPN33dMvBR": [
+            "texture/animation/day3-1-6小男孩骑马/qima",
+            "sp.SkeletonData"
+        ],
+        "be6tOEG1JMpKySYxLZKYyn": [
+            "texture/animation/day3-1-6小男孩骑马/qima",
+            "cc.Texture2D"
+        ],
+        "9dIUwDnq1LLbn/qR3L4OD4": [
+            "texture/animation/day3-1-6小男孩骑马/qima",
+            "cc.SpriteFrame",
+            1
+        ],
+        "76pwjyqgRJbbqORdEZhONx": [
+            "texture/animation/day3_1_4_小男孩_json/小男孩/boy",
+            "cc.Asset"
+        ],
+        "29+VJn2kVPdp8p0eTUSpRy": [
+            "texture/animation/day3_1_4_小男孩_json/小男孩/boy",
+            "sp.SkeletonData"
+        ],
+        "7bxBApuRtIApr5Y/Vpar3s": [
+            "texture/animation/day3_1_4_小男孩_json/小男孩/boy",
+            "cc.Texture2D"
+        ],
+        "42+m5P4mNDRa3QEJYDh9j1": [
+            "texture/animation/day3_1_4_小男孩_json/小男孩/boy",
+            "cc.SpriteFrame",
+            1
+        ],
+        "46G63SYZZPuaJFdfgwRNeR": [
+            "texture/animation/day3_1_4_小男孩_json/脑泡/naopao",
+            "cc.Asset"
+        ],
+        "6381/86GBEX7pxrE/3gRCB": [
+            "texture/animation/day3_1_4_小男孩_json/脑泡/naopao",
+            "sp.SkeletonData"
+        ],
+        "ccLwKpLHxPc5Q7eMAoN8LZ": [
+            "texture/animation/day3_1_4_小男孩_json/脑泡/naopao",
+            "cc.Texture2D"
+        ],
+        "347uTqGAJPXIqlFudfCSlc": [
+            "texture/animation/day3_1_4_小男孩_json/脑泡/naopao",
+            "cc.SpriteFrame",
+            1
+        ],
+        "daZdUygg1FQ76kJAVAFbjK": [
+            "texture/animation/hippo/hema",
+            "cc.Asset"
+        ],
+        "e89dwM4bRFH7iSu2AwqL7T": [
+            "texture/animation/hippo/hema",
+            "sp.SkeletonData"
+        ],
+        "cbzKJLmx9PpY9p6ukB1JdX": [
+            "texture/animation/hippo/hema",
+            "cc.Texture2D"
+        ],
+        "b1u569N/hCoL8hDH7DZlt5": [
+            "texture/animation/hippo/hema",
+            "cc.SpriteFrame",
+            1
+        ],
+        "76DxHtT/xMS5/48ZM3G+Jg": [
+            "texture/animation/tap/shou",
+            "cc.Asset"
+        ],
+        "73eF5sjT9Ja5tnGEbsGxUU": [
+            "texture/animation/tap/shou",
+            "sp.SkeletonData"
+        ],
+        "e3Tiqz3URJ67nWxBaEFPNe": [
+            "texture/animation/tap/shou",
+            "cc.Texture2D"
+        ],
+        "3exEpfOuNAap7QBvbvQf3m": [
+            "texture/animation/tap/shou",
+            "cc.SpriteFrame",
+            1
+        ],
+        "06oMg0HppAzraUjyA/V8NG": [
+            "texture/shitou",
+            "cc.Texture2D"
+        ],
+        "e8TDHqca5PXopAYtGGJveh": [
+            "texture/shitou",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "uuids": [
+        "c4qBRY2+tDPoRaPtpgKFcp",
+        "caa5fFJrBIXrNC/kqIHzEm",
+        "b0VryNO1RFfrks6rErfm1m",
+        "f8BtU3UkVCaaa/B+c9KTRI",
+        "b33Ct63+5MgLv2+R0nOL4J",
+        "1a0ozxeaBIMZzFg4hDSjKd",
+        "dd1/7o/+BGpL1/Rt7OH2Tf",
+        "5dvTQPSutCeIUPB/NVf590",
+        "7cNvic7BZEOJIiXO5r8sXO",
+        "8221pboMBPD5ynt41WB1I2",
+        "9bZguhErNMiqQA0GQdVoT1",
+        "fe7uFPTzVF0q/4Kmc/YZaj",
+        "53mBOePd1PKJ9mb3in82/g",
+        "7ahI867udCpqnJaf+8uciC",
+        "a0ZsOj7ftJjafCL7f5ZYZz",
+        "c2CeDUTEhE97/YrB0Vr1iK",
+        "84S0FQPdZPd7OvEeubnrsX",
+        "88Nw1Y3XVL2rGrKsJ0zXqw",
+        "e2TkpTiYVEJ46/N3jdFby6",
+        "37XPI/QUFLkpL2mAWL5pbW",
+        "94BHto7fNDobRUP5Dl6fVP",
+        "491HXgdwRIq6OqadgQXzHC",
+        "7b6LNDj5ROHpupse5TU1hG",
+        "fdGAC6bGZGHo1nBxtyykcR",
+        "6c9r5u/EVD6I2pOXtr+nWe",
+        "4arkA5ao1IcLbC2NUE27cH",
+        "d59gBZzlFOtYdMPgqX5TFO",
+        "e6eXMpE4VCCK0x0VUW0Bxw",
+        "46G63SYZZPuaJFdfgwRNeR",
+        "6381/86GBEX7pxrE/3gRCB",
+        "ccLwKpLHxPc5Q7eMAoN8LZ",
+        "347uTqGAJPXIqlFudfCSlc",
+        "76pwjyqgRJbbqORdEZhONx",
+        "29+VJn2kVPdp8p0eTUSpRy",
+        "7bxBApuRtIApr5Y/Vpar3s",
+        "42+m5P4mNDRa3QEJYDh9j1",
+        "ffiSu5tH9HJZH8d9hIkkrC",
+        "50M3DXWnRIrol56dx76F2X",
+        "behtSEx1JAF4hqlcSZWGyi",
+        "6dUlZ3ZFtKAZCS9Yu51Eut",
+        "aelupZZR5OWbqjiJRYzrNV",
+        "b0Iz/oP0tDYbEJL0F7B+0J",
+        "2fsTjBv1FJdqZYkw6z6EPz",
+        "3eB7SMbkpMm7h1XcA5Fr5t",
+        "30OxcqN8tEOaTKLU4ypCiL",
+        "e1M3s2wDBP2p8oWyrvwk1T",
+        "02l2GtcQxNu6B4r7ITTFYO",
+        "55Quvj7ltG27GSKn/9nHX9",
+        "b9K5B3W99GI7tVhMW2VSV9",
+        "f2LQTRsQNGf70Rm5umXCFE",
+        "29IkLgRW9MuY0zO/FSwSFX",
+        "b1KKbQlmhAaIZAQweX2YUq",
+        "edJ1nfC1hLcLaeGRpcHHDH",
+        "f29JMoBtRM2JzV3xo5xnmD",
+        "f8/Jo0bdVH65s6s/N2euRE",
+        "8es8iF9dROmZ9/vF+kMQh/",
+        "3aoW1kLIhNg6K7H9YOSRor",
+        "cbKrnKW8xA5bupXwEPrk/7",
+        "820fbXlXtO46NdYeXZhu98",
+        "06YbCRCe5Ag4H6AgGi0epK",
+        "d4yRS2sVpM976JCjJTzMSI",
+        "120fZ3MmhBnaVz/kpo4w1w",
+        "56YgUNgVBAhoNCfxWhEas8",
+        "85tIFsUWtOnpV29kvyesq4",
+        "511g7SOZhBg5UjHkxYFKWn",
+        "99kKYe7w1MhKOPN33dMvBR",
+        "be6tOEG1JMpKySYxLZKYyn",
+        "9dIUwDnq1LLbn/qR3L4OD4",
+        "daZdUygg1FQ76kJAVAFbjK",
+        "e89dwM4bRFH7iSu2AwqL7T",
+        "cbzKJLmx9PpY9p6ukB1JdX",
+        "b1u569N/hCoL8hDH7DZlt5",
+        "76DxHtT/xMS5/48ZM3G+Jg",
+        "73eF5sjT9Ja5tnGEbsGxUU",
+        "e3Tiqz3URJ67nWxBaEFPNe",
+        "3exEpfOuNAap7QBvbvQf3m",
+        "06oMg0HppAzraUjyA/V8NG",
+        "e8TDHqca5PXopAYtGGJveh",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "a2MjXRFdtLlYQ5ouAFv/+R",
+        "7a/QZLET9IDreTiBfRn2PD",
+        "9bvaMerUlDyary99mJa6xp",
+        "02delMVqdBD70a/HSD99FK",
+        "d8HsitJHxOYqo801xBk8ev"
+    ],
+    "scenes": {},
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0,
+        "7a/QZLET9IDreTiBfRn2PD",
+        0,
+        "02delMVqdBD70a/HSD99FK",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "0a7c6c483": [
+            "37XPI/QUFLkpL2mAWL5pbW",
+            "491HXgdwRIq6OqadgQXzHC",
+            "88Nw1Y3XVL2rGrKsJ0zXqw",
+            "9bvaMerUlDyary99mJa6xp",
+            "c2CeDUTEhE97/YrB0Vr1iK",
+            "caa5fFJrBIXrNC/kqIHzEm",
+            "fdGAC6bGZGHo1nBxtyykcR"
+        ],
+        "06438c33b": [
+            "02l2GtcQxNu6B4r7ITTFYO",
+            "06oMg0HppAzraUjyA/V8NG",
+            "29IkLgRW9MuY0zO/FSwSFX",
+            "2fsTjBv1FJdqZYkw6z6EPz",
+            "56YgUNgVBAhoNCfxWhEas8",
+            "7bxBApuRtIApr5Y/Vpar3s",
+            "7b6LNDj5ROHpupse5TU1hG",
+            "820fbXlXtO46NdYeXZhu98",
+            "84S0FQPdZPd7OvEeubnrsX",
+            "94BHto7fNDobRUP5Dl6fVP",
+            "a0ZsOj7ftJjafCL7f5ZYZz",
+            "behtSEx1JAF4hqlcSZWGyi",
+            "be6tOEG1JMpKySYxLZKYyn",
+            "cbzKJLmx9PpY9p6ukB1JdX",
+            "ccLwKpLHxPc5Q7eMAoN8LZ",
+            "d59gBZzlFOtYdMPgqX5TFO",
+            "d8HsitJHxOYqo801xBk8ev",
+            "e2TkpTiYVEJ46/N3jdFby6",
+            "e3Tiqz3URJ67nWxBaEFPNe",
+            "f8/Jo0bdVH65s6s/N2euRE"
+        ]
+    },
+    "name": "hippo",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false
+}

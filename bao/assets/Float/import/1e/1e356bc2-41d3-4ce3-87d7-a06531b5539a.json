@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "6bh2GZpE1LLb5/ECguYegh"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "vine",
+      "rect": [
+        0,
+        0,
+        164,
+        285
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        164,
+        285
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,228 @@
+[
+  1,
+  [
+    "204FBwA0FJcoyqdeMco+Ni"
+  ],
+  0,
+  [
+    [
+      "sp.SkeletonData",
+      [
+        "_name",
+        "_atlasText",
+        "textureNames",
+        "_skeletonJson",
+        "textures"
+      ],
+      -1,
+      3
+    ]
+  ],
+  [
+    [
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  [
+    [
+      0,
+      "skeleton",
+      "\nskeleton.png\nsize: 2048,1024\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n10001\n  rotate: false\n  xy: 2, 606\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10002\n  rotate: false\n  xy: 2, 304\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10003\n  rotate: false\n  xy: 314, 606\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10004\n  rotate: false\n  xy: 2, 2\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10005\n  rotate: false\n  xy: 314, 304\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10006\n  rotate: false\n  xy: 626, 606\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10007\n  rotate: false\n  xy: 314, 2\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10008\n  rotate: false\n  xy: 626, 304\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10009\n  rotate: false\n  xy: 938, 606\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10010\n  rotate: false\n  xy: 626, 2\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10011\n  rotate: false\n  xy: 938, 304\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10012\n  rotate: false\n  xy: 1250, 606\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10013\n  rotate: false\n  xy: 938, 2\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n10014\n  rotate: false\n  xy: 1250, 304\n  size: 310, 300\n  orig: 310, 300\n  offset: 0, 0\n  index: -1\n",
+      [
+        "skeleton.png"
+      ],
+      {
+        "skeleton": {
+          "hash": "EX6rO65TGP3ZYkPwSWr4QO0jMTo",
+          "spine": "3.6.48",
+          "width": 0,
+          "height": 0,
+          "images": "./images/"
+        },
+        "bones": [
+          {
+            "name": "root"
+          }
+        ],
+        "slots": [
+          {
+            "name": "10001",
+            "bone": "root"
+          }
+        ],
+        "skins": {
+          "default": {
+            "10001": {
+              "10001": {
+                "width": 310,
+                "height": 300
+              },
+              "10002": {
+                "width": 310,
+                "height": 300
+              },
+              "10003": {
+                "width": 310,
+                "height": 300
+              },
+              "10004": {
+                "width": 310,
+                "height": 300
+              },
+              "10005": {
+                "width": 310,
+                "height": 300
+              },
+              "10006": {
+                "width": 310,
+                "height": 300
+              },
+              "10007": {
+                "width": 310,
+                "height": 300
+              },
+              "10008": {
+                "width": 310,
+                "height": 300
+              },
+              "10009": {
+                "width": 310,
+                "height": 300
+              },
+              "10010": {
+                "width": 310,
+                "height": 300
+              },
+              "10011": {
+                "width": 310,
+                "height": 300
+              },
+              "10012": {
+                "width": 310,
+                "height": 300
+              },
+              "10013": {
+                "width": 310,
+                "height": 300
+              },
+              "10014": {
+                "width": 310,
+                "height": 300
+              }
+            }
+          }
+        },
+        "animations": {
+          "animation": {
+            "slots": {
+              "10001": {
+                "attachment": [
+                  {
+                    "time": 0,
+                    "name": "10001"
+                  },
+                  {
+                    "time": 0.0667,
+                    "name": "10002"
+                  },
+                  {
+                    "time": 0.1,
+                    "name": "10003"
+                  },
+                  {
+                    "time": 0.1333,
+                    "name": "10004"
+                  },
+                  {
+                    "time": 0.1667,
+                    "name": "10005"
+                  },
+                  {
+                    "time": 0.2,
+                    "name": "10006"
+                  },
+                  {
+                    "time": 0.2333,
+                    "name": "10007"
+                  },
+                  {
+                    "time": 0.2667,
+                    "name": "10008"
+                  },
+                  {
+                    "time": 0.3,
+                    "name": "10009"
+                  },
+                  {
+                    "time": 0.3333,
+                    "name": "10010"
+                  },
+                  {
+                    "time": 0.3667,
+                    "name": "10011"
+                  },
+                  {
+                    "time": 0.4,
+                    "name": "10012"
+                  },
+                  {
+                    "time": 0.4333,
+                    "name": "10013"
+                  },
+                  {
+                    "time": 0.4667,
+                    "name": "10014"
+                  },
+                  {
+                    "time": 0.5,
+                    "name": null
+                  },
+                  {
+                    "time": 0.5667,
+                    "name": null
+                  }
+                ]
+              }
+            },
+            "bones": {
+              "root": {
+                "scale": [
+                  {
+                    "time": 0,
+                    "x": 0.478,
+                    "y": 0.478
+                  },
+                  {
+                    "time": 0.0667,
+                    "x": 1,
+                    "y": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      [
+        0
+      ]
+    ]
+  ],
+  0,
+  0,
+  [
+    0
+  ],
+  [
+    -1
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,20 @@
+
+huangse.png
+size: 915,915
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huangse
+  rotate: false
+  xy: 2, 196
+  size: 778, 717
+  orig: 778, 717
+  offset: 0, 0
+  index: -1
+qiqiu-2
+  rotate: true
+  xy: 782, 428
+  size: 485, 131
+  orig: 485, 131
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d7Ca5FRChJGo44ClPbRcZp"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "xiongmao",
+      "rect": [
+        2,
+        160,
+        1087,
+        929
+      ],
+      "offset": [
+        0,
+        -79
+      ],
+      "originalSize": [
+        1091,
+        1091
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "d59gBZzlFOtYdMPgqX5TFO"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "W4L2-SPINE-1",
+      "rect": [
+        2,
+        7,
+        566,
+        755
+      ],
+      "offset": [
+        0,
+        -2.5
+      ],
+      "originalSize": [
+        570,
+        764
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]

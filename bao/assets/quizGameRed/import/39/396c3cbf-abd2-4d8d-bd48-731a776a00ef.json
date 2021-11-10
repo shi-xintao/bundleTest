@@ -1,0 +1,51 @@
+[
+  1,
+  [
+    "c9ZWZP/BNCwrahSLi0PTIO"
+  ],
+  [
+    "_textureSetter"
+  ],
+  [
+    "cc.SpriteFrame"
+  ],
+  0,
+  [
+    {
+      "name": "03红色-tuzi",
+      "rect": [
+        0,
+        0,
+        261,
+        208
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        261,
+        208
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  [
+    0
+  ],
+  0,
+  [
+    0
+  ],
+  [
+    0
+  ],
+  [
+    0
+  ]
+]
